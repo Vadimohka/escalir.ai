@@ -1,0 +1,143 @@
+# Website localization
+
+escalir has **26 content routes in each of twelve languages: 312 pages**. English retains the original URLs. German, Polish, Ukrainian, French, Belarusian, Italian, Spanish, Serbian, Dutch, Romanian and Czech use `/de/`, `/pl/`, `/uk/`, `/fr/`, `/be/`, `/it/`, `/es/`, `/sr/`, `/nl/`, `/ro/` and `/cs/`, with identical page structure and stable article and industry slugs. All twelve versions are exported as static HTML.
+
+The URL selects the language. The native language menu links to the same page in every locale and works without JavaScript. With JavaScript enabled, switching also preserves the query and fragment. No language preference is stored in cookies or browser storage.
+
+## One source, one compiler, one catalog format
+
+Maintain English pages in `src/app/(en)/`, shared components in `src/components/` and content in `src/lib/`. All non-default locales use `scripts/i18n/generate.mjs`. The compiler reads TypeScript syntax trees so user-visible messages are translated while routes, IDs, keyboard commands, CSS, object keys and other code remain stable.
+
+`src/locales/config.json` is the shared registry. It defines native language labels, accessible menu labels, Open Graph locale codes, social-image paths and copy, product SEO titles where needed, guide-count noun forms, legacy-redirect messages and global error-page copy. Runtime helpers, metadata, social-image generation, packaging and export validation read this registry.
+
+| Language | Maintained catalogs | Generated modules | Generated routes | Generated diagrams |
+| --- | --- | --- | --- | --- |
+| German | `src/locales/de/` | `src/generated/de/` | `src/app/(de)/de/` | `public/media/de/` |
+| Polish | `src/locales/pl/` | `src/generated/pl/` | `src/app/(pl)/pl/` | `public/media/pl/` |
+| Ukrainian | `src/locales/uk/` | `src/generated/uk/` | `src/app/(uk)/uk/` | `public/media/uk/` |
+| French | `src/locales/fr/` | `src/generated/fr/` | `src/app/(fr)/fr/` | `public/media/fr/` |
+| Belarusian | `src/locales/be/` | `src/generated/be/` | `src/app/(be)/be/` | `public/media/be/` |
+| Italian | `src/locales/it/` | `src/generated/it/` | `src/app/(it)/it/` | `public/media/it/` |
+| Spanish | `src/locales/es/` | `src/generated/es/` | `src/app/(es)/es/` | `public/media/es/` |
+| Serbian | `src/locales/sr/` | `src/generated/sr/` | `src/app/(sr)/sr/` | `public/media/sr/` |
+| Dutch | `src/locales/nl/` | `src/generated/nl/` | `src/app/(nl)/nl/` | `public/media/nl/` |
+| Romanian | `src/locales/ro/` | `src/generated/ro/` | `src/app/(ro)/ro/` | `public/media/ro/` |
+| Czech | `src/locales/cs/` | `src/generated/cs/` | `src/app/(cs)/cs/` | `public/media/cs/` |
+
+Generated files are ignored by Git and replaced during generation. Edit maintained sources and catalogs instead. Source discovery excludes every generated locale directory, so translated SVG output can never become the input for another translation. Shared CSS and photographs are reused; locale-specific typography adjustments live in the shared stylesheet.
+
+### Messages
+
+Each `messages.json` groups complete English messages by their real maintained source path, including `(en)` for page sources:
+
+```json
+{
+  "src/components/HomeIndustries.tsx": {
+    "Explore {0}": "Poznaj {0}"
+  }
+}
+```
+
+JSX whitespace is normalized for lookup while intentional spaces between inline elements are preserved in output. String literals retain meaningful whitespace. Dynamic messages use `{0}`, `{1}` and subsequent numbered placeholders for their original expressions. A translation may reorder placeholders but must preserve their complete multiset; missing, duplicated or invented placeholders fail validation. Translate the whole sentence rather than separately translating prefixes and suffixes.
+
+An `@field:English message` entry overrides the ordinary translation only when that message appears in the named object field or JSX attribute. Use it for grammatical context, such as the case of an industry name in a call to action. The compiler keeps technical slugs separate from display labels. German noun capitalization is preserved in dynamic industry labels.
+
+### Diagrams and preserved names
+
+`assets.json` follows the same per-source structure, using paths such as `public/media/escalir/diagrams/industry-platform.svg`. Keys are decoded visible or accessible SVG text, including nested `tspan` content, titles and descriptions. The same translation validation and SVG fitting logic applies to every locale. Every generated diagram declares its language.
+
+`keep.json` contains explicit per-source arrays of terms deliberately preserved, such as escalir product names and technical abbreviations. Do not use it to silence missing ordinary translations. A term cannot be both translated and marked as preserved. Unused catalog entries are rejected so removed or changed source copy cannot silently leave stale translations behind.
+
+Product lockups retain official names. The shared `FooterBrand` component is excluded from translation and always reads **Enterprise AI by escalir**, with the prefix before the logo. Preserve `LEAVE` exactly and keep `translate="no"`, `notranslate`, `lang="en"` and `dir="ltr"`. Localize its home destination, never its wording.
+
+### Italian terminology
+
+Use natural professional Italian with consistent direct address. Use **IA** for generic artificial intelligence and **flusso di lavoro** for workflow; retain official escalir product names. Use **Implementazione**, **Trasformazione con l’IA** and **Guide** for the corresponding navigation labels. Translate complete sentences and check fragments together across explicit heading line breaks. Retain the original scope of permissions, human review and deployment claims. Italian guide counts use **1 guida** and **0/2+ guide**.
+
+### Spanish terminology
+
+Use natural European Spanish with consistent **tú/tu** address. Use **IA**, **flujos de trabajo**, **gobernanza** and **responsabilidad** for ordinary prose while retaining official escalir product names. Use **Implantación** for the delivery page and **Despliegue** for technical installation and the deployment guide category. Preserve accents, opening question marks, complete sentence context and the original limits of permissions and human review. Spanish guide counts use **1 guía** and **0/2+ guías**.
+
+### Serbian terminology
+
+Use natural professional Serbian in Latin script and ekavica under `/sr/`, with the native label **Srpski**. Address readers consistently as lowercase **vi/vaš** and preserve **č, ć, đ, š** and **ž**. Use **AI**, **radni tok**, **upravljanje i nadzor** and **vodič** in ordinary prose; use **odgovornost** for process ownership. Retain official escalir product names and personal names. Use **Uvođenje** for the delivery page and its navigation, and **Postavljanje** for technical installation and the deployment guide category. Translate complete phrases and use contextual field overrides for grammatical cases in industry links.
+
+Guide counts use `Intl.PluralRules("sr")`: **1/21/101 vodič**, but **0/2/4/5/11/12/14/22/111 vodiča**. Fractional counts follow the same runtime rules, including **1.1 vodič** and **1.2/1.5/1.11 vodiča**. The general suffix is **za istraživanje**; category counts use **u kategoriji „{category}”** without lowercasing the category.
+
+### Dutch terminology
+
+Use natural professional Dutch with consistent lowercase **u/uw** address. Use **AI**, **werkproces** (plural **werkprocessen**), **governance** and **verantwoordelijkheid** for ordinary prose. Translate answer citations as **bronverwijzingen** and permissions as **toegangsrechten**. Retain official escalir product names, personal names and technical abbreviations. Use **Implementatie** for the delivery page and navigation, **uitrol** for technical deployment, **AI-transformatie** for AI Transformation and **Gidsen** for Guides. The guide categories are **Eerste stappen**, **Kennis**, **Werkprocessen** and **Uitrol**.
+
+Translate complete sentences and check split headings together. Industry labels in dynamic sentences may need an article or a different audience form; use field overrides where needed. Preserve the original limits of access, human review and deployment claims. Dutch guide counts use **1 gids om te ontdekken** and **0/2+ gidsen om te ontdekken**; a category count reads **1 gids in de categorie ‘Kennis’**. The native language label is **Nederlands**, with the accessible menu label **Taal: Nederlands**.
+
+### Romanian terminology
+
+Use natural professional Romanian under `/ro/`, with the native label **Română** and consistent polite plural address (**dumneavoastră**, **Descoperiți**, **Contactați**). Use **IA** for generic artificial intelligence, **flux de lucru** for workflow, **guvernanță** for governance and **responsabilitate** for ownership. Keep official escalir product and personal names unchanged. Use **Implementare** for deployment and **Ghiduri** for guides. Retain Romanian diacritics **ă, â, î, ș, ț** with comma-below ș/ț. In insurance, distinguish **polițe** from internal **politici** and translate claims for payment as **cereri de despăgubire**. Check complete headings across explicit line breaks. Romanian guide counts use **1 ghid**, the `few` form **ghiduri** (including 0 and 2–19), and the `other` form **de ghiduri** (including 20 and 100), selected by `Intl.PluralRules("ro")`.
+
+The general suffix is **de explorat**; category counts use **din categoria „{category}”** without lowercasing the category.
+
+### Czech terminology
+
+Use natural professional Czech under `/cs/`, with the native label **Čeština**. Use plural imperatives and lowercase **vy/váš**, and preserve Czech diacritics. Use **AI**, **pracovní postup**, **řízení a dohled**, **odpovědnost** and **kontrola člověkem** for ordinary prose. Keep official product and personal names unchanged. Use **Implementace** for the delivery page and guide category, and **nasazení** for technical installation in an environment. Use **Transformace s AI** and **Odvětví** for navigation.
+
+Guide counts use `Intl.PluralRules("cs")`: **1 průvodce**, **2–4 průvodci**, **0/5/11/21/101 průvodců** and **0.5/1.5/2.5 průvodce**. The general suffix is **k prozkoumání**; category counts use **v kategorii „{category}“**, preserving the category's capitalization. Categories are **Začínáme**, **Znalosti**, **Pracovní postupy** and **Implementace**. Translate complete phrases and use contextual field overrides for industry names and audiences so their grammatical case matches the surrounding sentence. Distinguish insurance claims and policies from customer requests and internal rules.
+
+### Updating content
+
+1. Edit the English source and update the corresponding messages in all eleven locale catalogs.
+2. For grammar-dependent text, use a complete template or a field override. Add deliberate invariants to the relevant source's keep list.
+3. Run `npm run locales:check`. Resolve missing or stale entries and placeholder errors.
+4. Run `npm run test:i18n`, then build and inspect the export.
+
+All selected locales are fully prepared and validated before generated paths are removed or written. `--check` and `--report` are read-only: they do not create routes, assets, social images or diagnostic files. Normal generation also removes obsolete output from the former Polish and Ukrainian generators.
+
+```bash
+npm run localize
+npm run locales:check
+node scripts/i18n/generate.mjs --locale=uk --check
+node scripts/i18n/generate.mjs --report
+```
+
+`npm run locales:generate` aliases `localize`. Development, builds and type checks generate all locales automatically. After changing source text while the development server is already running, regenerate translations before inspecting them.
+
+## Metadata, fonts and recovery
+
+Each language has its own root layout, emitting the correct HTML `lang` before hydration. Small generated metadata wrappers bind the shared helper to their locale. Canonicals, Open Graph and Twitter images, and reciprocal `en`, `de`, `pl`, `uk`, `fr`, `be`, `it`, `es`, `sr`, `nl`, `ro`, `cs` and `x-default` alternates therefore follow one implementation. The sitemap contains all 312 routes with matching language links. Homepage structured data uses the shared WebSite identity and a locale-specific WebPage.
+
+| Language | Social preview |
+| --- | --- |
+| English | `/og/escalir.png` |
+| German | `/og/escalir-de.png` |
+| Polish | `/og/escalir-pl.png` |
+| Ukrainian | `/og/escalir-uk.png` |
+| French | `/og/escalir-fr.png` |
+| Belarusian | `/og/escalir-be.png` |
+| Italian | `/og/escalir-it.png` |
+| Spanish | `/og/escalir-es.png` |
+| Serbian | `/og/escalir-sr.png` |
+| Dutch | `/og/escalir-nl.png` |
+| Romanian | `/og/escalir-ro.png` |
+| Czech | `/og/escalir-cs.png` |
+
+Inter includes Latin, Latin Extended, Cyrillic and Cyrillic Extended subsets. The supplied Favorit font does not contain Cyrillic glyphs; Ukrainian and Belarusian platform and industry headings explicitly use Inter at the existing light weight. All translated versions share natural wrapping rules. Keep the established page composition, neutral actions, compact footer and original escalir photographs.
+
+Application screenshots remain unmodified and are checked against `docs/app-capture-provenance.json`. Their captions, full-size-link labels and alternative text are localized; screenshot pixels are not redrawn or translated.
+
+Legacy `/ai-os/` routes redirect to `/platform/` in all twelve languages, preserving query parameters and fragments. Each redirect also has a native destination link. GitHub Pages serves one global `404.html`; it contains separately marked English, German, Polish, Ukrainian, French, Belarusian, Italian, Spanish, Serbian, Dutch, Romanian and Czech sections with native homepage links and no JavaScript dependency. The document has one primary heading and `lang="en"`. Local route-level not-found boundaries are also generated.
+
+## Local verification
+
+```bash
+npm run test:i18n
+npm run locales:check
+npm run typecheck
+npm run build
+npm run check:export
+npm run test:e2e
+```
+
+The focused Node tests cover compiler regressions, preservation of code tokens, template handling, catalog preflight, URL switching across every locale pair, query and fragment preservation, asset exclusions, metadata, Polish, Ukrainian and Belarusian plural forms, the French singular for zero and one, Italian, Spanish and Dutch singular/plural forms, Czech and Serbian integer and fractional plural boundaries, and Romanian singular, few and **de** plural forms. The export inspector checks every content page, unique metadata within each locale, reciprocal alternates, native language links, local links and fragments, images, screenshot integrity, fixed brand wording, localized diagrams, the sitemap, all twelve legacy redirects and the global 404.
+
+Browser suites in `tests/landing.spec.ts`, `tests/german-localization.spec.ts` and `tests/localization.spec.ts` cover navigation, guide filters, keyboard-controlled tabs, language switching, pages without JavaScript and narrow layouts. Run these only in a permitted local browser environment.
+
+**CI remains deployment-only.** Validation and browser tests are local tasks; do not add them as GitHub CI jobs or to the deployment build. The existing workflow installs dependencies, generates/builds the static site and publishes it in one deployment job.

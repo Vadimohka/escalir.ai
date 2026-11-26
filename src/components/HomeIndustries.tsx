@@ -1,0 +1,121 @@
+"use client";
+
+import { useEffect, useRef, useState, type KeyboardEvent } from "react";
+import { ArrowUpRight, HeartPulse, Landmark, Plane, PlugZap, Radio, ShieldCheck, ShoppingBag } from "lucide-react";
+import { industryLinks } from "@/lib/navigation";
+import styles from "./HomeIndustries.module.css";
+
+const sectors = [
+  { slug: "banking", title: "Banking", headline: "A clear path from request to reviewed result", description: "Explore a task register, controlled pilots and document workflows with accountable banking review", icon: Landmark },
+  { slug: "telecommunication", title: "Telecommunications", headline: "Keep the customer context connected", description: "Help service teams work with verified information, consistent answers and complete handovers", icon: Radio },
+  { slug: "healthcare", title: "Healthcare", headline: "Make operational knowledge easier to use", description: "Explore equipment manuals, quality procedures and service assistants with sources and expert review", icon: HeartPulse },
+  { slug: "utilities", title: "Utilities", headline: "Connect requests with operational knowledge", description: "Prepare service cases, document checklists and field handovers from approved information", icon: PlugZap },
+  { slug: "insurance", title: "Insurance", headline: "Move paperwork forward, keep judgment human", description: "Organise submissions, policy knowledge and claims documentation for accountable review", icon: ShieldCheck },
+  { slug: "retail", title: "Retail", headline: "Help everyday retail work together", description: "Support customers, stores and supplier operations with knowledge that teams can check", icon: ShoppingBag },
+  { slug: "airlines", title: "Airlines", headline: "Keep teams informed when plans change", description: "Prepare consistent service responses and complete handovers from verified travel information", icon: Plane },
+];
+
+const photos = [
+  { src: "/media/industry.webp", width: 1200, height: 670 },
+  { src: "/media/escalir/photos/telecom-operations.webp", srcSet: "/media/escalir/photos/telecom-operations-768.webp 768w, /media/escalir/photos/telecom-operations.webp 1600w", width: 1600, height: 900 },
+  { src: "/media/escalir/photos/healthcare-team.webp", srcSet: "/media/escalir/photos/healthcare-team-768.webp 768w, /media/escalir/photos/healthcare-team.webp 1600w", width: 1600, height: 900 },
+  { src: "/media/escalir/photos/energy-engineers.webp", srcSet: "/media/escalir/photos/energy-engineers-768.webp 768w, /media/escalir/photos/energy-engineers.webp 1600w", width: 1600, height: 900 },
+  { src: "/media/escalir/photos/support-team.webp", srcSet: "/media/escalir/photos/support-team-768.webp 768w, /media/escalir/photos/support-team.webp 1600w", width: 1600, height: 900 },
+  { src: "/media/escalir/photos/retail-team.webp", srcSet: "/media/escalir/photos/retail-team-768.webp 768w, /media/escalir/photos/retail-team.webp 1600w", width: 1600, height: 900 },
+  { src: "/media/support.webp", width: 1200, height: 675 },
+];
+
+export default function HomeIndustries() {
+  const [selected, setSelected] = useState(0);
+  const [tabletTabs, setTabletTabs] = useState(false);
+  const tabs = useRef<(HTMLButtonElement | null)[]>([]);
+
+  useEffect(() => {
+    const query = window.matchMedia("(min-width: 641px) and (max-width: 900px)");
+    const update = () => setTabletTabs(query.matches);
+    update();
+    query.addEventListener("change", update);
+    return () => query.removeEventListener("change", update);
+  }, []);
+
+  function onKeyDown(event: KeyboardEvent<HTMLButtonElement>, index: number) {
+    let next = index;
+    if (event.key === "ArrowDown" || event.key === "ArrowRight") next = (index + 1) % sectors.length;
+    else if (event.key === "ArrowUp" || event.key === "ArrowLeft") next = (index + sectors.length - 1) % sectors.length;
+    else if (event.key === "Home") next = 0;
+    else if (event.key === "End") next = sectors.length - 1;
+    else return;
+
+    event.preventDefault();
+    setSelected(next);
+    tabs.current[next]?.focus({ preventScroll: true });
+    tabs.current[next]?.scrollIntoView({ block: "nearest", inline: "nearest" });
+  }
+
+  const active = sectors[selected];
+  const Icon = active.icon;
+  const photo = photos[selected];
+
+  return (
+    <section id="industries" className={styles.industries} aria-labelledby="industries-title">
+      <div className={styles.inner}>
+        <header className={styles.heading}>
+          <div>
+            <p className={styles.eyebrow}>Across your industry</p>
+            <h2 id="industries-title">Built around<br />your industry</h2>
+          </div>
+          <p className={styles.intro}>Explore use-case examples for your sector. Start with a task register, test a focused pilot and carry quality, access and review controls into operation</p>
+        </header>
+
+        <div className={styles.layout}>
+          <div className={styles.tabs} role="tablist" aria-label="Explore industries" aria-orientation={tabletTabs ? "horizontal" : "vertical"}>
+            {sectors.map((sector, index) => (
+              <button
+                className={styles.tab}
+                key={sector.slug}
+                ref={node => { tabs.current[index] = node; }}
+                type="button"
+                role="tab"
+                id={`sector-tab-${index}`}
+                aria-selected={selected === index}
+                aria-controls="sector-panel"
+                tabIndex={selected === index ? 0 : -1}
+                onClick={() => setSelected(index)}
+                onKeyDown={event => onKeyDown(event, index)}
+              >
+                <span>{sector.title}</span><ArrowUpRight size={18} aria-hidden="true" />
+              </button>
+            ))}
+          </div>
+          <div id="sector-panel" className={styles.panel} role="tabpanel" aria-labelledby={`sector-tab-${selected}`} tabIndex={0}>
+            <img
+              className={styles.photo}
+              src={photo.src}
+              srcSet={photo.srcSet}
+              sizes={photo.srcSet ? "(max-width: 899px) 100vw, 55vw" : undefined}
+              alt=""
+              width={photo.width}
+              height={photo.height}
+              loading="lazy"
+              decoding="async"
+            />
+            <Icon className={styles.icon} size={50} strokeWidth={0.8} aria-hidden="true" />
+            <p className={styles.panelEyebrow}>{active.title}</p>
+            <h3>{active.headline}</h3>
+            <p className={styles.description}>{active.description}</p>
+            <a className={styles.cta} href={industryLinks[selected].href}>
+              {`Explore ${active.title.toLowerCase()}`}<ArrowUpRight size={18} aria-hidden="true" />
+            </a>
+          </div>
+        </div>
+
+        <noscript>
+          <nav className={`${styles.fallback} home-industry-fallback`} aria-label="Industry pages">
+            {industryLinks.map(link => <a href={link.href} key={link.href}>{link.title}</a>)}
+          </nav>
+        </noscript>
+      </div>
+    </section>
+  );
+}
+

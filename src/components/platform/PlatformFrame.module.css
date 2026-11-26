@@ -1,0 +1,98 @@
+@font-face {
+  font-family: "escalir Platform";
+  src: url("/fonts/insurance-favorit-light.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}
+
+.page {
+  --font-heading: var(--font-localized-heading, "escalir Platform"), Arial, sans-serif;
+  --platform-heading: var(--font-localized-heading, "escalir Platform"), Arial, sans-serif;
+  --platform-ink: #171719;
+  --platform-muted: #66686a;
+  --platform-gutter: 60px;
+  font-family: var(--font-inter), Arial, sans-serif;
+  background: #fff;
+  color: var(--platform-ink);
+}
+
+.page .main {
+  background: #fff;
+  color: var(--platform-ink);
+  font-family: var(--font-inter), Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.35;
+  letter-spacing: -.02em;
+}
+
+.page .main :where(h1, h2, h3, h4, h5, h6) {
+  font-family: var(--platform-heading);
+  font-weight: 300;
+  font-feature-settings: "ss04" on, "ss05" on;
+}
+
+.page .main :where(h5, h6) { margin: 0; }
+.page .main :where(img) { display: block; }
+.page .main :where(section[id], [role="tabpanel"]) { scroll-margin-top: 84px; }
+.page .main :where(a, button, summary):focus-visible {
+  outline: 3px solid var(--color-brand-blue);
+  outline-offset: 3px;
+  box-shadow: 0 0 0 3px #fff;
+}
+
+/* The shared Header supplies the masthead and menus. */
+
+.contact {
+  padding: 44px var(--platform-gutter);
+  border-bottom: 1px solid #ffffff24;
+  background: #080808;
+  color: #fafafa;
+}
+.contactContent { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 32px; width: 100%; max-width: 1680px; margin-inline: auto; }
+.page .contact h2 { max-width: 800px; margin: 0; font-size: clamp(28px, 2.7vw, 38px); line-height: 1.12; letter-spacing: -.04em; }
+.contactButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 48px;
+  padding: 12px 24px;
+  border-radius: 100px;
+  border: 1px solid #ffffffb3;
+  color: #171719;
+  background: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: -.02em;
+  white-space: nowrap;
+  text-decoration: none;
+  transition: background .2s ease;
+}
+.contactButton > svg { display: none; }
+.contactButton:hover { background: #e9e9e4; }
+.page :global(.site-footer) { background: #080808; }
+.page :global(.footer-main-multipage) { padding-top: 64px; padding-bottom: 52px; }
+
+@media (max-width: 900px) {
+  .page { --platform-gutter: 32px; }
+}
+
+@media (max-width: 640px) {
+  .page { --platform-gutter: 20px; }
+  .page .main { font-size: 16px; }
+  .contact { padding-block: 28px; }
+  .contactContent { grid-template-columns: 1fr; gap: 20px; justify-items: start; }
+  .page .contact h2 { font-size: 28px; }
+  .page :global(.footer-main-multipage) { padding-top: 48px; padding-bottom: 36px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page *, .page *::before, .page *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}
+
+@media (forced-colors: active) {
+  .contact { background: Canvas; color: CanvasText; }
+  .contactButton { border: 1px solid ButtonText; }
+}

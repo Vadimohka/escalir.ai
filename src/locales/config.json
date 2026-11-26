@@ -1,0 +1,511 @@
+{
+  "defaultLocale": "en",
+  "locales": {
+    "en": {
+      "label": "English",
+      "accessibleLabel": "Language: English",
+      "openGraphLocale": "en_GB",
+      "socialImage": "/og/escalir.png",
+      "imageAlt": "escalir — Accelerate AI transformation across your business.",
+      "productTitles": {},
+      "guideCount": {
+        "one": "guide",
+        "few": "guides",
+        "many": "guides",
+        "other": "guides",
+        "category": " in {category}",
+        "explore": " to explore",
+        "lowercaseCategory": true
+      },
+      "redirect": {
+        "message": "This page has moved to",
+        "linkLabel": "AI Platform"
+      },
+      "notFound": {
+        "title": "Page not found",
+        "description": "This page may have moved. Explore the platform, our industry solutions and the people behind escalir.",
+        "homeLabel": "Go to the English homepage"
+      },
+      "socialPreview": {
+        "lines": [
+          "Accelerate",
+          "AI transformation",
+          "across your business."
+        ],
+        "firstLine": 245,
+        "lineGap": 83,
+        "tracking": -3,
+        "subtitle": "Your knowledge. Your systems. Your next chapter.",
+        "subtitleY": 480,
+        "subtitleSize": 22
+      }
+    },
+    "de": {
+      "label": "Deutsch",
+      "accessibleLabel": "Sprache: Deutsch",
+      "openGraphLocale": "de_DE",
+      "socialImage": "/og/escalir-de.png",
+      "imageAlt": "escalir – Von der Idee in den Arbeitsalltag. Spezifikation, Entwicklung und Governance.",
+      "productTitles": {},
+      "guideCount": {
+        "one": "Leitfaden",
+        "few": "Leitfäden",
+        "many": "Leitfäden",
+        "other": "Leitfäden",
+        "category": " in der Kategorie {category}",
+        "explore": " zum Entdecken",
+        "lowercaseCategory": false
+      },
+      "redirect": {
+        "message": "Diese Seite wurde verschoben:",
+        "linkLabel": "AI Platform"
+      },
+      "notFound": {
+        "title": "Seite nicht gefunden",
+        "description": "Diese Seite wurde möglicherweise verschoben. Entdecken Sie die Plattform, unsere Branchenlösungen und das Team hinter escalir.",
+        "homeLabel": "Zur deutschen Startseite"
+      },
+      "socialPreview": {
+        "lines": [
+          "Von der Idee",
+          "in den Arbeitsalltag"
+        ],
+        "firstLine": 277,
+        "lineGap": 91,
+        "tracking": -2,
+        "subtitle": "Spezifikation · Entwicklung · Governance",
+        "subtitleY": 470,
+        "subtitleSize": 24
+      }
+    },
+    "pl": {
+      "label": "Polski",
+      "accessibleLabel": "Język: polski",
+      "openGraphLocale": "pl_PL",
+      "socialImage": "/og/escalir-pl.png",
+      "imageAlt": "escalir — Przyspiesz transformację AI w swojej firmie",
+      "productTitles": {
+        "escalir AI Platform": "escalir AI Platform — platforma AI dla firm",
+        "escalir Agents": "escalir Agents — agenci AI dla firm",
+        "escalir Systems": "escalir Systems — systemy AI i automatyzacja procesów",
+        "escalir AI Gateway": "escalir AI Gateway — dostęp do modeli AI"
+      },
+      "guideCount": {
+        "one": "poradnik",
+        "few": "poradniki",
+        "many": "poradników",
+        "other": "poradnika",
+        "category": " w kategorii „{category}”",
+        "explore": " do odkrycia",
+        "lowercaseCategory": false
+      },
+      "redirect": {
+        "message": "Ta strona została przeniesiona do",
+        "linkLabel": "platformy AI"
+      },
+      "notFound": {
+        "title": "Nie znaleziono strony",
+        "description": "Strona mogła zmienić adres. Poznaj platformę, rozwiązania dla branż i zespół escalir.",
+        "homeLabel": "Wróć do polskiej strony głównej"
+      },
+      "socialPreview": {
+        "lines": [
+          "Przyspiesz",
+          "transformację AI",
+          "w swojej firmie"
+        ],
+        "firstLine": 245,
+        "lineGap": 83,
+        "tracking": -3,
+        "subtitle": "Twoja wiedza. Twoje systemy. Twój nowy rozdział.",
+        "subtitleY": 480,
+        "subtitleSize": 22
+      }
+    },
+    "uk": {
+      "label": "Українська",
+      "accessibleLabel": "Мова: українська",
+      "openGraphLocale": "uk_UA",
+      "socialImage": "/og/escalir-uk.png",
+      "imageAlt": "escalir — Від ідеї до щоденної роботи. Специфікація, розробка, управління й контроль",
+      "productTitles": {},
+      "guideCount": {
+        "one": "посібник",
+        "few": "посібники",
+        "many": "посібників",
+        "other": "посібника",
+        "category": " у категорії «{category}»",
+        "explore": " для ознайомлення",
+        "lowercaseCategory": false
+      },
+      "redirect": {
+        "message": "Цю сторінку переміщено:",
+        "linkLabel": "AI Platform"
+      },
+      "notFound": {
+        "title": "Сторінку не знайдено",
+        "description": "Можливо, ця сторінка змінила адресу. Дізнайтеся про платформу, галузеві рішення та команду escalir.",
+        "homeLabel": "На головну сторінку українською"
+      },
+      "socialPreview": {
+        "lines": [
+          "Від ідеї",
+          "до щоденної роботи"
+        ],
+        "firstLine": 277,
+        "lineGap": 91,
+        "tracking": -2,
+        "subtitle": "Специфікація · Розробка · Управління й контроль",
+        "subtitleY": 470,
+        "subtitleSize": 24
+      }
+    },
+    "fr": {
+      "label": "Français",
+      "accessibleLabel": "Langue : français",
+      "openGraphLocale": "fr_FR",
+      "socialImage": "/og/escalir-fr.png",
+      "imageAlt": "escalir — Accélérez la transformation de votre entreprise par l’IA",
+      "productTitles": {
+        "escalir AI Platform": "escalir AI Platform — plateforme d’IA pour les entreprises",
+        "escalir Agents": "escalir Agents — agents IA pour les entreprises",
+        "escalir Systems": "escalir Systems — systèmes d’IA et automatisation des processus",
+        "escalir AI Gateway": "escalir AI Gateway — accès aux modèles d’IA"
+      },
+      "guideCount": {
+        "one": "guide",
+        "few": "guides",
+        "many": "guides",
+        "other": "guides",
+        "category": " dans la catégorie « {category} »",
+        "explore": " à découvrir",
+        "lowercaseCategory": false
+      },
+      "redirect": {
+        "message": "Cette page a été déplacée vers",
+        "linkLabel": "AI Platform"
+      },
+      "notFound": {
+        "title": "Page introuvable",
+        "description": "Cette page a peut-être changé d’adresse. Découvrez la plateforme, nos solutions sectorielles et l’équipe de escalir.",
+        "homeLabel": "Accéder à l’accueil en français"
+      },
+      "socialPreview": {
+        "lines": [
+          "Accélérez",
+          "votre transformation",
+          "par l’IA"
+        ],
+        "firstLine": 245,
+        "lineGap": 83,
+        "tracking": -3,
+        "subtitle": "Vos connaissances. Vos systèmes. Votre prochain chapitre.",
+        "subtitleY": 480,
+        "subtitleSize": 22
+      }
+    },
+    "be": {
+      "label": "Беларуская",
+      "accessibleLabel": "Мова: беларуская",
+      "openGraphLocale": "be_BY",
+      "socialImage": "/og/escalir-be.png",
+      "imageAlt": "escalir — Ад ідэі да штодзённай працы. Спецыфікацыя, распрацоўка і кіраванне.",
+      "productTitles": {
+        "escalir AI Platform": "escalir AI Platform — платформа ШІ для арганізацый",
+        "escalir Agents": "escalir Agents — агенты ШІ для арганізацый",
+        "escalir Systems": "escalir Systems — сістэмы ШІ і аўтаматызацыя працэсаў",
+        "escalir AI Gateway": "escalir AI Gateway — доступ да мадэляў ШІ"
+      },
+      "guideCount": {
+        "one": "дапаможнік",
+        "few": "дапаможнікі",
+        "many": "дапаможнікаў",
+        "other": "дапаможніка",
+        "category": " з катэгорыі «{category}»",
+        "explore": " для азнаямлення",
+        "lowercaseCategory": false
+      },
+      "redirect": {
+        "message": "Гэтая старонка перанесена:",
+        "linkLabel": "AI Platform"
+      },
+      "notFound": {
+        "title": "Старонка не знойдзена",
+        "description": "Магчыма, гэтая старонка змяніла адрас. Даведайцеся пра платформу, галіновыя рашэнні і каманду escalir.",
+        "homeLabel": "На галоўную старонку па-беларуску"
+      },
+      "socialPreview": {
+        "lines": [
+          "Ад ідэі",
+          "да штодзённай працы"
+        ],
+        "firstLine": 277,
+        "lineGap": 91,
+        "tracking": -2,
+        "subtitle": "Спецыфікацыя · Распрацоўка · Кіраванне",
+        "subtitleY": 470,
+        "subtitleSize": 24
+      }
+    },
+    "it": {
+      "label": "Italiano",
+      "accessibleLabel": "Lingua: italiano",
+      "openGraphLocale": "it_IT",
+      "socialImage": "/og/escalir-it.png",
+      "imageAlt": "escalir — Accelera la trasformazione con l’IA nella tua azienda",
+      "productTitles": {
+        "escalir AI Platform": "escalir AI Platform — piattaforma IA per le imprese",
+        "escalir Agents": "escalir Agents — agenti IA per le imprese",
+        "escalir Systems": "escalir Systems — sistemi IA e automazione dei processi",
+        "escalir AI Gateway": "escalir AI Gateway — accesso ai modelli IA"
+      },
+      "guideCount": {
+        "one": "guida",
+        "few": "guide",
+        "many": "guide",
+        "other": "guide",
+        "category": " nella categoria «{category}»",
+        "explore": " da scoprire",
+        "lowercaseCategory": false
+      },
+      "redirect": {
+        "message": "Questa pagina è stata spostata su",
+        "linkLabel": "AI Platform"
+      },
+      "notFound": {
+        "title": "Pagina non trovata",
+        "description": "Questa pagina potrebbe essere stata spostata. Scopri la piattaforma, le nostre soluzioni di settore e il team di escalir.",
+        "homeLabel": "Vai alla pagina iniziale in italiano"
+      },
+      "socialPreview": {
+        "lines": [
+          "Accelera",
+          "la trasformazione con l’IA",
+          "nella tua azienda"
+        ],
+        "firstLine": 245,
+        "lineGap": 83,
+        "tracking": -3,
+        "subtitle": "Le tue conoscenze. I tuoi sistemi. Il tuo prossimo capitolo.",
+        "subtitleY": 480,
+        "subtitleSize": 22
+      }
+    },
+    "es": {
+      "label": "Español",
+      "accessibleLabel": "Idioma: español",
+      "openGraphLocale": "es_ES",
+      "socialImage": "/og/escalir-es.png",
+      "imageAlt": "escalir — De la idea al trabajo diario. Especificación, desarrollo y gobernanza.",
+      "productTitles": {
+        "escalir AI Platform": "escalir AI Platform — plataforma de IA para empresas",
+        "escalir Agents": "escalir Agents — agentes de IA para empresas",
+        "escalir Systems": "escalir Systems — sistemas de IA y automatización de procesos",
+        "escalir AI Gateway": "escalir AI Gateway — acceso a modelos de IA"
+      },
+      "guideCount": {
+        "one": "guía",
+        "few": "guías",
+        "many": "guías",
+        "other": "guías",
+        "category": " en la categoría «{category}»",
+        "explore": " para descubrir",
+        "lowercaseCategory": false
+      },
+      "redirect": {
+        "message": "Esta página se ha trasladado a",
+        "linkLabel": "AI Platform"
+      },
+      "notFound": {
+        "title": "Página no encontrada",
+        "description": "Es posible que esta página haya cambiado de dirección. Descubre la plataforma, nuestras soluciones sectoriales y el equipo de escalir.",
+        "homeLabel": "Ir a la página de inicio en español"
+      },
+      "socialPreview": {
+        "lines": [
+          "De la idea",
+          "al trabajo diario"
+        ],
+        "firstLine": 277,
+        "lineGap": 91,
+        "tracking": -2,
+        "subtitle": "Especificación · Desarrollo · Gobernanza",
+        "subtitleY": 470,
+        "subtitleSize": 24
+      }
+    },
+    "sr": {
+      "label": "Srpski",
+      "accessibleLabel": "Jezik: srpski",
+      "openGraphLocale": "sr_RS",
+      "socialImage": "/og/escalir-sr.png",
+      "imageAlt": "escalir — Od ideje do svakodnevnog rada. Specifikacija, razvoj te upravljanje i nadzor.",
+      "productTitles": {
+        "escalir AI Platform": "escalir AI Platform — AI platforma za preduzeća",
+        "escalir Agents": "escalir Agents — AI agenti za preduzeća",
+        "escalir Systems": "escalir Systems — AI sistemi i automatizacija procesa",
+        "escalir AI Gateway": "escalir AI Gateway — pristup AI modelima"
+      },
+      "guideCount": {
+        "one": "vodič",
+        "few": "vodiča",
+        "many": "vodiča",
+        "other": "vodiča",
+        "category": " u kategoriji „{category}”",
+        "explore": " za istraživanje",
+        "lowercaseCategory": false
+      },
+      "redirect": {
+        "message": "Ova stranica je premeštena na",
+        "linkLabel": "AI Platform"
+      },
+      "notFound": {
+        "title": "Stranica nije pronađena",
+        "description": "Ova stranica je možda premeštena. Istražite platformu, naša rešenja za različite delatnosti i tim kompanije escalir.",
+        "homeLabel": "Idite na početnu stranicu na srpskom"
+      },
+      "socialPreview": {
+        "lines": [
+          "Od ideje",
+          "do svakodnevnog rada"
+        ],
+        "firstLine": 277,
+        "lineGap": 91,
+        "tracking": -2,
+        "subtitle": "Specifikacija · Razvoj · Upravljanje i nadzor",
+        "subtitleY": 470,
+        "subtitleSize": 24
+      }
+    },
+    "nl": {
+      "label": "Nederlands",
+      "accessibleLabel": "Taal: Nederlands",
+      "openGraphLocale": "nl_NL",
+      "socialImage": "/og/escalir-nl.png",
+      "imageAlt": "escalir — Van idee naar de dagelijkse praktijk. Specificatie, ontwikkeling en governance.",
+      "productTitles": {
+        "escalir AI Platform": "escalir AI Platform — AI-platform voor bedrijven",
+        "escalir Agents": "escalir Agents — AI-agenten voor bedrijven",
+        "escalir Systems": "escalir Systems — AI-systemen en procesautomatisering",
+        "escalir AI Gateway": "escalir AI Gateway — toegang tot AI-modellen"
+      },
+      "guideCount": {
+        "one": "gids",
+        "few": "gidsen",
+        "many": "gidsen",
+        "other": "gidsen",
+        "category": " in de categorie ‘{category}’",
+        "explore": " om te ontdekken",
+        "lowercaseCategory": false
+      },
+      "redirect": {
+        "message": "Deze pagina is verplaatst naar",
+        "linkLabel": "AI Platform"
+      },
+      "notFound": {
+        "title": "Pagina niet gevonden",
+        "description": "Deze pagina is mogelijk verplaatst. Ontdek het platform, onze sectoroplossingen en de mensen achter escalir.",
+        "homeLabel": "Naar de Nederlandstalige startpagina"
+      },
+      "socialPreview": {
+        "lines": [
+          "Van idee",
+          "naar de dagelijkse praktijk"
+        ],
+        "firstLine": 277,
+        "lineGap": 91,
+        "tracking": -2,
+        "subtitle": "Specificatie · Ontwikkeling · Governance",
+        "subtitleY": 470,
+        "subtitleSize": 24
+      }
+    },
+    "ro": {
+      "label": "Română",
+      "accessibleLabel": "Limba: română",
+      "openGraphLocale": "ro_RO",
+      "socialImage": "/og/escalir-ro.png",
+      "imageAlt": "escalir — De la idee la activitatea de zi cu zi. Specificare, dezvoltare și guvernanță.",
+      "productTitles": {
+        "escalir AI Platform": "escalir AI Platform — platformă IA pentru organizații",
+        "escalir Agents": "escalir Agents — agenți IA pentru organizații",
+        "escalir Systems": "escalir Systems — sisteme IA și automatizarea fluxurilor de lucru",
+        "escalir AI Gateway": "escalir AI Gateway — acces la modele IA"
+      },
+      "guideCount": {
+        "one": "ghid",
+        "few": "ghiduri",
+        "many": "de ghiduri",
+        "other": "de ghiduri",
+        "category": " din categoria „{category}”",
+        "explore": " de explorat",
+        "lowercaseCategory": false
+      },
+      "redirect": {
+        "message": "Această pagină a fost mutată la",
+        "linkLabel": "AI Platform"
+      },
+      "notFound": {
+        "title": "Pagina nu a fost găsită",
+        "description": "Este posibil ca această pagină să fi fost mutată. Descoperiți platforma, soluțiile noastre sectoriale și echipa escalir.",
+        "homeLabel": "Accesați pagina principală în română"
+      },
+      "socialPreview": {
+        "lines": [
+          "De la idee",
+          "la activitatea",
+          "de zi cu zi"
+        ],
+        "firstLine": 245,
+        "lineGap": 83,
+        "tracking": -3,
+        "subtitle": "Specificare · Dezvoltare · Guvernanță",
+        "subtitleY": 480,
+        "subtitleSize": 24
+      }
+    },
+    "cs": {
+      "label": "Čeština",
+      "accessibleLabel": "Jazyk: čeština",
+      "openGraphLocale": "cs_CZ",
+      "socialImage": "/og/escalir-cs.png",
+      "imageAlt": "escalir — Od nápadu ke každodenní práci. Specifikace, vývoj, řízení a dohled.",
+      "productTitles": {
+        "escalir AI Platform": "escalir AI Platform — AI platforma pro firmy",
+        "escalir Agents": "escalir Agents — AI agenti pro firmy",
+        "escalir Systems": "escalir Systems — AI systémy a automatizace procesů",
+        "escalir AI Gateway": "escalir AI Gateway — přístup k AI modelům"
+      },
+      "guideCount": {
+        "one": "průvodce",
+        "few": "průvodci",
+        "many": "průvodce",
+        "other": "průvodců",
+        "category": " v kategorii „{category}“",
+        "explore": " k prozkoumání",
+        "lowercaseCategory": false
+      },
+      "redirect": {
+        "message": "Tato stránka byla přesunuta na",
+        "linkLabel": "AI Platform"
+      },
+      "notFound": {
+        "title": "Stránka nenalezena",
+        "description": "Tato stránka mohla změnit adresu. Prozkoumejte platformu, naše řešení pro jednotlivá odvětví a tým escalir.",
+        "homeLabel": "Přejít na českou úvodní stránku"
+      },
+      "socialPreview": {
+        "lines": [
+          "Od nápadu",
+          "ke každodenní práci"
+        ],
+        "firstLine": 277,
+        "lineGap": 91,
+        "tracking": -2,
+        "subtitle": "Specifikace · Vývoj · Řízení a dohled",
+        "subtitleY": 470,
+        "subtitleSize": 24
+      }
+    }
+  }
+}

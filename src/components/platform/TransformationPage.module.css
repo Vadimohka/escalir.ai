@@ -1,0 +1,118 @@
+.page {
+  color: #171719;
+  background: #fff;
+  font-family: var(--font-localized-heading, "escalir Platform"), var(--font-heading), sans-serif;
+  font-weight: 300;
+}
+.page .hero {
+  position: relative;
+  display: grid;
+  place-items: center;
+  min-height: 560px;
+  height: 82svh;
+  max-height: 900px;
+  padding: 96px 60px 100px;
+  overflow: hidden;
+  isolation: isolate;
+  color: #fff;
+  background: #242424;
+}
+.heroImage, .heroImage img, .heroShade { position: absolute; inset: 0; width: 100%; height: 100%; }
+.heroImage img { object-fit: cover; object-position: center 52%; }
+.heroShade { background: linear-gradient(180deg, rgb(0 0 0 / 24%), rgb(0 0 0 / 12%) 52%, rgb(0 0 0 / 18%)); }
+.heroContent { position: relative; z-index: 1; width: min(100%, 1040px); text-align: center; }
+.page .hero h1 { margin: 0; color: #fff; font-size: clamp(48px, 4.75vw, 64px); font-weight: 300; line-height: 1.05; letter-spacing: -.055em; text-wrap: balance; }
+.shell { width: min(100%, 1280px); margin-inline: auto; }
+.page .editorialSection { padding: 96px 60px 48px; }
+.page .principlesSection { padding: 0 60px 96px; scroll-margin-top: 100px; }
+.page .relatedSection { padding: 0 60px 96px; }
+.editorialGrid { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: 80px; align-items: start; }
+.page .editorialGrid h2, .page .principlesHeading h2, .page .relatedSection h2 { margin: 0; font-size: clamp(36px, 3.6vw, 48px); font-weight: 300; line-height: 1.08; letter-spacing: -.045em; text-wrap: balance; }
+.editorialCopy { max-width: 1020px; }
+.page .editorialCopy p { margin: 0 0 22px; color: #555; font-size: 19px; line-height: 1.5; letter-spacing: -.012em; }
+.page .editorialCopy p:last-child { margin-bottom: 0; }
+.principlesHeading { padding-top: 56px; margin-bottom: 40px; border-top: 1px solid #ddd; }
+.page .principlesHeading p { margin: 20px 0 0; color: #6a6a6a; font-size: 18px; line-height: 1.45; }
+.principles { min-width: 0; }
+.principle { margin: 0; border-bottom: 1px solid #dedede; }
+.principle summary { display: grid; grid-template-columns: 32px minmax(0, 1fr) 20px; align-items: start; gap: 16px; padding: 27px 0; list-style: none; cursor: pointer; }
+.principle summary::-webkit-details-marker { display: none; }
+.principle summary::marker { content: ""; }
+.principle summary:focus-visible { outline: 2px solid #171717; outline-offset: 5px; }
+.principleNumber { padding-top: 3px; color: #767676; font-size: 18px; line-height: 1.2; letter-spacing: -.03em; }
+.principleHeading { display: grid; gap: 9px; }
+.principleTitle { color: #242424; font-size: 24px; font-weight: 300; line-height: 1.2; letter-spacing: -.03em; }
+.principleSummary { color: #707070; font-size: 16px; line-height: 1.4; letter-spacing: -.008em; }
+.principleToggle { position: relative; width: 18px; height: 18px; margin-top: 5px; }
+.principleToggle::before { content: ""; position: absolute; top: 3px; left: 4px; width: 9px; height: 9px; border-right: 1px solid #777; border-bottom: 1px solid #777; transform: rotate(45deg); transition: transform 180ms ease; }
+.principle[open] .principleToggle::before { top: 7px; transform: rotate(225deg); }
+.principleBody { max-width: 990px; margin: -5px 36px 30px 48px; color: #555; font-size: 18px; line-height: 1.5; letter-spacing: -.01em; }
+.page .principleBody p { margin: 0; }
+.page .principleBody p + p { margin-top: 14px; }
+.approachList { margin: 24px 0 0; }
+.approachList > div { display: grid; grid-template-columns: 110px minmax(0, 1fr); gap: 24px; padding: 14px 0; border-top: 1px solid #e3e3e3; }
+.approachList dt { color: #242424; font-weight: 400; }
+.approachList dd { margin: 0; }
+.page .relatedSection h2 { margin-bottom: 40px; }
+.relatedCards { display: flex; gap: 12px; }
+.relatedCard { position: relative; display: flex; align-items: flex-end; flex: 1; min-width: 0; min-height: 480px; padding: 32px; border-radius: 8px; overflow: hidden; isolation: isolate; background: #303030; color: #fff; text-decoration: none; transition: flex 450ms ease; }
+.relatedCard:first-child { flex: 1.35; }
+.relatedCard:focus-visible { outline: 3px solid #171717; outline-offset: 5px; }
+.cardImage, .cardImage img, .cardShade { position: absolute; inset: 0; width: 100%; height: 100%; }
+.cardImage img { object-fit: cover; object-position: center; transition: transform 600ms ease; }
+.cardShade { background: linear-gradient(180deg, rgb(0 0 0 / 20%), transparent 35%, rgb(0 0 0 / 78%) 100%); }
+.cardArrow { position: absolute; z-index: 1; top: 30px; right: 30px; color: #fff; transition: transform 250ms ease; }
+.cardContent { position: relative; z-index: 1; max-width: 490px; }
+.page .cardContent h3 { margin: 0; color: #fff; font-size: 32px; font-weight: 300; line-height: 1.15; letter-spacing: -.04em; }
+.page .cardContent p { max-width: 440px; margin: 16px 0 0; color: #f2f2f2; font-size: 17px; line-height: 1.45; letter-spacing: -.01em; }
+@media (hover: hover) and (min-width: 701px) {
+  .relatedCards:has(.relatedCard:nth-child(2):hover) .relatedCard:first-child, .relatedCards:has(.relatedCard:nth-child(2):focus-visible) .relatedCard:first-child { flex: 1; }
+  .relatedCard:nth-child(2):hover, .relatedCard:nth-child(2):focus-visible { flex: 1.35; }
+  .relatedCard:hover .cardImage img { transform: scale(1.025); }
+  .relatedCard:hover .cardArrow { transform: translate(3px, -3px); }
+}
+@media (max-width: 1439.98px) {
+  .editorialGrid { grid-template-columns: 1fr; gap: 32px; }
+  .page .editorialGrid h2 br { display: none; }
+}
+@media (max-width: 1100px) {
+  .page .hero, .page .editorialSection, .page .principlesSection, .page .relatedSection { padding-inline: 40px; }
+  .relatedCard { padding: 28px; min-height: 440px; }
+}
+@media (max-width: 700px) {
+  .page .hero { height: 78svh; min-height: 500px; max-height: 760px; padding: 88px 20px 90px; }
+  .page .hero h1 { font-size: clamp(36px, 8.5vw, 44px); line-height: 1.08; letter-spacing: -.05em; }
+  .heroImage img { object-position: 43% center; }
+  .heroShade { background: linear-gradient(180deg, rgb(0 0 0 / 30%), rgb(0 0 0 / 14%) 50%, rgb(0 0 0 / 25%)); }
+  .page .editorialSection { padding: 64px 20px 36px; }
+  .page .principlesSection, .page .relatedSection { padding: 0 20px 64px; }
+  .editorialGrid { gap: 26px; }
+  .principlesHeading { padding-top: 40px; margin-bottom: 24px; }
+  .page .editorialGrid h2, .page .principlesHeading h2, .page .relatedSection h2 { font-size: 34px; line-height: 1.1; }
+  .page .editorialCopy p { font-size: 17px; line-height: 1.5; margin-bottom: 18px; }
+  .page .principlesHeading p { font-size: 17px; margin-top: 18px; }
+  .principle summary { grid-template-columns: 25px minmax(0, 1fr) 16px; gap: 10px; padding: 23px 0; }
+  .principleTitle { font-size: 21px; }
+  .principleSummary { font-size: 14px; }
+  .principleNumber { font-size: 15px; }
+  .principleBody { margin: -3px 0 26px 35px; font-size: 16px; }
+  .approachList > div { grid-template-columns: 1fr; gap: 6px; padding: 13px 0; }
+  .page .relatedSection h2 { margin-bottom: 30px; }
+  .relatedCards { flex-direction: column; gap: 14px; }
+  .relatedCard, .relatedCard:first-child { flex: auto; min-height: 360px; padding: 24px; }
+  .relatedCard:first-child .cardImage img { object-position: 42% center; }
+  .relatedCard:nth-child(2) .cardImage img { object-position: 58% center; }
+  .cardArrow { top: 24px; right: 24px; }
+  .page .cardContent h3 { font-size: 30px; }
+  .page .cardContent p { font-size: 16px; }
+}
+@media (max-width: 359px) {
+  .page .hero h1 { font-size: 34px; }
+  .page .hero h1 br { display: none; }
+  .principleTitle { font-size: 20px; }
+  .relatedCard { padding: 22px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .principleToggle::before, .relatedCard, .cardImage img, .cardArrow { transition: none; }
+  .relatedCard:hover .cardImage img, .relatedCard:hover .cardArrow { transform: none; }
+}

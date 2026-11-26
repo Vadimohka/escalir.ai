@@ -1,0 +1,33 @@
+/* Homepage composition. Inner pages retain their independently scoped layouts. */
+.escalir-home .hero { --home-header-height: 60px; height: auto; min-height: calc(100svh - 48px); max-height: none; }
+.escalir-home .hero-layout { height: auto; min-height: inherit; padding-block: calc(var(--home-header-height) + clamp(24px, 4svh, 56px)) clamp(24px, 4svh, 56px); }
+.escalir-home .hero-shade { background: linear-gradient(180deg, #07141759, #07141785 50%, #07141770); }
+.escalir-home .principles-strip { padding-block: 58px 48px; }
+.escalir-home .principles-inner { gap: 32px; }
+.escalir-home .principles-inner > p { font-size: 19px; }
+.escalir-home .platform-section { padding-top: 105px; }
+.escalir-home .platform-heading { max-width: 780px; margin-inline: auto; text-align: center; }
+.escalir-home .platform-heading > .eyebrow { justify-content: center; }
+.escalir-home .platform-heading > p:not(.eyebrow) { margin-inline: auto; }
+.escalir-home .app-platform-captures { padding-bottom: 80px; }
+
+@media (min-width: 1600px) {
+  .escalir-home .hero h1 { font-size: 90px; }
+}
+@media (max-width: 879px) {
+  .escalir-home .hero { --home-header-height: 68px; }
+}
+@media (max-width: 640px) {
+  .escalir-home .hero h1 { font-size: clamp(37px, 9.3vw, 56px); }
+  .escalir-home .hero-lead { font-size: 15px; }
+  .escalir-home .principles-strip { padding: 42px 0 30px; }
+  .escalir-home .principles-inner { gap: 26px; }
+  .escalir-home .principles-inner li { font-size: 20px; }
+  .escalir-home .platform-section { padding-top: 72px; }
+  .escalir-home .platform-heading h2 { font-size: 39px; }
+  .escalir-home .app-platform-captures { padding-bottom: 54px; }
+}
+@media (forced-colors: active) {
+  .escalir-home .hero-film { display: none; }
+  .escalir-home .hero-shade { background: Canvas; }
+}

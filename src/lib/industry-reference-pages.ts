@@ -1,0 +1,634 @@
+import type { IndustrySlug } from "./industries";
+import type { IndustryReference } from "./industry-reference-types";
+
+/** Original escalir imagery for industry pages and the directory. */
+export const industryImages: Record<IndustrySlug, IndustryReference["images"]> = {
+  "banking": {
+    "hero": "/media/escalir/photos/banking-advice.webp",
+    "heroSmall": "/media/escalir/photos/banking-advice-768.webp",
+    "heroMobile": "/media/escalir/photos/banking-advice-768.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "heroSmallWidth": 768,
+    "workflow": "/media/escalir/photos/team-workshop.webp",
+    "workflowAlt": "A business team discussing project notes during a workshop",
+    "workflowWidth": 1600,
+    "workflowHeight": 900,
+    "workflowPosition": "50% 50%",
+    "heroPosition": "50% 50%",
+    "heroMobilePosition": "84% 50%"
+  },
+  "telecommunication": {
+    "hero": "/media/knowledge.webp",
+    "heroSmall": "/media/knowledge.webp",
+    "heroMobile": "/media/knowledge.webp",
+    "heroWidth": 1200,
+    "heroHeight": 675,
+    "heroSmallWidth": 1200,
+    "workflow": "/media/escalir/photos/support-team.webp",
+    "workflowAlt": "A service team collaborating in a shared workspace",
+    "workflowWidth": 1600,
+    "workflowHeight": 900,
+    "workflowPosition": "50% 50%",
+    "heroPosition": "50% 50%",
+    "heroMobilePosition": "62% 50%"
+  },
+  "healthcare": {
+    "hero": "/media/escalir/photos/healthcare-team.webp",
+    "heroSmall": "/media/escalir/photos/healthcare-team-768.webp",
+    "heroMobile": "/media/escalir/photos/healthcare-team-768.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "heroSmallWidth": 768,
+    "workflow": "/media/escalir/photos/team-collaboration.webp",
+    "workflowAlt": "A team discussing notes and laptop-based work around a shared table",
+    "workflowWidth": 1600,
+    "workflowHeight": 900,
+    "workflowPosition": "50% 50%",
+    "heroPosition": "50% 50%",
+    "heroMobilePosition": "28% 50%"
+  },
+  "utilities": {
+    "hero": "/media/escalir/photos/energy-engineers.webp",
+    "heroSmall": "/media/escalir/photos/energy-engineers-768.webp",
+    "heroMobile": "/media/escalir/photos/energy-engineers-768.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "heroSmallWidth": 768,
+    "workflow": "/media/escalir/photos/team-workshop.webp",
+    "workflowAlt": "A team reviewing a plan together during a workshop",
+    "workflowWidth": 1600,
+    "workflowHeight": 900,
+    "workflowPosition": "50% 50%",
+    "heroPosition": "50% 50%",
+    "heroMobilePosition": "37% 50%"
+  },
+  "insurance": {
+    "hero": "/media/escalir/photos/support-team.webp",
+    "heroSmall": "/media/escalir/photos/support-team-768.webp",
+    "heroMobile": "/media/escalir/photos/support-team-768.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "heroSmallWidth": 768,
+    "workflow": "/media/escalir/photos/banking-advice.webp",
+    "workflowAlt": "A financial adviser reviewing documents with a client",
+    "workflowWidth": 1600,
+    "workflowHeight": 900,
+    "workflowPosition": "50% 50%",
+    "heroPosition": "50% 50%",
+    "heroMobilePosition": "82% 50%"
+  },
+  "retail": {
+    "hero": "/media/escalir/photos/retail-team.webp",
+    "heroSmall": "/media/escalir/photos/retail-team-768.webp",
+    "heroMobile": "/media/escalir/photos/retail-team-768.webp",
+    "heroWidth": 1600,
+    "heroHeight": 900,
+    "heroSmallWidth": 768,
+    "workflow": "/media/workflows.webp",
+    "workflowAlt": "An aerial view of a logistics warehouse with trucks at its loading docks",
+    "workflowWidth": 1200,
+    "workflowHeight": 675,
+    "workflowPosition": "50% 50%",
+    "heroPosition": "50% 50%",
+    "heroMobilePosition": "50% 50%"
+  },
+  "airlines": {
+    "hero": "/media/support.webp",
+    "heroSmall": "/media/support.webp",
+    "heroMobile": "/media/support.webp",
+    "heroWidth": 1200,
+    "heroHeight": 675,
+    "heroSmallWidth": 1200,
+    "workflow": "/media/stock/scene-airport-woman.webp",
+    "workflowAlt": "A traveler using a phone while seated in an airport terminal",
+    "workflowWidth": 960,
+    "workflowHeight": 540,
+    "workflowPosition": "50% 50%",
+    "heroPosition": "50% 50%",
+    "heroMobilePosition": "50% 50%"
+  }
+};
+
+export const industryReferencePages: Record<IndustrySlug, IndustryReference> = {
+  "banking": {
+    "title": "Banking",
+    "operationLabel": "banking",
+    "audience": "banks",
+    "heroDescription": "Explore banking knowledge and document workflows, from a shared task register to pilots with human review",
+    "whyIntro": "Collect requests from banking teams, assess data readiness and agree success criteria before building. Use a controlled pilot to select the next workflow, then track quality and impact in operation",
+    "benefits": [
+      {
+        "title": "Prioritised requests",
+        "description": "Give each automation idea a process owner, a readiness assessment and a clear reason to move into a pilot",
+        "icon": "Workflow"
+      },
+      {
+        "title": "Traceable documents",
+        "description": "Bring document fields, policy sources and versions together so staff can inspect the evidence behind a draft",
+        "icon": "ChartNoAxesCombined"
+      },
+      {
+        "title": "Reviewable results",
+        "description": "Agree what the workflow prepares, what an employee checks and who owns the final banking decision",
+        "icon": "Timer"
+      }
+    ],
+    "workflows": [
+      {
+        "title": "Financial document preparation",
+        "description": "For example, extract financial-statement fields, calculate indicators with agreed rules and prepare a draft for a credit analyst to review"
+      },
+      {
+        "title": "Policy and procedure knowledge",
+        "description": "Explore answers from approved policy versions, showing sources and preserving the access rules of each banking team"
+      },
+      {
+        "title": "Official-request drafts",
+        "description": "Test request intake and field extraction against an account-data sample, then prepare a template-based draft for employee review"
+      },
+      {
+        "title": "Operations and reconciliation",
+        "description": "Explore reconciliation between agreed system extracts, with discrepancies and supporting evidence prepared for the operations reviewer"
+      }
+    ],
+    "reasons": [
+      {
+        "title": "AI shaped around banking work",
+        "description": "Compare models on the same controlled task and agree how extraction quality, draft acceptance and processing time will be assessed before expanding the workflow",
+        "image": "/media/escalir/diagrams/industry-frontier.svg",
+        "alt": "A defined task flows through an AI response to human review, with checks for source quality, accuracy and scope"
+      },
+      {
+        "title": "One platform across the bank",
+        "description": "Connect the task register, development work and operational oversight in one platform, with approved knowledge and system access scoped to each banking workflow",
+        "image": "/media/escalir/diagrams/industry-platform.svg",
+        "alt": "escalir connects approved sources, workflows and existing systems with people, controlled actions and useful outcomes"
+      },
+      {
+        "title": "Clear access and accountable decisions",
+        "description": "Scope records and policy sources by role, keep an audit trail and define employee confirmation points. Lending decisions and system changes remain with authorised people",
+        "image": "/media/escalir/diagrams/industry-governance.svg",
+        "alt": "Access permissions, approved sources and human approval connect to a controlled workflow"
+      },
+      {
+        "title": "Implementation alongside your team",
+        "description": "Start with agreed success criteria and a pilot on representative synthetic data. Use the findings to plan deployment, train your team and validate the workflow in its operating environment",
+        "image": "/media/escalir/diagrams/industry-deployment.svg",
+        "alt": "Four connected delivery stages: scope, build, validate and handover"
+      }
+    ],
+    "images": industryImages.banking,
+    "benefitMobileOrder": [
+      2,
+      0,
+      1
+    ]
+  },
+  "telecommunication": {
+    "title": "Telecom",
+    "operationLabel": "telecom",
+    "audience": "telecom providers",
+    "heroDescription": "Connect service knowledge, fault triage and customer requests, with clear handovers and human review",
+    "whyIntro": "Explore service and support use cases around approved knowledge and a named process owner. Capture requests, assess readiness and test a focused pilot before extending the workflow across teams",
+    "benefits": [
+      {
+        "title": "Useful context",
+        "description": "Capture the issue and the steps already completed, so customers and support teams can move the conversation forward",
+        "icon": "UsersRound"
+      },
+      {
+        "title": "Consistent guidance",
+        "description": "Help operators find approved service information and the current procedure for the request in front of them",
+        "icon": "Coins"
+      },
+      {
+        "title": "Connected support",
+        "description": "Give the next team a clear picture of what is known, what has been tried and what still needs attention",
+        "icon": "ChartNoAxesColumnIncreasing"
+      }
+    ],
+    "workflows": [
+      {
+        "title": "Fault triage and troubleshooting",
+        "description": "Collect symptoms, surface approved troubleshooting steps and prepare a structured case for the operator or specialist"
+      },
+      {
+        "title": "Service and account requests",
+        "description": "Gather the information behind a routine change, with identity checks and authorisation kept in your existing process"
+      },
+      {
+        "title": "Billing support",
+        "description": "Explain verified invoice details and organise dispute information for the billing team to assess and resolve"
+      },
+      {
+        "title": "Incident updates",
+        "description": "Prepare customer communications from verified incident information, with wording and timing approved by the owner"
+      }
+    ],
+    "reasons": [
+      {
+        "title": "AI grounded in service knowledge",
+        "description": "Apply models to a defined support task, evaluate the output and retain the source information that operators need to check a recommendation",
+        "image": "/media/escalir/diagrams/industry-frontier.svg",
+        "alt": "A defined task flows through an AI response to human review, with checks for source quality, accuracy and scope"
+      },
+      {
+        "title": "One platform across telecom teams",
+        "description": "Connect the knowledge behind customer care, field work, network issues and billing. Plan each system connection around an agreed operational scope",
+        "image": "/media/escalir/diagrams/industry-platform.svg",
+        "alt": "escalir connects approved sources, workflows and existing systems with people, controlled actions and useful outcomes"
+      },
+      {
+        "title": "Controlled actions and clear escalation",
+        "description": "Use verified service information, define who can approve changes and make escalation paths explicit when a request needs specialist attention",
+        "image": "/media/escalir/diagrams/industry-governance.svg",
+        "alt": "Access permissions, approved sources and human approval connect to a controlled workflow"
+      },
+      {
+        "title": "A delivery team working with yours",
+        "description": "Audit the service process, test representative questions and agree success criteria with your operators. Build together, then use quality metrics and feedback to guide the next phase",
+        "image": "/media/escalir/diagrams/industry-deployment.svg",
+        "alt": "Four connected delivery stages: scope, build, validate and handover"
+      }
+    ],
+    "images": industryImages.telecommunication,
+    "benefitMobileOrder": [
+      2,
+      0,
+      1
+    ]
+  },
+  "healthcare": {
+    "title": "Healthcare",
+    "operationLabel": "healthcare",
+    "audience": "healthcare organisations",
+    "heroDescription": "Explore assistants for equipment documentation, quality procedures and internal service knowledge, with sources and human review",
+    "whyIntro": "Start with the operational and service questions your teams need to answer. Test representative documents, agree access by role and equipment, and keep the source and version visible to each reviewer",
+    "benefits": [
+      {
+        "title": "Accessible knowledge",
+        "description": "Find relevant manuals and quality procedures with the source and document version visible to authorised staff",
+        "icon": "HeartPulse"
+      },
+      {
+        "title": "Prepared information",
+        "description": "Organise a service question around the equipment model, configuration and available documentation",
+        "icon": "Gauge"
+      },
+      {
+        "title": "Professional oversight",
+        "description": "Scope knowledge by role and department, with service and quality teams reviewing the proposed next step",
+        "icon": "CalendarCheck"
+      }
+    ],
+    "workflows": [
+      {
+        "title": "Equipment service knowledge",
+        "description": "For example, help an engineer find the procedure for a specific equipment model, with the source and version available for review"
+      },
+      {
+        "title": "Internal policies and quality",
+        "description": "Explore assistants for internal rules and quality-management documents, using the versions each employee is permitted to access"
+      },
+      {
+        "title": "Technical document preparation",
+        "description": "A possible workflow prepares a technical-document translation or summary for a qualified reviewer to check against the original"
+      },
+      {
+        "title": "Knowledge maintenance",
+        "description": "Let authorised teams update manuals, manage access and improve prompts as equipment and procedures change"
+      }
+    ],
+    "reasons": [
+      {
+        "title": "AI grounded in service documents",
+        "description": "Test answers against representative manuals and real service questions during the audit, then choose a focused workflow and the quality checks it needs",
+        "image": "/media/escalir/diagrams/industry-frontier.svg",
+        "alt": "A defined task flows through an AI response to human review, with checks for source quality, accuracy and scope"
+      },
+      {
+        "title": "One platform across healthcare teams",
+        "description": "Bring scanned documents, knowledge, agents and corporate chat into one deployment, with shared access rules and activity logs for operational teams",
+        "alt": "escalir connects approved sources, workflows and existing systems with people, controlled actions and useful outcomes",
+        "image": "/media/escalir/diagrams/industry-platform.svg"
+      },
+      {
+        "title": "Access boundaries and expert review",
+        "description": "Set document access by role, department or equipment configuration. Include source versions in answers and identify the employee responsible for checking the next step",
+        "image": "/media/escalir/diagrams/industry-governance.svg",
+        "alt": "Access permissions, approved sources and human approval connect to a controlled workflow"
+      },
+      {
+        "title": "Practical support through implementation",
+        "description": "Co-build an initial service or documentation workflow with escalir, train your developers and hand over clear practices for testing, maintaining and improving agents",
+        "image": "/media/escalir/diagrams/industry-deployment.svg",
+        "alt": "Four connected delivery stages: scope, build, validate and handover"
+      }
+    ],
+    "images": industryImages.healthcare,
+    "benefitMobileOrder": [
+      2,
+      0,
+      1
+    ]
+  },
+  "utilities": {
+    "title": "Utilities",
+    "operationLabel": "utility",
+    "audience": "utilities",
+    "heroDescription": "Connect utility requests, approved guidance and operational context with accountable review",
+    "whyIntro": "Explore utility service and knowledge workflows through a shared cycle of specification, development and governance, with approved sources and clear ownership of each operational decision",
+    "benefits": [
+      {
+        "title": "Clearer customer service",
+        "description": "Prepare useful answers to billing and service questions, with the relevant policy and request details available together",
+        "icon": "Headset"
+      },
+      {
+        "title": "Complete operational context",
+        "description": "Give each team the documents, procedures and outstanding questions it needs to review the next step",
+        "icon": "Gauge"
+      },
+      {
+        "title": "Support changing demand",
+        "description": "Organize incoming requests into consistent cases, keeping urgent issues on the established escalation path",
+        "icon": "ChartNoAxesColumnIncreasing"
+      }
+    ],
+    "workflows": [
+      {
+        "title": "Field knowledge and handovers",
+        "description": "Find approved procedures and prepare site information for staff review. Safety decisions and emergency response stay with authorized operators"
+      },
+      {
+        "title": "Connection request preparation",
+        "description": "Assemble submitted site documents, identify missing requirements and prepare a complete pack for the connection team"
+      },
+      {
+        "title": "Service visit coordination",
+        "description": "Collect customer requests and access details so the service team can confirm requirements and arrange the next authorized step"
+      },
+      {
+        "title": "Billing question support",
+        "description": "Bring permitted account information and approved billing guidance together for a reviewed response or finance-team handover"
+      }
+    ],
+    "reasons": [
+      {
+        "title": "AI grounded in utility knowledge",
+        "description": "Start from the procedures and service policies your teams approve. Evaluate answers against defined tasks before expanding the workflow",
+        "image": "/media/escalir/diagrams/industry-frontier.svg",
+        "alt": "A defined task flows through an AI response to human review, with checks for source quality, accuracy and scope"
+      },
+      {
+        "title": "A connected utility workflow",
+        "description": "Bring service requests, field knowledge and billing context into a shared process, with interfaces scoped to the systems involved",
+        "image": "/media/escalir/diagrams/industry-platform.svg",
+        "alt": "escalir connects approved sources, workflows and existing systems with people, controlled actions and useful outcomes"
+      },
+      {
+        "title": "Control at each decision",
+        "description": "Set access permissions, review points and escalation rules around operational information. Technical approvals remain with the responsible utility team",
+        "image": "/media/escalir/diagrams/industry-governance.svg",
+        "alt": "Access permissions, approved sources and human approval connect to a controlled workflow"
+      },
+      {
+        "title": "Support from scoping to rollout",
+        "description": "Record the process, data and access requirements, validate a focused pilot with its owners and use operational findings to shape the next specification",
+        "image": "/media/escalir/diagrams/industry-deployment.svg",
+        "alt": "Four connected delivery stages: scope, build, validate and handover"
+      }
+    ],
+    "images": industryImages.utilities,
+    "benefitMobileOrder": [
+      2,
+      0,
+      1
+    ],
+    "ctaLabel": "utilities"
+  },
+  "insurance": {
+    "title": "Insurance",
+    "operationLabel": "insurance",
+    "audience": "insurers",
+    "heroDescription": "Bring complex insurance workflows into everyday operation, with clear oversight from start to finish",
+    "whyIntro": "Explore insurance use cases from a shared register of business requests. Assess readiness, build around approved knowledge and carry access, quality and review controls into operation",
+    "benefits": [
+      {
+        "title": "Flexible capacity",
+        "description": "Give teams room to handle busy periods by reducing repetitive work and paperwork",
+        "icon": "ChartNoAxesColumnIncreasing"
+      },
+      {
+        "title": "Business growth",
+        "description": "Help people prepare relevant proposals with a clearer view of customer needs and policy information",
+        "icon": "Expand"
+      },
+      {
+        "title": "Efficient operations",
+        "description": "Connect the information behind claims, underwriting and service, with a clear next step for every task",
+        "icon": "Settings2"
+      }
+    ],
+    "workflows": [
+      {
+        "title": "Sales and underwriting",
+        "description": "Prepare submissions, find missing information and bring relevant policy guidance to the reviewer"
+      },
+      {
+        "title": "Policy service and renewals",
+        "description": "Find coverage information, prepare policy changes and help teams respond with the right context"
+      },
+      {
+        "title": "Claims handling",
+        "description": "Organise incoming documents, assemble the claim history and prepare a case for assessment"
+      },
+      {
+        "title": "Risk and oversight",
+        "description": "Surface relevant evidence, document the review and keep responsibility with the right person"
+      }
+    ],
+    "reasons": [
+      {
+        "title": "Advanced AI, applied to real work",
+        "description": "Select models around a defined task, evaluate their output and keep the information behind an answer visible to the people using it",
+        "image": "/media/escalir/diagrams/industry-frontier.svg",
+        "alt": "A defined task flows through an AI response to human review, with checks for source quality, accuracy and scope"
+      },
+      {
+        "title": "One platform for the entire insurer",
+        "description": "Bring knowledge and workflows together across insurance teams. Plan connections to existing systems around the scope of each deployment",
+        "image": "/media/escalir/diagrams/industry-platform.svg",
+        "alt": "escalir connects approved sources, workflows and existing systems with people, controlled actions and useful outcomes"
+      },
+      {
+        "title": "Control and traceability, by design",
+        "description": "Define access, source boundaries and review responsibilities before rollout. Discuss retention, hosting and compliance requirements for your environment",
+        "image": "/media/escalir/diagrams/industry-governance.svg",
+        "alt": "Access permissions, approved sources and human approval connect to a controlled workflow"
+      },
+      {
+        "title": "A team that delivers alongside yours",
+        "description": "Move from process assessment to a scoped pilot, then build and validate with your team. Transfer the practices for creating, testing and maintaining the next workflows",
+        "image": "/media/escalir/diagrams/industry-deployment.svg",
+        "alt": "Four connected delivery stages: scope, build, validate and handover"
+      }
+    ],
+    "benefitMobileOrder": [
+      3,
+      1,
+      2
+    ],
+    "images": industryImages.insurance
+  },
+  "retail": {
+    "title": "Retail",
+    "operationLabel": "retail",
+    "audience": "retailers",
+    "heroDescription": "Connect store, service and supplier workflows around approved information and reviewed actions",
+    "whyIntro": "Explore service and back-office use cases from the requests your retail teams bring forward. Agree the data, process owner and acceptance criteria, then test a focused workflow before rollout",
+    "benefits": [
+      {
+        "title": "Consistent customer answers",
+        "description": "Prepare service responses from current product and policy sources across the teams handling each request",
+        "icon": "Network"
+      },
+      {
+        "title": "Guidance for every store",
+        "description": "Make approved procedures and product information easier for associates to find and inspect",
+        "icon": "ChartNoAxesCombined"
+      },
+      {
+        "title": "Prepared back-office work",
+        "description": "Bring supplier documents and purchase references together so finance and procurement teams can review exceptions",
+        "icon": "ShieldHalf"
+      }
+    ],
+    "workflows": [
+      {
+        "title": "Product and campaign preparation",
+        "description": "Collect approved product facts and channel requirements into a draft that a marketing or product owner checks before publication"
+      },
+      {
+        "title": "Store and associate guidance",
+        "description": "Locate current procedures and training information, with source references and a clear route for questions outside the guidance"
+      },
+      {
+        "title": "Order and return support",
+        "description": "Prepare responses using permitted order context and service policies. Staff approve refunds and order changes through existing processes"
+      },
+      {
+        "title": "Supplier document preparation",
+        "description": "Extract invoice details, connect purchase references and highlight discrepancies for the employee responsible for approval"
+      }
+    ],
+    "reasons": [
+      {
+        "title": "AI grounded in retail knowledge",
+        "description": "Use approved product and service sources to prepare answers, then evaluate the workflow against the questions your teams actually receive",
+        "image": "/media/escalir/diagrams/industry-frontier.svg",
+        "alt": "A defined task flows through an AI response to human review, with checks for source quality, accuracy and scope"
+      },
+      {
+        "title": "A connected retail workflow",
+        "description": "Link a defined process across store, service and back-office teams, with the order and product interfaces agreed during scoping",
+        "image": "/media/escalir/diagrams/industry-platform.svg",
+        "alt": "escalir connects approved sources, workflows and existing systems with people, controlled actions and useful outcomes"
+      },
+      {
+        "title": "Review before commercial action",
+        "description": "Keep publication, refunds, supplier changes and payments behind explicit review points, with source information available to the decision owner",
+        "image": "/media/escalir/diagrams/industry-governance.svg",
+        "alt": "Access permissions, approved sources and human approval connect to a controlled workflow"
+      },
+      {
+        "title": "Support from scoping to rollout",
+        "description": "Test representative documents and store questions during the audit, build with your team and use quality measures and operational feedback to improve the next workflow",
+        "image": "/media/escalir/diagrams/industry-deployment.svg",
+        "alt": "Four connected delivery stages: scope, build, validate and handover"
+      }
+    ],
+    "images": industryImages.retail,
+    "benefitMobileOrder": [
+      2,
+      0,
+      1
+    ]
+  },
+  "airlines": {
+    "title": "Airlines",
+    "operationLabel": "airline",
+    "audience": "airlines",
+    "heroDescription": "Prepare passenger answers, disruption handovers and service cases with verified context",
+    "whyIntro": "Explore airline service workflows around approved knowledge, a clear specification and accountable review. Use a focused pilot to test the quality of drafts and handovers before operational rollout",
+    "benefits": [
+      {
+        "title": "Clearer passenger support",
+        "description": "Give service staff policy references and permitted journey context when preparing an answer to a passenger question",
+        "icon": "ChartNoAxesCombined"
+      },
+      {
+        "title": "Stronger service handovers",
+        "description": "Keep verified information, the passenger request and completed actions together as a case passes between teams",
+        "icon": "Coins"
+      },
+      {
+        "title": "Better prepared case files",
+        "description": "Organize evidence and outstanding questions before a claim or service exception reaches its authorized reviewer",
+        "icon": "Clock"
+      }
+    ],
+    "workflows": [
+      {
+        "title": "Disruption communication support",
+        "description": "Organize approved updates and journey context into a draft or handover. Staff authorize communications, rebooking and refund actions"
+      },
+      {
+        "title": "Passenger policy guidance",
+        "description": "Prepare answers to travel, baggage and service questions using approved guidance, with references an employee can check"
+      },
+      {
+        "title": "Claims document preparation",
+        "description": "Gather supporting evidence and identify missing information for the specialist responsible for entitlement and compensation decisions"
+      },
+      {
+        "title": "Internal service knowledge",
+        "description": "Help authorized employees locate current procedures and prepare cross-team handovers within established operational and safety controls"
+      }
+    ],
+    "reasons": [
+      {
+        "title": "AI grounded in airline knowledge",
+        "description": "Build a focused workflow around approved service guidance, check the quality of its answers and define when a specialist must take over",
+        "image": "/media/escalir/diagrams/industry-frontier.svg",
+        "alt": "A defined task flows through an AI response to human review, with checks for source quality, accuracy and scope"
+      },
+      {
+        "title": "A connected service workflow",
+        "description": "Bring passenger requests, permitted journey details and case documents together, with each required system interface defined before rollout",
+        "image": "/media/escalir/diagrams/industry-platform.svg",
+        "alt": "escalir connects approved sources, workflows and existing systems with people, controlled actions and useful outcomes"
+      },
+      {
+        "title": "Review before passenger actions",
+        "description": "Set access and approval rules for customer information. Booking changes, refunds and entitlement decisions remain with authorized teams",
+        "image": "/media/escalir/diagrams/industry-governance.svg",
+        "alt": "Access permissions, approved sources and human approval connect to a controlled workflow"
+      },
+      {
+        "title": "Support from scoping to rollout",
+        "description": "Agree the sources, access and acceptance criteria with your service owners, validate a focused pilot and transfer the practices for maintaining and improving the workflow",
+        "image": "/media/escalir/diagrams/industry-deployment.svg",
+        "alt": "Four connected delivery stages: scope, build, validate and handover"
+      }
+    ],
+    "images": industryImages.airlines,
+    "benefitMobileOrder": [
+      2,
+      0,
+      1
+    ],
+    "ctaLabel": "aviation"
+  }
+};

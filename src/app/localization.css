@@ -1,0 +1,14 @@
+/* Every translation uses the same layout and natural language-aware wrapping. */
+html:is([lang="de"], [lang="pl"], [lang="uk"], [lang="fr"], [lang="be"], [lang="it"], [lang="es"], [lang="sr"], [lang="nl"], [lang="ro"], [lang="cs"]) :is(h1, h2, h3, h4, p, figcaption, button, summary, dt, dd, li) {
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+html:is([lang="de"], [lang="pl"], [lang="uk"], [lang="fr"], [lang="be"], [lang="it"], [lang="es"], [lang="sr"], [lang="nl"], [lang="ro"], [lang="cs"]) :is(.co-text-link, .btn, .co-guide-meta, .co-filters) { flex-wrap: wrap; }
+/* Favorit's supplied file is Latin-only; keep one consistent Cyrillic face. */
+html:is([lang="uk"], [lang="be"]) { --font-localized-heading: var(--font-inter); }
+.bilingual-error { max-width: 960px; min-height: 100svh; margin-inline: auto; padding: clamp(96px, 18vh, 180px) 24px; }
+.bilingual-error .error-brand { display: inline-flex; margin-bottom: 48px; }
+.bilingual-error section { margin-bottom: 48px; }
+.bilingual-error section + section { padding-top: 32px; border-top: 1px solid #d8ddd5; }
+.bilingual-error h1, .bilingual-error h2 { font-size: clamp(32px, 5vw, 56px); margin-bottom: 18px; }
+.bilingual-error p { max-width: 60ch; line-height: 1.6; margin-bottom: 24px; }

@@ -1,0 +1,39 @@
+{
+  "name": "escalir",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "postbuild": "node scripts/postbuild.mjs",
+    "typecheck": "tsc --noEmit",
+    "check:export": "node scripts/verify-export.mjs",
+    "test:e2e": "playwright test",
+    "assets:og": "node scripts/create-og.mjs",
+    "assets:film": "node scripts/create-enterprise-film.mjs",
+    "localize": "node scripts/i18n/generate.mjs",
+    "predev": "npm run localize",
+    "prebuild": "npm run localize",
+    "pretypecheck": "npm run localize",
+    "locales:generate": "npm run localize",
+    "locales:check": "node scripts/i18n/generate.mjs --check",
+    "test:i18n": "node --test scripts/i18n/*.test.mjs scripts/test-localization-runtime.mjs"
+  },
+  "dependencies": {
+    "lucide-react": "^0.563.0",
+    "next": "^15.5.28",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "sharp": "^0.35.5",
+    "typescript": "^5.7.0"
+  },
+  "overrides": {
+    "postcss": "^8.5.23"
+  }
+}

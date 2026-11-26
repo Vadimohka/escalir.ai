@@ -1,0 +1,103 @@
+{
+  "public/media/escalir/diagrams/industry-platform.svg": [
+    "escalir"
+  ],
+  "public/media/industries/airlines/platform.svg": [
+    "escalir"
+  ],
+  "public/media/industries/healthcare/platform.svg": [
+    "escalir"
+  ],
+  "public/media/industries/utilities/platform.svg": [
+    "escalir"
+  ],
+  "public/media/insurance/platform.svg": [
+    "CRM",
+    "escalir"
+  ],
+  "src/app/(en)/agents/page.tsx": [
+    "escalir Agents"
+  ],
+  "src/app/(en)/ai-gateway/page.tsx": [
+    "AI Gateway",
+    "escalir",
+    "escalir AI Gateway"
+  ],
+  "src/app/(en)/ai-transformation/page.tsx": [
+    "AI Platform",
+    "RPA"
+  ],
+  "src/app/(en)/platform/page.tsx": [
+    "AI Platform",
+    "escalir",
+    "escalir AI Platform"
+  ],
+  "src/app/(en)/systems/page.tsx": [
+    "escalir Systems"
+  ],
+  "src/components/company/CompanyElements.tsx": [
+    "LinkedIn",
+    "vadimohka.com"
+  ],
+  "src/components/Footer.tsx": [
+    "escalir"
+  ],
+  "src/components/Founders.tsx": [
+    "LinkedIn",
+    "Telegram",
+    "vadimohka.com"
+  ],
+  "src/components/Header.tsx": [
+    "escalir"
+  ],
+  "src/components/HomeProductFamily.tsx": [
+    "AI Gateway",
+    "escalir Agents",
+    "escalir Systems"
+  ],
+  "src/components/industries/IndustryReferencePage.tsx": [
+    "escalir",
+    "Telegram"
+  ],
+  "src/components/Platform.tsx": [
+    "escalir AI Platform"
+  ],
+  "src/components/platform/AgentsExperience.tsx": [
+    "escalir AI Gateway",
+    "escalir AI Platform",
+    "escalir Agents",
+    "escalir Systems",
+    "MCP"
+  ],
+  "src/components/platform/GatewayIllustrations.tsx": [
+    "AI Gateway"
+  ],
+  "src/components/platform/GatewayWorkspace.tsx": [
+    "escalir"
+  ],
+  "src/components/platform/OperatingLayerRelated.tsx": [
+    "escalir"
+  ],
+  "src/components/platform/SystemsExperience.tsx": [
+    "escalir",
+    "escalir AI Gateway",
+    "escalir AI Platform",
+    "escalir Agents",
+    "escalir Systems"
+  ],
+  "src/lib/header-navigation.ts": [
+    "AI Platform",
+    "escalir AI Gateway",
+    "escalir Agents",
+    "escalir Systems"
+  ],
+  "src/lib/navigation.ts": [
+    "AI Gateway",
+    "AI Platform",
+    "escalir Agents",
+    "escalir Systems"
+  ],
+  "src/lib/site.ts": [
+    "escalir"
+  ]
+}
