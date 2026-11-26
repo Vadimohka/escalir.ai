@@ -498,8 +498,6 @@
     "Co-founder · CTO": "Құрылтайшы · CTO",
     "Good work starts": "Жақсы жұмыс басталады",
     "Message Vitali on Telegram": "Telegram-да Виталиге хабарлама",
-    "Platform architecture and process automation": "Платформаның архитектурасы және процестерді автоматтандыру",
-    "Platform interface and AI agent logic": "Платформа интерфейсі және AI агент логикасы",
     "Sales, market development and customer partnerships": "Сату, нарықты дамыту және тұтынушылармен серіктестік",
     "with a conversation": "әңгімемен"
   },
@@ -526,14 +524,12 @@
     "Privacy information": "Құпиялылық туралы ақпарат"
   },
   "src/components/Founders.tsx": {
-    "AI automation, agents and business processes": "AI автоматтандыру, агенттер және бизнес-процестер",
     "Building the next": "Келесісін салу",
     "Business development and customer partnerships": "Бизнесті дамыту және тұтынушылар серіктестігі",
     "chapter of Escalir": "Escalir тарауы",
     "Co-founder · CAIO": "Құрылтайшы · CAIO",
     "Co-founder · CEO": "Құрылтайшы · CEO",
     "Co-founder · CTO": "Құрылтайшы · CTO",
-    "Enterprise AI architecture and engineering": "Кәсіпорынның AI архитектурасы және инженериясы",
     "Get to know the team": "Командамен танысыңыз",
     "The people behind the work": "Жұмыстың артында тұрған адамдар"
   },
@@ -623,21 +619,13 @@
     "Co-founder · CEO": "Құрылтайшы · CEO",
     "Business development and customer partnerships": "Бизнесті дамыту және тұтынушылар серіктестігі",
     "Co-founder · CTO": "Құрылтайшы · CTO",
-    "Enterprise AI architecture and engineering": "Кәсіпорынның AI архитектурасы және инженериясы",
     "Co-founder · CAIO": "Құрылтайшы · CAIO",
-    "AI automation, agents and business processes": "AI автоматтандыру, агенттер және бизнес-процестер",
-    "Serial entrepreneur and founder of Justart, with more than 30 startups in his portfolio, including a unicorn. Leads investing and ecosystem development": "Сериялық кәсіпкер және Justart компаниясының негізін қалаушы, оның портфолиосында 30-дан астам стартаптар, соның ішінде бір мүйізді. Инвестициялар мен экожүйені дамытуға жетекшілік етеді",
-    "Serial entrepreneur who founded Uzbekistan’s first electronics retail chain and first hosting provider. Early investor in the fintech company Wooppay": "Өзбекстанның алғашқы электроника сауда желісін және бірінші хостинг провайдерін негізін қалаған сериялық кәсіпкер. Wooppay финтех компаниясының ерте инвесторы",
-    "Tech entrepreneur and architect of Accelerator 3.0. Founded 5 startups and raised $5M. Created Global Outsourcer: 114 companies and $150M in combined revenue": "Технологиялық кәсіпкер және Accelerator 3.0 сәулетшісі. 5 стартап құрып, 5 миллион доллар жинады. Жаһандық аутсорсер құрылды: 114 компания және жиынтық кірісі $150 млн",
     "The platform is built by the Escalir team, with operating, investment and ecosystem experience from our Justart partners": "Платформаны Justart серіктестеріміздің операциялық, инвестициялық және экожүйелік тәжірибесі бар Escalir командасы құрастырған",
     "About Escalir": "Escalir туралы",
     "Careers": "Мансап",
     "The people behind Escalir": "Escalir артындағы адамдар",
     "Meet the people": "Адамдармен танысыңыз",
-    "behind the work": "жұмыстың артында",
-    "Investing & Ecosystem": "Инвестициялар және экожүйе",
-    "Hiddenphase & Studio": "Hiddenphase және Studio",
-    "Studio & Escalir": "Studio және Escalir"
+    "behind the work": "жұмыстың артында"
   },
   "src/components/industries/IndustryArtwork.tsx": {
     "Workflow example": "Жұмыс үрдісінің мысалы"
@@ -1933,5 +1921,9 @@
   "src/lib/site.ts": {
     "Escalir | Enterprise AI, from request to reviewed result": "Escalir | Кәсіпорындарға арналған AI: сұраудан қаралған нәтижеге дейін",
     "From business requests to governed automation. Escalir brings knowledge, agents, workflows and human oversight into your own enterprise environment.": "Бизнес сұраулардан басқарылатын автоматтандыруға дейін. Escalir сіздің кәсіпорын ортаңызға білімді, агенттерді, жұмыс процестерін және адам бақылауын әкеледі."
+  },
+  "src/lib/founder-descriptions.ts": {
+    "Leads the architecture and engineering of Escalir’s enterprise AI platform": "Escalir корпоративтік AI платформасының архитектурасы мен әзірленуіне жетекшілік етеді",
+    "Leads AI strategy, agent design and workflow automation": "AI стратегиясына, агенттерді жобалауға және жұмыс процестерін автоматтандыруға жетекшілік етеді"
   }
 }

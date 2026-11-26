@@ -509,14 +509,12 @@
     "Privacy information": "Privacyinformatie"
   },
   "src/components/Founders.tsx": {
-    "AI automation, agents and business processes": "AI-automatisering, agenten en bedrijfsprocessen",
     "Building the next": "Bouwen aan het volgende",
     "Business development and customer partnerships": "Bedrijfsontwikkeling en samenwerkingen met klanten",
     "chapter of Escalir": "hoofdstuk van Escalir",
     "Co-founder · CAIO": "Medeoprichter · CAIO",
     "Co-founder · CEO": "Medeoprichter · CEO",
     "Co-founder · CTO": "Medeoprichter · CTO",
-    "Enterprise AI architecture and engineering": "Architectuur en ontwikkeling van AI voor organisaties",
     "Get to know the team": "Maak kennis met het team",
     "The people behind the work": "De mensen achter het werk"
   },
@@ -607,21 +605,13 @@
     "Co-founder · CEO": "Medeoprichter · CEO",
     "Business development and customer partnerships": "Bedrijfsontwikkeling en samenwerkingen met klanten",
     "Co-founder · CTO": "Medeoprichter · CTO",
-    "Enterprise AI architecture and engineering": "Architectuur en ontwikkeling van AI voor organisaties",
     "Co-founder · CAIO": "Medeoprichter · CAIO",
-    "AI automation, agents and business processes": "AI-automatisering, agenten en bedrijfsprocessen",
-    "Serial entrepreneur and founder of Justart, with more than 30 startups in his portfolio, including a unicorn. Leads investing and ecosystem development": "Serieel ondernemer en oprichter van Justart, met ruim 30 startups in zijn portefeuille, waaronder een eenhoorn. Leidt investeringen en ecosysteemontwikkeling",
-    "Serial entrepreneur who founded Uzbekistan’s first electronics retail chain and first hosting provider. Early investor in the fintech company Wooppay": "Seriële ondernemer die de eerste elektronicawinkelketen en de eerste hostingprovider van Oezbekistan oprichtte. Vroege investeerder in het fintech-bedrijf Wooppay",
-    "Tech entrepreneur and architect of Accelerator 3.0. Founded 5 startups and raised $5M. Created Global Outsourcer: 114 companies and $150M in combined revenue": "Tech ondernemer en architect van Accelerator 3.0. Heeft 5 startups opgericht en $ 5 miljoen opgehaald. Global Outsourcer opgericht: 114 bedrijven en $150 miljoen aan gezamenlijke omzet",
     "The platform is built by the Escalir team, with operating, investment and ecosystem experience from our Justart partners": "Het platform is gebouwd door het Escalir-team, met operationele, investerings- en ecosysteemervaring van onze Justart-partners",
     "About Escalir": "Over Escalir",
     "Careers": "Werken bij Escalir",
     "The people behind Escalir": "De mensen achter Escalir",
     "Meet the people": "Maak kennis met het team",
-    "behind the work": "achter het werk",
-    "Investing & Ecosystem": "Investeringen en ecosysteem",
-    "Hiddenphase & Studio": "Hiddenphase en Studio",
-    "Studio & Escalir": "Studio en Escalir"
+    "behind the work": "achter het werk"
   },
   "src/components/Narrative.tsx": {
     "A business need, a measurable next step": "Een zakelijke behoefte, een meetbare volgende stap",
@@ -704,8 +694,6 @@
     "Co-founder · CTO": "Medeoprichter · CTO",
     "Good work starts": "Goed werk begint",
     "Message Vitali on Telegram": "Stuur Vitali een bericht op Telegram",
-    "Platform architecture and process automation": "Platformarchitectuur en procesautomatisering",
-    "Platform interface and AI agent logic": "Platforminterface en logica van AI-agenten",
     "Sales, market development and customer partnerships": "Verkoop, marktontwikkeling en klantpartnerschappen",
     "with a conversation": "met een gesprek"
   },
@@ -1951,5 +1939,9 @@
   "src/lib/site.ts": {
     "Escalir | Enterprise AI, from request to reviewed result": "Escalir | AI voor organisaties, van aanvraag tot beoordeeld resultaat",
     "From business requests to governed automation. Escalir brings knowledge, agents, workflows and human oversight into your own enterprise environment.": "Van aanvragen uit de organisatie naar automatisering met governance. Escalir brengt kennis, agenten, werkprocessen en menselijk toezicht samen in uw eigen bedrijfsomgeving."
+  },
+  "src/lib/founder-descriptions.ts": {
+    "Leads the architecture and engineering of Escalir’s enterprise AI platform": "Leidt de architectuur en ontwikkeling van het AI-platform van Escalir voor organisaties",
+    "Leads AI strategy, agent design and workflow automation": "Leidt de AI-strategie, het ontwerp van agenten en de automatisering van werkprocessen"
   }
 }

@@ -505,8 +505,6 @@
     "Egor Krychev": "Єгор Кричев",
     "Good work starts": "Хороша робота починається",
     "Message Vitali on Telegram": "Написати Віталію в Telegram",
-    "Platform architecture and process automation": "Архітектура платформи та автоматизація процесів",
-    "Platform interface and AI agent logic": "Інтерфейс платформи та логіка ШІ-агентів",
     "Sales, market development and customer partnerships": "Продажі, розвиток ринку та партнерство із замовниками",
     "Vadim Vladymtsev": "Вадим Владымцев",
     "Vitali Bakhmat": "Віталій Бахмат",
@@ -536,7 +534,6 @@
     "Privacy information": "Інформація про конфіденційність"
   },
   "src/components/Founders.tsx": {
-    "AI automation, agents and business processes": "Автоматизація за допомогою ШІ, агенти та бізнес-процеси",
     "Building the next": "Відкриваємо нову",
     "Business development and customer partnerships": "Розвиток бізнесу та партнерство із замовниками",
     "chapter of Escalir": "сторінку Escalir",
@@ -544,7 +541,6 @@
     "Co-founder · CEO": "Співзасновник · Генеральний директор",
     "Co-founder · CTO": "Співзасновник · Технічний директор",
     "Egor Krychev": "Єгор Кричев",
-    "Enterprise AI architecture and engineering": "Архітектура та розробка корпоративного ШІ",
     "Get to know the team": "Познайомтеся з командою",
     "The people behind the work": "Люди, які стоять за нашою роботою",
     "Vadim Vladymtsev": "Вадим Владымцев",
@@ -637,21 +633,13 @@
     "Co-founder · CEO": "Співзасновник · Генеральний директор",
     "Business development and customer partnerships": "Розвиток бізнесу та партнерство із замовниками",
     "Co-founder · CTO": "Співзасновник · Технічний директор",
-    "Enterprise AI architecture and engineering": "Архітектура та розробка корпоративного ШІ",
     "Co-founder · CAIO": "Співзасновник · Директор із ШІ",
-    "AI automation, agents and business processes": "Автоматизація за допомогою ШІ, агенти та бізнес-процеси",
-    "Serial entrepreneur and founder of Justart, with more than 30 startups in his portfolio, including a unicorn. Leads investing and ecosystem development": "Серійний підприємець і засновник Justart, у своєму портфоліо понад 30 стартапів, включаючи єдинорога. Веде інвестування та розвиток екосистеми",
-    "Serial entrepreneur who founded Uzbekistan’s first electronics retail chain and first hosting provider. Early investor in the fintech company Wooppay": "Послідовний підприємець, який заснував першу в Узбекистані мережу роздрібної торгівлі електронікою та першого хостинг-провайдера. Ранній інвестор у фінтех-компанію Wooppay",
-    "Tech entrepreneur and architect of Accelerator 3.0. Founded 5 startups and raised $5M. Created Global Outsourcer: 114 companies and $150M in combined revenue": "Технічний підприємець і архітектор Accelerator 3.0. Заснував 5 стартапів і зібрав 5 мільйонів доларів. Створено глобального аутсорсера: 114 компаній і 150 мільйонів доларів сукупного доходу",
     "The platform is built by the Escalir team, with operating, investment and ecosystem experience from our Justart partners": "Платформа створена командою Escalir з досвідом роботи, інвестицій та екосистеми від наших партнерів Justart",
     "About Escalir": "Про Escalir",
     "Careers": "Кар’єра",
     "The people behind Escalir": "Люди, які створюють Escalir",
     "Meet the people": "Познайомтеся з командою",
-    "behind the work": "яка стоїть за роботою",
-    "Investing & Ecosystem": "Інвестиції та екосистема",
-    "Hiddenphase & Studio": "Hiddenphase і Studio",
-    "Studio & Escalir": "Studio і Escalir"
+    "behind the work": "яка стоїть за роботою"
   },
   "src/components/industries/IndustryArtwork.tsx": {
     "Workflow example": "Приклад робочого процесу"
@@ -1959,5 +1947,9 @@
     "Escalir | Enterprise AI, from request to reviewed result": "Escalir | Корпоративний ШІ: від запиту до перевіреного результату",
     "From business requests to governed automation. Escalir brings knowledge, agents, workflows and human oversight into your own enterprise environment.": "Від бізнес-запитів до керованої автоматизації. Escalir об’єднує знання, агентів, робочі процеси й контроль людини у вашому корпоративному середовищі.",
     "Vitali Bakhmat": "Віталій Бахмат"
+  },
+  "src/lib/founder-descriptions.ts": {
+    "Leads the architecture and engineering of Escalir’s enterprise AI platform": "Керує архітектурою та розробкою корпоративної платформи ШІ Escalir",
+    "Leads AI strategy, agent design and workflow automation": "Визначає стратегію застосування ШІ, керує проєктуванням агентів і автоматизацією робочих процесів"
   }
 }

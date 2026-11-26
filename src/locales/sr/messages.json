@@ -509,14 +509,12 @@
     "Privacy information": "Informacije o privatnosti"
   },
   "src/components/Founders.tsx": {
-    "AI automation, agents and business processes": "AI automatizacija, agenti i poslovni procesi",
     "Building the next": "Stvaramo novo",
     "Business development and customer partnerships": "Razvoj poslovanja i partnerstva sa klijentima",
     "chapter of Escalir": "poglavlje kompanije Escalir",
     "Co-founder · CAIO": "Suosnivač · CAIO",
     "Co-founder · CEO": "Suosnivač · CEO",
     "Co-founder · CTO": "Suosnivač · CTO",
-    "Enterprise AI architecture and engineering": "Arhitektura i razvoj AI sistema za preduzeća",
     "Get to know the team": "Upoznajte tim",
     "The people behind the work": "Ljudi koji stoje iza našeg rada"
   },
@@ -607,21 +605,13 @@
     "Co-founder · CEO": "Suosnivač · Izvršni direktor",
     "Business development and customer partnerships": "Razvoj poslovanja i partnerstva sa klijentima",
     "Co-founder · CTO": "Suosnivač · CTO",
-    "Enterprise AI architecture and engineering": "Arhitektura i razvoj AI sistema za preduzeća",
     "Co-founder · CAIO": "Suosnivač · CAIO",
-    "AI automation, agents and business processes": "AI automatizacija, agenti i poslovni procesi",
-    "Serial entrepreneur and founder of Justart, with more than 30 startups in his portfolio, including a unicorn. Leads investing and ecosystem development": "Serijski preduzetnik i osnivač Justart-a, sa više od 30 startapa u portfoliju, uključujući jednoroga. Vodi investiranje i razvoj ekosistema",
-    "Serial entrepreneur who founded Uzbekistan’s first electronics retail chain and first hosting provider. Early investor in the fintech company Wooppay": "Serijski preduzetnik koji je osnovao prvi lanac prodaje elektronike u Uzbekistanu i prvog hosting provajdera. Rani investitor u fintech kompaniju Wooppay",
-    "Tech entrepreneur and architect of Accelerator 3.0. Founded 5 startups and raised $5M. Created Global Outsourcer: 114 companies and $150M in combined revenue": "Tehnološki preduzetnik i arhitekta Accelerator 3.0. Osnovao je 5 startapa i prikupio 5 miliona dolara. Stvorio Global Outsourcer: 114 kompanija i 150 miliona dolara ukupnog prihoda",
     "The platform is built by the Escalir team, with operating, investment and ecosystem experience from our Justart partners": "Platformu gradi Escalir tim, uz operativno, investiciono i ekosistemsko iskustvo naših Justart partnera",
     "About Escalir": "O kompaniji Escalir",
     "Careers": "Karijera",
     "The people behind Escalir": "Ljudi koji stoje iza kompanije Escalir",
     "Meet the people": "Upoznajte ljude",
-    "behind the work": "koji stoje iza rada",
-    "Investing & Ecosystem": "Investiranje i ekosistem",
-    "Hiddenphase & Studio": "Hiddenphase i Studio",
-    "Studio & Escalir": "Studio i Escalir"
+    "behind the work": "koji stoje iza rada"
   },
   "src/components/Narrative.tsx": {
     "A business need, a measurable next step": "Poslovna potreba, merljiv sledeći korak",
@@ -704,8 +694,6 @@
     "Co-founder · CTO": "Suosnivač · CTO",
     "Good work starts": "Dobar posao počinje",
     "Message Vitali on Telegram": "Pišite Vitaliju na Telegramu",
-    "Platform architecture and process automation": "Arhitektura platforme i automatizacija procesa",
-    "Platform interface and AI agent logic": "Interfejs platforme i logika AI agenata",
     "Sales, market development and customer partnerships": "Prodaja, razvoj tržišta i partnerstva sa klijentima",
     "with a conversation": "razgovorom"
   },
@@ -1951,5 +1939,9 @@
   "src/lib/site.ts": {
     "Escalir | Enterprise AI, from request to reviewed result": "Escalir | AI za preduzeća: od zahteva do pregledanog rezultata",
     "From business requests to governed automation. Escalir brings knowledge, agents, workflows and human oversight into your own enterprise environment.": "Od poslovnih zahteva do automatizacije pod nadzorom. Escalir objedinjuje znanje, agente, radne tokove i ljudski nadzor u vašem sopstvenom korporativnom okruženju."
+  },
+  "src/lib/founder-descriptions.ts": {
+    "Leads the architecture and engineering of Escalir’s enterprise AI platform": "Vodi arhitekturu i razvoj Escalir platforme za poslovnu primenu AI",
+    "Leads AI strategy, agent design and workflow automation": "Vodi strategiju primene AI, projektovanje agenata i automatizaciju radnih tokova"
   }
 }

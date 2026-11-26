@@ -506,13 +506,11 @@
     "Privacy information": "Informativa sulla privacy"
   },
   "src/components/Founders.tsx": {
-    "AI automation, agents and business processes": "Automazione con l’IA, agenti e processi aziendali",
     "Building the next": "Costruiamo il prossimo",
     "Business development and customer partnerships": "Sviluppo commerciale e collaborazioni con i clienti",
     "Co-founder · CAIO": "Cofondatore · CAIO",
     "Co-founder · CEO": "Cofondatore · CEO",
     "Co-founder · CTO": "Cofondatore · CTO",
-    "Enterprise AI architecture and engineering": "Architettura e ingegneria dell’IA per le aziende",
     "Get to know the team": "Conosci il team",
     "The people behind the work": "Le persone dietro il lavoro",
     "chapter of Escalir": "capitolo di Escalir"
@@ -603,21 +601,13 @@
     "Co-founder · CEO": "Cofondatore · CEO",
     "Business development and customer partnerships": "Sviluppo commerciale e collaborazioni con i clienti",
     "Co-founder · CTO": "Cofondatore · CTO",
-    "Enterprise AI architecture and engineering": "Architettura e ingegneria dell’IA per le aziende",
     "Co-founder · CAIO": "Cofondatore · CAIO",
-    "AI automation, agents and business processes": "Automazione con l’IA, agenti e processi aziendali",
-    "Serial entrepreneur and founder of Justart, with more than 30 startups in his portfolio, including a unicorn. Leads investing and ecosystem development": "Imprenditore seriale e fondatore di Justart, con più di 30 startup nel suo portfolio, tra cui un unicorno. Guida gli investimenti e lo sviluppo dell’ecosistema",
-    "Serial entrepreneur who founded Uzbekistan’s first electronics retail chain and first hosting provider. Early investor in the fintech company Wooppay": "Imprenditore seriale che ha fondato la prima catena di vendita al dettaglio di elettronica dell'Uzbekistan e il primo fornitore di hosting. Primo investitore nella società fintech Wooppay",
-    "Tech entrepreneur and architect of Accelerator 3.0. Founded 5 startups and raised $5M. Created Global Outsourcer: 114 companies and $150M in combined revenue": "Imprenditore tecnologico e architetto di Accelerator 3.0. Ho fondato 5 startup e raccolto 5 milioni di dollari. Creazione di un outsourcer globale: 114 aziende e 150 milioni di dollari di fatturato combinato",
     "The platform is built by the Escalir team, with operating, investment and ecosystem experience from our Justart partners": "La piattaforma è costruita dal team Escalir, con l'esperienza operativa, di investimento e di ecosistema dei nostri partner Justart",
     "About Escalir": "A proposito di Escalir",
     "Careers": "Lavora con noi",
     "The people behind Escalir": "Le persone dietro Escalir",
     "Meet the people": "Conosci le persone",
-    "behind the work": "dietro il lavoro",
-    "Investing & Ecosystem": "Investimenti ed ecosistema",
-    "Hiddenphase & Studio": "Hiddenphase e Studio",
-    "Studio & Escalir": "Studio e Escalir"
+    "behind the work": "dietro il lavoro"
   },
   "src/components/Narrative.tsx": {
     "A business need, a measurable next step": "Un’esigenza aziendale, un prossimo passo misurabile",
@@ -700,8 +690,6 @@
     "Co-founder · CTO": "Cofondatore · CTO",
     "Good work starts": "Un buon lavoro inizia",
     "Message Vitali on Telegram": "Scrivi a Vitali su Telegram",
-    "Platform architecture and process automation": "Architettura della piattaforma e automazione dei processi",
-    "Platform interface and AI agent logic": "Interfaccia della piattaforma e logica degli agenti IA",
     "Sales, market development and customer partnerships": "Vendite, sviluppo del mercato e collaborazioni con i clienti",
     "with a conversation": "con una conversazione"
   },
@@ -1943,5 +1931,9 @@
   "src/lib/site.ts": {
     "Escalir | Enterprise AI, from request to reviewed result": "Escalir | IA aziendale, dalla richiesta al risultato verificato",
     "From business requests to governed automation. Escalir brings knowledge, agents, workflows and human oversight into your own enterprise environment.": "Dalle richieste aziendali all’automazione sotto controllo. Escalir riunisce conoscenze, agenti, flussi di lavoro e supervisione umana nel tuo ambiente aziendale."
+  },
+  "src/lib/founder-descriptions.ts": {
+    "Leads the architecture and engineering of Escalir’s enterprise AI platform": "Guida l’architettura e lo sviluppo della piattaforma di IA aziendale di Escalir",
+    "Leads AI strategy, agent design and workflow automation": "Guida la strategia per l’IA, la progettazione degli agenti e l’automazione dei flussi di lavoro"
   }
 }

@@ -590,8 +590,6 @@
     "Co-founder · CTO": "Сузаснавальнік · Тэхнічны дырэктар",
     "Good work starts": "Добрая праца пачынаецца",
     "Message Vitali on Telegram": "Напісаць Віталю ў Telegram",
-    "Platform architecture and process automation": "Архітэктура платформы і аўтаматызацыя працэсаў",
-    "Platform interface and AI agent logic": "Інтэрфейс платформы і логіка агентаў ШІ",
     "Sales, market development and customer partnerships": "Продажы, развіццё рынку і партнёрства з кліентамі",
     "with a conversation": "з размовы"
   },
@@ -619,14 +617,12 @@
     "Privacy information": "Інфармацыя пра прыватнасць"
   },
   "src/components/Founders.tsx": {
-    "AI automation, agents and business processes": "Аўтаматызацыя з ШІ, агенты і бізнес-працэсы",
     "Building the next": "Адкрываем новую",
     "Business development and customer partnerships": "Развіццё бізнесу і партнёрства з кліентамі",
     "chapter of Escalir": "старонку Escalir",
     "Co-founder · CAIO": "Сузаснавальнік · Дырэктар па ШІ",
     "Co-founder · CEO": "Сузаснавальнік · Генеральны дырэктар",
     "Co-founder · CTO": "Сузаснавальнік · Тэхнічны дырэктар",
-    "Enterprise AI architecture and engineering": "Архітэктура і распрацоўка карпаратыўнага ШІ",
     "Get to know the team": "Пазнаёміцца з камандай",
     "The people behind the work": "Людзі, якія робяць гэтую працу"
   },
@@ -717,21 +713,13 @@
     "Co-founder · CEO": "Сузаснавальнік · Генеральны дырэктар",
     "Business development and customer partnerships": "Развіццё бізнесу і партнёрства з кліентамі",
     "Co-founder · CTO": "Сузаснавальнік · Тэхнічны дырэктар",
-    "Enterprise AI architecture and engineering": "Архітэктура і распрацоўка карпаратыўнага ШІ",
     "Co-founder · CAIO": "Сузаснавальнік · Дырэктар па ШІ",
-    "AI automation, agents and business processes": "Аўтаматызацыя з ШІ, агенты і бізнес-працэсы",
-    "Serial entrepreneur and founder of Justart, with more than 30 startups in his portfolio, including a unicorn. Leads investing and ecosystem development": "Серыйны прадпрымальнік і заснавальнік Justart, у яго партфоліо больш за 30 стартапаў, у тым ліку аднарог. Кіруе інвестыцыямі і развіццём экасістэм",
-    "Serial entrepreneur who founded Uzbekistan’s first electronics retail chain and first hosting provider. Early investor in the fintech company Wooppay": "Серыйны прадпрымальнік, які заснаваў першую ва Узбекістане рознічную сетку электронікі і першага хостынг-правайдэра. Ранні інвестар у фінтэх-кампанію Wooppay",
-    "Tech entrepreneur and architect of Accelerator 3.0. Founded 5 startups and raised $5M. Created Global Outsourcer: 114 companies and $150M in combined revenue": "Тэхнічны прадпрымальнік і архітэктар Accelerator 3.0. Заснаваў 5 стартапаў і сабраў 5 мільёнаў долараў. Створаны глабальны аўтсорсінг: 114 кампаній і 150 мільёнаў долараў сукупнага даходу",
     "The platform is built by the Escalir team, with operating, investment and ecosystem experience from our Justart partners": "Платформа створана камандай Escalir з вопытам працы, інвестыцый і экасістэм ад нашых партнёраў Justart",
     "About Escalir": "Пра Escalir",
     "Careers": "Кар’ера",
     "The people behind Escalir": "Людзі, якія ствараюць Escalir",
     "Meet the people": "Пазнаёмцеся з людзьмі",
-    "behind the work": "якія выконваюць працу",
-    "Investing & Ecosystem": "Інвестыцыі і экасістэма",
-    "Hiddenphase & Studio": "Hiddenphase і Studio",
-    "Studio & Escalir": "Studio і Escalir"
+    "behind the work": "якія выконваюць працу"
   },
   "src/components/industries/IndustryArtwork.tsx": {
     "Workflow example": "Прыклад працоўнага працэсу"
@@ -1950,5 +1938,9 @@
     "Utilities": "Камунальныя паслугі",
     "utility": "камунальнай сферы",
     "@ctaLabel:utilities": "камунальнай сферы"
+  },
+  "src/lib/founder-descriptions.ts": {
+    "Leads the architecture and engineering of Escalir’s enterprise AI platform": "Кіруе архітэктурай і распрацоўкай карпаратыўнай платформы ШІ Escalir",
+    "Leads AI strategy, agent design and workflow automation": "Вызначае стратэгію ў галіне ШІ, кіруе праектаваннем агентаў і аўтаматызацыяй працоўных працэсаў"
   }
 }

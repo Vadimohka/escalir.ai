@@ -1,4 +1,5 @@
 import { expect, test, type Locator, type Page } from "@playwright/test";
+import { founderDescriptions } from "../src/lib/founder-descriptions";
 import { SITE_ROUTES } from "../src/lib/routes";
 import localeRegistry from "../src/locales/config.json";
 
@@ -163,32 +164,35 @@ test("Contact, privacy and founder links use the approved destinations", async (
     expect(link.rel).toContain("noreferrer");
   }
   const founderNames = ["Vitali Bakhmat", "Vadim Vladymtsev", "Egor Krychev"];
-  const teamNames = [...founderNames, "Bakht Niyazov", "Iskandar Erkinov", "Maxim Tolmachev"];
-  const teamPreview = page.locator("#team").getByRole("list", { name: "Escalir team" });
+  const justartNames = ["Bakht Niyazov", "Iskandar Erkinov", "Maxim Tolmachev"];
+  const updatedFounders = [
+    { name: "Vadim Vladymtsev", role: "Co-founder · CTO", description: founderDescriptions.vadim },
+    { name: "Egor Krychev", role: "Co-founder · CAIO", description: founderDescriptions.egor },
+  ];
+  const teamPreview = page.locator("#team").getByRole("list");
   await expect(teamPreview.locator("img")).toHaveCount(6);
-  for (const name of teamNames) {
-    await expect(teamPreview.getByText(name, { exact: false })).toBeVisible();
+  for (const name of [...founderNames, ...justartNames]) {
+    await expect(teamPreview.getByRole("heading", { name, exact: true })).toBeVisible();
   }
-  for (const [name, role] of [
-    ["Bakht Niyazov", "Investing & Ecosystem"],
-    ["Iskandar Erkinov", "Hiddenphase & Studio"],
-    ["Maxim Tolmachev", "Studio & Escalir"],
-  ]) {
-    const card = teamPreview.locator("li").filter({ hasText: name });
-    const nameLine = card.getByRole("heading", { name, exact: true });
-    const groupLine = card.locator('[class*="group"]');
-    const roleLine = card.locator('[class*="role"]');
-    await expect(groupLine).toHaveText("JUSTART VC");
-    await expect(roleLine).toHaveText(role);
-    const positions = await Promise.all([nameLine, groupLine, roleLine].map(async (line) => (await line.boundingBox())!.y));
-    expect(positions[0]).toBeLessThan(positions[1]);
-    expect(positions[1]).toBeLessThan(positions[2]);
+  for (const name of justartNames) {
+    const card = teamPreview.getByRole("listitem").filter({ has: page.getByRole("heading", { name, exact: true }) });
+    await expect(card.locator("p")).toHaveText(["JUSTART VC"]);
+  }
+  for (const { name, role, description } of updatedFounders) {
+    const card = teamPreview.getByRole("listitem").filter({ has: page.getByRole("heading", { name, exact: true }) });
+    await expect(card.getByText(role, { exact: true })).toBeVisible();
+    await expect(card.getByText(description, { exact: true })).toBeVisible();
   }
   await page.locator("#team").getByRole("link", { name: /About Escalir/ }).click();
   await expect(page).toHaveURL(`${ORIGIN}/about-us/`);
   const founders = page.locator("#founders");
   for (const name of founderNames) {
     await expect(founders.getByRole("heading", { name, exact: true })).toBeVisible();
+  }
+  for (const { name, role, description } of updatedFounders) {
+    const card = founders.getByRole("article").filter({ has: page.getByRole("heading", { name, exact: true }) });
+    await expect(card.getByText(role, { exact: true })).toBeVisible();
+    await expect(card.getByText(description, { exact: true })).toBeVisible();
   }
   await expect(founders.getByRole("link", { name: "vadimohka.com", exact: true })).toHaveAttribute("href", "https://vadimohka.com/");
   await expect(founders.getByRole("link", { name: "LinkedIn", exact: true })).toHaveAttribute("href", "https://www.linkedin.com/in/ekrychev/");

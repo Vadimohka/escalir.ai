@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
+import { founderDescriptions } from "@/lib/founder-descriptions";
 import { EGOR_PROFILE_URL, VADIM_PROFILE_URL } from "@/lib/site";
 import TelegramLink from "./TelegramLink";
 
@@ -24,7 +25,7 @@ const team: TeamMember[] = [
   {
     name: "Vadim Vladymtsev",
     role: "Co-founder · CTO",
-    description: "Enterprise AI architecture and engineering",
+    description: founderDescriptions.vadim,
     image: "/founders/vadim-vladymtsev.webp",
     height: 213,
     profileUrl: VADIM_PROFILE_URL,
@@ -33,7 +34,7 @@ const team: TeamMember[] = [
   {
     name: "Egor Krychev",
     role: "Co-founder · CAIO",
-    description: "AI automation, agents and business processes",
+    description: founderDescriptions.egor,
     image: "/founders/egor-krychev.webp",
     height: 320,
     profileUrl: EGOR_PROFILE_URL,

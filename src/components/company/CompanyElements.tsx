@@ -2,6 +2,7 @@ import Image from "next/image";
 import type { ReactNode } from "react";
 import { ArrowDown, ArrowUpRight, Plus } from "lucide-react";
 import TelegramLink from "@/components/TelegramLink";
+import { founderDescriptions } from "@/lib/founder-descriptions";
 import { EGOR_PROFILE_URL, TELEGRAM_URL, VADIM_PROFILE_URL } from "@/lib/site";
 
 export function CompanyMasthead({ eyebrow, title, description, link }: {
@@ -42,8 +43,8 @@ export function CompanyCTA({ eyebrow = "A useful next step", title = <>Good work
 
 const founders = [
   { name: "Vitali Bakhmat", role: "Co-founder · CEO", description: "Sales, market development and customer partnerships", image: "/founders/vitali-bakhmat.webp", width: 320, height: 400, href: TELEGRAM_URL, link: "Message Vitali on Telegram" },
-  { name: "Vadim Vladymtsev", role: "Co-founder · CTO", description: "Platform architecture and process automation", image: "/founders/vadim-vladymtsev.webp", width: 320, height: 213, href: VADIM_PROFILE_URL, link: "vadimohka.com" },
-  { name: "Egor Krychev", role: "Co-founder · CAIO", description: "Platform interface and AI agent logic", image: "/founders/egor-krychev.webp", width: 320, height: 320, href: EGOR_PROFILE_URL, link: "LinkedIn" },
+  { name: "Vadim Vladymtsev", role: "Co-founder · CTO", description: founderDescriptions.vadim, image: "/founders/vadim-vladymtsev.webp", width: 320, height: 213, href: VADIM_PROFILE_URL, link: "vadimohka.com" },
+  { name: "Egor Krychev", role: "Co-founder · CAIO", description: founderDescriptions.egor, image: "/founders/egor-krychev.webp", width: 320, height: 320, href: EGOR_PROFILE_URL, link: "LinkedIn" },
 ];
 
 export function CompanyTeam({ compact = false }: { compact?: boolean }) {

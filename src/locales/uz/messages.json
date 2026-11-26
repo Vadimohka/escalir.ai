@@ -498,8 +498,6 @@
     "Co-founder · CTO": "Hammuassis · CTO",
     "Good work starts": "Yaxshi ish boshlanadi",
     "Message Vitali on Telegram": "Telegramda Vitaliyga xabar yuboring",
-    "Platform architecture and process automation": "Platforma arxitekturasi va jarayonlarni avtomatlashtirish",
-    "Platform interface and AI agent logic": "Platforma interfeysi va AI agenti mantig‘i",
     "Sales, market development and customer partnerships": "Savdo, bozorni rivojlantirish va mijozlar bilan hamkorlik",
     "with a conversation": "suhbat bilan"
   },
@@ -526,14 +524,12 @@
     "Privacy information": "Maxfiylik ma‘lumotlari"
   },
   "src/components/Founders.tsx": {
-    "AI automation, agents and business processes": "AIni avtomatlashtirish, agentlar va biznes jarayonlari",
     "Building the next": "Keyingisini qurish",
     "Business development and customer partnerships": "Biznesni rivojlantirish va mijozlar bilan hamkorlik",
     "chapter of Escalir": "Escalir bobi",
     "Co-founder · CAIO": "Hammuassis · CAIO",
     "Co-founder · CEO": "Hammuassis · CEO",
     "Co-founder · CTO": "Hammuassis · CTO",
-    "Enterprise AI architecture and engineering": "Korxona AI arxitekturasi va muhandisligi",
     "Get to know the team": "Jamoa bilan tanishing",
     "The people behind the work": "Ish ortidagi odamlar"
   },
@@ -623,21 +619,13 @@
     "Co-founder · CEO": "Hammuassis · CEO",
     "Business development and customer partnerships": "Biznesni rivojlantirish va mijozlar bilan hamkorlik",
     "Co-founder · CTO": "Hammuassis · CTO",
-    "Enterprise AI architecture and engineering": "Korxona AI arxitekturasi va muhandisligi",
     "Co-founder · CAIO": "Hammuassis · CAIO",
-    "AI automation, agents and business processes": "AIni avtomatlashtirish, agentlar va biznes jarayonlari",
-    "Serial entrepreneur and founder of Justart, with more than 30 startups in his portfolio, including a unicorn. Leads investing and ecosystem development": "Seriyali tadbirkor va Justart asoschisi, portfelida 30 dan ortiq startaplar, shu jumladan bir shoxli. Investitsiyalar va ekotizimlarni rivojlantirishga rahbarlik qiladi",
-    "Serial entrepreneur who founded Uzbekistan’s first electronics retail chain and first hosting provider. Early investor in the fintech company Wooppay": "Oʻzbekistondagi birinchi elektron chakana savdo tarmogʻi va birinchi xosting provayderiga asos solgan seriyali tadbirkor. Wooppay fintech kompaniyasining dastlabki investori",
-    "Tech entrepreneur and architect of Accelerator 3.0. Founded 5 startups and raised $5M. Created Global Outsourcer: 114 companies and $150M in combined revenue": "Texnik tadbirkor va Accelerator 3.0 arxitektori. 5 ta startapga asos solgan va 5 million dollar yig‘gan. Yaratilgan global autsorser: 114 kompaniya va umumiy daromad 150 million dollar",
     "The platform is built by the Escalir team, with operating, investment and ecosystem experience from our Justart partners": "Platforma Escalir jamoasi tomonidan, bizning Justart hamkorlarimizdan operatsion, investitsiya va ekotizim tajribasi bilan qurilgan",
     "About Escalir": "Escalir haqida",
     "Careers": "Karyera",
     "The people behind Escalir": "Escalir ortidagi odamlar",
     "Meet the people": "Odamlar bilan tanishing",
-    "behind the work": "ish orqasida",
-    "Investing & Ecosystem": "Investitsiyalar va ekotizim",
-    "Hiddenphase & Studio": "Hiddenphase va Studio",
-    "Studio & Escalir": "Studio va Escalir"
+    "behind the work": "ish orqasida"
   },
   "src/components/industries/IndustryArtwork.tsx": {
     "Workflow example": "Ish jarayoniga misol"
@@ -1933,5 +1921,9 @@
   "src/lib/site.ts": {
     "Escalir | Enterprise AI, from request to reviewed result": "Escalir | Korxonalar uchun AI: so‘rovdan ko‘rib chiqilgan natijagacha",
     "From business requests to governed automation. Escalir brings knowledge, agents, workflows and human oversight into your own enterprise environment.": "Biznes so‘rovlaridan boshqariladigan avtomatlashtirishgacha. Escalir sizning korxona muhitingizga bilim, agentlar, ish jarayonlari va inson nazoratini olib keladi."
+  },
+  "src/lib/founder-descriptions.ts": {
+    "Leads the architecture and engineering of Escalir’s enterprise AI platform": "Escalir korporativ AI platformasining arxitekturasi va ishlab chiqilishiga rahbarlik qiladi",
+    "Leads AI strategy, agent design and workflow automation": "AI strategiyasi, agentlarni loyihalash va ish jarayonlarini avtomatlashtirishga rahbarlik qiladi"
   }
 }

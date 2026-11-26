@@ -498,8 +498,6 @@
     "Co-founder · CTO": "Mitgründer · CTO",
     "Good work starts": "Gute Arbeit beginnt",
     "Message Vitali on Telegram": "Vitali auf Telegram schreiben",
-    "Platform architecture and process automation": "Plattformarchitektur und Prozessautomatisierung",
-    "Platform interface and AI agent logic": "Plattformoberfläche und Logik der KI-Agenten",
     "Sales, market development and customer partnerships": "Vertrieb, Marktentwicklung und Kundenpartnerschaften",
     "with a conversation": "mit einem Gespräch"
   },
@@ -526,14 +524,12 @@
     "Privacy information": "Datenschutzhinweise"
   },
   "src/components/Founders.tsx": {
-    "AI automation, agents and business processes": "KI-Automatisierung, Agenten und Geschäftsprozesse",
     "Building the next": "Wir gestalten das nächste",
     "Business development and customer partnerships": "Geschäftsentwicklung und Kundenpartnerschaften",
     "chapter of Escalir": "Kapitel von Escalir",
     "Co-founder · CAIO": "Mitgründer · CAIO",
     "Co-founder · CEO": "Mitgründer · CEO",
     "Co-founder · CTO": "Mitgründer · CTO",
-    "Enterprise AI architecture and engineering": "Architektur und Entwicklung von KI für Unternehmen",
     "Get to know the team": "Das Team kennenlernen",
     "The people behind the work": "Die Menschen hinter unserer Arbeit"
   },
@@ -623,21 +619,13 @@
     "Co-founder · CEO": "Mitgründer · CEO",
     "Business development and customer partnerships": "Geschäftsentwicklung und Kundenpartnerschaften",
     "Co-founder · CTO": "Mitgründer · CTO",
-    "Enterprise AI architecture and engineering": "Architektur und Entwicklung von KI für Unternehmen",
     "Co-founder · CAIO": "Mitgründer · CAIO",
-    "AI automation, agents and business processes": "KI-Automatisierung, Agenten und Geschäftsprozesse",
-    "Serial entrepreneur and founder of Justart, with more than 30 startups in his portfolio, including a unicorn. Leads investing and ecosystem development": "Serienunternehmer und Gründer von Justart, mit mehr als 30 Startups in seinem Portfolio, darunter ein Einhorn. Leitet Investitionen und Ökosystementwicklung",
-    "Serial entrepreneur who founded Uzbekistan’s first electronics retail chain and first hosting provider. Early investor in the fintech company Wooppay": "Serienunternehmer, der Usbekistans erste Elektronik-Einzelhandelskette und den ersten Hosting-Anbieter gründete. Früher Investor des Fintech-Unternehmens Wooppay",
-    "Tech entrepreneur and architect of Accelerator 3.0. Founded 5 startups and raised $5M. Created Global Outsourcer: 114 companies and $150M in combined revenue": "Tech-Unternehmer und Architekt von Accelerator 3.0. Fünf Startups gegründet und 5 Millionen US-Dollar eingesammelt. Erstellt einen globalen Outsourcer: 114 Unternehmen und ein Gesamtumsatz von 150 Millionen US-Dollar",
     "The platform is built by the Escalir team, with operating, investment and ecosystem experience from our Justart partners": "Die Plattform wird vom Escalir-Team aufgebaut und verfügt über Betriebs-, Investitions- und Ökosystemerfahrung unserer Justart-Partner",
     "About Escalir": "Über Escalir",
     "Careers": "Karriere",
     "The people behind Escalir": "Die Menschen hinter Escalir",
     "Meet the people": "Lernen Sie die Menschen kennen",
-    "behind the work": "hinter der Arbeit",
-    "Investing & Ecosystem": "Investitionen & Ökosystem",
-    "Hiddenphase & Studio": "Hiddenphase & Studio",
-    "Studio & Escalir": "Studio & Escalir"
+    "behind the work": "hinter der Arbeit"
   },
   "src/components/industries/IndustryArtwork.tsx": {
     "Workflow example": "Workflow-Beispiel"
@@ -1933,5 +1921,9 @@
   "src/lib/site.ts": {
     "Escalir | Enterprise AI, from request to reviewed result": "Escalir | KI für Unternehmen, von der Anfrage zum geprüften Ergebnis",
     "From business requests to governed automation. Escalir brings knowledge, agents, workflows and human oversight into your own enterprise environment.": "Von fachlichen Anforderungen zu kontrollierter Automatisierung. Escalir verbindet Wissen, Agenten, Workflows und menschliche Aufsicht in Ihrer eigenen Unternehmensumgebung."
+  },
+  "src/lib/founder-descriptions.ts": {
+    "Leads the architecture and engineering of Escalir’s enterprise AI platform": "Verantwortet die Architektur und Entwicklung der KI-Plattform von Escalir für Unternehmen",
+    "Leads AI strategy, agent design and workflow automation": "Verantwortet die KI-Strategie, die Konzeption von Agenten und die Automatisierung von Arbeitsabläufen"
   }
 }

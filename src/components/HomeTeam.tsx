@@ -1,4 +1,5 @@
 import { ArrowUpRight } from "lucide-react";
+import { founderDescriptions } from "@/lib/founder-descriptions";
 import styles from "./HomeTeam.module.css";
 
 const team = [
@@ -15,7 +16,7 @@ const team = [
     group: "Escalir team",
     name: "Vadim Vladymtsev",
     role: "Co-founder · CTO",
-    bio: "Enterprise AI architecture and engineering",
+    bio: founderDescriptions.vadim,
     image: "/founders/vadim-vladymtsev.webp",
     width: 320,
     height: 213,
@@ -24,7 +25,7 @@ const team = [
     group: "Escalir team",
     name: "Egor Krychev",
     role: "Co-founder · CAIO",
-    bio: "AI automation, agents and business processes",
+    bio: founderDescriptions.egor,
     image: "/founders/egor-krychev.webp",
     width: 320,
     height: 320,
@@ -32,8 +33,6 @@ const team = [
   {
     group: "JUSTART VC",
     name: "Bakht Niyazov",
-    role: "Investing & Ecosystem",
-    bio: "Serial entrepreneur and founder of Justart, with more than 30 startups in his portfolio, including a unicorn. Leads investing and ecosystem development",
     image: "/founders/bakht-niyazov.webp",
     width: 643,
     height: 620,
@@ -41,8 +40,6 @@ const team = [
   {
     group: "JUSTART VC",
     name: "Iskandar Erkinov",
-    role: "Hiddenphase & Studio",
-    bio: "Serial entrepreneur who founded Uzbekistan’s first electronics retail chain and first hosting provider. Early investor in the fintech company Wooppay",
     image: "/founders/iskandar-erkinov.webp",
     width: 509,
     height: 620,
@@ -50,8 +47,6 @@ const team = [
   {
     group: "JUSTART VC",
     name: "Maxim Tolmachev",
-    role: "Studio & Escalir",
-    bio: "Tech entrepreneur and architect of Accelerator 3.0. Founded 5 startups and raised $5M. Created Global Outsourcer: 114 companies and $150M in combined revenue",
     image: "/founders/maxim-tolmachev.webp",
     width: 461,
     height: 620,
@@ -70,7 +65,7 @@ export default function HomeTeam() {
           <p>The platform is built by the Escalir team, with operating, investment and ecosystem experience from our Justart partners</p>
         </div>
 
-        <ul className={styles.teamGrid} aria-label="Escalir team">
+        <ul className={styles.teamGrid} aria-labelledby="home-team-title">
           {team.map(({ group, name, role, bio, image, width, height }) => (
             <li className={styles.member} key={name}>
               <div className={styles.photo}>
@@ -78,8 +73,8 @@ export default function HomeTeam() {
               </div>
               <h3>{name}</h3>
               <p className={styles.group}>{group}</p>
-              <p className={styles.role}>{role}</p>
-              <p className={styles.bio}>{bio}</p>
+              {role && <p className={styles.role}>{role}</p>}
+              {bio && <p className={styles.bio}>{bio}</p>}
             </li>
           ))}
         </ul>
