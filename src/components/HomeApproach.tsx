@@ -6,7 +6,7 @@ export default function HomeApproach() {
     <section className={styles.section} id="how-we-start" aria-label="Deployment and strategy">
       <div className={styles.grid}>
         <article className={styles.card} aria-labelledby="home-deployment-title">
-          <img className={styles.photo} src="/media/deployment.webp" alt="" width={1200} height={670} loading="lazy" />
+          <img className={styles.photo} src="/media/escalir/photos/deployment-hero.webp" alt="" width={1600} height={900} loading="lazy" />
           <div className={styles.content}>
             <p className={styles.label}>Deployment</p>
             <h3 className={styles.title} id="home-deployment-title">Built with you<br />Ready for everyday work</h3>
@@ -17,7 +17,7 @@ export default function HomeApproach() {
           </div>
         </article>
         <article className={styles.card} aria-labelledby="home-strategy-title">
-          <img className={`${styles.photo} ${styles.strategyPhoto}`} src="/media/strategy.webp" alt="" width={1054} height={1451} loading="lazy" />
+          <img className={styles.photo} src="/media/escalir/photos/transformation-hero.webp" alt="" width={1672} height={941} loading="lazy" />
           <div className={styles.content}>
             <p className={styles.label}>AI strategy</p>
             <h3 className={styles.title} id="home-strategy-title">The right approach<br />For every task</h3>

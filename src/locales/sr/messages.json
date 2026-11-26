@@ -521,8 +521,8 @@
   },
   "src/components/Header.tsx": {
     "escalir home": "Početna stranica escalir",
-    "Discover our approach": "Upoznajte naš pristup",
-    "From AI ambition to everyday impact": "Od AI ambicija do rezultata u svakodnevnom radu",
+    "See how deployment works": "Pogledajte kako izgleda uvođenje",
+    "Enterprise AI, from request to reviewed result": "AI za preduzeća: od zahteva do pregledanog rezultata",
     "Get in touch": "Javite nam se",
     "Main navigation": "Glavna navigacija",
     "Mobile navigation": "Mobilna navigacija",
@@ -530,16 +530,16 @@
     "Skip to content": "Pređite na sadržaj"
   },
   "src/components/Hero.tsx": {
-    "An innovation management system for regulated enterprises, connecting specification, development and governance in your own environment": "Sistem za upravljanje inovacijama u preduzećima koja posluju u regulisanom okruženju, koji povezuje specifikaciju, razvoj, upravljanje i nadzor u vašem okruženju",
+    "For regulated enterprises, escalir connects specification, development and governance in your environment. Each decision keeps an owner, an approved source and a human review point": "Za preduzeća u regulisanim delatnostima, escalir povezuje specifikaciju, razvoj, upravljanje i nadzor u vašem okruženju. Svaka odluka ima odgovornu osobu, odobren izvor i tačku ljudskog pregleda",
     "Development": "Razvoj",
     "Enterprise AI": "AI za preduzeća",
     "Explore the platform": "Istražite platformu",
-    "From idea": "Od ideje",
+    "From request": "Od zahteva",
     "Get in touch": "Javite nam se",
     "Specification": "Specifikacija",
     "The escalir operating cycle": "Radni ciklus escalir platforme",
     "Three stages, one connected platform": "Tri faze, jedna povezana platforma",
-    "to everyday work": "do svakodnevnog rada",
+    "to reviewed result": "do pregledanog rezultata",
     "Governance": "Upravljanje i nadzor"
   },
   "src/components/HomeApproach.tsx": {
@@ -602,8 +602,8 @@
     "Shape tools around the work": "Prilagodite alate poslu"
   },
   "src/components/HomeTeam.tsx": {
-    "A human approach": "Ljudski pristup",
-    "A shared ambition": "Zajednička ambicija",
+    "A practical method": "Praktičan metod",
+    "A small team": "Mali tim",
     "About escalir": "O kompaniji escalir",
     "Bring your perspective to the conversation about building useful AI": "Doprinesite svojim iskustvom razgovoru o razvoju korisnih AI rešenja",
     "Careers": "Karijera",
@@ -611,7 +611,7 @@
     "escalir founders": "Osnivači kompanije escalir",
     "Help shape": "Učestvujte u stvaranju",
     "Meet the people": "Upoznajte ljude",
-    "moving us forward": "koji nas pokreću napred",
+    "behind the work": "koji stoje iza rada",
     "The people behind escalir": "Ljudi koji stoje iza kompanije escalir",
     "what comes next": "onoga što dolazi"
   },
@@ -1941,7 +1941,7 @@
     "Your environment, your boundaries": "Vaše okruženje, vaše granice"
   },
   "src/lib/site.ts": {
-    "escalir | Innovation Management for Enterprise AI": "escalir | Upravljanje inovacijama za korporativni AI",
+    "escalir | Enterprise AI, from request to reviewed result": "escalir | AI za preduzeća: od zahteva do pregledanog rezultata",
     "From business requests to governed automation. escalir brings knowledge, agents, workflows and human oversight into your own enterprise environment.": "Od poslovnih zahteva do automatizacije pod nadzorom. escalir objedinjuje znanje, agente, radne tokove i ljudski nadzor u vašem sopstvenom korporativnom okruženju."
   }
 }

@@ -104,7 +104,7 @@ test("English pages have reciprocal SEO and a non-indexable multilingual 404", a
   expect(response?.status()).toBe(200);
   await expect(page.locator("html")).toHaveAttribute("lang", "en");
   await expect(page.getByRole("heading", { level: 1 })).toHaveCount(1);
-  await expect(page).toHaveTitle("escalir | Innovation Management for Enterprise AI");
+  await expect(page).toHaveTitle("escalir | Enterprise AI, from request to reviewed result");
   await expect(page.locator('link[rel="canonical"]')).toHaveAttribute("href", "https://escalir.ai/");
   await expect(page.locator('meta[property="og:url"]')).toHaveAttribute("content", "https://escalir.ai/");
   const languages = Object.keys(localeRegistry.locales);

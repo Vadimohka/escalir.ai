@@ -1,6 +1,9 @@
 /* escalir 2026: shared editorial system and photographic homepage. */
 :root {
-  --color-brand-blue: #240CFF;
+  --color-brand-blue: #22D36B;
+  --color-brand-green: #22D36B;
+  --color-brand-dark: #060607;
+  --color-brand-ink: #111111;
   --color-primary-600: #171719;
   --color-primary-700: #383838;
   --color-primary-200: #eeede9;
@@ -13,7 +16,7 @@
   --shell-width: min(1320px, calc(100% - 80px));
 }
 body { line-height: 1.55; }
-h1, h2 { font-weight: 300; letter-spacing: -.055em; }
+h1, h2 { font-weight: 800; letter-spacing: -.025em; }
 h3 { font-weight: 400; }
 [id] { scroll-margin-top: 110px; }
 .btn { min-height: 50px; font-size: 14px; font-weight: 400; padding: 13px 24px; gap: 10px; }

@@ -521,8 +521,8 @@
   },
   "src/components/Header.tsx": {
     "escalir home": "Inicio de escalir",
-    "Discover our approach": "Descubre nuestro enfoque",
-    "From AI ambition to everyday impact": "De la ambición en IA a los resultados del día a día",
+    "See how deployment works": "Descubre cómo funciona la implantación",
+    "Enterprise AI, from request to reviewed result": "IA empresarial: de la solicitud al resultado revisado",
     "Get in touch": "Contacta con nosotros",
     "Main navigation": "Navegación principal",
     "Mobile navigation": "Navegación móvil",
@@ -530,16 +530,16 @@
     "Skip to content": "Saltar al contenido"
   },
   "src/components/Hero.tsx": {
-    "An innovation management system for regulated enterprises, connecting specification, development and governance in your own environment": "Un sistema de gestión de la innovación para empresas reguladas que conecta especificación, desarrollo y gobernanza en tu propio entorno",
+    "For regulated enterprises, escalir connects specification, development and governance in your environment. Each decision keeps an owner, an approved source and a human review point": "Para empresas de sectores regulados, escalir conecta especificación, desarrollo y gobernanza en tu entorno. Cada decisión conserva un responsable, una fuente aprobada y un punto de revisión humana",
     "Development": "Desarrollo",
     "Enterprise AI": "IA empresarial",
     "Explore the platform": "Explora la plataforma",
-    "From idea": "De la idea",
+    "From request": "De la solicitud",
     "Get in touch": "Contacta con nosotros",
     "Specification": "Especificación",
     "The escalir operating cycle": "El ciclo operativo de escalir",
     "Three stages, one connected platform": "Tres etapas, una plataforma conectada",
-    "to everyday work": "al trabajo diario",
+    "to reviewed result": "al resultado revisado",
     "Governance": "Gobernanza"
   },
   "src/components/HomeApproach.tsx": {
@@ -602,16 +602,16 @@
     "Shape tools around the work": "Adapta las herramientas al trabajo"
   },
   "src/components/HomeTeam.tsx": {
-    "A human approach": "Un enfoque humano",
-    "A shared ambition": "Una ambición compartida",
+    "A practical method": "Un método práctico",
+    "A small team": "Un equipo pequeño",
     "About escalir": "Acerca de escalir",
     "Bring your perspective to the conversation about building useful AI": "Aporta tu perspectiva a la conversación sobre cómo crear una IA útil",
     "Careers": "Empleo",
     "escalir combines a platform with a practical method. Our team helps you define requirements, build the first workflows and develop the skills to run them": "escalir combina una plataforma con un método práctico. Nuestro equipo te ayuda a definir los requisitos, crear los primeros flujos de trabajo y desarrollar las habilidades para operarlos",
     "escalir founders": "Fundadores de escalir",
     "Help shape": "Ayuda a dar forma a",
-    "Meet the people": "Conoce a las personas",
-    "moving us forward": "que nos hacen avanzar",
+    "Meet the people": "Conoce al equipo",
+    "behind the work": "que está detrás del trabajo",
     "The people behind escalir": "Las personas detrás de escalir",
     "what comes next": "lo que viene",
     "CEO": "Director general",
@@ -1944,7 +1944,7 @@
     "Your environment, your boundaries": "Tu entorno, tus límites"
   },
   "src/lib/site.ts": {
-    "escalir | Innovation Management for Enterprise AI": "escalir | Gestión de la innovación para la IA empresarial",
+    "escalir | Enterprise AI, from request to reviewed result": "escalir | IA empresarial: de la solicitud al resultado revisado",
     "From business requests to governed automation. escalir brings knowledge, agents, workflows and human oversight into your own enterprise environment.": "De las necesidades del negocio a la automatización con gobernanza. escalir reúne conocimiento, agentes, flujos de trabajo y supervisión humana en tu propio entorno empresarial."
   }
 }

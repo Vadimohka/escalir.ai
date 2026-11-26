@@ -1,20 +1,19 @@
 import TelegramLink from "./TelegramLink";
-import HeroFilm from "./HeroFilm";
 import { heroMedia } from "@/lib/hero-media";
 
 export default function Hero() {
   return <>
     <section className="hero" id="home" aria-labelledby="hero-title">
       <picture className="hero-image">
-        <source media="(max-width: 640px)" srcSet={heroMedia.posterMobile} width={540} height={960} />
-        <img src={heroMedia.poster} srcSet={`${heroMedia.poster640} 640w, ${heroMedia.poster960} 960w, ${heroMedia.poster} 1280w`} sizes="100vw" width={1280} height={720} alt="" fetchPriority="high" />
+        <source media="(max-width: 640px)" srcSet={heroMedia.posterMobile} width={768} height={432} />
+        <img src={heroMedia.poster} srcSet={`${heroMedia.posterMobile} 768w, ${heroMedia.poster} 1600w`} sizes="100vw" width={1600} height={900} alt="" fetchPriority="high" />
       </picture>
-      <HeroFilm />
       <div className="hero-shade" aria-hidden="true" />
       <div className="shell hero-layout">
         <div className="hero-copy">
-          <h1 id="hero-title">Enterprise AI<br />From idea<br /><span>to everyday work</span></h1>
-          <p className="hero-lead">An innovation management system for regulated enterprises, connecting specification, development and governance in your own environment</p>
+          <p className="hero-eyebrow">Enterprise AI</p>
+          <h1 id="hero-title">Enterprise AI<br />From request<br /><span>to reviewed result</span></h1>
+          <p className="hero-lead">For regulated enterprises, escalir connects specification, development and governance in your environment. Each decision keeps an owner, an approved source and a human review point</p>
           <div className="hero-actions"><TelegramLink className="btn btn-light">Get in touch</TelegramLink><a className="btn btn-outline-light" href="/platform/">Explore the platform</a></div>
         </div>
       </div>

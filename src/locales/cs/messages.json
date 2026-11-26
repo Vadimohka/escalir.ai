@@ -521,8 +521,8 @@
   },
   "src/components/Header.tsx": {
     "escalir home": "Úvodní stránka escalir",
-    "Discover our approach": "Poznejte náš přístup",
-    "From AI ambition to everyday impact": "Od ambicí v AI ke každodenním výsledkům",
+    "See how deployment works": "Podívejte se, jak probíhá implementace",
+    "Enterprise AI, from request to reviewed result": "Podniková AI: od požadavku ke kontrolovanému výsledku",
     "Get in touch": "Kontaktujte nás",
     "Main navigation": "Hlavní navigace",
     "Mobile navigation": "Mobilní navigace",
@@ -530,16 +530,16 @@
     "Skip to content": "Přejít na obsah"
   },
   "src/components/Hero.tsx": {
-    "An innovation management system for regulated enterprises, connecting specification, development and governance in your own environment": "Systém řízení inovací pro podniky v regulovaných odvětvích, který propojuje specifikaci, vývoj, řízení a dohled ve vašem vlastním prostředí",
+    "For regulated enterprises, escalir connects specification, development and governance in your environment. Each decision keeps an owner, an approved source and a human review point": "Pro podniky v regulovaných odvětvích escalir propojuje specifikaci, vývoj, řízení a dohled ve vašem prostředí. Každé rozhodnutí má odpovědnou osobu, schválený zdroj a místo pro kontrolu člověkem",
     "Development": "Vývoj",
     "Enterprise AI": "Podniková AI",
     "Explore the platform": "Prozkoumejte platformu",
-    "From idea": "Od nápadu",
+    "From request": "Od požadavku",
     "Get in touch": "Kontaktujte nás",
     "Specification": "Specifikace",
     "The escalir operating cycle": "Pracovní cyklus escalir",
     "Three stages, one connected platform": "Tři fáze, jedna propojená platforma",
-    "to everyday work": "ke každodenní práci",
+    "to reviewed result": "ke kontrolovanému výsledku",
     "Governance": "Řízení a dohled"
   },
   "src/components/HomeApproach.tsx": {
@@ -602,16 +602,16 @@
     "Shape tools around the work": "Přizpůsobte nástroje práci"
   },
   "src/components/HomeTeam.tsx": {
-    "A human approach": "Lidský přístup",
-    "A shared ambition": "Společná ambice",
+    "A practical method": "Praktický postup",
+    "A small team": "Malý tým",
     "About escalir": "O escalir",
     "Bring your perspective to the conversation about building useful AI": "Přispějte svým pohledem do diskuse o tvorbě užitečné AI",
     "Careers": "Kariéra",
     "escalir combines a platform with a practical method. Our team helps you define requirements, build the first workflows and develop the skills to run them": "escalir spojuje platformu s praktickou metodou. Náš tým vám pomůže definovat požadavky, vytvořit první pracovní postupy a rozvinout dovednosti potřebné k jejich provozu",
     "escalir founders": "Zakladatelé escalir",
     "Help shape": "Pomozte utvářet",
-    "Meet the people": "Poznejte lidi,",
-    "moving us forward": "kteří nás posouvají vpřed",
+    "Meet the people": "Poznejte lidi",
+    "behind the work": "za touto prací",
     "The people behind escalir": "Lidé za escalir",
     "what comes next": "budoucnost"
   },
@@ -1941,7 +1941,7 @@
     "Your environment, your boundaries": "Vaše prostředí, vaše hranice"
   },
   "src/lib/site.ts": {
-    "escalir | Innovation Management for Enterprise AI": "escalir | Řízení inovací pro podnikovou AI",
+    "escalir | Enterprise AI, from request to reviewed result": "escalir | Podniková AI: od požadavku ke kontrolovanému výsledku",
     "From business requests to governed automation. escalir brings knowledge, agents, workflows and human oversight into your own enterprise environment.": "Od podnikových požadavků k řízené automatizaci. escalir propojuje znalosti, agenty, pracovní postupy a lidský dohled ve vašem vlastním podnikovém prostředí."
   }
 }

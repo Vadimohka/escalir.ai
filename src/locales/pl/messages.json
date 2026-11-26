@@ -544,8 +544,8 @@
   },
   "src/components/Header.tsx": {
     "escalir home": "escalir — strona główna",
-    "Discover our approach": "Poznaj nasze podejście",
-    "From AI ambition to everyday impact": "Od ambicji związanych z AI do codziennych efektów",
+    "See how deployment works": "Zobacz, jak przebiega wdrożenie",
+    "Enterprise AI, from request to reviewed result": "AI dla firm: od zgłoszenia do sprawdzonego wyniku",
     "Get in touch": "Porozmawiajmy",
     "Main navigation": "Nawigacja główna",
     "Mobile navigation": "Nawigacja mobilna",
@@ -553,17 +553,17 @@
     "Skip to content": "Przejdź do treści"
   },
   "src/components/Hero.tsx": {
-    "An innovation management system for regulated enterprises, connecting specification, development and governance in your own environment": "System zarządzania innowacjami dla organizacji z branż regulowanych, łączący specyfikację, tworzenie i nadzór w Twoim własnym środowisku",
+    "For regulated enterprises, escalir connects specification, development and governance in your environment. Each decision keeps an owner, an approved source and a human review point": "W przypadku organizacji z branż regulowanych escalir łączy specyfikację, tworzenie i nadzór w Twoim środowisku. Każda decyzja ma właściciela, zatwierdzone źródło i punkt kontroli przez człowieka",
     "Development": "Tworzenie",
     "Enterprise AI": "AI dla firm",
     "Explore the platform": "Poznaj platformę",
-    "From idea": "Od pomysłu",
+    "From request": "Od zgłoszenia",
     "Get in touch": "Porozmawiajmy",
     "Governance": "Nadzór",
     "Specification": "Specyfikacja",
     "The escalir operating cycle": "Cykl pracy z escalir",
     "Three stages, one connected platform": "Trzy etapy, jedna spójna platforma",
-    "to everyday work": "do codziennej pracy"
+    "to reviewed result": "do sprawdzonego wyniku"
   },
   "src/components/HomeApproach.tsx": {
     "AI strategy": "Strategia AI",
@@ -625,16 +625,16 @@
     "Shape tools around the work": "Dopasuj narzędzia do pracy"
   },
   "src/components/HomeTeam.tsx": {
-    "A human approach": "Ludzkie podejście",
-    "A shared ambition": "Wspólna ambicja",
+    "A practical method": "Praktyczna metoda",
+    "A small team": "Mały zespół",
     "About escalir": "O escalir",
     "Bring your perspective to the conversation about building useful AI": "Wnieś swoją perspektywę do rozmowy o tworzeniu użytecznej AI",
     "Careers": "Kariera",
     "escalir combines a platform with a practical method. Our team helps you define requirements, build the first workflows and develop the skills to run them": "escalir łączy platformę z praktyczną metodą. Nasz zespół pomaga określić wymagania, zbudować pierwsze przepływy pracy i rozwinąć kompetencje potrzebne do ich obsługi",
     "escalir founders": "Założyciele escalir",
     "Help shape": "Współtwórz",
-    "Meet the people": "Poznaj ludzi,",
-    "moving us forward": "dzięki którym się rozwijamy",
+    "Meet the people": "Poznaj zespół",
+    "behind the work": "odpowiedzialny za tę pracę",
     "The people behind escalir": "Ludzie, którzy tworzą escalir",
     "what comes next": "kolejny etap"
   },
@@ -1939,7 +1939,7 @@
     "Your environment, your boundaries": "Twoje środowisko, Twoje granice"
   },
   "src/lib/site.ts": {
-    "escalir | Innovation Management for Enterprise AI": "escalir | Zarządzanie innowacjami AI w przedsiębiorstwie",
+    "escalir | Enterprise AI, from request to reviewed result": "escalir | AI dla firm: od zgłoszenia do sprawdzonego wyniku",
     "From business requests to governed automation. escalir brings knowledge, agents, workflows and human oversight into your own enterprise environment.": "Od zgłoszeń biznesowych do automatyzacji pod nadzorem. escalir łączy wiedzę, agentów, przepływy pracy i nadzór człowieka w środowisku Twojej organizacji."
   }
 }

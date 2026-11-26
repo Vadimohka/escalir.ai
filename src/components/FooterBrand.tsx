@@ -12,7 +12,7 @@ export default function FooterBrand({ href }: { href: string }) {
       aria-label="Enterprise AI by escalir"
     >
       <span className={styles.prefix} aria-hidden="true">Enterprise AI</span>
-      <img className={styles.logo} src="/brand/escalir-logo-white.svg" alt="" width={221} height={58} />
+      <img className={styles.logo} src="/brand/escalir-logo-white.svg" alt="" width={2927} height={777} />
     </a>
   );
 }

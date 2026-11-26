@@ -1,23 +1,23 @@
-.section { padding: 70px 0 88px; background: #fff; }
+.section { padding: 96px 0 108px; background: #fff; }
 .heading { display: grid; grid-template-columns: 1.2fr .8fr; align-items: end; gap: 72px; margin-bottom: 40px; }
-.heading h2 { margin-top: 18px; font-size: clamp(38px, 4.3vw, 62px); font-weight: 300; line-height: 1.08; letter-spacing: -.055em; }
+.heading h2 { margin-top: 18px; font-size: clamp(38px, 4.3vw, 62px); font-weight: 800; line-height: 1.04; letter-spacing: -.025em; }
 .introduction { max-width: 390px; justify-self: end; }
 .introduction > p { color: #62625e; font-size: 15px; line-height: 1.6; }
 .controls { display: flex; justify-content: flex-end; gap: 10px; margin-top: 24px; }
-.controls button { display: grid; place-items: center; width: 46px; height: 46px; padding: 0; border: 1px solid #d6d6d0; border-radius: 50%; background: #fff; color: #171719; cursor: pointer; transition: background 180ms, border-color 180ms; }
+.controls button { display: grid; place-items: center; width: 44px; height: 44px; padding: 0; border: 1px solid #d6d6d0; border-radius: 2px; background: #fff; color: #111111; cursor: pointer; transition: background 180ms, border-color 180ms; }
 .controls button:hover:not(:disabled) { background: #f0f0ec; border-color: #777771; }
 .controls button:disabled { opacity: .35; cursor: default; }
 .track { display: flex; gap: 24px; width: 100%; overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x mandatory; scroll-padding-inline: max(40px, calc((100vw - 1320px) / 2)); padding: 8px max(40px, calc((100vw - 1320px) / 2)) 18px; margin: 0; list-style: none; scrollbar-width: thin; scrollbar-color: #c7c7c1 transparent; }
 .item { flex: 0 0 clamp(300px, 31vw, 420px); min-width: 0; scroll-snap-align: start; }
-.card { position: relative; display: block; aspect-ratio: 1; overflow: hidden; isolation: isolate; border-radius: 8px; background: #222c2b; color: #fff; text-decoration: none; }
-.card::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, #071112a6, #07111210 60%, #071112b3); }
+.card { position: relative; display: block; aspect-ratio: 1; overflow: hidden; isolation: isolate; border-radius: 0; border-top: 3px solid var(--color-brand-green); background: #222c2b; color: #fff; text-decoration: none; }
+.card::after { content: ""; position: absolute; inset: 0; z-index: -1; background: #06060766; }
 .card img { position: absolute; inset: 0; z-index: -2; width: 100%; height: 100%; object-fit: cover; transition: transform 500ms ease; }
 .card:hover img { transform: scale(1.035); }
 .card:focus-visible { outline-offset: -5px; outline-color: #fff; }
-.card h3 { padding: 28px 54px 24px 28px; font-size: clamp(25px, 2.2vw, 32px); font-weight: 300; line-height: 1.16; letter-spacing: -.04em; }
+.card h3 { padding: 28px 54px 24px 28px; font-size: clamp(25px, 2.2vw, 32px); font-weight: 800; line-height: 1.08; letter-spacing: -.025em; }
 .arrow { position: absolute; right: 23px; top: 29px; }
-.label { position: absolute; left: 28px; right: 24px; bottom: 27px; font-size: 13px; }
-.portrait::after { background: linear-gradient(180deg, #07111210, #07111220 35%, #071112d9); }
+.label { position: absolute; left: 28px; right: 24px; bottom: 27px; font-family: var(--font-mono); font-size: 10px; letter-spacing: .1em; text-transform: uppercase; }
+.portrait::after { background: #06060766; }
 .portrait h3 { position: absolute; inset-inline: 0; bottom: 64px; padding: 0 28px; }
 
 @media (max-width: 1100px) {

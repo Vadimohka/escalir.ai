@@ -1,9 +1,9 @@
 .section {
   display: flow-root;
   margin: 0;
-  padding: 0 0 100px;
+  padding: 112px 0 120px;
   color: #fff;
-  background: #090909;
+  background: #060607;
 }
 
 .grid {
@@ -19,8 +19,9 @@
   flex-direction: column;
   min-width: 0;
   overflow: hidden;
-  border-radius: 8px;
-  background: #151617;
+  border: 1px solid #2a2a2a;
+  border-radius: 0;
+  background: #111111;
 }
 
 .photo {
@@ -33,10 +34,6 @@
   object-position: center;
 }
 
-.strategyPhoto {
-  object-position: 50% 23%;
-}
-
 .content {
   display: flex;
   flex: 1;
@@ -47,12 +44,13 @@
 }
 
 .label {
-  margin: 0 0 16px;
-  color: #c2c3bf;
-  font-size: 11px;
+  margin: 0 0 18px;
+  color: var(--color-brand-green);
+  font-family: var(--font-mono);
+  font-size: 10px;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: .09em;
+  letter-spacing: .14em;
   text-transform: uppercase;
 }
 
@@ -60,15 +58,15 @@
   margin: 0 0 20px;
   color: #fff;
   font-size: clamp(28px, 2.8vw, 38px);
-  font-weight: 300;
-  line-height: 1.16;
-  letter-spacing: -.045em;
+  font-weight: 800;
+  line-height: 1.08;
+  letter-spacing: -.025em;
 }
 
 .description {
   max-width: 490px;
   margin: 0 0 30px;
-  color: #c2c3bf;
+  color: #b8b8b8;
   font-size: 16px;
   line-height: 1.6;
 }

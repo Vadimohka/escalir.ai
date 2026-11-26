@@ -551,8 +551,8 @@
   },
   "src/components/Header.tsx": {
     "escalir home": "Головна сторінка escalir",
-    "Discover our approach": "Дізнатися про наш підхід",
-    "From AI ambition to everyday impact": "Від планів щодо ШІ до щоденних результатів",
+    "See how deployment works": "Як відбувається впровадження",
+    "Enterprise AI, from request to reviewed result": "Корпоративний ШІ: від запиту до перевіреного результату",
     "Get in touch": "Зв’язатися",
     "Main navigation": "Головна навігація",
     "Mobile navigation": "Мобільна навігація",
@@ -560,17 +560,17 @@
     "Skip to content": "Перейти до вмісту"
   },
   "src/components/Hero.tsx": {
-    "An innovation management system for regulated enterprises, connecting specification, development and governance in your own environment": "Система управління інноваціями для підприємств у регульованих галузях, що поєднує специфікацію, розробку, управління й контроль у вашому середовищі",
+    "For regulated enterprises, escalir connects specification, development and governance in your environment. Each decision keeps an owner, an approved source and a human review point": "Для підприємств у регульованих галузях escalir поєднує специфікацію, розробку, управління й контроль у вашому середовищі. Кожне рішення має власника, схвалене джерело й точку перевірки людиною",
     "Development": "Розробка",
     "Enterprise AI": "Корпоративний ШІ",
     "Explore the platform": "Ознайомитися з платформою",
-    "From idea": "Від ідеї",
+    "From request": "Від запиту",
     "Get in touch": "Зв’язатися",
     "Governance": "Управління й контроль",
     "Specification": "Специфікація",
     "The escalir operating cycle": "Робочий цикл escalir",
     "Three stages, one connected platform": "Три етапи, одна спільна платформа",
-    "to everyday work": "до щоденної роботи"
+    "to reviewed result": "до перевіреного результату"
   },
   "src/components/HomeApproach.tsx": {
     "AI strategy": "Стратегія ШІ",
@@ -632,8 +632,8 @@
     "Shape tools around the work": "Налаштовуйте інструменти під робочі процеси"
   },
   "src/components/HomeTeam.tsx": {
-    "A human approach": "Людяний підхід",
-    "A shared ambition": "Спільне прагнення",
+    "A practical method": "Практичний метод",
+    "A small team": "Невелика команда",
     "About escalir": "Про escalir",
     "Bring your perspective to the conversation about building useful AI": "Долучайтеся зі своїм баченням до розмови про створення корисного ШІ",
     "CAIO": "Директор із ШІ",
@@ -644,8 +644,8 @@
     "CTO": "Технічний директор",
     "Egor Krychev": "Єгор Кричев",
     "Help shape": "Допоможіть створити",
-    "Meet the people": "Познайомтеся з людьми,",
-    "moving us forward": "які рухають нас уперед",
+    "Meet the people": "Познайомтеся з командою",
+    "behind the work": "яка стоїть за роботою",
     "The people behind escalir": "Люди, які створюють escalir",
     "Vadim Vladymtsev": "Вадим Владымцев",
     "Vitali Bakhmat": "Віталій Бахмат",
@@ -1954,7 +1954,7 @@
     "Your environment, your boundaries": "Ваше середовище, ваші межі"
   },
   "src/lib/site.ts": {
-    "escalir | Innovation Management for Enterprise AI": "escalir | Управління інноваціями для корпоративного ШІ",
+    "escalir | Enterprise AI, from request to reviewed result": "escalir | Корпоративний ШІ: від запиту до перевіреного результату",
     "From business requests to governed automation. escalir brings knowledge, agents, workflows and human oversight into your own enterprise environment.": "Від бізнес-запитів до керованої автоматизації. escalir об’єднує знання, агентів, робочі процеси й контроль людини у вашому корпоративному середовищі.",
     "Vitali Bakhmat": "Віталій Бахмат"
   }

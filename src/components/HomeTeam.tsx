@@ -9,16 +9,15 @@ const founders = [
 
 export default function HomeTeam() {
   return <section className={styles.section} id="team" aria-labelledby="home-team-title">
-    <img className={styles.backdrop} src="/media/escalir/photos/team-collaboration.webp" srcSet="/media/escalir/photos/team-collaboration-768.webp 768w, /media/escalir/photos/team-collaboration.webp 1600w" sizes="100vw" width={1600} height={900} alt="" loading="lazy" decoding="async" />
     <div className="shell">
       <div className={styles.intro}>
-        <div><p className="eyebrow">The people behind escalir</p><h2 id="home-team-title">A shared ambition<br />A human approach</h2></div>
+        <div><p className="eyebrow">The people behind escalir</p><h2 id="home-team-title">A small team<br />A practical method</h2></div>
         <p>escalir combines a platform with a practical method. Our team helps you define requirements, build the first workflows and develop the skills to run them</p>
       </div>
       <div className={styles.cards}>
         <a className={`${styles.card} ${styles.about}`} href="/about-us/">
           <div className={styles.cardHeading}><span>About escalir</span><ArrowUpRight size={26} strokeWidth={1.5} aria-hidden="true" /></div>
-          <h3>Meet the people<br />moving us forward</h3>
+          <h3>Meet the people<br />behind the work</h3>
           <ul className={styles.founders} aria-label="escalir founders">
             {founders.map(({ name, role, image }) => <li key={image}>
               <img src={`/founders/${image}.webp`} width={56} height={56} alt="" loading="lazy" />

@@ -141,8 +141,8 @@ export default function Header({ variant = "overlay", showAnnouncement = true }:
   return <>
     <a className="skip-link" href="#main-content">Skip to content</a>
     {showAnnouncement && <div ref={announcement} className={styles.announcement}>
-      <span>From AI ambition to everyday impact</span>
-      <a href="/deployment/">Discover our approach<ArrowRight size={14} aria-hidden="true" /></a>
+      <span>Enterprise AI, from request to reviewed result</span>
+      <a href="/deployment/">See how deployment works<ArrowRight size={14} aria-hidden="true" /></a>
     </div>}
     <header
       ref={header}
@@ -152,8 +152,8 @@ export default function Header({ variant = "overlay", showAnnouncement = true }:
     >
       <div className={styles.bar}>
         <a className={styles.brand} href="/" aria-label="escalir home">
-          <img className={styles.whiteLogo} src="/brand/escalir-logo-white.svg" alt="escalir" width={221} height={58} />
-          <img className={styles.blackLogo} src="/brand/escalir-logo.svg" alt="" width={221} height={58} />
+          <img className={styles.whiteLogo} src="/brand/escalir-logo-mono-white.svg" alt="escalir" width={2927} height={777} />
+          <img className={styles.blackLogo} src="/brand/escalir-logo.svg" alt="" width={2927} height={777} />
         </a>
         <nav className={styles.desktop} aria-label="Main navigation">
           {headerNavigation.map(group => (

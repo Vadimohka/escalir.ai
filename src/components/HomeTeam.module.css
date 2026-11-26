@@ -1,18 +1,16 @@
-.section { position: relative; isolation: isolate; overflow: hidden; padding: 100px 0; color: #fff; background: #344444; }
-.backdrop { position: absolute; inset: -20px; z-index: -2; width: calc(100% + 40px); max-width: none; height: calc(100% + 40px); object-fit: cover; object-position: center; filter: blur(9px) saturate(.65); }
-.section::before { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(110deg, #102326c9, #1023267a); }
+.section { position: relative; isolation: isolate; overflow: hidden; padding: 112px 0; color: #fff; background: #060607; }
 .intro { display: grid; grid-template-columns: 1.2fr .8fr; gap: 90px; align-items: end; }
 .intro :global(.eyebrow) { color: #e1e8e6; }
-.intro h2 { margin-top: 24px; font-size: clamp(40px, 4.6vw, 66px); font-weight: 300; line-height: 1.08; letter-spacing: -.055em; }
+.intro h2 { margin-top: 24px; font-size: clamp(40px, 4.6vw, 66px); font-weight: 800; line-height: 1.04; letter-spacing: -.025em; }
 .intro > p { max-width: 390px; font-size: 17px; line-height: 1.65; color: #e1e8e6; }
 .cards { display: grid; grid-template-columns: 1.3fr 1fr; gap: 24px; margin-top: 68px; }
-.card { display: flex; flex-direction: column; min-width: 0; min-height: 315px; padding: 32px; border-radius: 8px; text-decoration: none; transition: background 180ms; }
+.card { display: flex; flex-direction: column; min-width: 0; min-height: 315px; padding: 32px; border-radius: 0; border-top: 3px solid var(--color-brand-green); text-decoration: none; transition: background 180ms; }
 .about { color: #171719; background: #f7f7f1; }
 .about:hover { background: #fff; }
-.careers { color: #fff; background: #101c20db; border: 1px solid #ffffff38; }
-.careers:hover { background: #101c20; }
+.careers { color: #fff; background: #111111; border: 1px solid #333333; border-top-color: var(--color-brand-green); }
+.careers:hover { background: #171717; }
 .cardHeading { display: flex; justify-content: space-between; align-items: center; gap: 16px; font-size: 13px; }
-.card h3 { margin-block: 28px; font-size: clamp(28px, 2.8vw, 40px); line-height: 1.12; font-weight: 300; letter-spacing: -.045em; }
+.card h3 { margin-block: 28px; font-size: clamp(28px, 2.8vw, 40px); line-height: 1.06; font-weight: 800; letter-spacing: -.025em; }
 .careers > p { max-width: 300px; margin-top: auto; color: #d5dedd; font-size: 14px; line-height: 1.55; }
 .founders { display: flex; flex-wrap: wrap; gap: 18px 22px; padding: 0; margin: auto 0 0; list-style: none; }
 .founders li { display: flex; align-items: center; gap: 10px; }

@@ -521,8 +521,8 @@
   },
   "src/components/Header.tsx": {
     "escalir home": "Pagina principală escalir",
-    "Discover our approach": "Descoperiți abordarea noastră",
-    "From AI ambition to everyday impact": "De la ambiții în IA la impact în activitatea zilnică",
+    "See how deployment works": "Descoperiți cum funcționează implementarea",
+    "Enterprise AI, from request to reviewed result": "IA pentru organizații: de la solicitare la rezultatul verificat",
     "Get in touch": "Contactați-ne",
     "Main navigation": "Navigare principală",
     "Mobile navigation": "Navigare mobilă",
@@ -530,16 +530,16 @@
     "Skip to content": "Treceți la conținut"
   },
   "src/components/Hero.tsx": {
-    "An innovation management system for regulated enterprises, connecting specification, development and governance in your own environment": "Un sistem de management al inovației pentru organizații din sectoare reglementate, care conectează specificarea, dezvoltarea și guvernanța în propriul mediu",
+    "For regulated enterprises, escalir connects specification, development and governance in your environment. Each decision keeps an owner, an approved source and a human review point": "Pentru organizațiile din sectoare reglementate, escalir conectează specificarea, dezvoltarea și guvernanța în mediul dumneavoastră. Fiecare decizie păstrează un responsabil, o sursă aprobată și un punct de verificare umană",
     "Development": "Dezvoltare",
     "Enterprise AI": "IA pentru organizații",
     "Explore the platform": "Descoperiți platforma",
-    "From idea": "De la idee",
+    "From request": "De la solicitare",
     "Get in touch": "Contactați-ne",
     "Specification": "Specificare",
     "The escalir operating cycle": "Ciclul operațional escalir",
     "Three stages, one connected platform": "Trei etape, o platformă conectată",
-    "to everyday work": "la activitatea de zi cu zi",
+    "to reviewed result": "la un rezultat verificat",
     "Governance": "Guvernanță"
   },
   "src/components/HomeApproach.tsx": {
@@ -602,16 +602,16 @@
     "Shape tools around the work": "Adaptați instrumentele la activitate"
   },
   "src/components/HomeTeam.tsx": {
-    "A human approach": "O abordare umană",
-    "A shared ambition": "O ambiție comună",
+    "A practical method": "O metodă practică",
+    "A small team": "O echipă mică",
     "About escalir": "Despre escalir",
     "Bring your perspective to the conversation about building useful AI": "Aduceți perspectiva dumneavoastră în discuția despre construirea unei IA utile",
     "Careers": "Cariere",
     "escalir combines a platform with a practical method. Our team helps you define requirements, build the first workflows and develop the skills to run them": "escalir îmbină o platformă cu o metodă practică. Echipa noastră vă ajută să definiți cerințele, să construiți primele fluxuri de lucru și să dezvoltați competențele necesare pentru a le gestiona",
     "escalir founders": "Fondatorii escalir",
     "Help shape": "Contribuiți la",
-    "Meet the people": "Cunoașteți oamenii",
-    "moving us forward": "care ne duc mai departe",
+    "Meet the people": "Cunoașteți echipa",
+    "behind the work": "din spatele activității",
     "The people behind escalir": "Oamenii din spatele escalir",
     "what comes next": "ceea ce urmează",
     "CEO": "Director general",
@@ -1944,7 +1944,7 @@
     "Your environment, your boundaries": "Mediul dumneavoastră, limitele dumneavoastră"
   },
   "src/lib/site.ts": {
-    "escalir | Innovation Management for Enterprise AI": "escalir | Managementul inovării pentru IA în organizații",
+    "escalir | Enterprise AI, from request to reviewed result": "escalir | IA pentru organizații: de la solicitare la un rezultat verificat",
     "From business requests to governed automation. escalir brings knowledge, agents, workflows and human oversight into your own enterprise environment.": "De la solicitări de afaceri la automatizare cu guvernanță. escalir reunește cunoștințe, agenți, fluxuri de lucru și supraveghere umană în propriul mediu al organizației dumneavoastră."
   }
 }
