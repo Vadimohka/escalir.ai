@@ -6,6 +6,7 @@ export type Locale = keyof typeof localeSettings;
 export type SiteLocale = Locale;
 export const defaultLocale = configuration.defaultLocale as Locale;
 export const locales = Object.keys(localeSettings) as Locale[];
+export const menuLocales = configuration.menuOrder as Locale[];
 
 /** The URL is the language preference; no cookie or browser storage is used. */
 export function localeForPath(pathname: string): Locale {

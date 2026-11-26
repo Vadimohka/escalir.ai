@@ -263,6 +263,7 @@ export async function generateLocales(options = {}) {
   }
   if (options.socialImages !== false) {
     const { createOpenGraph } = await import("../create-og.mjs");
+    await createOpenGraph();
     for (const locale of prepared.locales) await createOpenGraph(locale);
   }
   return prepared;

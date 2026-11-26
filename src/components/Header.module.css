@@ -106,12 +106,13 @@
 }
 
 @media (max-width: 359px) {
-  .bar { padding-inline: 12px; }
-  .brand { flex-basis: 94px; width: 94px; }
-  .brand img { width: 94px; }
-  .actions { gap: 4px; }
-  .contact { padding-inline: 10px; }
-  .language > summary { width: 38px; }
+  .bar { gap: 6px; padding-inline: 10px; }
+  .brand { flex-basis: 90px; width: 90px; }
+  .brand img { width: 90px; }
+  .actions { gap: 2px; }
+  .contact { min-height: 36px; padding-inline: 8px; font-size: 9px; letter-spacing: -.15px; }
+  .language > summary { width: 34px; min-height: 36px; }
+  .mobile > summary { width: 36px; height: 36px; }
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -116,7 +116,7 @@ test("English pages have reciprocal SEO and a non-indexable multilingual 404", a
   expect(graph.map((node: { "@type": string }) => node["@type"])).toEqual(["WebSite", "WebPage"]);
   for (const node of graph) {
     expect(node.url).toBe("https://escalir.ai/");
-    expect(node["@id"]).toMatch(/^https:\/\/escalir\.eu\/#/);
+    expect(node["@id"]).toMatch(/^https:\/\/escalir\.ai\/#/);
     expect(node.inLanguage).toEqual(node["@type"] === "WebSite" ? languages : "en");
   }
   // This checks rendered text, not text embedded in screenshot pixels.
@@ -356,6 +356,28 @@ test("Product pages show real local screenshots instead of retired interface moc
       ".prod-constellation, .prod-agent-visual, .prod-systems-visual, .prod-workspace, .gateway-demo, .example-board",
     )).toHaveCount(0);
   }
+});
+
+test("Industry diagrams are visible without hover and stay large enough to read", async ({ page }) => {
+  await page.setViewportSize({ width: 1440, height: 1000 });
+  await page.goto("/industries/banking/");
+  const article = page.getByRole("heading", { name: "AI shaped around banking work", exact: true })
+    .locator("xpath=ancestor::article");
+  const image = article.locator("img");
+  await expect(image).toHaveAttribute("src", /\.svg$/);
+  await image.scrollIntoViewIfNeeded();
+  const details = await image.evaluate((node) => {
+    const element = node as HTMLImageElement;
+    const box = element.getBoundingClientRect();
+    return {
+      opacity: getComputedStyle(element).opacity,
+      width: box.width,
+      loaded: element.complete && element.naturalWidth > 0,
+    };
+  });
+  expect(details.opacity).toBe("1");
+  expect(details.width).toBeGreaterThanOrEqual(360);
+  expect(details.loaded).toBe(true);
 });
 
 test("Mobile layouts and reduced motion remain usable", async ({ page }, testInfo) => {

@@ -53,7 +53,7 @@
   hyphens: manual;
 }
 
-html:is([lang="de"], [lang="pl"], [lang="uk"], [lang="fr"], [lang="be"], [lang="it"], [lang="es"], [lang="sr"], [lang="nl"], [lang="ro"], [lang="cs"]) .escalir-home :is(h1, h2, h3) {
+html:is([lang="de"], [lang="pl"], [lang="uk"], [lang="fr"], [lang="be"], [lang="it"], [lang="es"], [lang="sr"], [lang="nl"], [lang="ro"], [lang="cs"], [lang="kk"], [lang="uz"]) .escalir-home :is(h1, h2, h3) {
   hyphens: manual;
 }
 

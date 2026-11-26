@@ -7,8 +7,11 @@ const SITE = "https://escalir.ai";
 const TELEGRAM = "https://t.me/vitalibakhmat";
 type Language = keyof typeof localeRegistry.locales;
 const LANGUAGES = Object.keys(localeRegistry.locales) as Language[];
+const MENU_LANGUAGES = localeRegistry.menuOrder as Language[];
 const LOCALE_SETTINGS = {
   en: { ...localeRegistry.locales.en, navigation: ["Main navigation", "Footer navigation"], screenshot: /^Open .+ screenshot$/ },
+  kk: { ...localeRegistry.locales.kk, navigation: ["Негізгі навигация", "Колонтитулды шарлау"], screenshot: /^.+ скриншотын ашыңыз$/u },
+  uz: { ...localeRegistry.locales.uz, navigation: ["Asosiy navigatsiya", "Altbilgi navigatsiyasi"], screenshot: /^.+ skrinshotini oching$/u },
   de: { ...localeRegistry.locales.de, navigation: ["Hauptnavigation", "Fußnavigation"], screenshot: /^Screenshot .+ öffnen$/u },
   pl: { ...localeRegistry.locales.pl, navigation: ["Nawigacja główna", "Nawigacja w stopce"], screenshot: /^Otwórz zrzut ekranu „.+”$/u },
   uk: { ...localeRegistry.locales.uk, navigation: ["Головна навігація", "Навігація в нижній частині сторінки"], screenshot: /^Відкрити знімок екрана «.+»$/u },
@@ -38,13 +41,13 @@ const INTERACTIONS = {
     name: "Spanish", contents: "Contenido de la guía", mobileNavigation: "Navegación móvil", home: "Inicio de escalir",
     filter: "Filtrar guías por categoría", categories: ["Primeros pasos", "Conocimiento", "Flujos de trabajo", "Despliegue"],
     allGuides: "Todas las guías", allCount: "4 guías para descubrir", categoryCount: (category: string) => `1 guía en la categoría «${category}»`,
-    installation: "Qué acordamos antes de la instalación", identity: "Identidad y datos", securityQuestion: /¿Puede mantenerse/,
+    installation: "Qué acordamos antes de la instalación", identity: "Identidad y datos", securityQuestion: /¿Puede escalir conectarse/,
   },
   fr: {
     name: "French", contents: "Sommaire du guide", mobileNavigation: "Navigation mobile", home: "Accueil escalir",
     filter: "Filtrer les guides par catégorie", categories: ["Premiers pas", "Connaissances", "Processus", "Déploiement"],
     allGuides: "Tous les guides", allCount: "4 guides à découvrir", categoryCount: (category: string) => `1 guide dans la catégorie « ${category} »`,
-    installation: "Ce que nous définissons avant l’installation", identity: "Identité et données", securityQuestion: /Le traitement/,
+    installation: "Ce que nous définissons avant l’installation", identity: "Identité et données", securityQuestion: /escalir peut-il se connecter/,
   },
   pl: {
     name: "Polish", contents: "Spis treści poradnika", mobileNavigation: "Nawigacja mobilna", home: "escalir — strona główna",
@@ -74,13 +77,13 @@ const INTERACTIONS = {
     name: "Serbian", contents: "Sadržaj vodiča", mobileNavigation: "Mobilna navigacija", home: "Početna stranica escalir",
     filter: "Filtrirajte vodiče po kategoriji", categories: ["Prvi koraci", "Znanje", "Radni tokovi", "Postavljanje"],
     allGuides: "Svi vodiči", allCount: "4 vodiča za istraživanje", categoryCount: (category: string) => `1 vodič u kategoriji „${category}”`,
-    installation: "Šta dogovaramo pre instalacije", identity: "Identitet i podaci", securityQuestion: /Može li obrada/,
+    installation: "Šta dogovaramo pre instalacije", identity: "Identitet i podaci", securityQuestion: /Može li escalir/,
   },
   nl: {
     name: "Dutch", contents: "Inhoud van de gids", mobileNavigation: "Mobiele navigatie", home: "escalir startpagina",
     filter: "Filter gidsen op categorie", categories: ["Eerste stappen", "Kennis", "Werkprocessen", "Uitrol"],
     allGuides: "Alle gidsen", allCount: "4 gidsen om te ontdekken", categoryCount: (category: string) => `1 gids in de categorie ‘${category}’`,
-    installation: "Wat we vóór de installatie afspreken", identity: "Identiteit en gegevens", securityQuestion: /Kan de verwerking/,
+    installation: "Wat we vóór de installatie afspreken", identity: "Identiteit en gegevens", securityQuestion: /Kan escalir/,
   },
 };
 
@@ -101,16 +104,23 @@ function languagePath(path: string, language: Language) {
   return language === "en" ? path : `/${language}${path}`;
 }
 
-function languageMenu(page: Page, language: Language) {
+function languageMenu(page: Page, _language: Language) {
   return page.locator("[data-site-header] details").filter({
-    has: page.locator(`[data-language-switch="${language}"]`),
+    has: page.locator('[data-language-switch="en"]'),
   });
 }
 
 async function switchLanguage(page: Page, language: Language) {
   const menu = languageMenu(page, language);
   await menu.locator(":scope > summary").click();
-  await menu.locator(`[data-language-switch="${language}"]`).click();
+  const link = menu.locator(`[data-language-switch="${language}"]`);
+  if (await link.count()) {
+    await link.click();
+    return;
+  }
+  await page.keyboard.press("Escape");
+  const current = new URL(page.url());
+  await page.goto(localizedPath(current.pathname, language) + current.search + current.hash);
 }
 
 test("Language paths preserve suffixes and assets, and guide counts use each language's grammar", () => {
@@ -144,11 +154,12 @@ test("Language paths preserve suffixes and assets, and guide counts use each lan
   for (const { input, route } of cases) {
     for (const language of LANGUAGES) expect(localizedPath(input, language)).toBe(languagePath(route, language));
   }
-  for (const asset of ["/media/app/files.webp", "/media/de/strategy.webp", "/media/uk/escalir/diagrams/platform-data.svg", "/media/sr/escalir/diagrams/platform-data.svg", "/media/nl/escalir/diagrams/platform-data.svg", "/media/cs/escalir/diagrams/platform-data.svg", "/og/escalir-uk.png", "/og/escalir-sr.png", "/og/escalir-nl.png", "/og/escalir-cs.png", "/downloads/guide.pdf", "#main-content", "https://example.com/", "//example.com/image.webp", "mailto:hello@example.com"]) {
+  for (const asset of ["/media/app/files.webp", "/media/de/strategy.webp", "/media/uk/escalir/diagrams/platform-data.svg", "/media/sr/escalir/diagrams/platform-data.svg", "/media/nl/escalir/diagrams/platform-data.svg", "/media/cs/escalir/diagrams/platform-data.svg", "/og/escalir-uk.webp", "/og/escalir-sr.webp", "/og/escalir-nl.webp", "/og/escalir-cs.webp", "/downloads/guide.pdf", "#main-content", "https://example.com/", "//example.com/image.webp", "mailto:hello@example.com"]) {
     for (const language of LANGUAGES) expect(localizedPath(asset, language)).toBe(asset);
   }
   expect(languageAlternates("/uk/blog/human-review/", SITE)).toEqual({
-    en: `${SITE}/blog/human-review/`, de: `${SITE}/de/blog/human-review/`,
+    en: `${SITE}/blog/human-review/`, kk: `${SITE}/kk/blog/human-review/`, uz: `${SITE}/uz/blog/human-review/`,
+    de: `${SITE}/de/blog/human-review/`,
     pl: `${SITE}/pl/blog/human-review/`, uk: `${SITE}/uk/blog/human-review/`,
     fr: `${SITE}/fr/blog/human-review/`,
     be: `${SITE}/be/blog/human-review/`,
@@ -243,10 +254,10 @@ async function readStaticDocuments(page: Page, markup: string[]) {
   }), markup);
 }
 
-test("All 312 pages ship localized HTML, reciprocal metadata and language-preserving navigation", async ({ page, request }) => {
+test("All 364 pages ship localized HTML, reciprocal metadata and language-preserving navigation", async ({ page, request }) => {
   test.setTimeout(90_000);
   expect(CONTENT_PATHS).toHaveLength(26);
-  expect(LANGUAGES).toEqual(["en", "de", "pl", "uk", "fr", "be", "it", "es", "sr", "nl", "ro", "cs"]);
+  expect(LANGUAGES).toEqual(["en", "kk", "uz", "de", "pl", "uk", "fr", "be", "it", "es", "sr", "nl", "ro", "cs"]);
   const pathsByLanguage = Object.fromEntries(LANGUAGES.map(language => [
     language, new Set(CONTENT_PATHS.map(path => languagePath(path, language))),
   ]));
@@ -282,8 +293,8 @@ test("All 312 pages ship localized HTML, reciprocal metadata and language-preser
       // Every equivalent page is available before JavaScript loads, including
       // the active language, which remains a native link with aria-current.
       const languageLinks = snapshot.links.filter(link => link.language);
-      expect(languageLinks, route).toHaveLength(LANGUAGES.length);
-      for (const target of LANGUAGES) {
+      expect(languageLinks, route).toHaveLength(MENU_LANGUAGES.length);
+      for (const target of MENU_LANGUAGES) {
         expect(languageLinks.filter(link => link.language === target), route).toEqual([{
           href: languagePath(path, target), language: target, lang: target, hreflang: target,
           current: target === language ? "page" : null,
@@ -358,7 +369,7 @@ for (const language of ["pl", "uk", "fr", "be", "it", "es", "sr", "nl", "ro", "c
   });
 }
 
-test("Switching between all twelve languages keeps the current industry, query and section", async ({ page }) => {
+test("Switching between every menu language keeps the current industry, query and section", async ({ page }) => {
   test.setTimeout(60_000);
   const errors: string[] = [];
   page.on("pageerror", error => errors.push(error.message));
@@ -367,7 +378,7 @@ test("Switching between all twelve languages keeps the current industry, query a
   });
   const suffix = "/industries/insurance/?source=language-test#main-content";
   await page.goto(`/pl${suffix}`);
-  for (const language of ["uk", "fr", "en", "fr", "de", "fr", "uk", "pl", "uk", "be", "en", "be", "de", "uk", "pl", "be", "uk", "it", "en", "it", "de", "uk", "pl", "it", "es", "en", "es", "fr", "es", "sr", "en", "sr", "de", "uk", "pl", "sr", "be", "fr", "it", "es", "sr", "nl", "sr", "nl", "en", "nl", "de", "nl", "fr", "nl", "ro", "en", "ro", "nl", "sr", "cs", "en", "cs", "de", "pl", "cs", "nl", "cs", "ro", "cs"] as const) {
+  for (const language of [...MENU_LANGUAGES, "en"] as Language[]) {
     await page.waitForLoadState("networkidle");
     await switchLanguage(page, language);
     await expect(page).toHaveURL(`${ORIGIN}${languagePath(suffix, language)}`);

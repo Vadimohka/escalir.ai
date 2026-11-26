@@ -1,11 +1,25 @@
 {
   "defaultLocale": "en",
+  "menuOrder": [
+    "en",
+    "kk",
+    "uz",
+    "de",
+    "fr",
+    "es",
+    "it",
+    "nl",
+    "pl",
+    "cs",
+    "ro",
+    "sr"
+  ],
   "locales": {
     "en": {
       "label": "English",
       "accessibleLabel": "Language: English",
       "openGraphLocale": "en_GB",
-      "socialImage": "/og/escalir.png",
+      "socialImage": "/og/escalir.webp",
       "imageAlt": "escalir — Accelerate AI transformation across your business.",
       "productTitles": {},
       "guideCount": {
@@ -40,11 +54,99 @@
         "subtitleSize": 22
       }
     },
+    "kk": {
+      "label": "Қазақша",
+      "accessibleLabel": "Тіл: қазақша",
+      "openGraphLocale": "kk_KZ",
+      "socialImage": "/og/escalir-kk.webp",
+      "imageAlt": "escalir — бизнестегі AI трансформациясын жеделдетіңіз.",
+      "productTitles": {
+        "escalir AI Platform": "escalir AI Platform — кәсіпорындарға арналған AI платформасы",
+        "escalir Agents": "escalir Agents — кәсіпорындарға арналған AI агенттері",
+        "escalir Systems": "escalir Systems — AI жүйелері және процестерді автоматтандыру",
+        "escalir AI Gateway": "escalir AI Gateway — AI модельдеріне қатынас"
+      },
+      "guideCount": {
+        "one": "нұсқаулық",
+        "few": "нұсқаулық",
+        "many": "нұсқаулық",
+        "other": "нұсқаулық",
+        "category": " «{category}» санатында",
+        "explore": " зерттеу үшін",
+        "lowercaseCategory": false
+      },
+      "redirect": {
+        "message": "Бұл бет мына мекенжайға жылжытылды:",
+        "linkLabel": "AI Platform"
+      },
+      "notFound": {
+        "title": "Бет табылмады",
+        "description": "Бұл беттің мекенжайы өзгерген болуы мүмкін. Платформаны, салалық шешімдерді және escalir командасын қарап шығыңыз.",
+        "homeLabel": "Қазақша басты бетке өту"
+      },
+      "socialPreview": {
+        "lines": [
+          "AI трансформациясын",
+          "бизнесіңізбен бірге",
+          "іске асырыңыз"
+        ],
+        "firstLine": 245,
+        "lineGap": 83,
+        "tracking": -3,
+        "subtitle": "Біліміңіз. Жүйелеріңіз. Келесі қадамыңыз.",
+        "subtitleY": 480,
+        "subtitleSize": 22
+      }
+    },
+    "uz": {
+      "label": "O‘zbekcha",
+      "accessibleLabel": "Til: o‘zbekcha",
+      "openGraphLocale": "uz_UZ",
+      "socialImage": "/og/escalir-uz.webp",
+      "imageAlt": "escalir — biznesingizda AI transformatsiyasini tezlashtiring.",
+      "productTitles": {
+        "escalir AI Platform": "escalir AI Platform — korxonalar uchun AI platformasi",
+        "escalir Agents": "escalir Agents — korxonalar uchun AI agentlari",
+        "escalir Systems": "escalir Systems — AI tizimlari va jarayonlarni avtomatlashtirish",
+        "escalir AI Gateway": "escalir AI Gateway — AI modellariga kirish"
+      },
+      "guideCount": {
+        "one": "qo‘llanma",
+        "few": "qo‘llanma",
+        "many": "qo‘llanma",
+        "other": "qo‘llanma",
+        "category": " “{category}” turkumida",
+        "explore": " bilan tanishish uchun",
+        "lowercaseCategory": false
+      },
+      "redirect": {
+        "message": "Bu sahifa quyidagi manzilga ko‘chirildi:",
+        "linkLabel": "AI Platform"
+      },
+      "notFound": {
+        "title": "Sahifa topilmadi",
+        "description": "Bu sahifaning manzili o‘zgargan bo‘lishi mumkin. Platforma, soha yechimlari va escalir jamoasi bilan tanishing.",
+        "homeLabel": "O‘zbekcha bosh sahifaga o‘tish"
+      },
+      "socialPreview": {
+        "lines": [
+          "AI transformatsiyasini",
+          "biznesingiz bilan",
+          "birga amalga oshiring"
+        ],
+        "firstLine": 245,
+        "lineGap": 83,
+        "tracking": -3,
+        "subtitle": "Bilimingiz. Tizimlaringiz. Keyingi qadamingiz.",
+        "subtitleY": 480,
+        "subtitleSize": 22
+      }
+    },
     "de": {
       "label": "Deutsch",
       "accessibleLabel": "Sprache: Deutsch",
       "openGraphLocale": "de_DE",
-      "socialImage": "/og/escalir-de.png",
+      "socialImage": "/og/escalir-de.webp",
       "imageAlt": "escalir – Von der Idee in den Arbeitsalltag. Spezifikation, Entwicklung und Governance.",
       "productTitles": {},
       "guideCount": {
@@ -82,7 +184,7 @@
       "label": "Polski",
       "accessibleLabel": "Język: polski",
       "openGraphLocale": "pl_PL",
-      "socialImage": "/og/escalir-pl.png",
+      "socialImage": "/og/escalir-pl.webp",
       "imageAlt": "escalir — Przyspiesz transformację AI w swojej firmie",
       "productTitles": {
         "escalir AI Platform": "escalir AI Platform — platforma AI dla firm",
@@ -126,7 +228,7 @@
       "label": "Українська",
       "accessibleLabel": "Мова: українська",
       "openGraphLocale": "uk_UA",
-      "socialImage": "/og/escalir-uk.png",
+      "socialImage": "/og/escalir-uk.webp",
       "imageAlt": "escalir — Від ідеї до щоденної роботи. Специфікація, розробка, управління й контроль",
       "productTitles": {},
       "guideCount": {
@@ -164,7 +266,7 @@
       "label": "Français",
       "accessibleLabel": "Langue : français",
       "openGraphLocale": "fr_FR",
-      "socialImage": "/og/escalir-fr.png",
+      "socialImage": "/og/escalir-fr.webp",
       "imageAlt": "escalir — Accélérez la transformation de votre entreprise par l’IA",
       "productTitles": {
         "escalir AI Platform": "escalir AI Platform — plateforme d’IA pour les entreprises",
@@ -208,7 +310,7 @@
       "label": "Беларуская",
       "accessibleLabel": "Мова: беларуская",
       "openGraphLocale": "be_BY",
-      "socialImage": "/og/escalir-be.png",
+      "socialImage": "/og/escalir-be.webp",
       "imageAlt": "escalir — Ад ідэі да штодзённай працы. Спецыфікацыя, распрацоўка і кіраванне.",
       "productTitles": {
         "escalir AI Platform": "escalir AI Platform — платформа ШІ для арганізацый",
@@ -251,7 +353,7 @@
       "label": "Italiano",
       "accessibleLabel": "Lingua: italiano",
       "openGraphLocale": "it_IT",
-      "socialImage": "/og/escalir-it.png",
+      "socialImage": "/og/escalir-it.webp",
       "imageAlt": "escalir — Accelera la trasformazione con l’IA nella tua azienda",
       "productTitles": {
         "escalir AI Platform": "escalir AI Platform — piattaforma IA per le imprese",
@@ -295,7 +397,7 @@
       "label": "Español",
       "accessibleLabel": "Idioma: español",
       "openGraphLocale": "es_ES",
-      "socialImage": "/og/escalir-es.png",
+      "socialImage": "/og/escalir-es.webp",
       "imageAlt": "escalir — De la idea al trabajo diario. Especificación, desarrollo y gobernanza.",
       "productTitles": {
         "escalir AI Platform": "escalir AI Platform — plataforma de IA para empresas",
@@ -338,7 +440,7 @@
       "label": "Srpski",
       "accessibleLabel": "Jezik: srpski",
       "openGraphLocale": "sr_RS",
-      "socialImage": "/og/escalir-sr.png",
+      "socialImage": "/og/escalir-sr.webp",
       "imageAlt": "escalir — Od ideje do svakodnevnog rada. Specifikacija, razvoj te upravljanje i nadzor.",
       "productTitles": {
         "escalir AI Platform": "escalir AI Platform — AI platforma za preduzeća",
@@ -381,7 +483,7 @@
       "label": "Nederlands",
       "accessibleLabel": "Taal: Nederlands",
       "openGraphLocale": "nl_NL",
-      "socialImage": "/og/escalir-nl.png",
+      "socialImage": "/og/escalir-nl.webp",
       "imageAlt": "escalir — Van idee naar de dagelijkse praktijk. Specificatie, ontwikkeling en governance.",
       "productTitles": {
         "escalir AI Platform": "escalir AI Platform — AI-platform voor bedrijven",
@@ -424,7 +526,7 @@
       "label": "Română",
       "accessibleLabel": "Limba: română",
       "openGraphLocale": "ro_RO",
-      "socialImage": "/og/escalir-ro.png",
+      "socialImage": "/og/escalir-ro.webp",
       "imageAlt": "escalir — De la idee la activitatea de zi cu zi. Specificare, dezvoltare și guvernanță.",
       "productTitles": {
         "escalir AI Platform": "escalir AI Platform — platformă IA pentru organizații",
@@ -468,7 +570,7 @@
       "label": "Čeština",
       "accessibleLabel": "Jazyk: čeština",
       "openGraphLocale": "cs_CZ",
-      "socialImage": "/og/escalir-cs.png",
+      "socialImage": "/og/escalir-cs.webp",
       "imageAlt": "escalir — Od nápadu ke každodenní práci. Specifikace, vývoj, řízení a dohled.",
       "productTitles": {
         "escalir AI Platform": "escalir AI Platform — AI platforma pro firmy",

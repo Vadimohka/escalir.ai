@@ -527,6 +527,7 @@
     "Tell Vitali which process you want to improve, where the relevant information lives and what a useful outcome would look like": "Розкажіть Віталію, який процес ви хочете покращити, де зберігається потрібна інформація та яким має бути корисний результат"
   },
   "src/components/Footer.tsx": {
+    "Company": "Компанія",
     "Footer navigation": "Навігація в нижній частині сторінки",
     "Get in touch": "Зв’язатися",
     "Industries": "Галузі",

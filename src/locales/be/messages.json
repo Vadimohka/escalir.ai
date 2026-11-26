@@ -610,6 +610,7 @@
     "Tell Vitali which process you want to improve, where the relevant information lives and what a useful outcome would look like": "Раскажыце Віталю, які працэс вы хочаце палепшыць, дзе захоўваецца патрэбная інфармацыя і якім мае быць карысны вынік"
   },
   "src/components/Footer.tsx": {
+    "Company": "Кампанія",
     "Footer navigation": "Навігацыя ўнізе старонкі",
     "Get in touch": "Звязацца",
     "Industries": "Галіны",

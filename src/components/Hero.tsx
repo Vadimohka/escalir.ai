@@ -3,6 +3,7 @@ import { heroMedia } from "@/lib/hero-media";
 
 export default function Hero() {
   return <>
+    <link rel="preload" as="image" href={heroMedia.poster} imageSrcSet={`${heroMedia.posterMobile} 768w, ${heroMedia.poster} 1600w`} imageSizes="100vw" fetchPriority="high" />
     <section className="hero" id="home" aria-labelledby="hero-title">
       <picture className="hero-image">
         <source media="(max-width: 640px)" srcSet={heroMedia.posterMobile} width={768} height={432} />

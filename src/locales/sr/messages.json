@@ -500,6 +500,7 @@
     "Tell Vitali which process you want to improve, where the relevant information lives and what a useful outcome would look like": "Recite Vitaliju koji proces želite da unapredite, gde se nalaze potrebne informacije i kako bi izgledao koristan rezultat"
   },
   "src/components/Footer.tsx": {
+    "Company": "Kompanija",
     "Footer navigation": "Navigacija u podnožju",
     "Get in touch": "Javite nam se",
     "Industries": "Industrije",

@@ -96,7 +96,7 @@ export default function IndustryReferencePage({ slug, data }: { slug: IndustrySl
         <p>{data.whyIntro}</p>
       </div>
       <div className={styles.reasonList}>
-        {data.reasons.map(({ title, description, image, alt }) => <article className={styles.reason} key={title} tabIndex={0}>
+        {data.reasons.map(({ title, description, image, alt }) => <article className={styles.reason} key={title}>
           <div className={styles.reasonInner}>
             <h3>{title}</h3>
             <img className={styles.reasonImage} src={image} alt={alt} width={1280} height={808} loading="lazy" />

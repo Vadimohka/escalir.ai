@@ -57,21 +57,22 @@ test("external links, fragments and shared assets never acquire a locale prefix"
   const inputs = [
     "https://escalir.ai/pl/", "//example.com/asset", "mailto:team@example.com", "tel:+4812345",
     "#section", "?q=example", "relative/path", "/media/diagram.svg?v=2#caption", "/brand/escalir-logo.svg",
-    "/fonts/font.woff2", "/founders/portrait.webp", "/images/photo.webp", "/og/preview.png", "/_next/static/chunk.js",
+    "/fonts/font.woff2", "/founders/portrait.webp", "/images/photo.webp", "/og/preview.webp", "/_next/static/chunk.js",
     "/sitemap.xml", "/robots.txt", "/uk/media/diagram.svg", "/pl/og/image.png?share=1", "/de/_next/data/file.json",
-    "/be/media/diagram.svg", "/og/escalir-be.png",
-    "/es/media/diagram.svg", "/og/escalir-es.png",
-    "/sr/media/diagram.svg", "/og/escalir-sr.png",
-    "/nl/media/diagram.svg", "/og/escalir-nl.png",
-    "/ro/media/diagram.svg", "/og/escalir-ro.png",
-    "/cs/media/diagram.svg", "/og/escalir-cs.png",
+    "/be/media/diagram.svg", "/og/escalir-be.webp",
+    "/es/media/diagram.svg", "/og/escalir-es.webp",
+    "/sr/media/diagram.svg", "/og/escalir-sr.webp",
+    "/nl/media/diagram.svg", "/og/escalir-nl.webp",
+    "/ro/media/diagram.svg", "/og/escalir-ro.webp",
+    "/cs/media/diagram.svg", "/og/escalir-cs.webp",
   ];
   for (const target of locales) for (const input of inputs) assert.equal(localizedPath(input, target), input);
 });
 
 test("alternates are reciprocal from every localized entry point", () => {
   const expected = {
-    en: "https://escalir.ai/platform/", de: "https://escalir.ai/de/platform/",
+    en: "https://escalir.ai/platform/", kk: "https://escalir.ai/kk/platform/",
+    uz: "https://escalir.ai/uz/platform/", de: "https://escalir.ai/de/platform/",
     pl: "https://escalir.ai/pl/platform/", uk: "https://escalir.ai/uk/platform/",
     fr: "https://escalir.ai/fr/platform/",
     be: "https://escalir.ai/be/platform/",
@@ -179,11 +180,11 @@ test("metadata binds canonical, social preview and alternates to the requested l
 });
 
 test("every registered language has unique social assets and native recovery copy", () => {
-  assert.deepEqual(locales, ["en", "de", "pl", "uk", "fr", "be", "it", "es", "sr", "nl", "ro", "cs"]);
+  assert.deepEqual(locales, ["en", "kk", "uz", "de", "pl", "uk", "fr", "be", "it", "es", "sr", "nl", "ro", "cs"]);
   assert.equal(new Set(locales.map(locale => configuration.locales[locale].socialImage)).size, locales.length);
   for (const locale of locales) {
     const settings = configuration.locales[locale];
-    assert.match(settings.socialImage, /^\/og\/[a-z-]+\.png$/);
+    assert.match(settings.socialImage, /^\/og\/[a-z-]+\.webp$/);
     for (const value of [settings.label, settings.accessibleLabel, settings.imageAlt, settings.redirect.message, ...Object.values(settings.notFound), ...settings.socialPreview.lines]) {
       assert.equal(typeof value, "string");
       assert(value.trim().length > 0);

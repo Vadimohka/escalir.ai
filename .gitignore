@@ -35,6 +35,8 @@ test-results/
 
 # All translations are generated from shared sources and reviewed catalogs.
 src/generated/
+src/app/(kk)/
+src/app/(uz)/
 src/app/(de)/
 src/app/(pl)/
 src/app/(uk)/
@@ -47,6 +49,8 @@ src/app/(nl)/
 src/app/(ro)/
 src/app/(cs)/
 public/media/de/
+public/media/kk/
+public/media/uz/
 public/media/pl/
 public/media/uk/
 public/media/fr/
@@ -57,18 +61,19 @@ public/media/sr/
 public/media/nl/
 public/media/ro/
 public/media/cs/
-public/og/escalir-de.png
-public/og/escalir-pl.png
-public/og/escalir-uk.png
-public/og/escalir-fr.png
-public/og/escalir-be.png
-public/og/escalir-it.png
-public/og/escalir-es.png
-public/og/escalir-es.png
-public/og/escalir-sr.png
-public/og/escalir-nl.png
-public/og/escalir-ro.png
-public/og/escalir-cs.png
+public/og/escalir-kk.webp
+public/og/escalir-uz.webp
+public/og/escalir-de.webp
+public/og/escalir-pl.webp
+public/og/escalir-uk.webp
+public/og/escalir-fr.webp
+public/og/escalir-be.webp
+public/og/escalir-it.webp
+public/og/escalir-es.webp
+public/og/escalir-sr.webp
+public/og/escalir-nl.webp
+public/og/escalir-ro.webp
+public/og/escalir-cs.webp
 .localizations/
 
 # Legacy generated paths are removed by the unified compiler.

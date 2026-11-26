@@ -1,4 +1,4 @@
-import { industryLinks, platformLinks } from "@/lib/navigation";
+import { companyLinks, industryLinks, platformLinks } from "@/lib/navigation";
 import TelegramLink from "./TelegramLink";
 import FooterBrand from "./FooterBrand";
 
@@ -9,6 +9,7 @@ export default function Footer() {
       <nav className="footer-nav" aria-label="Footer navigation">
         <div className="footer-nav-group"><p className="footer-nav-heading">Platform</p>{platformLinks.map(link=><a href={link.href} key={link.href}>{link.title}</a>)}</div>
         <div className="footer-nav-group"><p className="footer-nav-heading">Industries</p>{industryLinks.map(link=><a href={link.href} key={link.href}>{link.title}</a>)}</div>
+        <div className="footer-nav-group"><p className="footer-nav-heading">Company</p>{companyLinks.map(link=><a href={link.href} key={link.href}>{link.title}</a>)}</div>
       </nav>
     </div>
     <div className="footer-bottom"><p>© {new Date().getFullYear()} escalir</p><a className="footer-contact" href="/privacy/">Privacy information</a><p>Intelligence, put to work</p></div>

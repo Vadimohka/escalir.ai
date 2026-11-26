@@ -177,7 +177,10 @@ test("German content and language links are present in the export without JavaSc
       await expect(page.locator(`link[rel="alternate"][hreflang="${language}"]`)).toHaveAttribute("href", `https://escalir.ai${prefix}${article}`);
     }
     await expect(page.locator('[data-language-switch="pl"]')).toHaveAttribute("href", `/pl${article}`);
-    await expect(page.locator('[data-language-switch="uk"]')).toHaveAttribute("href", `/uk${article}`);
+    await expect(page.locator('[data-language-switch="kk"]')).toHaveAttribute("href", `/kk${article}`);
+    await expect(page.locator('[data-language-switch="uz"]')).toHaveAttribute("href", `/uz${article}`);
+    await expect(page.locator('[data-language-switch="uk"]')).toHaveCount(0);
+    await expect(page.locator('[data-language-switch="be"]')).toHaveCount(0);
     const language = languageMenu(page, "de");
     await language.locator(":scope > summary").click();
     await language.getByRole("link", { name: "English", exact: true }).click();

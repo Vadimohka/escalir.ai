@@ -31,7 +31,7 @@ export async function createOpenGraph(locale = configuration.defaultLocale) {
   `);
   await mkdir(dirname(output), { recursive: true });
   const result = await sharp(source).resize(width, height, { fit: "cover", position: "centre" })
-    .composite([{ input: overlay }]).png({ compressionLevel: 9, palette: true, colours: 256, quality: 90, dither: 1 }).toFile(output);
+    .composite([{ input: overlay }]).webp({ quality: 90, effort: 6, smartSubsample: true }).toFile(output);
   assert.equal(result.width, width);
   assert.equal(result.height, height);
   console.log(`Created public${settings.socialImage} (1200×630)`);

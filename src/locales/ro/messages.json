@@ -500,6 +500,7 @@
     "Tell Vitali which process you want to improve, where the relevant information lives and what a useful outcome would look like": "Spuneți-i lui Vitali ce proces doriți să îmbunătățiți, unde se află informațiile relevante și cum ar arăta un rezultat util"
   },
   "src/components/Footer.tsx": {
+    "Company": "Companie",
     "Footer navigation": "Navigare în subsol",
     "Get in touch": "Contactați-ne",
     "Industries": "Industrii",

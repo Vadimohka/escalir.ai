@@ -5,16 +5,18 @@ import { createHash } from "node:crypto";
 import { readdir, readFile, stat } from "node:fs/promises";
 import path from "node:path";
 import { runInNewContext } from "node:vm";
+import sharp from "sharp";
 
 const root = path.resolve(process.argv[2] || "out");
 const site = "https://escalir.ai";
 const telegram = "https://t.me/vitalibakhmat";
-const { defaultLocale, locales: localeSettings } = JSON.parse(await readFile(new URL("../src/locales/config.json", import.meta.url), "utf8"));
+const { defaultLocale, locales: localeSettings, menuOrder } = JSON.parse(await readFile(new URL("../src/locales/config.json", import.meta.url), "utf8"));
 const locales = Object.keys(localeSettings);
 const translatedLocales = locales.filter(locale => locale !== defaultLocale);
-const cyrillicLocales = new Set(["uk", "be"]);
+const cyrillicLocales = new Set(["uk", "be", "kk"]);
 assert.equal(defaultLocale, "en", "The existing English route contract must remain the default");
-assert.deepEqual([...locales].sort(), ["be", "cs", "de", "en", "es", "fr", "it", "nl", "pl", "ro", "sr", "uk"], "All twelve supported languages must remain in the registry");
+assert.deepEqual([...locales].sort(), ["be", "cs", "de", "en", "es", "fr", "it", "kk", "nl", "pl", "ro", "sr", "uk", "uz"], "All fourteen supported languages must remain in the registry");
+assert.deepEqual(menuOrder, ["en", "kk", "uz", "de", "fr", "es", "it", "nl", "pl", "cs", "ro", "sr"], "Language menu order must place Kazakh and Uzbek after English");
 const localePrefix = locale => locale === defaultLocale ? "" : `/${locale}`;
 const screenshotLabels = {
   en: /^Open .+ screenshot$/,
@@ -29,6 +31,8 @@ const screenshotLabels = {
   nl: /^Screenshot van .+ openen$/u,
   ro: /^Deschideți captura de ecran .+$/u,
   cs: /^Otevřít snímek obrazovky: .+$/u,
+  kk: /^.+ скриншотын ашыңыз$/u,
+  uz: /^.+ skrinshotini oching$/u,
 };
 
 // The public route contract for the site. Keep this list and
@@ -450,8 +454,8 @@ try {
     }
     assert(tags.some(({ name, attrs }) => name === "summary" && attrs["aria-label"] === settings.accessibleLabel), `Missing localized language control: ${route}`);
     const languageLinks = tags.filter(({ name, attrs }) => name === "a" && attrs["data-language-switch"]);
-    assert.equal(languageLinks.length, locales.length, `Expected one native link for every language: ${route}`);
-    for (const language of locales) {
+    assert.equal(languageLinks.length, menuOrder.length, `Expected one native link for every menu language: ${route}`);
+    for (const language of menuOrder) {
       const matching = languageLinks.filter(({ attrs }) => attrs["data-language-switch"] === language);
       assert.equal(matching.length, 1, `Expected one ${language} language link: ${route}`);
       const { attrs } = matching[0];
@@ -563,10 +567,12 @@ try {
 
   const previews = new Map();
   for (const [locale, { socialImage }] of Object.entries(localeSettings)) {
-    const image = await readFile(localFile(new URL(socialImage, site)));
-    assert.equal(image.subarray(0, 8).toString("hex"), "89504e470d0a1a0a", `OG asset is not a PNG: ${socialImage}`);
-    assert.equal(image.readUInt32BE(16), 1200, `OG width must be 1200: ${socialImage}`);
-    assert.equal(image.readUInt32BE(20), 630, `OG height must be 630: ${socialImage}`);
+    const imageFile = localFile(new URL(socialImage, site));
+    const image = await readFile(imageFile);
+    const metadata = await sharp(image).metadata();
+    assert.equal(metadata.format, "webp", `OG asset is not a WebP: ${socialImage}`);
+    assert.equal(metadata.width, 1200, `OG width must be 1200: ${socialImage}`);
+    assert.equal(metadata.height, 630, `OG height must be 630: ${socialImage}`);
     for (const [otherLocale, otherImage] of previews) assert(!image.equals(otherImage), `${locale} and ${otherLocale} need distinct translated social previews`);
     previews.set(locale, image);
   }

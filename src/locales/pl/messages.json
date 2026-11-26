@@ -523,6 +523,7 @@
     "Tell Vitali which process you want to improve, where the relevant information lives and what a useful outcome would look like": "Opowiedz Vitaliemu, jaki proces chcesz usprawnić, gdzie znajdują się potrzebne informacje i jak powinien wyglądać wartościowy rezultat"
   },
   "src/components/Footer.tsx": {
+    "Company": "Firma",
     "Footer navigation": "Nawigacja w stopce",
     "Get in touch": "Porozmawiajmy",
     "Industries": "Branże",

@@ -5,6 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:ssr": "node scripts/build-ssr.mjs",
+    "start:ssr": "node scripts/start-ssr.mjs",
     "postbuild": "node scripts/postbuild.mjs",
     "typecheck": "tsc --noEmit",
     "check:export": "node scripts/verify-export.mjs",

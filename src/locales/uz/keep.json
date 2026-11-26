@@ -1,0 +1,153 @@
+{
+  "public/media/escalir/diagrams/industry-platform.svg": [
+    "escalir"
+  ],
+  "public/media/industries/airlines/platform.svg": [
+    "escalir"
+  ],
+  "public/media/industries/healthcare/platform.svg": [
+    "escalir"
+  ],
+  "public/media/industries/utilities/platform.svg": [
+    "escalir",
+    "Service"
+  ],
+  "public/media/insurance/platform.svg": [
+    "CRM",
+    "escalir"
+  ],
+  "src/app/(en)/about-us/page.tsx": [
+    "Governance",
+    "Innovation"
+  ],
+  "src/app/(en)/agents/page.tsx": [
+    "escalir Agents"
+  ],
+  "src/app/(en)/ai-gateway/page.tsx": [
+    "AI Gateway",
+    "escalir",
+    "escalir AI Gateway"
+  ],
+  "src/app/(en)/ai-transformation/page.tsx": [
+    "AI Platform",
+    "Chat",
+    "RPA"
+  ],
+  "src/app/(en)/contact/page.tsx": [
+    "Vitali Bakhmat"
+  ],
+  "src/app/(en)/platform/page.tsx": [
+    "AI Platform",
+    "escalir",
+    "escalir AI Platform",
+    "Workflows"
+  ],
+  "src/app/(en)/security/page.tsx": [
+    "Workflows"
+  ],
+  "src/app/(en)/systems/page.tsx": [
+    "escalir Systems"
+  ],
+  "src/components/company/CompanyElements.tsx": [
+    "Egor Krychev",
+    "LinkedIn",
+    "Vadim Vladymtsev",
+    "Vitali Bakhmat",
+    "vadimohka.com"
+  ],
+  "src/components/company/GuideLibrary.tsx": [
+    "Workflows"
+  ],
+  "src/components/Footer.tsx": [
+    "escalir"
+  ],
+  "src/components/Founders.tsx": [
+    "Egor Krychev",
+    "LinkedIn",
+    "Telegram",
+    "Vadim Vladymtsev",
+    "Vitali Bakhmat",
+    "vadimohka.com"
+  ],
+  "src/components/Header.tsx": [
+    "escalir"
+  ],
+  "src/components/Hero.tsx": [
+    "Governance"
+  ],
+  "src/components/HomeProductFamily.tsx": [
+    "AI Gateway",
+    "escalir Agents",
+    "escalir Systems"
+  ],
+  "src/components/HomeTeam.tsx": [
+    "CAIO",
+    "CEO",
+    "CTO",
+    "Egor Krychev",
+    "Vadim Vladymtsev",
+    "Vitali Bakhmat"
+  ],
+  "src/components/industries/IndustryReferencePage.tsx": [
+    "escalir",
+    "Telegram"
+  ],
+  "src/components/Platform.tsx": [
+    "escalir AI Platform"
+  ],
+  "src/components/platform/AgentsExperience.tsx": [
+    "APIs",
+    "Audio",
+    "escalir AI Gateway",
+    "escalir AI Platform",
+    "escalir Agents",
+    "escalir Systems",
+    "Chat",
+    "MCP",
+    "Workflow"
+  ],
+  "src/components/platform/GatewayIllustrations.tsx": [
+    "AI Gateway",
+    "Tokens",
+    "Workflow"
+  ],
+  "src/components/platform/GatewayWorkspace.tsx": [
+    "escalir"
+  ],
+  "src/components/platform/OperatingLayerRelated.tsx": [
+    "escalir"
+  ],
+  "src/components/platform/SystemsExperience.tsx": [
+    "escalir",
+    "escalir AI Gateway",
+    "escalir AI Platform",
+    "escalir Agents",
+    "escalir Systems",
+    "Governance"
+  ],
+  "src/components/products/DeploymentPhases.tsx": [
+    "Phase 0"
+  ],
+  "src/components/products/InfrastructureExplorer.tsx": [
+    "Workflows"
+  ],
+  "src/lib/articles.ts": [
+    "Workflows"
+  ],
+  "src/lib/header-navigation.ts": [
+    "AI Platform",
+    "escalir AI Gateway",
+    "escalir Agents",
+    "escalir Systems"
+  ],
+  "src/lib/navigation.ts": [
+    "AI Gateway",
+    "AI Platform",
+    "escalir Agents",
+    "escalir Systems"
+  ],
+  "src/lib/site.ts": [
+    "escalir",
+    "Vitali Bakhmat"
+  ]
+}

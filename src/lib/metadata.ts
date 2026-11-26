@@ -12,6 +12,7 @@ export function pageMetadata(title: string, description: string, path: string, l
     url: `${SITE_URL}${settings.socialImage}`,
     width: 1200,
     height: 630,
+    type: "image/webp",
     alt: settings.imageAlt,
   };
   return {

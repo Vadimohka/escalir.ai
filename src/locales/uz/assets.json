@@ -1,0 +1,109 @@
+{
+  "public/media/escalir/diagrams/industry-deployment.svg": {
+    "A useful workflow, built together": "Birgalikda qurilgan foydali ish jarayoni",
+    "Agree the boundaries": "Chegaralarni kelishib oling",
+    "Build": "Qurish",
+    "Build the workflow": "Ish jarayonini yarating",
+    "Connect the pieces": "Bo‘laklarni ulang",
+    "Define the work": "Ishni aniqlang",
+    "Delivery with ownership": "Egalik bilan yetkazib berish",
+    "DELIVERY WITH OWNERSHIP": "ENGLIGI BILAN Etkazib berish",
+    "Four connected stages move from scoping a useful workflow through building, validation and handover to the team.": "To‘rtta bog‘langan bosqich foydali ish jarayonini yaratish, tasdiqlash va jamoaga topshirish orqali o‘tadi.",
+    "Handover": "topshirish",
+    "Learn from each step, improve the next": "Har bir qadamdan o‘rganing, keyingisini yaxshilang",
+    "Make ownership clear": "Egalikni aniqlang",
+    "Refine with the team": "Jamoa bilan yaxshilang",
+    "Review the result": "Natijani ko‘rib chiqing",
+    "Scope": "Qo‘llash doirasi",
+    "Support daily use": "Kundalik foydalanishni qo‘llab-quvvatlang",
+    "Validate": "Tasdiqlash"
+  },
+  "public/media/escalir/diagrams/industry-frontier.svg": {
+    "A clear scope": "Aniq qamrov",
+    "A defined task flows through an AI response to human review. Source quality, accuracy and scope provide three checks.": "Belgilangan vazifa AI tomonidan inson tekshiruviga javob berish orqali oqadi. Manba sifati, aniqligi va qamrovi uchta tekshiruvni ta‘minlaydi.",
+    "Accuracy": "Aniqlik",
+    "AI": "AI",
+    "AI response": "AI javobi",
+    "AI with a review path": "Ko‘rib chiqish yo‘li bilan AI",
+    "Approved knowledge": "Tasdiqlangan bilim",
+    "Check the result": "Natijani tekshiring",
+    "Decide the next step": "Keyingi qadamni belgilang",
+    "Defined task": "Belgilangan vazifa",
+    "EVALUATE BEFORE EXPANDING": "KESHAYTISHDAN OLDIN BAHOLANING",
+    "Evidence included": "Dalillar kiritilgan",
+    "Human review": "Inson tekshiruvi",
+    "Limitations visible": "Ko‘rinadigan cheklovlar",
+    "Scope": "Qo‘llash doirasi",
+    "Source quality": "Manba sifati"
+  },
+  "public/media/escalir/diagrams/industry-governance.svg": {
+    "Access permissions": "Kirish ruxsatnomalari",
+    "Access permissions, approved sources and human approval connect to a controlled workflow with a named owner.": "Kirish ruxsatnomalari, tasdiqlangan manbalar va inson ruxsati nomidagi egasi bilan boshqariladigan ish jarayoniga ulanadi.",
+    "Approved sources": "Tasdiqlangan manbalar",
+    "Clear boundaries, accountable decisions": "Aniq chegaralar, mas‘uliyatli qarorlar",
+    "Control by design": "Dizayn bo‘yicha nazorat qilish",
+    "CONTROL BY DESIGN": "DIZAYN BO‘YICHA NAZORAT",
+    "Controlled workflow": "Boshqariladigan ish jarayoni",
+    "Human approval": "Inson roziligi",
+    "Traceable work, with a named owner": "Belgilangan egasi bilan kuzatilishi mumkin bo‘lgan ish"
+  },
+  "public/media/escalir/diagrams/industry-platform.svg": {
+    "Approved sources": "Tasdiqlangan manbalar",
+    "escalir connects approved sources, workflows and existing systems with people, controlled actions and useful outcomes.": "escalir tasdiqlangan manbalar, ish oqimlari va mavjud tizimlarni odamlar, boshqariladigan harakatlar va foydali natijalar bilan bog‘laydi.",
+    "CONNECTED WORK": "BOG‘LANGAN ISH",
+    "Controlled actions": "Nazorat qilinadigan harakatlar",
+    "Existing systems": "Mavjud tizimlar",
+    "Knowledge · Workflows · People": "Bilim · Ish jarayonlari · Odamlar",
+    "One connected workspace": "Bitta ulangan ish maydoni",
+    "One place to bring work together": "Ishni birlashtirish uchun bitta joy",
+    "People & review": "Odamlar va sharh",
+    "Useful outcomes": "Foydali natijalar",
+    "Your workflows": "Sizning ish oqimlaringiz"
+  },
+  "public/media/escalir/diagrams/platform-data.svg": {
+    "Defined data paths": "Belgilangan ma‘lumotlar yo‘llari",
+    "Three information sources pass through a bounded processing layer before reaching approved destinations.": "Tasdiqlangan manzillarga yetib borishdan oldin uchta axborot manbalari cheklangan ishlov berish qatlamidan o‘tadi."
+  },
+  "public/media/escalir/diagrams/platform-security.svg": {
+    "Access boundaries and review": "Chegaralarga kirish va ko‘rib chiqish",
+    "People and systems enter a defined boundary through reviewed access points, represented by a central shield and an audit trail.": "Odamlar va tizimlar markaziy qalqon va audit yo‘li bilan ifodalangan ko‘rib chiqilgan kirish nuqtalari orqali belgilangan chegaraga kiradi."
+  },
+  "public/media/industries/airlines/platform.svg": {
+    "Case management": "Ishni boshqarish",
+    "escalir Airlines platform": "escalir Aviakompaniya platformasi",
+    "escalir connects Passengers, Service teams, Claims with Journey records, Service policies, Case management.": "escalir yoʻlovchilarni, xizmat koʻrsatish guruhlarini, daʼvolarni sayohat yozuvlari, xizmat koʻrsatish siyosatlari, ishlarni boshqarish bilan bogʻlaydi.",
+    "Claims": "Da‘volar",
+    "Journey records": "Sayohat yozuvlari",
+    "Passengers": "Yo‘lovchilar",
+    "Service policies": "Xizmat siyosati",
+    "Service teams": "Xizmat guruhlari"
+  },
+  "public/media/industries/healthcare/platform.svg": {
+    "Administration": "Ma‘muriyat",
+    "Care teams": "G‘amxo‘rlik guruhlari",
+    "escalir connects Care teams, Administration, Internal services with Clinical records, Scheduling, Finance.": "escalir parvarishlash guruhlari, ma‘muriyat, ichki xizmatlarni klinik yozuvlar, rejalashtirish, moliya bilan bog‘laydi.",
+    "escalir Healthcare platform": "escalir Sog‘liqni saqlash platformasi",
+    "Clinical records": "Klinik qaydlar",
+    "Finance": "Moliya",
+    "Internal services": "Ichki xizmatlar",
+    "Scheduling": "Rejalashtirish"
+  },
+  "public/media/industries/utilities/platform.svg": {
+    "Billing": "Hisob-kitob",
+    "Billing records": "Hisob-kitob yozuvlari",
+    "Case management": "Ishni boshqarish",
+    "escalir connects Service, Field teams, Billing with Case management, Knowledge base, Billing records.": "escalir Xizmat, Dala guruhlari, Hisob-kitoblarni Case boshqaruvi, Bilimlar bazasi, Hisob-kitob yozuvlari bilan bog‘laydi.",
+    "escalir Utilities platform": "escalir Utilities platformasi",
+    "Field teams": "Maydon jamoalari",
+    "Knowledge base": "Bilimlar bazasi"
+  },
+  "public/media/insurance/platform.svg": {
+    "escalir insurance platform": "escalir sug‘urta platformasi",
+    "Core systems": "Asosiy tizimlar",
+    "Health": "Salomatlik",
+    "Life": "Hayot",
+    "P&C": "P&C",
+    "Policy systems": "Siyosat tizimlari",
+    "Property, life and health workflows connected to escalir, policy systems, CRM and core systems.": "escalir, siyosat tizimlari, CRM va asosiy tizimlarga ulangan mulk, hayot va salomatlik ish oqimlari."
+  }
+}
