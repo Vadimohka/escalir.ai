@@ -104,7 +104,7 @@ test("English pages have reciprocal SEO and a non-indexable multilingual 404", a
   expect(response?.status()).toBe(200);
   await expect(page.locator("html")).toHaveAttribute("lang", "en");
   await expect(page.getByRole("heading", { level: 1 })).toHaveCount(1);
-  await expect(page).toHaveTitle("escalir | Enterprise AI, from request to reviewed result");
+  await expect(page).toHaveTitle("Escalir | Enterprise AI, from request to reviewed result");
   await expect(page.locator('link[rel="canonical"]')).toHaveAttribute("href", "https://escalir.ai/");
   await expect(page.locator('meta[property="og:url"]')).toHaveAttribute("content", "https://escalir.ai/");
   const languages = Object.keys(localeRegistry.locales);
@@ -124,7 +124,7 @@ test("English pages have reciprocal SEO and a non-indexable multilingual 404", a
 
   await page.goto("/platform/");
   await expect(page.getByRole("heading", { level: 1 })).toHaveCount(1);
-  await expect(page).toHaveTitle("escalir AI Platform | escalir");
+  await expect(page).toHaveTitle("Escalir AI Platform | Escalir");
   await expect(page.locator('link[rel="canonical"]')).toHaveAttribute("href", "https://escalir.ai/platform/");
   await expect(page.locator('meta[property="og:url"]')).toHaveAttribute("content", "https://escalir.ai/platform/");
 
@@ -164,7 +164,7 @@ test("Contact, privacy and founder links use the approved destinations", async (
   }
   const founderNames = ["Vitali Bakhmat", "Vadim Vladymtsev", "Egor Krychev"];
   const teamNames = [...founderNames, "Bakht Niyazov", "Iskandar Erkinov", "Maxim Tolmachev"];
-  const teamPreview = page.locator("#team").getByRole("list", { name: "escalir team" });
+  const teamPreview = page.locator("#team").getByRole("list", { name: "Escalir team" });
   await expect(teamPreview.locator("img")).toHaveCount(6);
   for (const name of teamNames) {
     await expect(teamPreview.getByText(name, { exact: false })).toBeVisible();
@@ -184,7 +184,7 @@ test("Contact, privacy and founder links use the approved destinations", async (
     expect(positions[0]).toBeLessThan(positions[1]);
     expect(positions[1]).toBeLessThan(positions[2]);
   }
-  await page.locator("#team").getByRole("link", { name: /About escalir/ }).click();
+  await page.locator("#team").getByRole("link", { name: /About Escalir/ }).click();
   await expect(page).toHaveURL(`${ORIGIN}/about-us/`);
   const founders = page.locator("#founders");
   for (const name of founderNames) {
@@ -201,7 +201,7 @@ test("Contact, privacy and founder links use the approved destinations", async (
 
   await page.getByRole("navigation", { name: "Footer navigation" }).getByRole("link", { name: "Contact", exact: true }).click();
   await expect(page).toHaveURL(`${ORIGIN}/contact/`);
-  await expect(page).toHaveTitle("Contact | escalir");
+  await expect(page).toHaveTitle("Contact | Escalir");
   const contact = page.locator("main").getByRole("link", { name: "Message Vitali on Telegram", exact: true });
   await expect(contact).toBeVisible();
   await expect(contact).toHaveAttribute("href", TELEGRAM);
@@ -267,7 +267,7 @@ test("Mobile navigation and essential content work without JavaScript", async ({
     const navigation = page.getByRole("navigation", { name: "Mobile navigation" });
     await expect(navigation).toBeVisible();
     await navigation.getByText("Platform", { exact: true }).click();
-    await navigation.getByRole("link", { name: /^escalir Agents/ }).click();
+    await navigation.getByRole("link", { name: /^Escalir Agents/ }).click();
     await expect(page).toHaveURL(`${ORIGIN}/agents/`);
     await expectLocalAppScreenshots(page);
     await expect(page.locator("footer").getByRole("link", { name: "Get in touch", exact: true })).toBeVisible();
@@ -298,7 +298,7 @@ test("Menus, screenshot links and security FAQs support keyboard navigation", as
   await tabTo(page, toggle);
   await page.keyboard.press("Enter");
   await expect(platform).toHaveAttribute("open", "");
-  const agents = platform.getByRole("link", { name: /^escalir Agents/ });
+  const agents = platform.getByRole("link", { name: /^Escalir Agents/ });
   await tabTo(page, agents);
   await page.keyboard.press("Escape");
   await expect(platform).not.toHaveAttribute("open");
@@ -411,7 +411,7 @@ test("Mobile layouts and reduced motion remain usable", async ({ page }, testInf
     expect(await page.locator("html").evaluate((node) => getComputedStyle(node).scrollSnapType)).toBe("none");
     const contactCta = page.locator(`#contact a[href="${TELEGRAM}"]`);
     for (const links of [
-      page.locator("[data-site-header]").getByRole("link", { name: "escalir home", exact: true }),
+      page.locator("[data-site-header]").getByRole("link", { name: "Escalir home", exact: true }),
       page.locator("[data-site-header]").getByRole("link", { name: "Get in touch", exact: true }),
       page.locator("#home a"),
       contactCta,

@@ -4,7 +4,7 @@ Website media is served locally from `public/`.
 
 | Location | Contents |
 | --- | --- |
-| `public/brand/` | escalir wordmarks and symbol |
+| `public/brand/` | Escalir wordmarks and symbol |
 | `public/founders/` | Founder photographs |
 | `public/media/app/` | Application captures |
 | `public/media/escalir/photos/` | Page photography and responsive variants |
@@ -17,7 +17,7 @@ Website media is served locally from `public/`.
 
 Keep image dimensions, responsive sources and crop positions aligned with their component settings. Use descriptive alternative text for meaningful images and empty alternative text for decorative images. Each photograph should occupy at most one content slot on a page; responsive variants belong to the same slot.
 
-The Deployment and AI Transformation hero photographs are original generated editorial images. Each uses a native landscape composition (1672 × 941) and a 960px responsive variant; Deployment also has a separate portrait composition for mobile. Their generation briefs and intended crops are recorded in [hero photography](hero-photography.md). They illustrate work and architecture; they are not presented as photographs of escalir customers or named staff.
+The Deployment and AI Transformation hero photographs are original generated editorial images. Each uses a native landscape composition (1672 × 941) and a 960px responsive variant; Deployment also has a separate portrait composition for mobile. Their generation briefs and intended crops are recorded in [hero photography](hero-photography.md). They illustrate work and architecture; they are not presented as photographs of Escalir customers or named staff.
 
 Application capture dimensions and captions are defined in [src/lib/app-captures.ts](../src/lib/app-captures.ts). The [capture inventory](app-capture-provenance.json) records the files and their checksums. Preserve their aspect ratios and keep full-size links available.
 
@@ -37,7 +37,7 @@ The command reads the stock manifest and caches source clips locally. Use `npm r
 
 ## Social preview
 
-To update the 1200 × 630 social preview from the current hero poster and escalir wordmark:
+To update the 1200 × 630 social preview from the current hero poster and Escalir wordmark:
 
 ```bash
 npm run assets:og

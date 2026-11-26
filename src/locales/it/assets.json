@@ -50,7 +50,7 @@
   "public/media/escalir/diagrams/industry-platform.svg": {
     "Approved sources": "Fonti approvate",
     "CONNECTED WORK": "LAVORO CONNESSO",
-    "escalir connects approved sources, workflows and existing systems with people, controlled actions and useful outcomes.": "escalir collega fonti approvate, flussi di lavoro e sistemi esistenti a persone, azioni controllate e risultati utili.",
+    "Escalir connects approved sources, workflows and existing systems with people, controlled actions and useful outcomes.": "Escalir collega fonti approvate, flussi di lavoro e sistemi esistenti a persone, azioni controllate e risultati utili.",
     "Controlled actions": "Azioni controllate",
     "Existing systems": "Sistemi esistenti",
     "Knowledge · Workflows · People": "Conoscenza · Flussi · Persone",
@@ -70,8 +70,8 @@
   },
   "public/media/industries/airlines/platform.svg": {
     "Case management": "Gestione delle pratiche",
-    "escalir Airlines platform": "Piattaforma escalir per le compagnie aeree",
-    "escalir connects Passengers, Service teams, Claims with Journey records, Service policies, Case management.": "escalir collega passeggeri, team di assistenza e reclami a dati di viaggio, politiche di assistenza e gestione delle pratiche.",
+    "Escalir Airlines platform": "Piattaforma Escalir per le compagnie aeree",
+    "Escalir connects Passengers, Service teams, Claims with Journey records, Service policies, Case management.": "Escalir collega passeggeri, team di assistenza e reclami a dati di viaggio, politiche di assistenza e gestione delle pratiche.",
     "Claims": "Reclami",
     "Journey records": "Dati di viaggio",
     "Passengers": "Passeggeri",
@@ -81,8 +81,8 @@
   "public/media/industries/healthcare/platform.svg": {
     "Administration": "Amministrazione",
     "Care teams": "Team sanitari",
-    "escalir Healthcare platform": "Piattaforma escalir per la sanità",
-    "escalir connects Care teams, Administration, Internal services with Clinical records, Scheduling, Finance.": "escalir collega team sanitari, amministrazione e servizi interni a cartelle cliniche, pianificazione e finanza.",
+    "Escalir Healthcare platform": "Piattaforma Escalir per la sanità",
+    "Escalir connects Care teams, Administration, Internal services with Clinical records, Scheduling, Finance.": "Escalir collega team sanitari, amministrazione e servizi interni a cartelle cliniche, pianificazione e finanza.",
     "Clinical records": "Cartelle cliniche",
     "Finance": "Finanza",
     "Internal services": "Servizi interni",
@@ -92,19 +92,19 @@
     "Billing": "Fatturazione",
     "Billing records": "Dati di fatturazione",
     "Case management": "Gestione delle pratiche",
-    "escalir Utilities platform": "Piattaforma escalir per i servizi di pubblica utilità",
-    "escalir connects Service, Field teams, Billing with Case management, Knowledge base, Billing records.": "escalir collega assistenza, squadre sul campo e fatturazione a gestione delle pratiche, base di conoscenza e dati di fatturazione.",
+    "Escalir Utilities platform": "Piattaforma Escalir per i servizi di pubblica utilità",
+    "Escalir connects Service, Field teams, Billing with Case management, Knowledge base, Billing records.": "Escalir collega assistenza, squadre sul campo e fatturazione a gestione delle pratiche, base di conoscenza e dati di fatturazione.",
     "Field teams": "Squadre sul campo",
     "Knowledge base": "Base di conoscenza",
     "Service": "Assistenza"
   },
   "public/media/insurance/platform.svg": {
-    "escalir insurance platform": "Piattaforma escalir per le assicurazioni",
+    "Escalir insurance platform": "Piattaforma Escalir per le assicurazioni",
     "Core systems": "Sistemi centrali",
     "Health": "Salute",
     "Life": "Vita",
     "P&C": "Danni",
     "Policy systems": "Sistemi polizze",
-    "Property, life and health workflows connected to escalir, policy systems, CRM and core systems.": "Flussi di lavoro per i rami danni, vita e salute collegati a escalir, sistemi polizze, CRM e sistemi centrali."
+    "Property, life and health workflows connected to Escalir, policy systems, CRM and core systems.": "Flussi di lavoro per i rami danni, vita e salute collegati a Escalir, sistemi polizze, CRM e sistemi centrali."
   }
 }

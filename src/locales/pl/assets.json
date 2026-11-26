@@ -48,7 +48,7 @@
   },
   "public/media/escalir/diagrams/industry-platform.svg": {
     "Approved sources": "Zatwierdzone źródła",
-    "escalir connects approved sources, workflows and existing systems with people, controlled actions and useful outcomes.": "escalir łączy zatwierdzone źródła, przepływy pracy i istniejące systemy z ludźmi, kontrolowanymi działaniami i przydatnymi wynikami.",
+    "Escalir connects approved sources, workflows and existing systems with people, controlled actions and useful outcomes.": "Escalir łączy zatwierdzone źródła, przepływy pracy i istniejące systemy z ludźmi, kontrolowanymi działaniami i przydatnymi wynikami.",
     "CONNECTED WORK": "ZINTEGROWANA PRACA",
     "Controlled actions": "Kontrolowane działania",
     "Existing systems": "Obecne systemy",
@@ -69,8 +69,8 @@
   },
   "public/media/industries/airlines/platform.svg": {
     "Case management": "Obsługa spraw",
-    "escalir Airlines platform": "Platforma escalir dla linii lotniczych",
-    "escalir connects Passengers, Service teams, Claims with Journey records, Service policies, Case management.": "escalir łączy pasażerów, zespoły obsługi i reklamacje z danymi podróży, zasadami obsługi i obsługą spraw.",
+    "Escalir Airlines platform": "Platforma Escalir dla linii lotniczych",
+    "Escalir connects Passengers, Service teams, Claims with Journey records, Service policies, Case management.": "Escalir łączy pasażerów, zespoły obsługi i reklamacje z danymi podróży, zasadami obsługi i obsługą spraw.",
     "Claims": "Reklamacje",
     "Journey records": "Dane podróży",
     "Passengers": "Pasażerowie",
@@ -80,8 +80,8 @@
   "public/media/industries/healthcare/platform.svg": {
     "Administration": "Administracja",
     "Care teams": "Zespoły medyczne",
-    "escalir connects Care teams, Administration, Internal services with Clinical records, Scheduling, Finance.": "escalir łączy zespoły medyczne, administrację i usługi wewnętrzne z dokumentacją medyczną, harmonogramami i finansami.",
-    "escalir Healthcare platform": "Platforma escalir dla ochrony zdrowia",
+    "Escalir connects Care teams, Administration, Internal services with Clinical records, Scheduling, Finance.": "Escalir łączy zespoły medyczne, administrację i usługi wewnętrzne z dokumentacją medyczną, harmonogramami i finansami.",
+    "Escalir Healthcare platform": "Platforma Escalir dla ochrony zdrowia",
     "Clinical records": "Dokumentacja medyczna",
     "Finance": "Finanse",
     "Internal services": "Usługi wewnętrzne",
@@ -91,19 +91,19 @@
     "Billing": "Rozliczenia",
     "Billing records": "Dane rozliczeniowe",
     "Case management": "Obsługa spraw",
-    "escalir connects Service, Field teams, Billing with Case management, Knowledge base, Billing records.": "escalir łączy obsługę, zespoły terenowe i rozliczenia z obsługą spraw, bazą wiedzy i danymi rozliczeniowymi.",
-    "escalir Utilities platform": "Platforma escalir dla usług użyteczności publicznej",
+    "Escalir connects Service, Field teams, Billing with Case management, Knowledge base, Billing records.": "Escalir łączy obsługę, zespoły terenowe i rozliczenia z obsługą spraw, bazą wiedzy i danymi rozliczeniowymi.",
+    "Escalir Utilities platform": "Platforma Escalir dla usług użyteczności publicznej",
     "Field teams": "Zespoły terenowe",
     "Knowledge base": "Baza wiedzy",
     "Service": "Obsługa"
   },
   "public/media/insurance/platform.svg": {
-    "escalir insurance platform": "Platforma escalir dla ubezpieczeń",
+    "Escalir insurance platform": "Platforma Escalir dla ubezpieczeń",
     "Core systems": "Systemy główne",
     "Health": "Zdrowotne",
     "Life": "Na życie",
     "P&C": "Majątkowe i OC",
     "Policy systems": "Systemy polis",
-    "Property, life and health workflows connected to escalir, policy systems, CRM and core systems.": "Przepływy pracy w ubezpieczeniach majątkowych, na życie i zdrowotnych połączone z escalir, systemami polis, CRM i systemami głównymi."
+    "Property, life and health workflows connected to Escalir, policy systems, CRM and core systems.": "Przepływy pracy w ubezpieczeniach majątkowych, na życie i zdrowotnych połączone z Escalir, systemami polis, CRM i systemami głównymi."
   }
 }

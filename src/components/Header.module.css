@@ -53,13 +53,22 @@
 .languagePanel { position: absolute; top: calc(100% + 12px); right: 0; min-width: 138px; max-height: calc(var(--panel-space) - 16px); overflow-y: auto; overscroll-behavior: contain; padding: 8px; color: #1f1f1f; background: #fff; border: 1px solid #e8e8e8; border-radius: 8px; box-shadow: 0 8px 24px #0000000d; }
 .languagePanel > a { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 10px 8px; font-size: 14px; }
 
-.panel { position: absolute; top: 100%; left: 0; right: 0; min-height: min(350px, var(--panel-space)); max-height: var(--panel-space); overflow-y: auto; overscroll-behavior: contain; background: #fff; color: #1f1f1f; padding: 48px 24px 24px; }
+.panel { position: absolute; top: 100%; left: 0; right: 0; min-height: min(350px, var(--panel-space)); max-height: var(--panel-space); overflow-y: auto; overscroll-behavior: contain; background: #f7f7f4; color: #1f1f1f; padding: 44px 24px 28px; border-top: 1px solid #e4e4e4; }
 .panelInner { max-width: 1680px; margin-inline: auto; }
-.groupContent { margin-left: 158px; }
+.groupContent { display: grid; grid-template-columns: 92px minmax(0, 620px); gap: 40px; margin-left: 158px; }
+.brandRail { display: flex; flex-direction: column; align-items: flex-start; gap: 16px; padding-top: 13px; color: #6b6b6b; font-family: var(--font-mono); font-size: 10px; letter-spacing: .1em; }
+.brandRail img { width: 30px; height: auto; }
+.brandRail i { display: block; width: 38px; height: 2px; background: var(--color-brand-green); }
 .linkGrid { display: grid; grid-template-columns: repeat(2, minmax(0, 282px)); gap: 16px 12px; width: 576px; max-width: 100%; }
-.menuLink { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; min-width: 0; padding: 12px; border-radius: 8px; color: #1f1f1f; font-size: 16px; font-weight: 300; line-height: 1.2; letter-spacing: -.5px; text-decoration: none; transition: background-color 150ms ease; }
-.menuLink:hover, .menuLink:focus-visible { background: #fafafa; }
-.menuLink > small { display: block; color: #777; font-size: 14px; font-weight: 300; line-height: 1.2; letter-spacing: -.5px; }
+.menuLink { display: flex; align-items: center; gap: 13px; min-width: 0; padding: 11px 12px; border: 1px solid transparent; border-radius: 2px; color: #1f1f1f; font-size: 16px; font-weight: 500; line-height: 1.2; letter-spacing: -.25px; text-decoration: none; transition: background-color 150ms ease, border-color 150ms ease; }
+.menuLink:hover, .menuLink:focus-visible { background: #fff; border-color: #deded9; }
+.menuIcon { display: grid; place-items: center; flex: 0 0 auto; width: 38px; height: 38px; border: 1px solid #d9d9d4; border-radius: 2px; background: #fff; transition: background-color 150ms ease, border-color 150ms ease; }
+.menuCopy { display: flex; flex-direction: column; min-width: 0; gap: 6px; }
+.menuCopy > span { display: block; }
+.menuCopy > small { display: block; color: #777; font-size: 12px; font-weight: 400; line-height: 1.35; letter-spacing: -.1px; }
+.menuArrow { flex: 0 0 auto; margin-left: auto; color: #999; opacity: .55; transition: color 150ms ease, opacity 150ms ease, transform 150ms ease; }
+.menuLink:hover .menuIcon, .menuLink:focus-visible .menuIcon { background: var(--color-brand-green); border-color: var(--color-brand-green); }
+.menuLink:hover .menuArrow, .menuLink:focus-visible .menuArrow { color: #111; opacity: 1; transform: translate(2px, -2px); }
 .platform .menuLink { min-height: 85px; }
 .industries .linkGrid { width: 580px; column-gap: 16px; }
 .industries .menuLink { min-height: 68px; }
@@ -88,9 +97,11 @@
   .mobileGroup > summary { display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 64px; font-size: 24px; font-weight: 300; line-height: 1.2; letter-spacing: -.7px; }
   .mobileGroup[open] > summary > svg { transform: rotate(180deg); }
   .mobileGroup > summary > svg { transition: transform 160ms ease; }
-  .groupContent { margin-left: 0; padding-block: 8px 24px; }
+  .groupContent { grid-template-columns: minmax(0, 1fr); gap: 0; margin-left: 0; padding-block: 8px 24px; }
+  .brandRail { display: none; }
   .linkGrid, .industries .linkGrid { grid-template-columns: repeat(2, minmax(0, 1fr)); width: 100%; }
-  .menuLink { font-size: 16px; }
+  .menuLink { align-items: flex-start; min-height: 72px; font-size: 15px; }
+  .menuIcon { width: 34px; height: 34px; }
   .spacer { height: 68px; }
   :global(body):has(.mobile[open]) { overflow: hidden; }
 }

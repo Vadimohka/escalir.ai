@@ -5,7 +5,7 @@ import { RelatedPages } from "@/components/site/Sections";
 import { CompanyAccordion, CompanyCTA, CompanyHeading } from "@/components/company/CompanyElements";
 import { pageMetadata } from "@/lib/metadata";
 
-export const metadata = pageMetadata("Security & control", "Configure escalir around corporate identity, knowledge access, model data boundaries, verification and audit logs", "/security");
+export const metadata = pageMetadata("Security & control", "Configure Escalir around corporate identity, knowledge access, model data boundaries, verification and audit logs", "/security");
 
 const controls = [
   { title: "Corporate identity", description: "Connect SSO and define access to agents, documents and tools through roles" },
@@ -22,7 +22,7 @@ const deploymentDecisions = [
   { title: "Operations & ownership", description: "Name the owners of data, policies and workflows. Connect logs to your SIEM, monitor quality and resource use, and train your team to maintain the deployment" },
 ];
 const questions = [
-  { title: "Can escalir connect to our existing systems?", description: "escalir connects through APIs, databases and MCP. Corporate identity, source access and SIEM integration are configured around the selected workflows and your infrastructure." },
+  { title: "Can Escalir connect to our existing systems?", description: "Escalir connects through APIs, databases and MCP. Corporate identity, source access and SIEM integration are configured around the selected workflows and your infrastructure." },
   { title: "Can processing stay in our environment?", description: "A closed deployment can use local models and operate without external API or cloud calls. If an external model is selected, the allowed data and processing route are defined explicitly." },
   { title: "How do we check model quality?", description: "Evaluate candidate models on your documents and control questions, with agreed success criteria. Compare results before selecting the model and confirm performance on approved real data after deployment." },
 ];
@@ -58,7 +58,7 @@ export default function SecurityPage() {
           { href: "/blog/answers-need-sources/", eyebrow: "Knowledge", title: "Answers you can inspect", description: "Keep the evidence and access rules connected to the answer" },
           { href: "/blog/human-review/", eyebrow: "Workflows", title: "A meaningful review point", description: "Give people the context they need to make a decision" },
         ]} />
-        <CompanyCTA title={<>Define the boundaries<br />Then build with confidence</>} description="Discuss your infrastructure, data boundaries, model choices and acceptance criteria with the escalir team" />
+        <CompanyCTA title={<>Define the boundaries<br />Then build with confidence</>} description="Discuss your infrastructure, data boundaries, model choices and acceptance criteria with the Escalir team" />
       </div>
     </PageFrame>
   );

@@ -49,7 +49,7 @@
   },
   "public/media/escalir/diagrams/industry-platform.svg": {
     "Approved sources": "Затверджені джерела",
-    "escalir connects approved sources, workflows and existing systems with people, controlled actions and useful outcomes.": "escalir поєднує затверджені джерела, робочі процеси й наявні системи з людьми, керованими діями та корисними результатами.",
+    "Escalir connects approved sources, workflows and existing systems with people, controlled actions and useful outcomes.": "Escalir поєднує затверджені джерела, робочі процеси й наявні системи з людьми, керованими діями та корисними результатами.",
     "CONNECTED WORK": "ВЗАЄМОПОВ’ЯЗАНА РОБОТА",
     "Controlled actions": "Керовані дії",
     "Existing systems": "Наявні системи",
@@ -70,8 +70,8 @@
   },
   "public/media/industries/airlines/platform.svg": {
     "Case management": "Опрацювання звернень",
-    "escalir Airlines platform": "Платформа escalir для авіакомпаній",
-    "escalir connects Passengers, Service teams, Claims with Journey records, Service policies, Case management.": "escalir поєднує пасажирів, сервісні команди та претензії з даними подорожей, правилами обслуговування й опрацюванням звернень.",
+    "Escalir Airlines platform": "Платформа Escalir для авіакомпаній",
+    "Escalir connects Passengers, Service teams, Claims with Journey records, Service policies, Case management.": "Escalir поєднує пасажирів, сервісні команди та претензії з даними подорожей, правилами обслуговування й опрацюванням звернень.",
     "Claims": "Претензії",
     "Journey records": "Дані подорожей",
     "Passengers": "Пасажири",
@@ -81,8 +81,8 @@
   "public/media/industries/healthcare/platform.svg": {
     "Administration": "Адміністрація",
     "Care teams": "Медичні команди",
-    "escalir connects Care teams, Administration, Internal services with Clinical records, Scheduling, Finance.": "escalir поєднує медичні команди, адміністрацію та внутрішні служби з медичними записами, плануванням і фінансами.",
-    "escalir Healthcare platform": "Платформа escalir для охорони здоров’я",
+    "Escalir connects Care teams, Administration, Internal services with Clinical records, Scheduling, Finance.": "Escalir поєднує медичні команди, адміністрацію та внутрішні служби з медичними записами, плануванням і фінансами.",
+    "Escalir Healthcare platform": "Платформа Escalir для охорони здоров’я",
     "Clinical records": "Медичні записи",
     "Finance": "Фінанси",
     "Internal services": "Внутрішні служби",
@@ -92,19 +92,19 @@
     "Billing": "Нарахування",
     "Billing records": "Дані розрахунків",
     "Case management": "Опрацювання звернень",
-    "escalir connects Service, Field teams, Billing with Case management, Knowledge base, Billing records.": "escalir поєднує обслуговування, виїзні бригади та нарахування з опрацюванням звернень, базою знань і даними розрахунків.",
-    "escalir Utilities platform": "Платформа escalir для комунальних послуг",
+    "Escalir connects Service, Field teams, Billing with Case management, Knowledge base, Billing records.": "Escalir поєднує обслуговування, виїзні бригади та нарахування з опрацюванням звернень, базою знань і даними розрахунків.",
+    "Escalir Utilities platform": "Платформа Escalir для комунальних послуг",
     "Field teams": "Виїзні бригади",
     "Knowledge base": "База знань",
     "Service": "Обслуговування"
   },
   "public/media/insurance/platform.svg": {
-    "escalir insurance platform": "Платформа escalir для страхування",
+    "Escalir insurance platform": "Платформа Escalir для страхування",
     "Core systems": "Основні системи",
     "Health": "Здоров’я",
     "Life": "Життя",
     "P&C": "Майно й відповідальність",
     "Policy systems": "Системи полісів",
-    "Property, life and health workflows connected to escalir, policy systems, CRM and core systems.": "Робочі процеси страхування майна, життя та здоров’я, пов’язані із escalir, системами полісів, CRM і основними системами."
+    "Property, life and health workflows connected to Escalir, policy systems, CRM and core systems.": "Робочі процеси страхування майна, життя та здоров’я, пов’язані із Escalir, системами полісів, CRM і основними системами."
   }
 }

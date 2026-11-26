@@ -20,7 +20,7 @@
       "accessibleLabel": "Language: English",
       "openGraphLocale": "en_GB",
       "socialImage": "/og/escalir.webp",
-      "imageAlt": "escalir — Accelerate AI transformation across your business.",
+      "imageAlt": "Escalir — Accelerate AI transformation across your business.",
       "productTitles": {},
       "guideCount": {
         "one": "guide",
@@ -37,7 +37,7 @@
       },
       "notFound": {
         "title": "Page not found",
-        "description": "This page may have moved. Explore the platform, our industry solutions and the people behind escalir.",
+        "description": "This page may have moved. Explore the platform, our industry solutions and the people behind Escalir.",
         "homeLabel": "Go to the English homepage"
       },
       "socialPreview": {
@@ -59,12 +59,12 @@
       "accessibleLabel": "Тіл: қазақша",
       "openGraphLocale": "kk_KZ",
       "socialImage": "/og/escalir-kk.webp",
-      "imageAlt": "escalir — бизнестегі AI трансформациясын жеделдетіңіз.",
+      "imageAlt": "Escalir — бизнестегі AI трансформациясын жеделдетіңіз.",
       "productTitles": {
-        "escalir AI Platform": "escalir AI Platform — кәсіпорындарға арналған AI платформасы",
-        "escalir Agents": "escalir Agents — кәсіпорындарға арналған AI агенттері",
-        "escalir Systems": "escalir Systems — AI жүйелері және процестерді автоматтандыру",
-        "escalir AI Gateway": "escalir AI Gateway — AI модельдеріне қатынас"
+        "Escalir AI Platform": "Escalir AI Platform — кәсіпорындарға арналған AI платформасы",
+        "Escalir Agents": "Escalir Agents — кәсіпорындарға арналған AI агенттері",
+        "Escalir Systems": "Escalir Systems — AI жүйелері және процестерді автоматтандыру",
+        "Escalir AI Gateway": "Escalir AI Gateway — AI модельдеріне қатынас"
       },
       "guideCount": {
         "one": "нұсқаулық",
@@ -81,7 +81,7 @@
       },
       "notFound": {
         "title": "Бет табылмады",
-        "description": "Бұл беттің мекенжайы өзгерген болуы мүмкін. Платформаны, салалық шешімдерді және escalir командасын қарап шығыңыз.",
+        "description": "Бұл беттің мекенжайы өзгерген болуы мүмкін. Платформаны, салалық шешімдерді және Escalir командасын қарап шығыңыз.",
         "homeLabel": "Қазақша басты бетке өту"
       },
       "socialPreview": {
@@ -103,12 +103,12 @@
       "accessibleLabel": "Til: o‘zbekcha",
       "openGraphLocale": "uz_UZ",
       "socialImage": "/og/escalir-uz.webp",
-      "imageAlt": "escalir — biznesingizda AI transformatsiyasini tezlashtiring.",
+      "imageAlt": "Escalir — biznesingizda AI transformatsiyasini tezlashtiring.",
       "productTitles": {
-        "escalir AI Platform": "escalir AI Platform — korxonalar uchun AI platformasi",
-        "escalir Agents": "escalir Agents — korxonalar uchun AI agentlari",
-        "escalir Systems": "escalir Systems — AI tizimlari va jarayonlarni avtomatlashtirish",
-        "escalir AI Gateway": "escalir AI Gateway — AI modellariga kirish"
+        "Escalir AI Platform": "Escalir AI Platform — korxonalar uchun AI platformasi",
+        "Escalir Agents": "Escalir Agents — korxonalar uchun AI agentlari",
+        "Escalir Systems": "Escalir Systems — AI tizimlari va jarayonlarni avtomatlashtirish",
+        "Escalir AI Gateway": "Escalir AI Gateway — AI modellariga kirish"
       },
       "guideCount": {
         "one": "qo‘llanma",
@@ -125,7 +125,7 @@
       },
       "notFound": {
         "title": "Sahifa topilmadi",
-        "description": "Bu sahifaning manzili o‘zgargan bo‘lishi mumkin. Platforma, soha yechimlari va escalir jamoasi bilan tanishing.",
+        "description": "Bu sahifaning manzili o‘zgargan bo‘lishi mumkin. Platforma, soha yechimlari va Escalir jamoasi bilan tanishing.",
         "homeLabel": "O‘zbekcha bosh sahifaga o‘tish"
       },
       "socialPreview": {
@@ -147,7 +147,7 @@
       "accessibleLabel": "Sprache: Deutsch",
       "openGraphLocale": "de_DE",
       "socialImage": "/og/escalir-de.webp",
-      "imageAlt": "escalir – Von der Idee in den Arbeitsalltag. Spezifikation, Entwicklung und Governance.",
+      "imageAlt": "Escalir – Von der Idee in den Arbeitsalltag. Spezifikation, Entwicklung und Governance.",
       "productTitles": {},
       "guideCount": {
         "one": "Leitfaden",
@@ -164,7 +164,7 @@
       },
       "notFound": {
         "title": "Seite nicht gefunden",
-        "description": "Diese Seite wurde möglicherweise verschoben. Entdecken Sie die Plattform, unsere Branchenlösungen und das Team hinter escalir.",
+        "description": "Diese Seite wurde möglicherweise verschoben. Entdecken Sie die Plattform, unsere Branchenlösungen und das Team hinter Escalir.",
         "homeLabel": "Zur deutschen Startseite"
       },
       "socialPreview": {
@@ -185,12 +185,12 @@
       "accessibleLabel": "Język: polski",
       "openGraphLocale": "pl_PL",
       "socialImage": "/og/escalir-pl.webp",
-      "imageAlt": "escalir — Przyspiesz transformację AI w swojej firmie",
+      "imageAlt": "Escalir — Przyspiesz transformację AI w swojej firmie",
       "productTitles": {
-        "escalir AI Platform": "escalir AI Platform — platforma AI dla firm",
-        "escalir Agents": "escalir Agents — agenci AI dla firm",
-        "escalir Systems": "escalir Systems — systemy AI i automatyzacja procesów",
-        "escalir AI Gateway": "escalir AI Gateway — dostęp do modeli AI"
+        "Escalir AI Platform": "Escalir AI Platform — platforma AI dla firm",
+        "Escalir Agents": "Escalir Agents — agenci AI dla firm",
+        "Escalir Systems": "Escalir Systems — systemy AI i automatyzacja procesów",
+        "Escalir AI Gateway": "Escalir AI Gateway — dostęp do modeli AI"
       },
       "guideCount": {
         "one": "poradnik",
@@ -207,7 +207,7 @@
       },
       "notFound": {
         "title": "Nie znaleziono strony",
-        "description": "Strona mogła zmienić adres. Poznaj platformę, rozwiązania dla branż i zespół escalir.",
+        "description": "Strona mogła zmienić adres. Poznaj platformę, rozwiązania dla branż i zespół Escalir.",
         "homeLabel": "Wróć do polskiej strony głównej"
       },
       "socialPreview": {
@@ -229,7 +229,7 @@
       "accessibleLabel": "Мова: українська",
       "openGraphLocale": "uk_UA",
       "socialImage": "/og/escalir-uk.webp",
-      "imageAlt": "escalir — Від ідеї до щоденної роботи. Специфікація, розробка, управління й контроль",
+      "imageAlt": "Escalir — Від ідеї до щоденної роботи. Специфікація, розробка, управління й контроль",
       "productTitles": {},
       "guideCount": {
         "one": "посібник",
@@ -246,7 +246,7 @@
       },
       "notFound": {
         "title": "Сторінку не знайдено",
-        "description": "Можливо, ця сторінка змінила адресу. Дізнайтеся про платформу, галузеві рішення та команду escalir.",
+        "description": "Можливо, ця сторінка змінила адресу. Дізнайтеся про платформу, галузеві рішення та команду Escalir.",
         "homeLabel": "На головну сторінку українською"
       },
       "socialPreview": {
@@ -267,12 +267,12 @@
       "accessibleLabel": "Langue : français",
       "openGraphLocale": "fr_FR",
       "socialImage": "/og/escalir-fr.webp",
-      "imageAlt": "escalir — Accélérez la transformation de votre entreprise par l’IA",
+      "imageAlt": "Escalir — Accélérez la transformation de votre entreprise par l’IA",
       "productTitles": {
-        "escalir AI Platform": "escalir AI Platform — plateforme d’IA pour les entreprises",
-        "escalir Agents": "escalir Agents — agents IA pour les entreprises",
-        "escalir Systems": "escalir Systems — systèmes d’IA et automatisation des processus",
-        "escalir AI Gateway": "escalir AI Gateway — accès aux modèles d’IA"
+        "Escalir AI Platform": "Escalir AI Platform — plateforme d’IA pour les entreprises",
+        "Escalir Agents": "Escalir Agents — agents IA pour les entreprises",
+        "Escalir Systems": "Escalir Systems — systèmes d’IA et automatisation des processus",
+        "Escalir AI Gateway": "Escalir AI Gateway — accès aux modèles d’IA"
       },
       "guideCount": {
         "one": "guide",
@@ -289,7 +289,7 @@
       },
       "notFound": {
         "title": "Page introuvable",
-        "description": "Cette page a peut-être changé d’adresse. Découvrez la plateforme, nos solutions sectorielles et l’équipe de escalir.",
+        "description": "Cette page a peut-être changé d’adresse. Découvrez la plateforme, nos solutions sectorielles et l’équipe de Escalir.",
         "homeLabel": "Accéder à l’accueil en français"
       },
       "socialPreview": {
@@ -311,12 +311,12 @@
       "accessibleLabel": "Мова: беларуская",
       "openGraphLocale": "be_BY",
       "socialImage": "/og/escalir-be.webp",
-      "imageAlt": "escalir — Ад ідэі да штодзённай працы. Спецыфікацыя, распрацоўка і кіраванне.",
+      "imageAlt": "Escalir — Ад ідэі да штодзённай працы. Спецыфікацыя, распрацоўка і кіраванне.",
       "productTitles": {
-        "escalir AI Platform": "escalir AI Platform — платформа ШІ для арганізацый",
-        "escalir Agents": "escalir Agents — агенты ШІ для арганізацый",
-        "escalir Systems": "escalir Systems — сістэмы ШІ і аўтаматызацыя працэсаў",
-        "escalir AI Gateway": "escalir AI Gateway — доступ да мадэляў ШІ"
+        "Escalir AI Platform": "Escalir AI Platform — платформа ШІ для арганізацый",
+        "Escalir Agents": "Escalir Agents — агенты ШІ для арганізацый",
+        "Escalir Systems": "Escalir Systems — сістэмы ШІ і аўтаматызацыя працэсаў",
+        "Escalir AI Gateway": "Escalir AI Gateway — доступ да мадэляў ШІ"
       },
       "guideCount": {
         "one": "дапаможнік",
@@ -333,7 +333,7 @@
       },
       "notFound": {
         "title": "Старонка не знойдзена",
-        "description": "Магчыма, гэтая старонка змяніла адрас. Даведайцеся пра платформу, галіновыя рашэнні і каманду escalir.",
+        "description": "Магчыма, гэтая старонка змяніла адрас. Даведайцеся пра платформу, галіновыя рашэнні і каманду Escalir.",
         "homeLabel": "На галоўную старонку па-беларуску"
       },
       "socialPreview": {
@@ -354,12 +354,12 @@
       "accessibleLabel": "Lingua: italiano",
       "openGraphLocale": "it_IT",
       "socialImage": "/og/escalir-it.webp",
-      "imageAlt": "escalir — Accelera la trasformazione con l’IA nella tua azienda",
+      "imageAlt": "Escalir — Accelera la trasformazione con l’IA nella tua azienda",
       "productTitles": {
-        "escalir AI Platform": "escalir AI Platform — piattaforma IA per le imprese",
-        "escalir Agents": "escalir Agents — agenti IA per le imprese",
-        "escalir Systems": "escalir Systems — sistemi IA e automazione dei processi",
-        "escalir AI Gateway": "escalir AI Gateway — accesso ai modelli IA"
+        "Escalir AI Platform": "Escalir AI Platform — piattaforma IA per le imprese",
+        "Escalir Agents": "Escalir Agents — agenti IA per le imprese",
+        "Escalir Systems": "Escalir Systems — sistemi IA e automazione dei processi",
+        "Escalir AI Gateway": "Escalir AI Gateway — accesso ai modelli IA"
       },
       "guideCount": {
         "one": "guida",
@@ -376,7 +376,7 @@
       },
       "notFound": {
         "title": "Pagina non trovata",
-        "description": "Questa pagina potrebbe essere stata spostata. Scopri la piattaforma, le nostre soluzioni di settore e il team di escalir.",
+        "description": "Questa pagina potrebbe essere stata spostata. Scopri la piattaforma, le nostre soluzioni di settore e il team di Escalir.",
         "homeLabel": "Vai alla pagina iniziale in italiano"
       },
       "socialPreview": {
@@ -398,12 +398,12 @@
       "accessibleLabel": "Idioma: español",
       "openGraphLocale": "es_ES",
       "socialImage": "/og/escalir-es.webp",
-      "imageAlt": "escalir — De la idea al trabajo diario. Especificación, desarrollo y gobernanza.",
+      "imageAlt": "Escalir — De la idea al trabajo diario. Especificación, desarrollo y gobernanza.",
       "productTitles": {
-        "escalir AI Platform": "escalir AI Platform — plataforma de IA para empresas",
-        "escalir Agents": "escalir Agents — agentes de IA para empresas",
-        "escalir Systems": "escalir Systems — sistemas de IA y automatización de procesos",
-        "escalir AI Gateway": "escalir AI Gateway — acceso a modelos de IA"
+        "Escalir AI Platform": "Escalir AI Platform — plataforma de IA para empresas",
+        "Escalir Agents": "Escalir Agents — agentes de IA para empresas",
+        "Escalir Systems": "Escalir Systems — sistemas de IA y automatización de procesos",
+        "Escalir AI Gateway": "Escalir AI Gateway — acceso a modelos de IA"
       },
       "guideCount": {
         "one": "guía",
@@ -420,7 +420,7 @@
       },
       "notFound": {
         "title": "Página no encontrada",
-        "description": "Es posible que esta página haya cambiado de dirección. Descubre la plataforma, nuestras soluciones sectoriales y el equipo de escalir.",
+        "description": "Es posible que esta página haya cambiado de dirección. Descubre la plataforma, nuestras soluciones sectoriales y el equipo de Escalir.",
         "homeLabel": "Ir a la página de inicio en español"
       },
       "socialPreview": {
@@ -441,12 +441,12 @@
       "accessibleLabel": "Jezik: srpski",
       "openGraphLocale": "sr_RS",
       "socialImage": "/og/escalir-sr.webp",
-      "imageAlt": "escalir — Od ideje do svakodnevnog rada. Specifikacija, razvoj te upravljanje i nadzor.",
+      "imageAlt": "Escalir — Od ideje do svakodnevnog rada. Specifikacija, razvoj te upravljanje i nadzor.",
       "productTitles": {
-        "escalir AI Platform": "escalir AI Platform — AI platforma za preduzeća",
-        "escalir Agents": "escalir Agents — AI agenti za preduzeća",
-        "escalir Systems": "escalir Systems — AI sistemi i automatizacija procesa",
-        "escalir AI Gateway": "escalir AI Gateway — pristup AI modelima"
+        "Escalir AI Platform": "Escalir AI Platform — AI platforma za preduzeća",
+        "Escalir Agents": "Escalir Agents — AI agenti za preduzeća",
+        "Escalir Systems": "Escalir Systems — AI sistemi i automatizacija procesa",
+        "Escalir AI Gateway": "Escalir AI Gateway — pristup AI modelima"
       },
       "guideCount": {
         "one": "vodič",
@@ -463,7 +463,7 @@
       },
       "notFound": {
         "title": "Stranica nije pronađena",
-        "description": "Ova stranica je možda premeštena. Istražite platformu, naša rešenja za različite delatnosti i tim kompanije escalir.",
+        "description": "Ova stranica je možda premeštena. Istražite platformu, naša rešenja za različite delatnosti i tim kompanije Escalir.",
         "homeLabel": "Idite na početnu stranicu na srpskom"
       },
       "socialPreview": {
@@ -484,12 +484,12 @@
       "accessibleLabel": "Taal: Nederlands",
       "openGraphLocale": "nl_NL",
       "socialImage": "/og/escalir-nl.webp",
-      "imageAlt": "escalir — Van idee naar de dagelijkse praktijk. Specificatie, ontwikkeling en governance.",
+      "imageAlt": "Escalir — Van idee naar de dagelijkse praktijk. Specificatie, ontwikkeling en governance.",
       "productTitles": {
-        "escalir AI Platform": "escalir AI Platform — AI-platform voor bedrijven",
-        "escalir Agents": "escalir Agents — AI-agenten voor bedrijven",
-        "escalir Systems": "escalir Systems — AI-systemen en procesautomatisering",
-        "escalir AI Gateway": "escalir AI Gateway — toegang tot AI-modellen"
+        "Escalir AI Platform": "Escalir AI Platform — AI-platform voor bedrijven",
+        "Escalir Agents": "Escalir Agents — AI-agenten voor bedrijven",
+        "Escalir Systems": "Escalir Systems — AI-systemen en procesautomatisering",
+        "Escalir AI Gateway": "Escalir AI Gateway — toegang tot AI-modellen"
       },
       "guideCount": {
         "one": "gids",
@@ -506,7 +506,7 @@
       },
       "notFound": {
         "title": "Pagina niet gevonden",
-        "description": "Deze pagina is mogelijk verplaatst. Ontdek het platform, onze sectoroplossingen en de mensen achter escalir.",
+        "description": "Deze pagina is mogelijk verplaatst. Ontdek het platform, onze sectoroplossingen en de mensen achter Escalir.",
         "homeLabel": "Naar de Nederlandstalige startpagina"
       },
       "socialPreview": {
@@ -527,12 +527,12 @@
       "accessibleLabel": "Limba: română",
       "openGraphLocale": "ro_RO",
       "socialImage": "/og/escalir-ro.webp",
-      "imageAlt": "escalir — De la idee la activitatea de zi cu zi. Specificare, dezvoltare și guvernanță.",
+      "imageAlt": "Escalir — De la idee la activitatea de zi cu zi. Specificare, dezvoltare și guvernanță.",
       "productTitles": {
-        "escalir AI Platform": "escalir AI Platform — platformă IA pentru organizații",
-        "escalir Agents": "escalir Agents — agenți IA pentru organizații",
-        "escalir Systems": "escalir Systems — sisteme IA și automatizarea fluxurilor de lucru",
-        "escalir AI Gateway": "escalir AI Gateway — acces la modele IA"
+        "Escalir AI Platform": "Escalir AI Platform — platformă IA pentru organizații",
+        "Escalir Agents": "Escalir Agents — agenți IA pentru organizații",
+        "Escalir Systems": "Escalir Systems — sisteme IA și automatizarea fluxurilor de lucru",
+        "Escalir AI Gateway": "Escalir AI Gateway — acces la modele IA"
       },
       "guideCount": {
         "one": "ghid",
@@ -549,7 +549,7 @@
       },
       "notFound": {
         "title": "Pagina nu a fost găsită",
-        "description": "Este posibil ca această pagină să fi fost mutată. Descoperiți platforma, soluțiile noastre sectoriale și echipa escalir.",
+        "description": "Este posibil ca această pagină să fi fost mutată. Descoperiți platforma, soluțiile noastre sectoriale și echipa Escalir.",
         "homeLabel": "Accesați pagina principală în română"
       },
       "socialPreview": {
@@ -571,12 +571,12 @@
       "accessibleLabel": "Jazyk: čeština",
       "openGraphLocale": "cs_CZ",
       "socialImage": "/og/escalir-cs.webp",
-      "imageAlt": "escalir — Od nápadu ke každodenní práci. Specifikace, vývoj, řízení a dohled.",
+      "imageAlt": "Escalir — Od nápadu ke každodenní práci. Specifikace, vývoj, řízení a dohled.",
       "productTitles": {
-        "escalir AI Platform": "escalir AI Platform — AI platforma pro firmy",
-        "escalir Agents": "escalir Agents — AI agenti pro firmy",
-        "escalir Systems": "escalir Systems — AI systémy a automatizace procesů",
-        "escalir AI Gateway": "escalir AI Gateway — přístup k AI modelům"
+        "Escalir AI Platform": "Escalir AI Platform — AI platforma pro firmy",
+        "Escalir Agents": "Escalir Agents — AI agenti pro firmy",
+        "Escalir Systems": "Escalir Systems — AI systémy a automatizace procesů",
+        "Escalir AI Gateway": "Escalir AI Gateway — přístup k AI modelům"
       },
       "guideCount": {
         "one": "průvodce",
@@ -593,7 +593,7 @@
       },
       "notFound": {
         "title": "Stránka nenalezena",
-        "description": "Tato stránka mohla změnit adresu. Prozkoumejte platformu, naše řešení pro jednotlivá odvětví a tým escalir.",
+        "description": "Tato stránka mohla změnit adresu. Prozkoumejte platformu, naše řešení pro jednotlivá odvětví a tým Escalir.",
         "homeLabel": "Přejít na českou úvodní stránku"
       },
       "socialPreview": {

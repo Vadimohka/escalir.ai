@@ -49,7 +49,7 @@
   },
   "public/media/escalir/diagrams/industry-platform.svg": {
     "Approved sources": "Бекітілген дереккөздер",
-    "escalir connects approved sources, workflows and existing systems with people, controlled actions and useful outcomes.": "escalir бекітілген көздерді, жұмыс үрдістерін және бар жүйелерді адамдармен, басқарылатын әрекеттермен және пайдалы нәтижелермен байланыстырады.",
+    "Escalir connects approved sources, workflows and existing systems with people, controlled actions and useful outcomes.": "Escalir бекітілген көздерді, жұмыс үрдістерін және бар жүйелерді адамдармен, басқарылатын әрекеттермен және пайдалы нәтижелермен байланыстырады.",
     "CONNECTED WORK": "БАЙЛАНЫСТЫ ЖҰМЫС",
     "Controlled actions": "Бақыланатын әрекеттер",
     "Existing systems": "Қолданыстағы жүйелер",
@@ -70,8 +70,8 @@
   },
   "public/media/industries/airlines/platform.svg": {
     "Case management": "Істі басқару",
-    "escalir Airlines platform": "escalir Airlines платформасы",
-    "escalir connects Passengers, Service teams, Claims with Journey records, Service policies, Case management.": "escalir Жолаушыларды, Қызмет көрсету топтарын, Шағымдарды Саяхат жазбаларымен, Қызмет көрсету саясатымен, Істі басқарумен байланыстырады.",
+    "Escalir Airlines platform": "Escalir Airlines платформасы",
+    "Escalir connects Passengers, Service teams, Claims with Journey records, Service policies, Case management.": "Escalir Жолаушыларды, Қызмет көрсету топтарын, Шағымдарды Саяхат жазбаларымен, Қызмет көрсету саясатымен, Істі басқарумен байланыстырады.",
     "Claims": "Шағымдар",
     "Journey records": "Саяхат жазбалары",
     "Passengers": "Жолаушылар",
@@ -81,8 +81,8 @@
   "public/media/industries/healthcare/platform.svg": {
     "Administration": "Әкімшілік",
     "Care teams": "Күтім топтары",
-    "escalir connects Care teams, Administration, Internal services with Clinical records, Scheduling, Finance.": "escalir күтім топтарын, әкімшілікті, ішкі қызметтерді клиникалық жазбалармен, жоспарлаумен, қаржымен байланыстырады.",
-    "escalir Healthcare platform": "escalir Денсаулық сақтау платформасы",
+    "Escalir connects Care teams, Administration, Internal services with Clinical records, Scheduling, Finance.": "Escalir күтім топтарын, әкімшілікті, ішкі қызметтерді клиникалық жазбалармен, жоспарлаумен, қаржымен байланыстырады.",
+    "Escalir Healthcare platform": "Escalir Денсаулық сақтау платформасы",
     "Clinical records": "Клиникалық жазбалар",
     "Finance": "Қаржы",
     "Internal services": "Ішкі қызметтер",
@@ -92,18 +92,18 @@
     "Billing": "Төлем",
     "Billing records": "Төлем жазбалары",
     "Case management": "Істі басқару",
-    "escalir connects Service, Field teams, Billing with Case management, Knowledge base, Billing records.": "escalir Қызметті, Өріс топтарын, Іс басқаруымен есепшотты, Білім базасын, Есепшот жазбаларын қосады.",
-    "escalir Utilities platform": "escalir Утилиталар платформасы",
+    "Escalir connects Service, Field teams, Billing with Case management, Knowledge base, Billing records.": "Escalir Қызметті, Өріс топтарын, Іс басқаруымен есепшотты, Білім базасын, Есепшот жазбаларын қосады.",
+    "Escalir Utilities platform": "Escalir Утилиталар платформасы",
     "Field teams": "Далалық командалар",
     "Knowledge base": "Білім базасы"
   },
   "public/media/insurance/platform.svg": {
-    "escalir insurance platform": "escalir сақтандыру платформасы",
+    "Escalir insurance platform": "Escalir сақтандыру платформасы",
     "Core systems": "Негізгі жүйелер",
     "Health": "Денсаулық",
     "Life": "Өмір",
     "P&C": "P&C",
     "Policy systems": "Саясат жүйелері",
-    "Property, life and health workflows connected to escalir, policy systems, CRM and core systems.": "escalir, саясат жүйелеріне, CRM және негізгі жүйелерге қосылған мүлік, өмір және денсаулық жұмыс процестері."
+    "Property, life and health workflows connected to Escalir, policy systems, CRM and core systems.": "Escalir, саясат жүйелеріне, CRM және негізгі жүйелерге қосылған мүлік, өмір және денсаулық жұмыс процестері."
   }
 }

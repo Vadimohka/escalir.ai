@@ -9,7 +9,7 @@ export default function NotFound() {
         <h1>Page not found</h1>
         <p className="inner-hero-description">This page may have moved. There’s still plenty to explore — from the platform to the people behind it</p>
         <div className="inner-hero-actions">
-          <a className="btn btn-primary" href="/">Back to escalir<ArrowUpRight size={17} aria-hidden="true" /></a>
+          <a className="btn btn-primary" href="/">Back to Escalir<ArrowUpRight size={17} aria-hidden="true" /></a>
           <a className="btn btn-outline" href="/platform/">Explore the platform</a>
         </div>
       </div>

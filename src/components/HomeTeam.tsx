@@ -64,13 +64,13 @@ export default function HomeTeam() {
       <div className="shell">
         <div className={styles.intro}>
           <div>
-            <p className="eyebrow">The people behind escalir</p>
+            <p className="eyebrow">The people behind Escalir</p>
             <h2 id="home-team-title">Meet the people<br />behind the work</h2>
           </div>
-          <p>The platform is built by the escalir team, with operating, investment and ecosystem experience from our Justart partners</p>
+          <p>The platform is built by the Escalir team, with operating, investment and ecosystem experience from our Justart partners</p>
         </div>
 
-        <ul className={styles.teamGrid} aria-label="escalir team">
+        <ul className={styles.teamGrid} aria-label="Escalir team">
           {team.map(({ group, name, role, bio, image, width, height }) => (
             <li className={styles.member} key={name}>
               <div className={styles.photo}>
@@ -85,7 +85,7 @@ export default function HomeTeam() {
         </ul>
 
         <div className={styles.actions}>
-          <a href="/about-us/">About escalir<ArrowUpRight size={18} aria-hidden="true" /></a>
+          <a href="/about-us/">About Escalir<ArrowUpRight size={18} aria-hidden="true" /></a>
           <a href="/careers/">Careers<ArrowUpRight size={18} aria-hidden="true" /></a>
         </div>
       </div>

@@ -13,11 +13,11 @@ type PlatformFrameProps = {
   contactImage?: { src: string; width: number; height: number; position?: string };
 };
 
-/** Shared escalir navigation and closing section for the six Platform routes. */
+/** Shared Escalir navigation and closing section for the six Platform routes. */
 export default function PlatformFrame({
   children,
   headerVariant = "overlay",
-  contactTitle = <>Build the next chapter<br />with escalir</>,
+  contactTitle = <>Build the next chapter<br />with Escalir</>,
   showContact = true,
 }: PlatformFrameProps) {
   return <div className={styles.page}>

@@ -1,23 +1,70 @@
 "use client";
 
 import { useEffect, useRef, useState, type KeyboardEvent, type MouseEvent, type PointerEvent } from "react";
-import { ArrowRight, ChevronDown, Menu, X } from "lucide-react";
+import {
+  ArrowRight,
+  ArrowUpRight,
+  Blocks,
+  Bot,
+  ChevronDown,
+  Compass,
+  HeartPulse,
+  Landmark,
+  Menu,
+  Network,
+  Plane,
+  Radio,
+  Rocket,
+  ShieldCheck,
+  ShoppingBag,
+  Workflow,
+  X,
+  Zap,
+} from "lucide-react";
 import { headerNavigation, type HeaderNavigationGroup } from "@/lib/header-navigation";
 import TelegramLink from "./TelegramLink";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import { LOCALE } from "@/lib/locale";
 import styles from "./Header.module.css";
 
+const menuIcons = {
+  "/platform/": Blocks,
+  "/agents/": Bot,
+  "/systems/": Workflow,
+  "/ai-gateway/": Network,
+  "/deployment/": Rocket,
+  "/ai-transformation/": Compass,
+  "/industries/banking/": Landmark,
+  "/industries/telecommunication/": Radio,
+  "/industries/utilities/": Zap,
+  "/industries/healthcare/": HeartPulse,
+  "/industries/retail/": ShoppingBag,
+  "/industries/insurance/": ShieldCheck,
+  "/industries/airlines/": Plane,
+};
+
 function GroupContent({ group }: { group: HeaderNavigationGroup }) {
   return (
     <div className={styles.groupContent + " " + styles[group.id]}>
+      <div className={styles.brandRail} aria-hidden="true">
+        <img src="/brand/escalir-symbol.svg" alt="" width={30} height={38} />
+        <span>{group.id === "platform" ? "01" : "02"}</span>
+        <i />
+      </div>
       <div className={styles.linkGrid}>
-        {group.links.map(link => (
-          <a href={link.href} className={styles.menuLink} key={link.href}>
-            <span>{link.title}</span>
-            {link.description && <small>{link.description}</small>}
-          </a>
-        ))}
+        {group.links.map(link => {
+          const Icon = menuIcons[link.href as keyof typeof menuIcons] ?? ArrowRight;
+          return (
+            <a href={link.href} className={styles.menuLink} key={link.href}>
+              <span className={styles.menuIcon}><Icon size={19} strokeWidth={1.5} aria-hidden="true" /></span>
+              <span className={styles.menuCopy}>
+                <span>{link.title}</span>
+                {link.description && <small>{link.description}</small>}
+              </span>
+              <ArrowUpRight className={styles.menuArrow} size={17} strokeWidth={1.5} aria-hidden="true" />
+            </a>
+          );
+        })}
       </div>
     </div>
   );
@@ -151,8 +198,8 @@ export default function Header({ variant = "overlay", showAnnouncement = true }:
       onClick={event => { if ((event.target as Element).closest("a[href]")) closeMenus(); }}
     >
       <div className={styles.bar}>
-        <a className={styles.brand} href="/" aria-label="escalir home">
-          <img className={styles.whiteLogo} src="/brand/escalir-logo-mono-white.svg" alt="escalir" width={2927} height={777} />
+        <a className={styles.brand} href="/" aria-label="Escalir home">
+          <img className={styles.whiteLogo} src="/brand/escalir-logo-mono-white.svg" alt="Escalir" width={2927} height={777} />
           <img className={styles.blackLogo} src="/brand/escalir-logo.svg" alt="" width={2927} height={777} />
         </a>
         <nav className={styles.desktop} aria-label="Main navigation">

@@ -15,7 +15,7 @@ const phases = [
   {
     label: "Build & validate",
     title: "Measure the result on real work",
-    description: "Configure escalir and connect approved systems. Compare suitable models on the same examples, measuring accuracy, human corrections or processing time as the task requires. Test with permitted real data, then assess the platform and workflow against their separate acceptance criteria",
+    description: "Configure Escalir and connect approved systems. Compare suitable models on the same examples, measuring accuracy, human corrections or processing time as the task requires. Test with permitted real data, then assess the platform and workflow against their separate acceptance criteria",
     outcome: "Ready for controlled use",
     points: ["Connected workflow", "Acceptance results", "Release decision"],
     detail: "The results show whether the workflow meets its criteria for controlled operational use",
@@ -23,7 +23,7 @@ const phases = [
   {
     label: "Operate & improve",
     title: "Train the people who will keep it working",
-    description: "Your developers learn to update knowledge, manage permissions, test changes and maintain agents through practical work. Transfer the requirements, tests and operating rules, then agree who maintains the workflow and where escalir support is needed",
+    description: "Your developers learn to update knowledge, manage permissions, test changes and maintain agents through practical work. Transfer the requirements, tests and operating rules, then agree who maintains the workflow and where Escalir support is needed",
     outcome: "Ready for your team",
     points: ["Named maintainers", "Reusable tests", "Operating instructions"],
     detail: "Your team knows who maintains the workflow and how changes are tested",

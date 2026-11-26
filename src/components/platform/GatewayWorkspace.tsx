@@ -7,7 +7,7 @@ import type { AppCaptureId } from "@/lib/app-captures";
 import styles from "./Gateway.module.css";
 
 const views: { id: string; title: string; description: string; capture: AppCaptureId; icon: typeof Boxes }[] = [
-  { id: "models", title: "Models & controls", description: "Choose among connected models and inspect their settings in the escalir workspace", capture: "models", icon: Boxes },
+  { id: "models", title: "Models & controls", description: "Choose among connected models and inspect their settings in the Escalir workspace", capture: "models", icon: Boxes },
   { id: "files", title: "Files & context", description: "Review the documents available to support knowledge search and agent workflows", capture: "files", icon: Files },
   { id: "response", title: "Response details", description: "Inspect the timing and token information attached to an answer", capture: "response", icon: Activity },
 ];
@@ -37,13 +37,13 @@ export default function GatewayWorkspace() {
     buttons.current[next]?.focus();
   }
 
-  return <div className={styles.workspace} id="inside-escalir">
-    <div className={styles.workspaceBar}><span>Inside escalir</span><span>Application views</span></div>
+  return <div className={styles.workspace} id="inside-Escalir">
+    <div className={styles.workspaceBar}><span>Inside Escalir</span><span>Application views</span></div>
     <div className={styles.workspaceLayout}>
       <aside className={styles.workspaceSidebar}>
-        <img src="/brand/escalir-logo-white.svg" alt="escalir" width={112} height={30} />
+        <img src="/brand/escalir-logo-white.svg" alt="Escalir" width={112} height={30} />
         <span className={styles.workspaceLabel}>Explore the workspace</span>
-        <div className={styles.workspaceTabs} role="tablist" aria-label="escalir application views" aria-orientation={orientation}>
+        <div className={styles.workspaceTabs} role="tablist" aria-label="Escalir application views" aria-orientation={orientation}>
           {views.map(({ id, title, icon: Icon }, index) => <button key={id} type="button" role="tab"
             id={"gateway-tab-" + id} aria-controls={"gateway-panel-" + id} aria-selected={selected === index}
             tabIndex={selected === index ? 0 : -1} ref={element => { buttons.current[index] = element; }}
@@ -60,7 +60,7 @@ export default function GatewayWorkspace() {
           <h2>{title}</h2><p>{description}</p>
           <AppScreenshot capture={capture} priority={index === 0} className={styles.workspaceCapture} />
         </div>)}
-        <p className={styles.workspaceNote}><span aria-hidden="true" />Actual views from the escalir application</p>
+        <p className={styles.workspaceNote}><span aria-hidden="true" />Actual views from the Escalir application</p>
       </div>
     </div>
     <noscript><div className={styles.workspaceFallback}>

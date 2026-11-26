@@ -37,7 +37,7 @@ test("Desktop dropdowns stay reachable on hover and only one group is open", asy
   await expect(platform).not.toHaveAttribute("open");
   await page.mouse.move(5, 850);
   await platformTrigger.hover();
-  await platform.getByRole("link", { name: /^escalir Agents/ }).hover();
+  await platform.getByRole("link", { name: /^Escalir Agents/ }).hover();
   await expect(platform).toHaveAttribute("open", "");
 
   await industries.locator(":scope > summary").hover();
@@ -128,11 +128,11 @@ test("Shared header fits each page variant and menu links resolve locally", asyn
     for (const route of ["/", "/platform/", "/industries/insurance/"]) {
       await page.goto(route);
       const header = page.locator("[data-site-header]");
-      await expectWithinViewport(page, header.getByRole("link", { name: "escalir home", exact: true }));
+      await expectWithinViewport(page, header.getByRole("link", { name: "Escalir home", exact: true }));
       await expectWithinViewport(page, header.getByRole("link", { name: "Get in touch", exact: true }));
       expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(width + 1);
       await page.evaluate(() => window.scrollTo({ top: 500, behavior: "instant" }));
-      await expect(header.getByRole("link", { name: "escalir home", exact: true })).toBeInViewport();
+      await expect(header.getByRole("link", { name: "Escalir home", exact: true })).toBeInViewport();
     }
   }
 

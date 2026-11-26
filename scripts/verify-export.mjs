@@ -69,7 +69,7 @@ assert.equal(englishRoutes.length, 26, "The public route contract must cover all
 const publicRoutes = locales.flatMap(locale => englishRoutes.map(route => `${localePrefix(locale)}${route}`));
 const routeSet = new Set(publicRoutes);
 const unchangedImageAlts = new Set([
-  "escalir", "escalir AI Platform", "escalir Agents", "escalir Systems", "escalir AI Gateway",
+  "Escalir", "Escalir AI Platform", "Escalir Agents", "Escalir Systems", "Escalir AI Gateway",
   "Vitali Bakhmat", "Vadim Vladymtsev", "Egor Krychev",
 ]);
 const screenshotRoutes = new Set(["/", "/platform/", "/agents/", "/systems/", "/ai-gateway/"]);
@@ -220,7 +220,7 @@ function verifyTranslatedCopy(markup, tags, locale, route) {
 function verifyFooterBrand(markup, route) {
   const signatures = [...markup.matchAll(/<a\b([^>]*)>([^]*?)<\/a\s*>/gi)]
     .map(match => ({ markup: match[0], attrs: attributes(match[1]), content: match[2] }))
-    .filter(anchor => anchor.attrs["aria-label"] === "Enterprise AI by escalir");
+    .filter(anchor => anchor.attrs["aria-label"] === "Enterprise AI by Escalir");
   assert.equal(signatures.length, 1, `Expected one fixed English footer signature: ${route}`);
   const signature = signatures[0];
   assert.equal(signature.attrs.href, `${localePrefix(localeFor(route))}/`, `Footer signature must link to the localized homepage: ${route}`);
@@ -228,10 +228,10 @@ function verifyFooterBrand(markup, route) {
   assert.equal(signature.attrs.dir, "ltr", `Footer signature must retain left-to-right ordering: ${route}`);
   assert.equal(signature.attrs.translate, "no", `Footer signature must disable automatic translation: ${route}`);
   assert(hasClass(signature.attrs, "notranslate"), `Footer signature needs its notranslate class: ${route}`);
-  assert.equal(normalizeText(signature.content.replace(/<[^>]+>/g, " ")), "Enterprise AI", `Wrong fixed footer wording or duplicate escalir text: ${route}`);
+  assert.equal(normalizeText(signature.content.replace(/<[^>]+>/g, " ")), "Enterprise AI", `Wrong fixed footer wording or duplicate Escalir text: ${route}`);
   const images = [...signature.content.matchAll(/<img\b[^>]*>/gi)].map(match => attributes(match[0]));
-  assert.equal(images.length, 1, `Footer signature needs one escalir wordmark: ${route}`);
-  assert.equal(images[0].src, "/brand/escalir-logo-white.svg", `Footer signature must use the escalir wordmark: ${route}`);
+  assert.equal(images.length, 1, `Footer signature needs one Escalir wordmark: ${route}`);
+  assert.equal(images[0].src, "/brand/escalir-logo-white.svg", `Footer signature must use the Escalir wordmark: ${route}`);
   assert.equal(images[0].alt, "", `Footer wordmark must not repeat its accessible label: ${route}`);
   assert(signature.content.indexOf("Enterprise AI") < signature.content.indexOf("<img"), `Footer phrase must precede the wordmark: ${route}`);
   assert([...markup.matchAll(/<footer\b[^>]*>([^]*?)<\/footer\s*>/gi)].some(match => match[1].includes(signature.markup)), `Brand signature must appear in the footer: ${route}`);
@@ -430,7 +430,7 @@ try {
     assert(!tags.some(({ attrs }) => hasClass(attrs, "footer-wordmark")), `Oversized footer wordmark remains: ${route}`);
     const main = tags.find(({ name }) => name === "main");
     assert.equal(hasClass(main?.attrs || {}, "inner-page"), englishRoute !== "/", `Internal design scope must exclude all homepages: ${route}`);
-    assert(title.includes("escalir"), `Missing escalir page title: ${route}`);
+    assert(title.includes("Escalir"), `Missing Escalir page title: ${route}`);
     assert(description?.trim(), `Missing description: ${route}`);
     if (cyrillicLocales.has(locale)) assert(/[\u0400-\u04ff]/.test(description), `Missing ${locale} Cyrillic description: ${route}`);
     const titleKey = `${locale}:${title}`;
@@ -465,7 +465,7 @@ try {
       assert.equal(attrs["aria-current"], language === locale ? "page" : undefined, `Current language must be identified: ${route}`);
     }
     assert(!tags.some(({ name }) => ["form", "input", "textarea", "select"].includes(name)), `Unexpected contact or input field: ${route}`);
-    assert(tags.some(({ name, attrs }) => name === "a" && attrs.href === telegram), `Missing escalir contact link: ${route}`);
+    assert(tags.some(({ name, attrs }) => name === "a" && attrs.href === telegram), `Missing Escalir contact link: ${route}`);
 
     if (englishRoute === "/") {
       const data = [...source.matchAll(/<script\b([^>]*)>([^]*?)<\/script\s*>/gi)]

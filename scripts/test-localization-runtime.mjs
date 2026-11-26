@@ -4,7 +4,7 @@ import test from "node:test";
 import ts from "typescript";
 
 const configuration = JSON.parse(await readFile(new URL("../src/locales/config.json", import.meta.url), "utf8"));
-const site = { SITE_URL: "https://escalir.ai", SITE_NAME: "escalir" };
+const site = { SITE_URL: "https://escalir.ai", SITE_NAME: "Escalir" };
 
 // Exercise the actual TypeScript helpers without a browser or a Next.js server.
 async function loadModule(path, dependencies) {
@@ -163,7 +163,7 @@ test("guide counts use each language's plural rules, including Dutch, Romanian, 
 test("metadata binds canonical, social preview and alternates to the requested locale", () => {
   for (const locale of locales) {
     const settings = configuration.locales[locale];
-    const result = metadata.pageMetadata("escalir AI Platform", "Local description", "/platform/", locale);
+    const result = metadata.pageMetadata("Escalir AI Platform", "Local description", "/platform/", locale);
     assert.equal(result.alternates.canonical, `${site.SITE_URL}${localizedPath("/platform/", locale)}`);
     assert.deepEqual(result.alternates.languages, languageAlternates("/platform/"));
     assert.equal(result.openGraph.locale, settings.openGraphLocale);
@@ -171,7 +171,7 @@ test("metadata binds canonical, social preview and alternates to the requested l
     assert.equal(result.openGraph.images[0].url, `${site.SITE_URL}${settings.socialImage}`);
     assert.equal(result.twitter.images[0].alt, settings.imageAlt);
     assert.equal(result.description, "Local description");
-    assert.equal(result.title, `${settings.productTitles["escalir AI Platform"] ?? "escalir AI Platform"} | escalir`);
+    assert.equal(result.title, `${settings.productTitles["Escalir AI Platform"] ?? "Escalir AI Platform"} | Escalir`);
     const home = metadata.homeMetadata("Local homepage title", "Local homepage description", locale);
     assert.equal(home.title, "Local homepage title");
     assert.equal(home.openGraph.title, home.title);

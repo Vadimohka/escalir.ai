@@ -1,40 +1,40 @@
-/** escalir application screenshots with dimensions, accessible labels and captions. */
+/** Escalir application screenshots with dimensions, accessible labels and captions. */
 export const appCaptures = {
   models: {
     src: "/media/app/models.webp", width: 910, height: 342, tone: "light",
     title: "Models & controls",
-    alt: "escalir agent list detail showing model assignments, dates and action icons",
-    caption: "Model assignments and agent controls, as they appear in the escalir workspace",
+    alt: "Escalir agent list detail showing model assignments, dates and action icons",
+    caption: "Model assignments and agent controls, as they appear in the Escalir workspace",
   },
   files: {
     src: "/media/app/files.webp", width: 962, height: 304, tone: "dark",
     title: "Files & structured data",
-    alt: "Four actual file-library rows in escalir, showing JSON and text files with their sizes",
+    alt: "Four actual file-library rows in Escalir, showing JSON and text files with their sizes",
     caption: "Work with existing files in the application, including text documents and structured data",
   },
   response: {
     src: "/media/app/response.webp", width: 650, height: 98, tone: "dark",
     title: "Response details",
-    alt: "escalir response footer with copy and feedback controls, token counts and timing information",
+    alt: "Escalir response footer with copy and feedback controls, token counts and timing information",
     caption: "Inspect the token counts and timing details attached to an application response",
   },
   document: {
     src: "/media/app/document.webp", width: 962, height: 54, tone: "dark",
     title: "Document import",
-    alt: "The actual Choose File control in escalir's OCR document workspace",
+    alt: "The actual Choose File control in Escalir's OCR document workspace",
     caption: "Choose a document directly in the OCR workspace",
   },
   audio: {
     src: "/media/app/audio.webp", width: 1514, height: 78, tone: "dark",
     title: "Audio playback",
-    alt: "escalir transcription workspace audio player with playback, seek and volume controls",
+    alt: "Escalir transcription workspace audio player with playback, seek and volume controls",
     caption: "Replay a recording from the transcription workspace",
   },
   "model-choice": {
     src: "/media/app/model-choice.webp", width: 296, height: 60, tone: "dark",
     title: "Model selection",
-    alt: "The actual model selector in escalir chat, displaying deepseek-v4-pro",
-    caption: "Select the model for a conversation in the escalir chat interface",
+    alt: "The actual model selector in Escalir chat, displaying deepseek-v4-pro",
+    caption: "Select the model for a conversation in the Escalir chat interface",
   },
 } as const;
 

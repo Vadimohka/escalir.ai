@@ -17,7 +17,7 @@ function IndustryFooter() {
       <div className={styles.footerLead}>
         <FooterBrand href="/" />
         <TelegramLink className={styles.lightButton}>Get in touch</TelegramLink>
-        <small>© {new Date().getFullYear()} escalir</small>
+        <small>© {new Date().getFullYear()} Escalir</small>
       </div>
       <nav className={styles.footerNav} aria-label="Footer navigation">
         <div><h2>Platform</h2>{platformLinks.map(link => <a href={link.href} key={link.href}>{link.title}</a>)}</div>
@@ -92,7 +92,7 @@ export default function IndustryReferencePage({ slug, data }: { slug: IndustrySl
 
     <section className={styles.why} aria-labelledby={`${slug}-why-title`}>
       <div className={styles.whyHeading}>
-        <h2 id={`${slug}-why-title`}>{`Why ${data.audience} choose escalir`}</h2>
+        <h2 id={`${slug}-why-title`}>{`Why ${data.audience} choose Escalir`}</h2>
         <p>{data.whyIntro}</p>
       </div>
       <div className={styles.reasonList}>
@@ -106,6 +106,6 @@ export default function IndustryReferencePage({ slug, data }: { slug: IndustrySl
       </div>
     </section>
 
-    <IndustryContact id={`${slug}-contact-title`}>{`Build your next chapter in ${data.ctaLabel ?? data.operationLabel} with escalir`}</IndustryContact>
+    <IndustryContact id={`${slug}-contact-title`}>{`Build your next chapter in ${data.ctaLabel ?? data.operationLabel} with Escalir`}</IndustryContact>
   </IndustryPageFrame>;
 }

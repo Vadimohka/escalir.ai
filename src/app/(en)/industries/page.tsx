@@ -3,7 +3,7 @@ import { pageMetadata } from "@/lib/metadata";
 
 export const metadata = pageMetadata(
   "AI by Industry",
-  "Explore practical escalir AI workflows for banking, telecommunications, healthcare, utilities, insurance, retail and airlines.",
+  "Explore practical Escalir AI workflows for banking, telecommunications, healthcare, utilities, insurance, retail and airlines.",
   "/industries",
 );
 

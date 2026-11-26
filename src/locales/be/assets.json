@@ -49,7 +49,7 @@
   },
   "public/media/escalir/diagrams/industry-platform.svg": {
     "Approved sources": "Зацверджаныя крыніцы",
-    "escalir connects approved sources, workflows and existing systems with people, controlled actions and useful outcomes.": "escalir звязвае зацверджаныя крыніцы, працэсы і наяўныя сістэмы з людзьмі, кантраляванымі дзеяннямі і карыснымі вынікамі.",
+    "Escalir connects approved sources, workflows and existing systems with people, controlled actions and useful outcomes.": "Escalir звязвае зацверджаныя крыніцы, працэсы і наяўныя сістэмы з людзьмі, кантраляванымі дзеяннямі і карыснымі вынікамі.",
     "CONNECTED WORK": "ЗВЯЗАНАЯ ПРАЦА",
     "Controlled actions": "Кантраляваныя дзеянні",
     "Existing systems": "Наяўныя сістэмы",
@@ -70,8 +70,8 @@
   },
   "public/media/industries/airlines/platform.svg": {
     "Case management": "Апрацоўка зваротаў",
-    "escalir Airlines platform": "Платформа escalir для авіякампаній",
-    "escalir connects Passengers, Service teams, Claims with Journey records, Service policies, Case management.": "escalir звязвае пасажыраў, каманды абслугоўвання і прэтэнзіі з данымі пра падарожжы, правіламі абслугоўвання і апрацоўкай зваротаў.",
+    "Escalir Airlines platform": "Платформа Escalir для авіякампаній",
+    "Escalir connects Passengers, Service teams, Claims with Journey records, Service policies, Case management.": "Escalir звязвае пасажыраў, каманды абслугоўвання і прэтэнзіі з данымі пра падарожжы, правіламі абслугоўвання і апрацоўкай зваротаў.",
     "Claims": "Прэтэнзіі",
     "Journey records": "Даныя пра падарожжы",
     "Passengers": "Пасажыры",
@@ -81,8 +81,8 @@
   "public/media/industries/healthcare/platform.svg": {
     "Administration": "Адміністрацыя",
     "Care teams": "Медыцынскія каманды",
-    "escalir connects Care teams, Administration, Internal services with Clinical records, Scheduling, Finance.": "escalir звязвае медыцынскія каманды, адміністрацыю і ўнутраныя службы з медыцынскімі запісамі, планаваннем і фінансамі.",
-    "escalir Healthcare platform": "Платформа escalir для аховы здароўя",
+    "Escalir connects Care teams, Administration, Internal services with Clinical records, Scheduling, Finance.": "Escalir звязвае медыцынскія каманды, адміністрацыю і ўнутраныя службы з медыцынскімі запісамі, планаваннем і фінансамі.",
+    "Escalir Healthcare platform": "Платформа Escalir для аховы здароўя",
     "Clinical records": "Медыцынскія запісы",
     "Finance": "Фінансы",
     "Internal services": "Унутраныя службы",
@@ -92,19 +92,19 @@
     "Billing": "Выстаўленне рахункаў",
     "Billing records": "Разліковыя даныя",
     "Case management": "Апрацоўка зваротаў",
-    "escalir connects Service, Field teams, Billing with Case management, Knowledge base, Billing records.": "escalir звязвае абслугоўванне, выязныя брыгады і выстаўленне рахункаў з апрацоўкай зваротаў, базай ведаў і разліковымі данымі.",
-    "escalir Utilities platform": "Платформа escalir для камунальных паслуг",
+    "Escalir connects Service, Field teams, Billing with Case management, Knowledge base, Billing records.": "Escalir звязвае абслугоўванне, выязныя брыгады і выстаўленне рахункаў з апрацоўкай зваротаў, базай ведаў і разліковымі данымі.",
+    "Escalir Utilities platform": "Платформа Escalir для камунальных паслуг",
     "Field teams": "Выязныя брыгады",
     "Knowledge base": "База ведаў",
     "Service": "Абслугоўванне"
   },
   "public/media/insurance/platform.svg": {
-    "escalir insurance platform": "Платформа escalir для страхавання",
+    "Escalir insurance platform": "Платформа Escalir для страхавання",
     "Core systems": "Асноўныя сістэмы",
     "Health": "Здароўе",
     "Life": "Жыццё",
     "P&C": "Маёмасць і адказнасць",
     "Policy systems": "Сістэмы полісаў",
-    "Property, life and health workflows connected to escalir, policy systems, CRM and core systems.": "Працэсы страхавання маёмасці, жыцця і здароўя, звязаныя з escalir, сістэмамі полісаў, CRM і асноўнымі сістэмамі."
+    "Property, life and health workflows connected to Escalir, policy systems, CRM and core systems.": "Працэсы страхавання маёмасці, жыцця і здароўя, звязаныя з Escalir, сістэмамі полісаў, CRM і асноўнымі сістэмамі."
   }
 }

@@ -79,7 +79,7 @@ export default function AgentsExperience() {
       <img className={styles.heroImage} src="/media/strategy.webp" width="1054" height="1451" alt="" fetchPriority="high" decoding="async" />
       <div className={styles.heroShade} />
       <div className={styles.heroContent}>
-        <p className={styles.productName}><AgentSymbol />escalir Agents</p>
+        <p className={styles.productName}><AgentSymbol />Escalir Agents</p>
         <h1 id="agents-title">Agents grounded in<br />your company knowledge</h1>
         <p className={styles.heroDescription}>Build assistants and multi-step workflows with the documents, systems and permissions behind your work</p>
       </div>
@@ -135,7 +135,7 @@ export default function AgentsExperience() {
         <div className={styles.headingRow}><h2 id="agents-team-title">Build, evaluate<br />and maintain together</h2><p>Your team can manage documents, permissions and prompts, with training and shared practices for creating, checking and maintaining agents</p></div>
         <div className={styles.principles}>{operatingPrinciples.map(({ icon: Icon, title, text }) => <article key={title}><Icon size={29} strokeWidth={1.2} aria-hidden="true" /><h3>{title}</h3><p>{text}</p></article>)}</div>
         <div className={styles.productProof}>
-          <div className={styles.proofHeading}><span>Inside escalir</span><h3>Model controls and response evidence</h3><p>Inspect model selection and the response details your team can use when evaluating a workflow</p></div>
+          <div className={styles.proofHeading}><span>Inside Escalir</span><h3>Model controls and response evidence</h3><p>Inspect model selection and the response details your team can use when evaluating a workflow</p></div>
           <div className={styles.captureGrid}><AppScreenshot capture="model-choice" className={styles.capture} /><AppScreenshot capture="response" className={styles.capture} /></div>
         </div>
       </div>
@@ -144,9 +144,9 @@ export default function AgentsExperience() {
     <section className={`${styles.section} ${styles.connected}`} aria-labelledby="agents-connected-title"><div className={styles.shell}>
       <div className={styles.headingRow}><h2 id="agents-connected-title">Part of a connected platform</h2><a href={TELEGRAM_URL} target="_blank" rel="noopener noreferrer" className={styles.textLink}>Talk through your use case <ArrowUpRight size={18} /></a></div>
       <div className={styles.relatedGrid}>
-        <a href="/platform/"><Layers3 size={28} strokeWidth={1.2} /><h3>escalir AI Platform</h3><p>Specification, development and governance in one environment</p><span>Explore<ArrowRight size={18} /></span></a>
-        <a href="/systems/"><Workflow size={28} strokeWidth={1.2} /><h3>escalir Systems</h3><p>Connect knowledge and agents to business processes</p><span>Explore<ArrowRight size={18} /></span></a>
-        <a href="/ai-gateway/"><Network size={28} strokeWidth={1.2} /><h3>escalir AI Gateway</h3><p>Choose models and control which data they can use</p><span>Explore<ArrowRight size={18} /></span></a>
+        <a href="/platform/"><Layers3 size={28} strokeWidth={1.2} /><h3>Escalir AI Platform</h3><p>Specification, development and governance in one environment</p><span>Explore<ArrowRight size={18} /></span></a>
+        <a href="/systems/"><Workflow size={28} strokeWidth={1.2} /><h3>Escalir Systems</h3><p>Connect knowledge and agents to business processes</p><span>Explore<ArrowRight size={18} /></span></a>
+        <a href="/ai-gateway/"><Network size={28} strokeWidth={1.2} /><h3>Escalir AI Gateway</h3><p>Choose models and control which data they can use</p><span>Explore<ArrowRight size={18} /></span></a>
       </div>
     </div></section>
   </div>;

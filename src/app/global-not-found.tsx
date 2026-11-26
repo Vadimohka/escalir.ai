@@ -3,7 +3,7 @@ import Document from "@/components/Document";
 import { defaultLocale, locales, localeSettings, localizedPath } from "@/lib/i18n";
 
 export const metadata: Metadata = {
-  title: `${locales.map(locale => localeSettings[locale].notFound.title).join(" / ")} | escalir`,
+  title: `${locales.map(locale => localeSettings[locale].notFound.title).join(" / ")} | Escalir`,
   robots: { index: false, follow: true },
 };
 
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 export default function GlobalNotFound() {
   return <Document locale={defaultLocale}>
     <main className="bilingual-error" id="main-content">
-      <a className="error-brand" href="/" aria-label="escalir home"><img src="/brand/escalir-logo.svg" width="221" height="58" alt="escalir" /></a>
+      <a className="error-brand" href="/" aria-label="Escalir home"><img src="/brand/escalir-logo.svg" width="221" height="58" alt="Escalir" /></a>
       {locales.map(locale => {
         const copy = localeSettings[locale].notFound;
         const isDefault = locale === defaultLocale;

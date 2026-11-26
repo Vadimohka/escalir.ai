@@ -1,7 +1,7 @@
 /**
  * Keep translated text inside the existing diagram slots without truncation.
  *
- * These budgets describe the ten maintained escalir diagrams, in viewBox units.
+ * These budgets describe the ten maintained Escalir diagrams, in viewBox units.
  * Latin Helvetica metrics (or fixed-width metrics for monospace) make fitting
  * deterministic on developer machines and CI, without browser/font downloads.
  * A small margin allows for the Arial/Helvetica fallback used by the artwork.

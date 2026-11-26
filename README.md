@@ -1,4 +1,4 @@
-# escalir — enterprise AI website
+# Escalir — enterprise AI website
 
 Website for [escalir.ai](https://escalir.ai/), built with Next.js App Router and published as a static export on GitHub Pages.
 
@@ -64,7 +64,7 @@ npm run check:export   # inspect all 364 pages, metadata, links and assets
 npm run test:e2e       # optional local browser suite for all fourteen languages
 ```
 
-The fourteen route groups have independent root layouts so `lang` is correct before JavaScript runs. GitHub Pages serves one global `404.html` with recovery copy and homepage links for all fourteen languages. IBM Plex Sans and Manrope provide the required Latin and Cyrillic coverage, including Kazakh. The footer signature `Enterprise AI by escalir` remains fixed English brand wording. See [Localization](docs/localization.md) for the catalog format and workflow.
+The fourteen route groups have independent root layouts so `lang` is correct before JavaScript runs. GitHub Pages serves one global `404.html` with recovery copy and homepage links for all fourteen languages. IBM Plex Sans and Manrope provide the required Latin and Cyrillic coverage, including Kazakh. The footer signature `Enterprise AI by Escalir` remains fixed English brand wording. See [Localization](docs/localization.md) for the catalog format and workflow.
 
 Contact and profile destinations are defined in [src/lib/site.ts](src/lib/site.ts). Navigation, industry content and article content live in `src/lib/`.
 

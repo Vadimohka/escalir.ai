@@ -26,64 +26,64 @@ const LOCALE_SETTINGS = {
 };
 const INTERACTIONS = {
   ro: {
-    name: "Romanian", contents: "Cuprinsul ghidului", mobileNavigation: "Navigare mobilă", home: "Pagina principală escalir",
+    name: "Romanian", contents: "Cuprinsul ghidului", mobileNavigation: "Navigare mobilă", home: "Pagina principală Escalir",
     filter: "Filtrați ghidurile după categorie", categories: ["Primii pași", "Cunoștințe", "Fluxuri de lucru", "Implementare"],
     allGuides: "Toate ghidurile", allCount: "4 ghiduri de explorat", categoryCount: (category: string) => `1 ghid din categoria „${category}”`,
-    installation: "Ce stabilim înainte de instalare", identity: "Identitate și date", securityQuestion: /Se poate conecta escalir/,
+    installation: "Ce stabilim înainte de instalare", identity: "Identitate și date", securityQuestion: /Se poate conecta Escalir/,
   },
   cs: {
-    name: "Czech", contents: "Obsah průvodce", mobileNavigation: "Mobilní navigace", home: "Úvodní stránka escalir",
+    name: "Czech", contents: "Obsah průvodce", mobileNavigation: "Mobilní navigace", home: "Úvodní stránka Escalir",
     filter: "Filtrovat průvodce podle kategorie", categories: ["Začínáme", "Znalosti", "Pracovní postupy", "Implementace"],
     allGuides: "Všechny průvodce", allCount: "4 průvodci k prozkoumání", categoryCount: (category: string) => `1 průvodce v kategorii „${category}“`,
     installation: "Co dohodneme před instalací", identity: "Identita a data", securityQuestion: /Může /,
   },
   es: {
-    name: "Spanish", contents: "Contenido de la guía", mobileNavigation: "Navegación móvil", home: "Inicio de escalir",
+    name: "Spanish", contents: "Contenido de la guía", mobileNavigation: "Navegación móvil", home: "Inicio de Escalir",
     filter: "Filtrar guías por categoría", categories: ["Primeros pasos", "Conocimiento", "Flujos de trabajo", "Despliegue"],
     allGuides: "Todas las guías", allCount: "4 guías para descubrir", categoryCount: (category: string) => `1 guía en la categoría «${category}»`,
-    installation: "Qué acordamos antes de la instalación", identity: "Identidad y datos", securityQuestion: /¿Puede escalir conectarse/,
+    installation: "Qué acordamos antes de la instalación", identity: "Identidad y datos", securityQuestion: /¿Puede Escalir conectarse/,
   },
   fr: {
-    name: "French", contents: "Sommaire du guide", mobileNavigation: "Navigation mobile", home: "Accueil escalir",
+    name: "French", contents: "Sommaire du guide", mobileNavigation: "Navigation mobile", home: "Accueil Escalir",
     filter: "Filtrer les guides par catégorie", categories: ["Premiers pas", "Connaissances", "Processus", "Déploiement"],
     allGuides: "Tous les guides", allCount: "4 guides à découvrir", categoryCount: (category: string) => `1 guide dans la catégorie « ${category} »`,
-    installation: "Ce que nous définissons avant l’installation", identity: "Identité et données", securityQuestion: /escalir peut-il se connecter/,
+    installation: "Ce que nous définissons avant l’installation", identity: "Identité et données", securityQuestion: /Escalir peut-il se connecter/,
   },
   pl: {
-    name: "Polish", contents: "Spis treści poradnika", mobileNavigation: "Nawigacja mobilna", home: "escalir — strona główna",
+    name: "Polish", contents: "Spis treści poradnika", mobileNavigation: "Nawigacja mobilna", home: "Escalir — strona główna",
     filter: "Filtruj poradniki według kategorii", categories: ["Pierwsze kroki", "Wiedza", "Przepływy pracy", "Wdrożenie"],
     allGuides: "Wszystkie poradniki", allCount: "4 poradniki do odkrycia", categoryCount: (category: string) => `1 poradnik w kategorii „${category}”`,
-    installation: "Co uzgadniamy przed instalacją", identity: "Tożsamość i dane", securityQuestion: /Czy escalir/,
+    installation: "Co uzgadniamy przed instalacją", identity: "Tożsamość i dane", securityQuestion: /Czy Escalir/,
   },
   uk: {
-    name: "Ukrainian", contents: "Зміст посібника", mobileNavigation: "Мобільна навігація", home: "Головна сторінка escalir",
+    name: "Ukrainian", contents: "Зміст посібника", mobileNavigation: "Мобільна навігація", home: "Головна сторінка Escalir",
     filter: "Фільтрувати посібники за категорією", categories: ["Перші кроки", "Знання", "Робочі процеси", "Розгортання"],
     allGuides: "Усі посібники", allCount: "4 посібники для ознайомлення", categoryCount: (category: string) => `1 посібник у категорії «${category}»`,
     installation: "Що узгоджуємо перед установленням", identity: "Ідентифікація користувачів і дані", securityQuestion: /Чи /,
   },
   be: {
-    name: "Belarusian", contents: "Змест дапаможніка", mobileNavigation: "Мабільная навігацыя", home: "Галоўная старонка escalir",
+    name: "Belarusian", contents: "Змест дапаможніка", mobileNavigation: "Мабільная навігацыя", home: "Галоўная старонка Escalir",
     filter: "Фільтраваць дапаможнікі паводле катэгорый", categories: ["Першыя крокі", "Веды", "Працоўныя працэсы", "Разгортванне"],
     allGuides: "Усе дапаможнікі", allCount: "4 дапаможнікі для азнаямлення", categoryCount: (category: string) => `1 дапаможнік з катэгорыі «${category}»`,
     installation: "Што мы ўзгадняем перад усталяваннем", identity: "Ідэнтыфікацыя і даныя", securityQuestion: /Ці /,
   },
   it: {
-    name: "Italian", contents: "Indice della guida", mobileNavigation: "Navigazione mobile", home: "Pagina iniziale di escalir",
+    name: "Italian", contents: "Indice della guida", mobileNavigation: "Navigazione mobile", home: "Pagina iniziale di Escalir",
     filter: "Filtra le guide per categoria", categories: ["Per iniziare", "Conoscenza", "Flussi di lavoro", "Implementazione"],
     allGuides: "Tutte le guide", allCount: "4 guide da scoprire", categoryCount: (category: string) => `1 guida nella categoria «${category}»`,
-    installation: "Cosa concordiamo prima dell’installazione", identity: "Identità e dati", securityQuestion: /escalir può/,
+    installation: "Cosa concordiamo prima dell’installazione", identity: "Identità e dati", securityQuestion: /Escalir può/,
   },
   sr: {
-    name: "Serbian", contents: "Sadržaj vodiča", mobileNavigation: "Mobilna navigacija", home: "Početna stranica escalir",
+    name: "Serbian", contents: "Sadržaj vodiča", mobileNavigation: "Mobilna navigacija", home: "Početna stranica Escalir",
     filter: "Filtrirajte vodiče po kategoriji", categories: ["Prvi koraci", "Znanje", "Radni tokovi", "Postavljanje"],
     allGuides: "Svi vodiči", allCount: "4 vodiča za istraživanje", categoryCount: (category: string) => `1 vodič u kategoriji „${category}”`,
-    installation: "Šta dogovaramo pre instalacije", identity: "Identitet i podaci", securityQuestion: /Može li escalir/,
+    installation: "Šta dogovaramo pre instalacije", identity: "Identitet i podaci", securityQuestion: /Može li Escalir/,
   },
   nl: {
-    name: "Dutch", contents: "Inhoud van de gids", mobileNavigation: "Mobiele navigatie", home: "escalir startpagina",
+    name: "Dutch", contents: "Inhoud van de gids", mobileNavigation: "Mobiele navigatie", home: "Escalir startpagina",
     filter: "Filter gidsen op categorie", categories: ["Eerste stappen", "Kennis", "Werkprocessen", "Uitrol"],
     allGuides: "Alle gidsen", allCount: "4 gidsen om te ontdekken", categoryCount: (category: string) => `1 gids in de categorie ‘${category}’`,
-    installation: "Wat we vóór de installatie afspreken", identity: "Identiteit en gegevens", securityQuestion: /Kan escalir/,
+    installation: "Wat we vóór de installatie afspreken", identity: "Identiteit en gegevens", securityQuestion: /Kan Escalir/,
   },
 };
 
@@ -431,13 +431,13 @@ test("Ukrainian deployment keeps three current phases and native installation de
 });
 
 for (const width of [320, 1440]) {
-  test(`The fixed English brand phrase precedes the escalir wordmark in every language at ${width}px`, async ({ page }) => {
+  test(`The fixed English brand phrase precedes the Escalir wordmark in every language at ${width}px`, async ({ page }) => {
     test.setTimeout(60_000);
     await page.setViewportSize({ width, height: 900 });
     for (const language of LANGUAGES) {
       for (const path of ["/", "/industries/insurance/"]) {
         await page.goto(languagePath(path, language));
-        const signature = page.locator("footer").getByRole("link", { name: "Enterprise AI by escalir", exact: true });
+        const signature = page.locator("footer").getByRole("link", { name: "Enterprise AI by Escalir", exact: true });
         await expect(signature).toHaveCount(1);
         await signature.scrollIntoViewIfNeeded();
         await withinViewport(page, signature);

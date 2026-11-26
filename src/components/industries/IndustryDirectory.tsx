@@ -16,7 +16,7 @@ export default function IndustryDirectory() {
     <section className={styles.directoryHero} aria-labelledby="industries-title">
       <div className={styles.benefitBackground} aria-hidden="true" />
       <div className={styles.container}>
-        <p className={styles.eyebrow}>escalir across industries</p>
+        <p className={styles.eyebrow}>Escalir across industries</p>
         <h1 id="industries-title">Your industry<br />A new chapter</h1>
         <div className={styles.directoryIntro}>
           <p>Bring specification, development and governance into one platform. Explore practical use cases for your sector, then shape the pilot around your data, systems and review responsibilities</p>
@@ -65,6 +65,6 @@ export default function IndustryDirectory() {
       </div>
     </section>
 
-    <IndustryContact id="industry-contact-title">Build your next chapter with escalir</IndustryContact>
+    <IndustryContact id="industry-contact-title">Build your next chapter with Escalir</IndustryContact>
   </IndustryPageFrame>;
 }

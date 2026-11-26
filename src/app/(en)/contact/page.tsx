@@ -6,7 +6,7 @@ import ArticleArtwork from "@/components/company/ArticleArtwork";
 import { CompanyHeading } from "@/components/company/CompanyElements";
 import { pageMetadata } from "@/lib/metadata";
 
-export const metadata = pageMetadata("Contact", "Talk with Vitali Bakhmat about your first escalir AI workflow. Share the process, sources and outcome you would like to explore.", "/contact");
+export const metadata = pageMetadata("Contact", "Talk with Vitali Bakhmat about your first Escalir AI workflow. Share the process, sources and outcome you would like to explore.", "/contact");
 
 const prompts = [
   { title: "The work", description: "Which task or process would you like to improve?" },

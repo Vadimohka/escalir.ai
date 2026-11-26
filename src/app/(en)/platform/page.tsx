@@ -6,7 +6,7 @@ import OperatingLayerRelated from "@/components/platform/OperatingLayerRelated";
 import { pageMetadata } from "@/lib/metadata";
 import styles from "@/components/platform/OperatingLayer.module.css";
 
-export const metadata = pageMetadata("escalir AI Platform", "Bring specification, development and governance into one operating environment for enterprise AI, with company knowledge, agents, access rules and quality controls", "/platform");
+export const metadata = pageMetadata("Escalir AI Platform", "Bring specification, development and governance into one operating environment for enterprise AI, with company knowledge, agents, access rules and quality controls", "/platform");
 
 const advantages = [
   { title: "Model independence", text: "Choose models for each task and data policy, then compare quality on your own documents and questions", icon: Boxes },
@@ -17,7 +17,7 @@ const advantages = [
 ];
 
 const enterprise = [
-  { title: "Deployment on your terms", description: "Run escalir on your own or rented infrastructure, with models and capacity selected around the workload and your data requirements", href: "/deployment/", link: "Explore deployment", visual: "deployment" },
+  { title: "Deployment on your terms", description: "Run Escalir on your own or rented infrastructure, with models and capacity selected around the workload and your data requirements", href: "/deployment/", link: "Explore deployment", visual: "deployment" },
   { title: "Access that follows the role", description: "Set permissions for departments, knowledge sources and tools so assistants work with the information each user is allowed to access", href: "/security/", link: "Our approach to security", visual: "security" },
   { title: "Rules for model data", description: "Define which data may reach each model and record those decisions in logs, with cloud processing governed by your organisation's policies", href: "/privacy/", link: "Privacy and data handling", visual: "data" },
   { title: "Acceptance before expansion", description: "Agree success criteria and control questions with process owners, evaluate the first workflow and use the findings to decide what comes next", href: "/security/", link: "Discuss your requirements", visual: "requirements" },
@@ -74,7 +74,7 @@ export default function PlatformPage() {
         </picture>
         <div className={styles.heroShade} />
         <div className={styles.heroTitle}>
-          <p className={styles.heroLockup}><img src="/brand/escalir-logo-white.svg" alt="escalir" width={155} height={41} /><span>AI Platform</span></p>
+          <p className={styles.heroLockup}><img src="/brand/escalir-logo-white.svg" alt="Escalir" width={155} height={41} /><span>AI Platform</span></p>
           <h1 id="os-title">One operating environment from specification to governed AI</h1>
         </div>
         <Lattice />

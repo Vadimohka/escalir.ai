@@ -12,6 +12,6 @@ export default function Footer() {
         <div className="footer-nav-group"><p className="footer-nav-heading">Company</p>{companyLinks.map(link=><a href={link.href} key={link.href}>{link.title}</a>)}</div>
       </nav>
     </div>
-    <div className="footer-bottom"><p>© {new Date().getFullYear()} escalir</p><a className="footer-contact" href="/privacy/">Privacy information</a><p>Intelligence, put to work</p></div>
+    <div className="footer-bottom"><p>© {new Date().getFullYear()} Escalir</p><a className="footer-contact" href="/privacy/">Privacy information</a><p>Intelligence, put to work</p></div>
   </div></footer>;
 }

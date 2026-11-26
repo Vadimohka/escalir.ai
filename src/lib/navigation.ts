@@ -1,8 +1,8 @@
 export type NavigationLink = { href: string; title: string; description?: string };
 export const platformLinks: NavigationLink[] = [
   { href: "/platform/", title: "AI Platform", description: "Specification, development and governance" },
-  { href: "/agents/", title: "escalir Agents", description: "Answers grounded in approved knowledge" },
-  { href: "/systems/", title: "escalir Systems", description: "Agents, integrations and workflow orchestration" },
+  { href: "/agents/", title: "Escalir Agents", description: "Answers grounded in approved knowledge" },
+  { href: "/systems/", title: "Escalir Systems", description: "Agents, integrations and workflow orchestration" },
   { href: "/ai-gateway/", title: "AI Gateway", description: "Model choice, data rules and usage visibility" },
   { href: "/deployment/", title: "Deployment", description: "Process audit, pilot and team handover" },
   { href: "/ai-transformation/", title: "AI transformation", description: "Choose the right approach for each task" },
@@ -17,7 +17,7 @@ export const industryLinks: NavigationLink[] = [
   { href: "/industries/airlines/", title: "Airlines", description: "Keep teams informed when plans change" },
 ];
 export const companyLinks: NavigationLink[] = [
-  { href: "/about-us/", title: "About escalir", description: "The people and principles behind the work" },
+  { href: "/about-us/", title: "About Escalir", description: "The people and principles behind the work" },
   { href: "/careers/", title: "Work with us", description: "Bring your experience to useful AI" },
   { href: "/press/", title: "Media & company", description: "Company information and brand resources" },
   { href: "/security/", title: "Security & control", description: "Your environment, your boundaries" },

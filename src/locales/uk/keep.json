@@ -1,27 +1,27 @@
 {
   "public/media/escalir/diagrams/industry-platform.svg": [
-    "escalir"
+    "Escalir"
   ],
   "public/media/industries/airlines/platform.svg": [
-    "escalir"
+    "Escalir"
   ],
   "public/media/industries/healthcare/platform.svg": [
-    "escalir"
+    "Escalir"
   ],
   "public/media/industries/utilities/platform.svg": [
-    "escalir"
+    "Escalir"
   ],
   "public/media/insurance/platform.svg": [
     "CRM",
-    "escalir"
+    "Escalir"
   ],
   "src/app/(en)/agents/page.tsx": [
-    "escalir Agents"
+    "Escalir Agents"
   ],
   "src/app/(en)/ai-gateway/page.tsx": [
     "AI Gateway",
-    "escalir",
-    "escalir AI Gateway"
+    "Escalir",
+    "Escalir AI Gateway"
   ],
   "src/app/(en)/ai-transformation/page.tsx": [
     "AI Platform",
@@ -29,18 +29,18 @@
   ],
   "src/app/(en)/platform/page.tsx": [
     "AI Platform",
-    "escalir",
-    "escalir AI Platform"
+    "Escalir",
+    "Escalir AI Platform"
   ],
   "src/app/(en)/systems/page.tsx": [
-    "escalir Systems"
+    "Escalir Systems"
   ],
   "src/components/company/CompanyElements.tsx": [
     "LinkedIn",
     "vadimohka.com"
   ],
   "src/components/Footer.tsx": [
-    "escalir"
+    "Escalir"
   ],
   "src/components/Founders.tsx": [
     "LinkedIn",
@@ -48,57 +48,57 @@
     "vadimohka.com"
   ],
   "src/components/Header.tsx": [
-    "escalir"
+    "Escalir"
   ],
   "src/components/HomeProductFamily.tsx": [
     "AI Gateway",
-    "escalir Agents",
-    "escalir Systems"
+    "Escalir Agents",
+    "Escalir Systems"
   ],
   "src/components/industries/IndustryReferencePage.tsx": [
-    "escalir",
+    "Escalir",
     "Telegram"
   ],
   "src/components/Platform.tsx": [
-    "escalir AI Platform"
+    "Escalir AI Platform"
   ],
   "src/components/platform/AgentsExperience.tsx": [
-    "escalir AI Gateway",
-    "escalir AI Platform",
-    "escalir Agents",
-    "escalir Systems",
+    "Escalir AI Gateway",
+    "Escalir AI Platform",
+    "Escalir Agents",
+    "Escalir Systems",
     "MCP"
   ],
   "src/components/platform/GatewayIllustrations.tsx": [
     "AI Gateway"
   ],
   "src/components/platform/GatewayWorkspace.tsx": [
-    "escalir"
+    "Escalir"
   ],
   "src/components/platform/OperatingLayerRelated.tsx": [
-    "escalir"
+    "Escalir"
   ],
   "src/components/platform/SystemsExperience.tsx": [
-    "escalir",
-    "escalir AI Gateway",
-    "escalir AI Platform",
-    "escalir Agents",
-    "escalir Systems"
+    "Escalir",
+    "Escalir AI Gateway",
+    "Escalir AI Platform",
+    "Escalir Agents",
+    "Escalir Systems"
   ],
   "src/lib/header-navigation.ts": [
     "AI Platform",
-    "escalir AI Gateway",
-    "escalir Agents",
-    "escalir Systems"
+    "Escalir AI Gateway",
+    "Escalir Agents",
+    "Escalir Systems"
   ],
   "src/lib/navigation.ts": [
     "AI Gateway",
     "AI Platform",
-    "escalir Agents",
-    "escalir Systems"
+    "Escalir Agents",
+    "Escalir Systems"
   ],
   "src/lib/site.ts": [
-    "escalir"
+    "Escalir"
   ],
   "src/components/HomeTeam.tsx": [
     "Bakht Niyazov",

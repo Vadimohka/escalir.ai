@@ -3,7 +3,7 @@ import SystemsExperience from "@/components/platform/SystemsExperience";
 import { pageMetadata } from "@/lib/metadata";
 
 export const metadata = pageMetadata(
-  "escalir Systems",
+  "Escalir Systems",
   "Turn business requests into tested workflows through specification, development and governance, connecting company knowledge, agents and existing systems",
   "/systems",
 );

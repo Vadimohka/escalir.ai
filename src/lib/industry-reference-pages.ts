@@ -1,7 +1,7 @@
 import type { IndustrySlug } from "./industries";
 import type { IndustryReference } from "./industry-reference-types";
 
-/** Original escalir imagery for industry pages and the directory. */
+/** Original Escalir imagery for industry pages and the directory. */
 export const industryImages: Record<IndustrySlug, IndustryReference["images"]> = {
   "banking": {
     "hero": "/media/escalir/photos/banking-advice.webp",
@@ -163,7 +163,7 @@ export const industryReferencePages: Record<IndustrySlug, IndustryReference> = {
         "title": "One platform across the bank",
         "description": "Connect the task register, development work and operational oversight in one platform, with approved knowledge and system access scoped to each banking workflow",
         "image": "/media/escalir/diagrams/industry-platform.svg",
-        "alt": "escalir connects approved sources, workflows and existing systems with people, controlled actions and useful outcomes"
+        "alt": "Escalir connects approved sources, workflows and existing systems with people, controlled actions and useful outcomes"
       },
       {
         "title": "Clear access and accountable decisions",
@@ -237,7 +237,7 @@ export const industryReferencePages: Record<IndustrySlug, IndustryReference> = {
         "title": "One platform across telecom teams",
         "description": "Connect the knowledge behind customer care, field work, network issues and billing. Plan each system connection around an agreed operational scope",
         "image": "/media/escalir/diagrams/industry-platform.svg",
-        "alt": "escalir connects approved sources, workflows and existing systems with people, controlled actions and useful outcomes"
+        "alt": "Escalir connects approved sources, workflows and existing systems with people, controlled actions and useful outcomes"
       },
       {
         "title": "Controlled actions and clear escalation",
@@ -310,7 +310,7 @@ export const industryReferencePages: Record<IndustrySlug, IndustryReference> = {
       {
         "title": "One platform across healthcare teams",
         "description": "Bring scanned documents, knowledge, agents and corporate chat into one deployment, with shared access rules and activity logs for operational teams",
-        "alt": "escalir connects approved sources, workflows and existing systems with people, controlled actions and useful outcomes",
+        "alt": "Escalir connects approved sources, workflows and existing systems with people, controlled actions and useful outcomes",
         "image": "/media/escalir/diagrams/industry-platform.svg"
       },
       {
@@ -321,7 +321,7 @@ export const industryReferencePages: Record<IndustrySlug, IndustryReference> = {
       },
       {
         "title": "Practical support through implementation",
-        "description": "Co-build an initial service or documentation workflow with escalir, train your developers and hand over clear practices for testing, maintaining and improving agents",
+        "description": "Co-build an initial service or documentation workflow with Escalir, train your developers and hand over clear practices for testing, maintaining and improving agents",
         "image": "/media/escalir/diagrams/industry-deployment.svg",
         "alt": "Four connected delivery stages: scope, build, validate and handover"
       }
@@ -385,7 +385,7 @@ export const industryReferencePages: Record<IndustrySlug, IndustryReference> = {
         "title": "A connected utility workflow",
         "description": "Bring service requests, field knowledge and billing context into a shared process, with interfaces scoped to the systems involved",
         "image": "/media/escalir/diagrams/industry-platform.svg",
-        "alt": "escalir connects approved sources, workflows and existing systems with people, controlled actions and useful outcomes"
+        "alt": "Escalir connects approved sources, workflows and existing systems with people, controlled actions and useful outcomes"
       },
       {
         "title": "Control at each decision",
@@ -460,7 +460,7 @@ export const industryReferencePages: Record<IndustrySlug, IndustryReference> = {
         "title": "One platform for the entire insurer",
         "description": "Bring knowledge and workflows together across insurance teams. Plan connections to existing systems around the scope of each deployment",
         "image": "/media/escalir/diagrams/industry-platform.svg",
-        "alt": "escalir connects approved sources, workflows and existing systems with people, controlled actions and useful outcomes"
+        "alt": "Escalir connects approved sources, workflows and existing systems with people, controlled actions and useful outcomes"
       },
       {
         "title": "Control and traceability, by design",
@@ -534,7 +534,7 @@ export const industryReferencePages: Record<IndustrySlug, IndustryReference> = {
         "title": "A connected retail workflow",
         "description": "Link a defined process across store, service and back-office teams, with the order and product interfaces agreed during scoping",
         "image": "/media/escalir/diagrams/industry-platform.svg",
-        "alt": "escalir connects approved sources, workflows and existing systems with people, controlled actions and useful outcomes"
+        "alt": "Escalir connects approved sources, workflows and existing systems with people, controlled actions and useful outcomes"
       },
       {
         "title": "Review before commercial action",
@@ -608,7 +608,7 @@ export const industryReferencePages: Record<IndustrySlug, IndustryReference> = {
         "title": "A connected service workflow",
         "description": "Bring passenger requests, permitted journey details and case documents together, with each required system interface defined before rollout",
         "image": "/media/escalir/diagrams/industry-platform.svg",
-        "alt": "escalir connects approved sources, workflows and existing systems with people, controlled actions and useful outcomes"
+        "alt": "Escalir connects approved sources, workflows and existing systems with people, controlled actions and useful outcomes"
       },
       {
         "title": "Review before passenger actions",

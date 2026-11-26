@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="808" viewBox="0 0 1280 808" fill="none">
-  <title>escalir Airlines platform</title>
-  <desc>escalir connects Passengers, Service teams, Claims with Journey records, Service policies, Case management.</desc>
+  <title>Escalir Airlines platform</title>
+  <desc>Escalir connects Passengers, Service teams, Claims with Journey records, Service policies, Case management.</desc>
   <defs>
     <pattern id="grid" width="16" height="16" patternUnits="userSpaceOnUse"><path d="M2 2h12v12H2z" fill="#303030"/></pattern>
     <linearGradient id="fade" x1="1080" y1="0" x2="270" y2="808" gradientUnits="userSpaceOnUse"><stop stop-color="white"/><stop offset=".48" stop-color="#aaa"/><stop offset="1" stop-color="#333"/></linearGradient>
@@ -19,5 +19,5 @@
   <use href="#cube" x="240" y="132"/><use href="#cube" x="640" y="132"/><use href="#cube" x="1040" y="132"/>
   <use href="#system" x="208" y="608"/><use href="#system" x="640" y="608"/><use href="#system" x="1072" y="608"/>
   <g font-family="monospace" font-size="22" text-anchor="middle" fill="#bcbcbc"><text x="240" y="212">Passengers</text><text x="640" y="212">Service teams</text><text x="1040" y="212">Claims</text><text x="208" y="676">Journey records</text><text x="640" y="676">Service policies</text><text x="1072" y="676">Case management</text></g>
-  <text x="640" y="419" font-family="monospace" font-size="28" text-anchor="middle" fill="#eee">escalir</text>
+  <text x="640" y="419" font-family="monospace" font-size="28" text-anchor="middle" fill="#eee">Escalir</text>
 </svg>

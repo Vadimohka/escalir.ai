@@ -20,7 +20,7 @@ export default function OperatingLayerRelated({ current }: { current: "platform"
           <img className={styles.productImage} src={product.image} alt="" style={{ objectPosition: product.position }}
             width={product.width} height={product.height} loading="lazy" />
           <div className={styles.productCardContent}>
-            <span className={styles.productLockup} translate="no" lang="en"><img src="/brand/escalir-logo-white.svg" alt="escalir" width={132} height={35} /><span>{product.brandLabel}</span></span>
+            <span className={styles.productLockup} translate="no" lang="en"><img src="/brand/escalir-logo-white.svg" alt="Escalir" width={132} height={35} /><span>{product.brandLabel}</span></span>
             <div><p>{product.description}</p><span className={styles.productExplore}>Explore <ArrowUpRight size={19} aria-hidden="true" /></span></div>
           </div>
         </a>)}

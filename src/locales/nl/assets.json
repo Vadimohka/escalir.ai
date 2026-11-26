@@ -49,7 +49,7 @@
   },
   "public/media/escalir/diagrams/industry-platform.svg": {
     "Approved sources": "Goedgekeurde bronnen",
-    "escalir connects approved sources, workflows and existing systems with people, controlled actions and useful outcomes.": "escalir verbindt goedgekeurde bronnen, werkprocessen en bestaande systemen met mensen, gecontroleerde acties en bruikbare resultaten.",
+    "Escalir connects approved sources, workflows and existing systems with people, controlled actions and useful outcomes.": "Escalir verbindt goedgekeurde bronnen, werkprocessen en bestaande systemen met mensen, gecontroleerde acties en bruikbare resultaten.",
     "CONNECTED WORK": "VERBONDEN WERK",
     "Controlled actions": "Gecontroleerde acties",
     "Existing systems": "Bestaande systemen",
@@ -70,8 +70,8 @@
   },
   "public/media/industries/airlines/platform.svg": {
     "Case management": "Dossierbeheer",
-    "escalir Airlines platform": "escalir-platform voor luchtvaartmaatschappijen",
-    "escalir connects Passengers, Service teams, Claims with Journey records, Service policies, Case management.": "escalir verbindt passagiers, serviceteams en compensatieclaims met reisgegevens, servicerichtlijnen en dossierbeheer.",
+    "Escalir Airlines platform": "Escalir-platform voor luchtvaartmaatschappijen",
+    "Escalir connects Passengers, Service teams, Claims with Journey records, Service policies, Case management.": "Escalir verbindt passagiers, serviceteams en compensatieclaims met reisgegevens, servicerichtlijnen en dossierbeheer.",
     "Claims": "Compensatieclaims",
     "Journey records": "Reisgegevens",
     "Passengers": "Passagiers",
@@ -81,8 +81,8 @@
   "public/media/industries/healthcare/platform.svg": {
     "Administration": "Administratie",
     "Care teams": "Zorgteams",
-    "escalir connects Care teams, Administration, Internal services with Clinical records, Scheduling, Finance.": "escalir verbindt zorgteams, administratie en interne diensten met medische dossiers, planning en financiën.",
-    "escalir Healthcare platform": "escalir-platform voor de zorg",
+    "Escalir connects Care teams, Administration, Internal services with Clinical records, Scheduling, Finance.": "Escalir verbindt zorgteams, administratie en interne diensten met medische dossiers, planning en financiën.",
+    "Escalir Healthcare platform": "Escalir-platform voor de zorg",
     "Clinical records": "Medische dossiers",
     "Finance": "Financiën",
     "Internal services": "Interne diensten",
@@ -92,19 +92,19 @@
     "Billing": "Facturering",
     "Billing records": "Factuurgegevens",
     "Case management": "Dossierbeheer",
-    "escalir connects Service, Field teams, Billing with Case management, Knowledge base, Billing records.": "escalir verbindt klantenservice, buitendienstteams en facturering met dossierbeheer, de kennisbank en factuurgegevens.",
-    "escalir Utilities platform": "escalir-platform voor nutsbedrijven",
+    "Escalir connects Service, Field teams, Billing with Case management, Knowledge base, Billing records.": "Escalir verbindt klantenservice, buitendienstteams en facturering met dossierbeheer, de kennisbank en factuurgegevens.",
+    "Escalir Utilities platform": "Escalir-platform voor nutsbedrijven",
     "Field teams": "Buitendienstteams",
     "Knowledge base": "Kennisbank",
     "Service": "Klantenservice"
   },
   "public/media/insurance/platform.svg": {
-    "escalir insurance platform": "escalir-platform voor verzekeringen",
+    "Escalir insurance platform": "Escalir-platform voor verzekeringen",
     "Core systems": "Kernsystemen",
     "Health": "Zorg",
     "Life": "Leven",
     "P&C": "Schadeverzekeringen",
     "Policy systems": "Polissystemen",
-    "Property, life and health workflows connected to escalir, policy systems, CRM and core systems.": "Werkprocessen voor schade-, levens- en zorgverzekeringen zijn verbonden met escalir, polissystemen, CRM en kernsystemen."
+    "Property, life and health workflows connected to Escalir, policy systems, CRM and core systems.": "Werkprocessen voor schade-, levens- en zorgverzekeringen zijn verbonden met Escalir, polissystemen, CRM en kernsystemen."
   }
 }

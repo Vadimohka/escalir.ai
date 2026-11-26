@@ -6,7 +6,7 @@ import OperatingLayerRelated from "@/components/platform/OperatingLayerRelated";
 import { pageMetadata } from "@/lib/metadata";
 import styles from "@/components/platform/Gateway.module.css";
 
-export const metadata = pageMetadata("escalir AI Gateway", "Connect models through one gateway, control which data they can use and evaluate quality on your own documents and questions", "/ai-gateway");
+export const metadata = pageMetadata("Escalir AI Gateway", "Connect models through one gateway, control which data they can use and evaluate quality on your own documents and questions", "/ai-gateway");
 
 const capabilities: { title: string; description: string; illustration: GatewayIllustrationKind }[] = [
   { title: "One gateway for connected models", description: "Connect language, transcription, OCR and embedding models through a shared gateway, with APIs for your applications and agents", illustration: "connect" },
@@ -33,7 +33,7 @@ export default function GatewayPage() {
         </picture>
         <div className={styles.heroShade} />
         <div className={styles.heroTitle}>
-          <p className={styles.heroLockup}><img src="/brand/escalir-logo-white.svg" alt="escalir" width={155} height={41} /><span>AI Gateway</span></p>
+          <p className={styles.heroLockup}><img src="/brand/escalir-logo-white.svg" alt="Escalir" width={155} height={41} /><span>AI Gateway</span></p>
           <h1 id="gateway-title">Choose models<br />Keep data use under control</h1>
           <p>Connect models, set data rules and evaluate quality on your own work</p>
         </div>

@@ -49,7 +49,7 @@
   },
   "public/media/escalir/diagrams/industry-platform.svg": {
     "Approved sources": "Freigegebene Quellen",
-    "escalir connects approved sources, workflows and existing systems with people, controlled actions and useful outcomes.": "escalir verbindet freigegebene Quellen, Workflows und bestehende Systeme mit Menschen, kontrollierten Aktionen und nützlichen Ergebnissen.",
+    "Escalir connects approved sources, workflows and existing systems with people, controlled actions and useful outcomes.": "Escalir verbindet freigegebene Quellen, Workflows und bestehende Systeme mit Menschen, kontrollierten Aktionen und nützlichen Ergebnissen.",
     "CONNECTED WORK": "VERNETZTES ARBEITEN",
     "Controlled actions": "Kontrollierte Aktionen",
     "Existing systems": "Bestehende Systeme",
@@ -70,8 +70,8 @@
   },
   "public/media/industries/airlines/platform.svg": {
     "Case management": "Vorgangsverwaltung",
-    "escalir Airlines platform": "escalir-Plattform für Fluggesellschaften",
-    "escalir connects Passengers, Service teams, Claims with Journey records, Service policies, Case management.": "escalir verbindet Passagiere, Serviceteams und Anspruchsbearbeitung mit Reisedaten, Servicerichtlinien und Vorgangsverwaltung.",
+    "Escalir Airlines platform": "Escalir-Plattform für Fluggesellschaften",
+    "Escalir connects Passengers, Service teams, Claims with Journey records, Service policies, Case management.": "Escalir verbindet Passagiere, Serviceteams und Anspruchsbearbeitung mit Reisedaten, Servicerichtlinien und Vorgangsverwaltung.",
     "Claims": "Ansprüche",
     "Journey records": "Reisedaten",
     "Passengers": "Passagiere",
@@ -81,8 +81,8 @@
   "public/media/industries/healthcare/platform.svg": {
     "Administration": "Verwaltung",
     "Care teams": "Versorgungsteams",
-    "escalir connects Care teams, Administration, Internal services with Clinical records, Scheduling, Finance.": "escalir verbindet Versorgungsteams, Verwaltung und interne Dienste mit Patientenakten, Terminplanung und Finanzen.",
-    "escalir Healthcare platform": "escalir-Plattform für das Gesundheitswesen",
+    "Escalir connects Care teams, Administration, Internal services with Clinical records, Scheduling, Finance.": "Escalir verbindet Versorgungsteams, Verwaltung und interne Dienste mit Patientenakten, Terminplanung und Finanzen.",
+    "Escalir Healthcare platform": "Escalir-Plattform für das Gesundheitswesen",
     "Clinical records": "Patientenakten",
     "Finance": "Finanzen",
     "Internal services": "Interne Dienste",
@@ -92,18 +92,18 @@
     "Billing": "Abrechnung",
     "Billing records": "Abrechnungsdaten",
     "Case management": "Vorgangsverwaltung",
-    "escalir connects Service, Field teams, Billing with Case management, Knowledge base, Billing records.": "escalir verbindet Service, Außendienstteams und Abrechnung mit Vorgangsverwaltung, Wissensdatenbank und Abrechnungsdaten.",
-    "escalir Utilities platform": "escalir-Plattform für Versorgungsunternehmen",
+    "Escalir connects Service, Field teams, Billing with Case management, Knowledge base, Billing records.": "Escalir verbindet Service, Außendienstteams und Abrechnung mit Vorgangsverwaltung, Wissensdatenbank und Abrechnungsdaten.",
+    "Escalir Utilities platform": "Escalir-Plattform für Versorgungsunternehmen",
     "Field teams": "Außendienstteams",
     "Knowledge base": "Wissensdatenbank"
   },
   "public/media/insurance/platform.svg": {
-    "escalir insurance platform": "escalir-Plattform für Versicherungen",
+    "Escalir insurance platform": "Escalir-Plattform für Versicherungen",
     "Core systems": "Kernsysteme",
     "Health": "Krankenversicherung",
     "Life": "Lebensversicherung",
     "P&C": "Sach- und Unfallversicherung",
     "Policy systems": "Vertragsverwaltung",
-    "Property, life and health workflows connected to escalir, policy systems, CRM and core systems.": "Workflows für Sach-, Lebens- und Krankenversicherungen, verbunden mit escalir, Vertragsverwaltung, CRM und Kernsystemen."
+    "Property, life and health workflows connected to Escalir, policy systems, CRM and core systems.": "Workflows für Sach-, Lebens- und Krankenversicherungen, verbunden mit Escalir, Vertragsverwaltung, CRM und Kernsystemen."
   }
 }

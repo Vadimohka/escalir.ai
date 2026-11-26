@@ -6,7 +6,7 @@ import { pageMetadata } from "@/lib/metadata";
 
 export const metadata = pageMetadata(
   "Deployment",
-  "Deploy escalir around your data, systems and access rules. Build and test workflows with your team, then transfer the skills and practices to maintain them",
+  "Deploy Escalir around your data, systems and access rules. Build and test workflows with your team, then transfer the skills and practices to maintain them",
   "/deployment",
 );
 
@@ -22,7 +22,7 @@ export default function DeploymentPage() {
           <div className={styles.heroShade} aria-hidden="true" />
           <div className={styles.heroContent}>
             <h1 id="deployment-title">Bring AI into<br /> everyday work</h1>
-            <p>A ready platform, connected to your systems. Build the first workflows with escalir, test them on your tasks and give your team the skills to run them</p>
+            <p>A ready platform, connected to your systems. Build the first workflows with Escalir, test them on your tasks and give your team the skills to run them</p>
           </div>
         </section>
 
@@ -32,7 +32,7 @@ export default function DeploymentPage() {
               <h2 id="team-title">The workflow and<br /> the skills to run it</h2>
               <div className={styles.teamCopy}>
                 <p>A service assistant needs the right documents and permissions. A document workflow needs reliable extraction and a point for human review. We define the useful result with its owner, then connect it to the systems the team uses</p>
-                <p>escalir brings the platform, engineering and training. Your people bring the process knowledge. Together, we build the workflow, test its behaviour and prepare the people who will maintain it</p>
+                <p>Escalir brings the platform, engineering and training. Your people bring the process knowledge. Together, we build the workflow, test its behaviour and prepare the people who will maintain it</p>
               </div>
             </div>
             <div className={styles.roleCards}>
@@ -42,14 +42,14 @@ export default function DeploymentPage() {
                 <div className={styles.cardContent}>
                   <span className={styles.cardLabel}>Your developers lead</span>
                   <h3>Build from day one</h3>
-                  <p>Your team starts building on escalir. We train your developers, advise on architecture and help with difficult integrations and new connectors</p>
+                  <p>Your team starts building on Escalir. We train your developers, advise on architecture and help with difficult integrations and new connectors</p>
                 </div>
               </article>
               <article className={styles.roleCard}>
                 <img src="/media/escalir/photos/team-workshop.webp" srcSet="/media/escalir/photos/team-workshop-768.webp 768w, /media/escalir/photos/team-workshop.webp 1600w" sizes="(max-width: 800px) 100vw, (max-width: 1400px) 46vw, 588px" alt="A team reviewing a workflow together at a workshop table" width={1600} height={900} loading="lazy" decoding="async" />
                 <div className={styles.cardShade} aria-hidden="true" />
                 <div className={styles.cardContent}>
-                  <span className={styles.cardLabel}>escalir leads the first builds</span>
+                  <span className={styles.cardLabel}>Escalir leads the first builds</span>
                   <h3>Learn by building together</h3>
                   <p>We build the first workflows with your developers, from requirements through acceptance. Your team learns to maintain them, test changes and lead the next implementations</p>
                 </div>
@@ -69,14 +69,14 @@ export default function DeploymentPage() {
           <div className={styles.shell}>
             <div className={styles.environmentHeading}>
               <h2 id="environment-title">Your environment<br />Your data rules</h2>
-              <p>Choose where escalir runs and which models each task uses. These are separate decisions, shaped by the workload and the information each model may receive</p>
+              <p>Choose where Escalir runs and which models each task uses. These are separate decisions, shaped by the workload and the information each model may receive</p>
             </div>
             <div className={styles.environmentGrid}>
               <article>
                 <Server size={36} strokeWidth={1.2} aria-hidden="true" />
                 <span className={styles.detailLabel}>Platform environment</span>
                 <h3>Your servers or rented infrastructure</h3>
-                <p>Keep knowledge, workflows, access rules and logs in the agreed escalir environment. Size the deployment for the document volumes, concurrent work and services it needs to support</p>
+                <p>Keep knowledge, workflows, access rules and logs in the agreed Escalir environment. Size the deployment for the document volumes, concurrent work and services it needs to support</p>
               </article>
               <article>
                 <Network size={36} strokeWidth={1.2} aria-hidden="true" />
@@ -94,7 +94,7 @@ export default function DeploymentPage() {
               </dl>
             </details>
             <div className={styles.environmentNote}>
-              <p>Still deciding where to start? See how escalir assesses processes and helps your team choose what to automate</p>
+              <p>Still deciding where to start? See how Escalir assesses processes and helps your team choose what to automate</p>
               <div className={styles.relatedLinks}>
                 <a href="/ai-transformation/">Explore AI Transformation<ArrowUpRight size={17} aria-hidden="true" /></a>
                 <a href="/security/">Security & governance<ArrowUpRight size={17} aria-hidden="true" /></a>

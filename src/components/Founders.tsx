@@ -50,7 +50,7 @@ export default function Founders() {
     >
       <div className="shell">
         <div className="founders-heading">
-          <div><p className="eyebrow">The people behind the work</p><h2 id="founders-title">Building the next<br />chapter of escalir</h2></div>
+          <div><p className="eyebrow">The people behind the work</p><h2 id="founders-title">Building the next<br />chapter of Escalir</h2></div>
           <a className="home-section-link" href="/about-us/">Get to know the team <ArrowUpRight size={17} aria-hidden="true" /></a>
         </div>
         <div className="founders-grid">

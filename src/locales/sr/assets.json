@@ -48,7 +48,7 @@
   },
   "public/media/escalir/diagrams/industry-platform.svg": {
     "Approved sources": "Odobreni izvori",
-    "escalir connects approved sources, workflows and existing systems with people, controlled actions and useful outcomes.": "escalir povezuje odobrene izvore, radne tokove i postojeće sisteme sa ljudima, kontrolisanim radnjama i korisnim rezultatima.",
+    "Escalir connects approved sources, workflows and existing systems with people, controlled actions and useful outcomes.": "Escalir povezuje odobrene izvore, radne tokove i postojeće sisteme sa ljudima, kontrolisanim radnjama i korisnim rezultatima.",
     "CONNECTED WORK": "POVEZAN RAD",
     "Controlled actions": "Kontrolisane radnje",
     "Existing systems": "Postojeći sistemi",
@@ -69,8 +69,8 @@
   },
   "public/media/industries/airlines/platform.svg": {
     "Case management": "Upravljanje predmetima",
-    "escalir Airlines platform": "escalir platforma za avio-kompanije",
-    "escalir connects Passengers, Service teams, Claims with Journey records, Service policies, Case management.": "escalir povezuje putnike, timove korisničke službe i zahteve za naknadu sa evidencijom putovanja, pravilima usluge i upravljanjem predmetima.",
+    "Escalir Airlines platform": "Escalir platforma za avio-kompanije",
+    "Escalir connects Passengers, Service teams, Claims with Journey records, Service policies, Case management.": "Escalir povezuje putnike, timove korisničke službe i zahteve za naknadu sa evidencijom putovanja, pravilima usluge i upravljanjem predmetima.",
     "Claims": "Zahtevi za naknadu",
     "Journey records": "Evidencija putovanja",
     "Passengers": "Putnici",
@@ -80,8 +80,8 @@
   "public/media/industries/healthcare/platform.svg": {
     "Administration": "Administracija",
     "Care teams": "Zdravstveni timovi",
-    "escalir connects Care teams, Administration, Internal services with Clinical records, Scheduling, Finance.": "escalir povezuje zdravstvene timove, administraciju i interne službe sa medicinskom dokumentacijom, zakazivanjem i finansijama.",
-    "escalir Healthcare platform": "escalir platforma za zdravstvo",
+    "Escalir connects Care teams, Administration, Internal services with Clinical records, Scheduling, Finance.": "Escalir povezuje zdravstvene timove, administraciju i interne službe sa medicinskom dokumentacijom, zakazivanjem i finansijama.",
+    "Escalir Healthcare platform": "Escalir platforma za zdravstvo",
     "Clinical records": "Medicinska dokumentacija",
     "Finance": "Finansije",
     "Internal services": "Interne službe",
@@ -91,19 +91,19 @@
     "Billing": "Obračun",
     "Billing records": "Evidencija obračuna",
     "Case management": "Upravljanje predmetima",
-    "escalir connects Service, Field teams, Billing with Case management, Knowledge base, Billing records.": "escalir povezuje korisničku službu, terenske timove i obračun sa upravljanjem predmetima, bazom znanja i evidencijom obračuna.",
-    "escalir Utilities platform": "escalir platforma za komunalne delatnosti",
+    "Escalir connects Service, Field teams, Billing with Case management, Knowledge base, Billing records.": "Escalir povezuje korisničku službu, terenske timove i obračun sa upravljanjem predmetima, bazom znanja i evidencijom obračuna.",
+    "Escalir Utilities platform": "Escalir platforma za komunalne delatnosti",
     "Field teams": "Terenski timovi",
     "Knowledge base": "Baza znanja",
     "Service": "Korisnička služba"
   },
   "public/media/insurance/platform.svg": {
-    "escalir insurance platform": "escalir platforma za osiguranje",
+    "Escalir insurance platform": "Escalir platforma za osiguranje",
     "Core systems": "Osnovni sistemi",
     "Health": "Zdravstveno osiguranje",
     "Life": "Životno osiguranje",
     "P&C": "Imovina i odgovornost",
     "Policy systems": "Sistemi za polise",
-    "Property, life and health workflows connected to escalir, policy systems, CRM and core systems.": "Radni tokovi za imovinsko, životno i zdravstveno osiguranje povezani sa platformom escalir, sistemima za polise, CRM-om i osnovnim sistemima."
+    "Property, life and health workflows connected to Escalir, policy systems, CRM and core systems.": "Radni tokovi za imovinsko, životno i zdravstveno osiguranje povezani sa platformom Escalir, sistemima za polise, CRM-om i osnovnim sistemima."
   }
 }

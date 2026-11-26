@@ -49,7 +49,7 @@
   },
   "public/media/escalir/diagrams/industry-platform.svg": {
     "Approved sources": "Surse aprobate",
-    "escalir connects approved sources, workflows and existing systems with people, controlled actions and useful outcomes.": "escalir conectează sursele aprobate, fluxurile de lucru și sistemele existente cu oamenii, acțiunile controlate și rezultatele utile.",
+    "Escalir connects approved sources, workflows and existing systems with people, controlled actions and useful outcomes.": "Escalir conectează sursele aprobate, fluxurile de lucru și sistemele existente cu oamenii, acțiunile controlate și rezultatele utile.",
     "CONNECTED WORK": "ACTIVITATE CONECTATĂ",
     "Controlled actions": "Acțiuni controlate",
     "Existing systems": "Sisteme existente",
@@ -70,8 +70,8 @@
   },
   "public/media/industries/airlines/platform.svg": {
     "Case management": "Gestionarea cazurilor",
-    "escalir Airlines platform": "Platforma escalir pentru companii aeriene",
-    "escalir connects Passengers, Service teams, Claims with Journey records, Service policies, Case management.": "escalir conectează pasagerii, echipele de asistență și cererile de despăgubire cu evidențele călătoriilor, politicile privind serviciile și gestionarea cazurilor.",
+    "Escalir Airlines platform": "Platforma Escalir pentru companii aeriene",
+    "Escalir connects Passengers, Service teams, Claims with Journey records, Service policies, Case management.": "Escalir conectează pasagerii, echipele de asistență și cererile de despăgubire cu evidențele călătoriilor, politicile privind serviciile și gestionarea cazurilor.",
     "Claims": "Cereri de despăgubire",
     "Journey records": "Evidențe ale călătoriilor",
     "Passengers": "Pasageri",
@@ -81,8 +81,8 @@
   "public/media/industries/healthcare/platform.svg": {
     "Administration": "Administrație",
     "Care teams": "Echipe medicale",
-    "escalir connects Care teams, Administration, Internal services with Clinical records, Scheduling, Finance.": "escalir conectează echipele medicale, administrația și serviciile interne cu dosarele medicale, programările și finanțele.",
-    "escalir Healthcare platform": "Platforma escalir pentru sănătate",
+    "Escalir connects Care teams, Administration, Internal services with Clinical records, Scheduling, Finance.": "Escalir conectează echipele medicale, administrația și serviciile interne cu dosarele medicale, programările și finanțele.",
+    "Escalir Healthcare platform": "Platforma Escalir pentru sănătate",
     "Clinical records": "Dosare medicale",
     "Finance": "Finanțe",
     "Internal services": "Servicii interne",
@@ -92,19 +92,19 @@
     "Billing": "Facturare",
     "Billing records": "Evidențe de facturare",
     "Case management": "Gestionarea cazurilor",
-    "escalir connects Service, Field teams, Billing with Case management, Knowledge base, Billing records.": "escalir conectează asistența pentru clienți, echipele de teren și facturarea cu gestionarea cazurilor, baza de cunoștințe și evidențele de facturare.",
-    "escalir Utilities platform": "Platforma escalir pentru utilități",
+    "Escalir connects Service, Field teams, Billing with Case management, Knowledge base, Billing records.": "Escalir conectează asistența pentru clienți, echipele de teren și facturarea cu gestionarea cazurilor, baza de cunoștințe și evidențele de facturare.",
+    "Escalir Utilities platform": "Platforma Escalir pentru utilități",
     "Field teams": "Echipe de teren",
     "Knowledge base": "Bază de cunoștințe",
     "Service": "Asistență pentru clienți"
   },
   "public/media/insurance/platform.svg": {
-    "escalir insurance platform": "Platforma escalir pentru asigurări",
+    "Escalir insurance platform": "Platforma Escalir pentru asigurări",
     "Core systems": "Sisteme centrale",
     "Health": "Sănătate",
     "Life": "Viață",
     "P&C": "Bunuri și răspundere",
     "Policy systems": "Sisteme de administrare a polițelor",
-    "Property, life and health workflows connected to escalir, policy systems, CRM and core systems.": "Fluxuri de lucru pentru asigurări de bunuri, viață și sănătate, conectate la escalir, sisteme de administrare a polițelor, CRM și sisteme centrale."
+    "Property, life and health workflows connected to Escalir, policy systems, CRM and core systems.": "Fluxuri de lucru pentru asigurări de bunuri, viață și sănătate, conectate la Escalir, sisteme de administrare a polițelor, CRM și sisteme centrale."
   }
 }

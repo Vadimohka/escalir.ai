@@ -9,7 +9,7 @@ await writeFile("out/.nojekyll", "");
 for (const [locale, settings] of Object.entries(configuration.locales)) {
   const prefix = locale === configuration.defaultLocale ? "" : `/${locale}`;
   const target = `${prefix}/platform/`;
-  const title = `${settings.productTitles["escalir AI Platform"] ?? "escalir AI Platform"} | escalir`;
+  const title = `${settings.productTitles["Escalir AI Platform"] ?? "Escalir AI Platform"} | Escalir`;
   await mkdir(`out${prefix}/ai-os`, { recursive: true });
   await writeFile(`out${prefix}/ai-os/index.html`, `<!doctype html>
 <html lang="${locale}">
@@ -24,7 +24,7 @@ for (const [locale, settings] of Object.entries(configuration.locales)) {
 </head>
 <body>
   <main>
-    <h1>escalir AI Platform</h1>
+    <h1>Escalir AI Platform</h1>
     <p>${escape(settings.redirect.message)} <a href="${target}">${escape(settings.redirect.linkLabel)}</a>.</p>
   </main>
 </body>

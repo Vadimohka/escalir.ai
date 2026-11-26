@@ -13,9 +13,9 @@ export const headerNavigation: HeaderNavigationGroup[] = [
     label: "Platform",
     links: [
       { href: "/platform/", title: "AI Platform", description: "Specification, development and governance in one platform" },
-      { href: "/agents/", title: "escalir Agents", description: "Answers grounded in approved knowledge" },
-      { href: "/systems/", title: "escalir Systems", description: "Agents, integrations and workflow orchestration" },
-      { href: "/ai-gateway/", title: "escalir AI Gateway", description: "Model choice, data rules and usage visibility" },
+      { href: "/agents/", title: "Escalir Agents", description: "Answers grounded in approved knowledge" },
+      { href: "/systems/", title: "Escalir Systems", description: "Agents, integrations and workflow orchestration" },
+      { href: "/ai-gateway/", title: "Escalir AI Gateway", description: "Model choice, data rules and usage visibility" },
       { href: "/deployment/", title: "Deployment", description: "Process audit, pilot and team handover" },
       { href: "/ai-transformation/", title: "Strategy", description: "Choose the right approach for each task" },
     ],

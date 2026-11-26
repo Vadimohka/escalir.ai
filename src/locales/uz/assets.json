@@ -49,7 +49,7 @@
   },
   "public/media/escalir/diagrams/industry-platform.svg": {
     "Approved sources": "Tasdiqlangan manbalar",
-    "escalir connects approved sources, workflows and existing systems with people, controlled actions and useful outcomes.": "escalir tasdiqlangan manbalar, ish oqimlari va mavjud tizimlarni odamlar, boshqariladigan harakatlar va foydali natijalar bilan bog‘laydi.",
+    "Escalir connects approved sources, workflows and existing systems with people, controlled actions and useful outcomes.": "Escalir tasdiqlangan manbalar, ish oqimlari va mavjud tizimlarni odamlar, boshqariladigan harakatlar va foydali natijalar bilan bog‘laydi.",
     "CONNECTED WORK": "BOG‘LANGAN ISH",
     "Controlled actions": "Nazorat qilinadigan harakatlar",
     "Existing systems": "Mavjud tizimlar",
@@ -70,8 +70,8 @@
   },
   "public/media/industries/airlines/platform.svg": {
     "Case management": "Ishni boshqarish",
-    "escalir Airlines platform": "escalir Aviakompaniya platformasi",
-    "escalir connects Passengers, Service teams, Claims with Journey records, Service policies, Case management.": "escalir yoʻlovchilarni, xizmat koʻrsatish guruhlarini, daʼvolarni sayohat yozuvlari, xizmat koʻrsatish siyosatlari, ishlarni boshqarish bilan bogʻlaydi.",
+    "Escalir Airlines platform": "Escalir Aviakompaniya platformasi",
+    "Escalir connects Passengers, Service teams, Claims with Journey records, Service policies, Case management.": "Escalir yoʻlovchilarni, xizmat koʻrsatish guruhlarini, daʼvolarni sayohat yozuvlari, xizmat koʻrsatish siyosatlari, ishlarni boshqarish bilan bogʻlaydi.",
     "Claims": "Da‘volar",
     "Journey records": "Sayohat yozuvlari",
     "Passengers": "Yo‘lovchilar",
@@ -81,8 +81,8 @@
   "public/media/industries/healthcare/platform.svg": {
     "Administration": "Ma‘muriyat",
     "Care teams": "G‘amxo‘rlik guruhlari",
-    "escalir connects Care teams, Administration, Internal services with Clinical records, Scheduling, Finance.": "escalir parvarishlash guruhlari, ma‘muriyat, ichki xizmatlarni klinik yozuvlar, rejalashtirish, moliya bilan bog‘laydi.",
-    "escalir Healthcare platform": "escalir Sog‘liqni saqlash platformasi",
+    "Escalir connects Care teams, Administration, Internal services with Clinical records, Scheduling, Finance.": "Escalir parvarishlash guruhlari, ma‘muriyat, ichki xizmatlarni klinik yozuvlar, rejalashtirish, moliya bilan bog‘laydi.",
+    "Escalir Healthcare platform": "Escalir Sog‘liqni saqlash platformasi",
     "Clinical records": "Klinik qaydlar",
     "Finance": "Moliya",
     "Internal services": "Ichki xizmatlar",
@@ -92,18 +92,18 @@
     "Billing": "Hisob-kitob",
     "Billing records": "Hisob-kitob yozuvlari",
     "Case management": "Ishni boshqarish",
-    "escalir connects Service, Field teams, Billing with Case management, Knowledge base, Billing records.": "escalir Xizmat, Dala guruhlari, Hisob-kitoblarni Case boshqaruvi, Bilimlar bazasi, Hisob-kitob yozuvlari bilan bog‘laydi.",
-    "escalir Utilities platform": "escalir Utilities platformasi",
+    "Escalir connects Service, Field teams, Billing with Case management, Knowledge base, Billing records.": "Escalir Xizmat, Dala guruhlari, Hisob-kitoblarni Case boshqaruvi, Bilimlar bazasi, Hisob-kitob yozuvlari bilan bog‘laydi.",
+    "Escalir Utilities platform": "Escalir Utilities platformasi",
     "Field teams": "Maydon jamoalari",
     "Knowledge base": "Bilimlar bazasi"
   },
   "public/media/insurance/platform.svg": {
-    "escalir insurance platform": "escalir sug‘urta platformasi",
+    "Escalir insurance platform": "Escalir sug‘urta platformasi",
     "Core systems": "Asosiy tizimlar",
     "Health": "Salomatlik",
     "Life": "Hayot",
     "P&C": "P&C",
     "Policy systems": "Siyosat tizimlari",
-    "Property, life and health workflows connected to escalir, policy systems, CRM and core systems.": "escalir, siyosat tizimlari, CRM va asosiy tizimlarga ulangan mulk, hayot va salomatlik ish oqimlari."
+    "Property, life and health workflows connected to Escalir, policy systems, CRM and core systems.": "Escalir, siyosat tizimlari, CRM va asosiy tizimlarga ulangan mulk, hayot va salomatlik ish oqimlari."
   }
 }

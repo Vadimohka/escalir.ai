@@ -14,14 +14,14 @@ export default function Hero() {
         <div className="hero-copy">
           <p className="hero-eyebrow">Enterprise AI</p>
           <h1 id="hero-title">Enterprise AI<br />From request<br /><span>to reviewed result</span></h1>
-          <p className="hero-lead">For regulated enterprises, escalir connects specification, development and governance in your environment. Each decision keeps an owner, an approved source and a human review point</p>
+          <p className="hero-lead">For regulated enterprises, Escalir connects specification, development and governance in your environment. Each decision keeps an owner, an approved source and a human review point</p>
           <div className="hero-actions"><TelegramLink className="btn btn-light">Get in touch</TelegramLink><a className="btn btn-outline-light" href="/platform/">Explore the platform</a></div>
         </div>
       </div>
     </section>
     <div className="principles-strip"><div className="shell principles-inner">
       <p>Three stages, one connected platform</p>
-      <ul aria-label="The escalir operating cycle"><li>Specification</li><li>Development</li><li>Governance</li></ul>
+      <ul aria-label="The Escalir operating cycle"><li>Specification</li><li>Development</li><li>Governance</li></ul>
     </div></div>
   </>;
 }

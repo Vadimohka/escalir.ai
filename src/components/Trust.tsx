@@ -24,7 +24,7 @@ const controls = [
 ];
 const faqs = [
   {
-    question: "Can escalir work with our existing systems?",
+    question: "Can Escalir work with our existing systems?",
     answer:
       "We scope the required sources and integrations around the first workflow. Available interfaces, access rules and implementation effort are reviewed before the project starts.",
   },

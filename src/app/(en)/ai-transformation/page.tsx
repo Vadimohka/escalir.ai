@@ -5,7 +5,7 @@ import { pageMetadata } from "@/lib/metadata";
 
 export const metadata = pageMetadata(
   "AI Transformation",
-  "Find the work worth changing with escalir. Assess processes, choose the right approach, measure value and build the internal skills to keep improving",
+  "Find the work worth changing with Escalir. Assess processes, choose the right approach, measure value and build the internal skills to keep improving",
   "/ai-transformation",
 );
 
@@ -22,7 +22,7 @@ const principles = [
     title: "Build one view of the work",
     summary: "A shared register, clear owners and a next action",
     description: [
-      "Capture requests through AI interviews or questionnaires, supported by documents and examples. Record the owner, current effort, data and expected result. escalir assesses readiness across 27 blocks in seven categories, with analyst review to resolve missing information.",
+      "Capture requests through AI interviews or questionnaires, supported by documents and examples. Record the owner, current effort, data and expected result. Escalir assesses readiness across 27 blocks in seven categories, with analyst review to resolve missing information.",
       "Prioritize by value, complexity and data readiness. Track each request as Draft, Clarification or Ready to implement.",
     ],
   },
@@ -84,7 +84,7 @@ export default function TransformationPage() {
           <div className={`${styles.shell} ${styles.editorialGrid}`}>
             <h2 id="transformation-approach-title">Find the work<br /> worth changing</h2>
             <div className={styles.editorialCopy}>
-              <p>Start with the work your teams already do: answering questions, checking documents and moving information between systems. escalir brings those requests into one register, with a process owner, the current effort, required data and an expected result.</p>
+              <p>Start with the work your teams already do: answering questions, checking documents and moving information between systems. Escalir brings those requests into one register, with a process owner, the current effort, required data and an expected result.</p>
               <p>See which tasks are ready to build, which need better data or integrations, and which call for a different approach. Your team gets a prioritized plan and a consistent way to carry the work through specification, development and governance.</p>
             </div>
           </div>

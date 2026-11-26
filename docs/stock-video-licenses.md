@@ -1,4 +1,4 @@
-# escalir AI hero media
+# Escalir AI hero media
 
 Licensed stock montage: 24 seconds, eight 3-second scenes, no audio.
 

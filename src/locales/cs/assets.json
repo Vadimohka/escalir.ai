@@ -48,7 +48,7 @@
   },
   "public/media/escalir/diagrams/industry-platform.svg": {
     "Approved sources": "Schválené zdroje",
-    "escalir connects approved sources, workflows and existing systems with people, controlled actions and useful outcomes.": "escalir propojuje schválené zdroje, pracovní postupy a stávající systémy s lidmi, řízenými úkony a užitečnými výsledky.",
+    "Escalir connects approved sources, workflows and existing systems with people, controlled actions and useful outcomes.": "Escalir propojuje schválené zdroje, pracovní postupy a stávající systémy s lidmi, řízenými úkony a užitečnými výsledky.",
     "CONNECTED WORK": "PROPOJENÁ PRÁCE",
     "Controlled actions": "Řízené úkony",
     "Existing systems": "Stávající systémy",
@@ -69,8 +69,8 @@
   },
   "public/media/industries/airlines/platform.svg": {
     "Case management": "Správa případů",
-    "escalir Airlines platform": "Platforma escalir pro leteckou dopravu",
-    "escalir connects Passengers, Service teams, Claims with Journey records, Service policies, Case management.": "escalir propojuje cestující, týmy zákaznických služeb a nároky na náhradu s cestovními záznamy, pravidly poskytování služeb a správou případů.",
+    "Escalir Airlines platform": "Platforma Escalir pro leteckou dopravu",
+    "Escalir connects Passengers, Service teams, Claims with Journey records, Service policies, Case management.": "Escalir propojuje cestující, týmy zákaznických služeb a nároky na náhradu s cestovními záznamy, pravidly poskytování služeb a správou případů.",
     "Claims": "Nároky na náhradu",
     "Journey records": "Cestovní záznamy",
     "Passengers": "Cestující",
@@ -80,8 +80,8 @@
   "public/media/industries/healthcare/platform.svg": {
     "Administration": "Administrativa",
     "Care teams": "Zdravotnické týmy",
-    "escalir connects Care teams, Administration, Internal services with Clinical records, Scheduling, Finance.": "escalir propojuje zdravotnické týmy, administrativu a interní služby se zdravotnickou dokumentací, plánováním a financemi.",
-    "escalir Healthcare platform": "Platforma escalir pro zdravotnictví",
+    "Escalir connects Care teams, Administration, Internal services with Clinical records, Scheduling, Finance.": "Escalir propojuje zdravotnické týmy, administrativu a interní služby se zdravotnickou dokumentací, plánováním a financemi.",
+    "Escalir Healthcare platform": "Platforma Escalir pro zdravotnictví",
     "Clinical records": "Zdravotnická dokumentace",
     "Finance": "Finance",
     "Internal services": "Interní služby",
@@ -91,19 +91,19 @@
     "Billing": "Vyúčtování",
     "Billing records": "Záznamy o vyúčtování",
     "Case management": "Správa případů",
-    "escalir connects Service, Field teams, Billing with Case management, Knowledge base, Billing records.": "escalir propojuje zákaznické služby, terénní týmy a vyúčtování se správou případů, znalostní bází a záznamy o vyúčtování.",
-    "escalir Utilities platform": "Platforma escalir pro energetiku a veřejné služby",
+    "Escalir connects Service, Field teams, Billing with Case management, Knowledge base, Billing records.": "Escalir propojuje zákaznické služby, terénní týmy a vyúčtování se správou případů, znalostní bází a záznamy o vyúčtování.",
+    "Escalir Utilities platform": "Platforma Escalir pro energetiku a veřejné služby",
     "Field teams": "Terénní týmy",
     "Knowledge base": "Znalostní báze",
     "Service": "Zákaznické služby"
   },
   "public/media/insurance/platform.svg": {
-    "escalir insurance platform": "Platforma escalir pro pojišťovnictví",
+    "Escalir insurance platform": "Platforma Escalir pro pojišťovnictví",
     "Core systems": "Základní systémy",
     "Health": "Zdravotní pojištění",
     "Life": "Životní pojištění",
     "P&C": "Majetek a odpovědnost",
     "Policy systems": "Systémy pojistných smluv",
-    "Property, life and health workflows connected to escalir, policy systems, CRM and core systems.": "Pracovní postupy pro majetkové, životní a zdravotní pojištění propojené s escalir, systémy pojistných smluv, CRM a základními systémy."
+    "Property, life and health workflows connected to Escalir, policy systems, CRM and core systems.": "Pracovní postupy pro majetkové, životní a zdravotní pojištění propojené s Escalir, systémy pojistných smluv, CRM a základními systémy."
   }
 }
