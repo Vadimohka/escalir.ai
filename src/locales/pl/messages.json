@@ -626,18 +626,26 @@
     "Shape tools around the work": "Dopasuj narzędzia do pracy"
   },
   "src/components/HomeTeam.tsx": {
-    "A practical method": "Praktyczna metoda",
-    "A small team": "Mały zespół",
+    "Escalir team": "Zespół Escalira",
+    "Co-founder · CEO": "Współzałożyciel · CEO",
+    "Business development and customer partnerships": "Rozwój biznesu i partnerstwa z klientami",
+    "Co-founder · CTO": "Współzałożyciel · CTO",
+    "Enterprise AI architecture and engineering": "Architektura i inżynieria AI dla firm",
+    "Co-founder · CAIO": "Współzałożyciel · CAIO",
+    "AI automation, agents and business processes": "Automatyzacja z użyciem AI, agenci i procesy biznesowe",
+    "Serial entrepreneur and founder of Justart, with more than 30 startups in his portfolio, including a unicorn. Leads investing and ecosystem development": "Seryjny przedsiębiorca i założyciel Justart, mający w swoim portfolio ponad 30 startupów, w tym jednorożca. Prowadzi inwestycje i rozwój ekosystemu",
+    "Serial entrepreneur who founded Uzbekistan’s first electronics retail chain and first hosting provider. Early investor in the fintech company Wooppay": "Seryjny przedsiębiorca, założyciel pierwszej sieci sprzedaży detalicznej sprzętu elektronicznego w Uzbekistanie i pierwszego dostawcy usług hostingowych. Wczesny inwestor w firmie fintech Wooppay",
+    "Tech entrepreneur and architect of Accelerator 3.0. Founded 5 startups and raised $5M. Created Global Outsourcer: 114 companies and $150M in combined revenue": "Przedsiębiorca technologiczny i architekt Akceleratora 3.0. Założył 5 startupów i zebrał 5 milionów dolarów. Utworzono globalnego outsourcera: 114 firm i łączne przychody wynoszące 150 mln USD",
+    "The platform is built by the escalir team, with operating, investment and ecosystem experience from our Justart partners": "Platforma została zbudowana przez zespół escalir, posiadający doświadczenie operacyjne, inwestycyjne i ekosystemowe zdobyte przez naszych partnerów Justart",
+    "escalir team": "zespół escalira",
     "About escalir": "O escalir",
-    "Bring your perspective to the conversation about building useful AI": "Wnieś swoją perspektywę do rozmowy o tworzeniu użytecznej AI",
     "Careers": "Kariera",
-    "escalir combines a platform with a practical method. Our team helps you define requirements, build the first workflows and develop the skills to run them": "escalir łączy platformę z praktyczną metodą. Nasz zespół pomaga określić wymagania, zbudować pierwsze przepływy pracy i rozwinąć kompetencje potrzebne do ich obsługi",
-    "escalir founders": "Założyciele escalir",
-    "Help shape": "Współtwórz",
+    "The people behind escalir": "Ludzie, którzy tworzą escalir",
     "Meet the people": "Poznaj zespół",
     "behind the work": "odpowiedzialny za tę pracę",
-    "The people behind escalir": "Ludzie, którzy tworzą escalir",
-    "what comes next": "kolejny etap"
+    "Investing & Ecosystem": "Inwestycje i ekosystem",
+    "Hiddenphase & Studio": "Hiddenphase i Studio",
+    "Studio & Escalir": "Studio i escalir"
   },
   "src/components/industries/IndustryArtwork.tsx": {
     "Workflow example": "Przykładowy przepływ pracy"

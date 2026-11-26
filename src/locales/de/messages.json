@@ -619,18 +619,26 @@
     "Shape tools around the work": "Werkzeuge an der Arbeit ausrichten"
   },
   "src/components/HomeTeam.tsx": {
-    "A practical method": "Eine praktische Methode",
-    "A small team": "Ein kleines Team",
+    "Escalir team": "escalir-Team",
+    "Co-founder · CEO": "Mitgründer · CEO",
+    "Business development and customer partnerships": "Geschäftsentwicklung und Kundenpartnerschaften",
+    "Co-founder · CTO": "Mitgründer · CTO",
+    "Enterprise AI architecture and engineering": "Architektur und Entwicklung von KI für Unternehmen",
+    "Co-founder · CAIO": "Mitgründer · CAIO",
+    "AI automation, agents and business processes": "KI-Automatisierung, Agenten und Geschäftsprozesse",
+    "Serial entrepreneur and founder of Justart, with more than 30 startups in his portfolio, including a unicorn. Leads investing and ecosystem development": "Serienunternehmer und Gründer von Justart, mit mehr als 30 Startups in seinem Portfolio, darunter ein Einhorn. Leitet Investitionen und Ökosystementwicklung",
+    "Serial entrepreneur who founded Uzbekistan’s first electronics retail chain and first hosting provider. Early investor in the fintech company Wooppay": "Serienunternehmer, der Usbekistans erste Elektronik-Einzelhandelskette und den ersten Hosting-Anbieter gründete. Früher Investor des Fintech-Unternehmens Wooppay",
+    "Tech entrepreneur and architect of Accelerator 3.0. Founded 5 startups and raised $5M. Created Global Outsourcer: 114 companies and $150M in combined revenue": "Tech-Unternehmer und Architekt von Accelerator 3.0. Fünf Startups gegründet und 5 Millionen US-Dollar eingesammelt. Erstellt einen globalen Outsourcer: 114 Unternehmen und ein Gesamtumsatz von 150 Millionen US-Dollar",
+    "The platform is built by the escalir team, with operating, investment and ecosystem experience from our Justart partners": "Die Plattform wird vom escalir-Team aufgebaut und verfügt über Betriebs-, Investitions- und Ökosystemerfahrung unserer Justart-Partner",
+    "escalir team": "escalir-Team",
     "About escalir": "Über escalir",
-    "Bring your perspective to the conversation about building useful AI": "Bringen Sie Ihre Perspektive in die Entwicklung nützlicher KI ein",
     "Careers": "Karriere",
-    "escalir combines a platform with a practical method. Our team helps you define requirements, build the first workflows and develop the skills to run them": "escalir verbindet eine Plattform mit einer praxisnahen Methode. Unser Team hilft Ihnen, Anforderungen festzulegen, die ersten Workflows aufzubauen und die Fähigkeiten für ihren Betrieb zu entwickeln",
-    "escalir founders": "Die Gründer von escalir",
-    "Help shape": "Gestalten Sie mit,",
+    "The people behind escalir": "Die Menschen hinter escalir",
     "Meet the people": "Lernen Sie die Menschen kennen",
     "behind the work": "hinter der Arbeit",
-    "The people behind escalir": "Die Menschen hinter escalir",
-    "what comes next": "was als Nächstes kommt"
+    "Investing & Ecosystem": "Investitionen & Ökosystem",
+    "Hiddenphase & Studio": "Hiddenphase & Studio",
+    "Studio & Escalir": "Studio & escalir"
   },
   "src/components/industries/IndustryArtwork.tsx": {
     "Workflow example": "Workflow-Beispiel"

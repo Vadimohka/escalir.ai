@@ -713,21 +713,26 @@
     "Shape tools around the work": "Прыстасоўвайце інструменты да працы"
   },
   "src/components/HomeTeam.tsx": {
-    "A practical method": "Практычны метад",
-    "A small team": "Невялікая каманда",
+    "Escalir team": "Каманда escalir",
+    "Co-founder · CEO": "Сузаснавальнік · Генеральны дырэктар",
+    "Business development and customer partnerships": "Развіццё бізнесу і партнёрства з кліентамі",
+    "Co-founder · CTO": "Сузаснавальнік · Тэхнічны дырэктар",
+    "Enterprise AI architecture and engineering": "Архітэктура і распрацоўка карпаратыўнага ШІ",
+    "Co-founder · CAIO": "Сузаснавальнік · Дырэктар па ШІ",
+    "AI automation, agents and business processes": "Аўтаматызацыя з ШІ, агенты і бізнес-працэсы",
+    "Serial entrepreneur and founder of Justart, with more than 30 startups in his portfolio, including a unicorn. Leads investing and ecosystem development": "Серыйны прадпрымальнік і заснавальнік Justart, у яго партфоліо больш за 30 стартапаў, у тым ліку аднарог. Кіруе інвестыцыямі і развіццём экасістэм",
+    "Serial entrepreneur who founded Uzbekistan’s first electronics retail chain and first hosting provider. Early investor in the fintech company Wooppay": "Серыйны прадпрымальнік, які заснаваў першую ва Узбекістане рознічную сетку электронікі і першага хостынг-правайдэра. Ранні інвестар у фінтэх-кампанію Wooppay",
+    "Tech entrepreneur and architect of Accelerator 3.0. Founded 5 startups and raised $5M. Created Global Outsourcer: 114 companies and $150M in combined revenue": "Тэхнічны прадпрымальнік і архітэктар Accelerator 3.0. Заснаваў 5 стартапаў і сабраў 5 мільёнаў долараў. Створаны глабальны аўтсорсінг: 114 кампаній і 150 мільёнаў долараў сукупнага даходу",
+    "The platform is built by the escalir team, with operating, investment and ecosystem experience from our Justart partners": "Платформа створана камандай escalir з вопытам працы, інвестыцый і экасістэм ад нашых партнёраў Justart",
+    "escalir team": "каманда escalir",
     "About escalir": "Пра escalir",
-    "Bring your perspective to the conversation about building useful AI": "Падзяліцеся сваім поглядам на стварэнне карыснага ШІ",
-    "CAIO": "Дырэктар па ШІ",
     "Careers": "Кар’ера",
-    "escalir combines a platform with a practical method. Our team helps you define requirements, build the first workflows and develop the skills to run them": "escalir спалучае платформу з практычным метадам. Наша каманда дапамагае вызначыць патрабаванні, стварыць першыя працоўныя працэсы і развіць навыкі для іх падтрымкі",
-    "escalir founders": "Заснавальнікі escalir",
-    "CEO": "Генеральны дырэктар",
-    "CTO": "Тэхнічны дырэктар",
-    "Help shape": "Дапамажыце стварыць",
+    "The people behind escalir": "Людзі, якія ствараюць escalir",
     "Meet the people": "Пазнаёмцеся з людзьмі",
     "behind the work": "якія выконваюць працу",
-    "The people behind escalir": "Людзі, якія ствараюць escalir",
-    "what comes next": "наступны этап"
+    "Investing & Ecosystem": "Інвестыцыі і экасістэма",
+    "Hiddenphase & Studio": "Hiddenphase і Studio",
+    "Studio & Escalir": "Studio і escalir"
   },
   "src/components/industries/IndustryArtwork.tsx": {
     "Workflow example": "Прыклад працоўнага працэсу"
