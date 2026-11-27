@@ -2,7 +2,6 @@
   "src/app/(en)/about-us/page.tsx": {
     "A business workshop around a whiteboard": "Робоча зустріч команди біля дошки",
     "A closer look at Escalir": "Більше про Escalir",
-    "A useful starting point": "Корисна відправна точка",
     "About Escalir": "Про Escalir",
     "About us": "Про нас",
     "Bring intelligence": "Наблизьте інтелект",
@@ -16,15 +15,11 @@
     "Choose agents, RPA or corporate chat to fit the process. Build and test with your team, using approved knowledge, integrations and models": "Добирайте агентів, RPA або корпоративний чат відповідно до процесу. Розробляйте й тестуйте разом із командою, використовуючи затверджені знання, інтеграції та моделі",
     "closer to the work": "до щоденної роботи",
     "Collect requests from departments and record the owner, workload, data, risks and acceptance criteria. Prioritize work by readiness and expected value": "Збирайте запити від підрозділів і фіксуйте відповідального, обсяг роботи, дані, ризики та критерії приймання. Визначайте пріоритети з огляду на готовність і очікувану цінність",
-    "Company": "Компанія",
-    "Company information, people and original brand materials": "Відомості про компанію, команду та оригінальні матеріали бренду",
     "Connection, clarity, room to build": "Зв’язок, ясність і простір для розвитку",
     "Development": "Розробка",
-    "Explore careers at Escalir": "Дізнатися про кар’єру в Escalir",
     "Explore the platform": "Ознайомитися з платформою",
     "From request to operation": "Від запиту до експлуатації",
     "Governance": "Управління й контроль",
-    "Ideas": "Ідеї",
     "Innovation": "Інновації",
     "Knowledge, models, agents and operating records stay connected throughout that cycle. We help establish the first workflows and transfer requirements, testing and maintenance practices so your team can continue the work.": "Знання, моделі, агенти та записи про роботу системи залишаються пов’язаними протягом усього циклу. Ми допомагаємо налагодити перші робочі процеси й передаємо практики роботи з вимогами, тестування та супроводу, щоб ваша команда могла продовжувати самостійно.",
     "Meet the founders": "Познайомтеся із засновниками",
@@ -32,8 +27,6 @@
     "Our approach": "Наш підхід",
     "Our perspective": "Наш погляд",
     "Our work connects business analysis, platform engineering and applied AI. We value people who can understand a process, test a solution and help a customer team learn to maintain it.": "Наша робота поєднує бізнес-аналіз, розробку платформи та прикладний ШІ. Ми цінуємо людей, здатних зрозуміти процес, перевірити рішення й допомогти команді замовника навчитися його підтримувати.",
-    "Practical guides to knowledge, workflows and deployment": "Практичні посібники про знання, робочі процеси та розгортання",
-    "Press & brand": "Для преси та про бренд",
     "Put into practice": "На практиці",
     "Review quality and business impact, manage versions and access, and agree release approvals. Feed operational findings into the next specification": "Оцінюйте якість і вплив на бізнес, керуйте версіями та доступом, узгоджуйте порядок затвердження випусків. Використовуйте висновки з експлуатації для наступної специфікації",
     "Sales and market development, platform architecture, and agent engineering. The founders bring these disciplines into one team": "Продажі та розвиток ринку, архітектура платформи й розробка агентів. Засновники об’єднують ці напрями в одній команді",
@@ -131,9 +124,7 @@
   },
   "src/app/(en)/blog/[slug]/page.tsx": {
     "A practical guide by Escalir": "Практичний посібник від Escalir",
-    "All Escalir guides": "Усі посібники Escalir",
     "Another useful perspective": "Ще один корисний погляд",
-    "Back to all guides": "Назад до всіх посібників",
     "Escalir guides": "Посібники Escalir",
     "Discuss your workflow": "Обговорити ваш робочий процес",
     "Guide contents": "Зміст посібника",
@@ -181,7 +172,6 @@
     "Explore the work behind Escalir: enterprise AI, engineering, knowledge and business workflows. Start a conversation with the team.": "Дізнайтеся про роботу Escalir: корпоративний ШІ, розробку, знання та бізнес-процеси. Почніть розмову з командою.",
     "Involved in the outcome": "Причетні до результату",
     "It means asking good questions and taking responsibility for the details.": "Це означає ставити влучні запитання й брати відповідальність за деталі.",
-    "Meet the people behind Escalir": "Познайомитися з командою Escalir",
     "More than one": "Різні шляхи",
     "people can use": "чим зможуть користуватися люди",
     "People collaborating in a business workshop": "Люди співпрацюють під час робочої зустрічі",
@@ -206,19 +196,15 @@
     "A few things": "Кілька речей,",
     "A short description is enough to start. Keep confidential files out of the first message.": "Для початку достатньо короткого опису. Не додавайте конфіденційні файли до першого повідомлення.",
     "A useful starting point": "Корисна відправна точка",
-    "Before the conversation": "Перед розмовою",
     "Bring a process, a question or an idea. We will explore the starting point together": "Розкажіть про процес, поставте запитання або поділіться ідеєю. Разом знайдемо відправну точку",
     "Co-founder · CEO": "Співзасновник · Генеральний директор",
     "Contact": "Контакти",
-    "Find a useful first project": "Знайти корисний перший проєкт",
     "Good work starts": "Хороша робота починається",
     "Let’s talk": "Поговорімо",
     "like AI to help with?": "міг би допомогти ШІ?",
     "Message Vitali on Telegram": "Написати Віталію в Telegram",
-    "Not sure": "Не знаєте,",
     "Opens a conversation in Telegram": "Відкриває розмову в Telegram",
     "People moving through a shared business space": "Люди проходять спільним простором бізнес-центру",
-    "Read our guide to choosing a first AI workflow": "Прочитайте наш посібник із вибору першого робочого процесу з ШІ",
     "Read our privacy information": "Ознайомитися з інформацією про конфіденційність",
     "Speak with a founder": "Поговоріть із засновником",
     "Start a conversation": "Почати розмову",
@@ -230,7 +216,6 @@
     "Vitali Bakhmat": "Віталій Бахмат",
     "What would a useful first result look like?": "Яким був би корисний перший результат?",
     "What would you": "У чому вам",
-    "where to start?": "з чого почати?",
     "Which task or process would you like to improve?": "Яке завдання чи процес ви хотіли б поліпшити?",
     "Which team, documents or systems are involved?": "Які команди, документи чи системи залучені?",
     "with a conversation": "з розмови",
@@ -342,7 +327,6 @@
   "src/app/(en)/press/page.tsx": {
     "A clear introduction": "Знайомтеся",
     "About the company": "Про компанію",
-    "Accent blue": "Акцентний синій",
     "behind Escalir": "створюють Escalir",
     "Black": "Чорний",
     "Black SVG": "Чорний SVG",
@@ -362,11 +346,8 @@
     "Founder profiles": "Профілі засновників",
     "in a few words": "у кількох словах",
     "Meet the founders and find their public profiles. For interviews and company enquiries, contact Vitali": "Познайомтеся із засновниками та перегляньте їхні публічні профілі. Для інтерв’ю й запитів про компанію звертайтеся до Віталія",
-    "More about Escalir": "Докладніше про Escalir",
     "more context?": "більше контексту?",
     "Need a little": "Потрібно трохи",
-    "Original Lato SemiBold (600) lettering": "Оригінальне написання шрифтом Lato SemiBold (600)",
-    "Our original Escalir wordmark, in black and white. Download the supplied vector artwork for a clear introduction to the company": "Оригінальний текстовий логотип Escalir у чорному та білому кольорах. Завантажте наданий векторний файл для зрозумілого представлення компанії",
     "Press & brand": "Для преси та про бренд",
     "Press enquiries": "Запити від преси",
     "SVG · transparent background · vector format": "SVG · прозоре тло · векторний формат",
@@ -374,11 +355,11 @@
     "The people": "Люди, які",
     "The platform connects three stages: specification of business requests, development of agents and workflows, and governance through quality metrics, versions, access control and audit records.": "Платформа поєднує три етапи: специфікацію бізнес-запитів, розробку агентів і робочих процесів, а також управління й контроль за допомогою показників якості, версій, контролю доступу та журналів аудиту.",
     "to Escalir": "із Escalir",
-    "Use blue sparingly for key actions and accents. Keep the wordmark black on light backgrounds or white on dark backgrounds, with clear contrast.": "Використовуйте синій колір помірно — для основних дій та акцентів. На світлому тлі логотип має бути чорним, а на темному — білим, із чітким контрастом.",
     "Use the supplied artwork unchanged. Leave clear space on every side at least equal to the height of the letter “C”. Keep the wordmark at least 80 px wide on screen or 20 mm in print.": "Використовуйте наданий логотип без змін. Залишайте з кожного боку вільний простір не менший за висоту літери «C». Ширина логотипа має бути не меншою за 80 px на екрані або 20 мм у друкованих матеріалах.",
     "White": "Білий",
     "White SVG": "Білий SVG",
-    "wordmark": "Escalir"
+    "wordmark": "Escalir",
+    "Green": "Зелений"
   },
   "src/app/(en)/privacy/page.tsx": {
     "A choice to connect": "Зв’язок за вашим вибором",
@@ -421,10 +402,8 @@
   "src/app/(en)/security/page.tsx": {
     "A closed deployment can use local models and operate without external API or cloud calls. If an external model is selected, the allowed data and processing route are defined explicitly.": "Закрите розгортання може використовувати локальні моделі й працювати без звернень до зовнішніх API або хмарних сервісів. Якщо обрано зовнішню модель, дозволені дані та маршрут обробки визначаються окремо й чітко.",
     "A few practical questions": "Кілька практичних запитань",
-    "A meaningful review point": "Змістовний етап перевірки",
     "Access policies, verification and audit logs are configured for the selected workflow. Process owners and technical teams review the evidence, agree acceptance and keep the operating practices up to date.": "Політики доступу, перевірки та журнали аудиту налаштовуються для обраного робочого процесу. Власники процесів і технічні команди аналізують результати, узгоджують приймання й підтримують практики експлуатації в актуальному стані.",
     "Agree control questions, datasets and target metrics with process owners. Check source support and citations, then measure answer quality, corrections and processing time before rollout": "Узгоджуйте контрольні запитання, набори даних і цільові показники з власниками процесів. Перевіряйте відповідність відповідей джерелам і коректність посилань на джерела, а перед запуском вимірюйте якість відповідей, обсяг виправлень і час обробки",
-    "Answers you can inspect": "Відповіді, які можна перевірити",
     "Audit and monitoring": "Аудит і моніторинг",
     "Before": "Перш ніж",
     "Before implementation": "Перед впровадженням",
@@ -454,12 +433,9 @@
     "Evaluation & acceptance": "Оцінювання та приймання",
     "Explore deployment decisions": "Дізнатися про рішення щодо розгортання",
     "from clear boundaries": "з чітких меж",
-    "Give people the context they need to make a decision": "Надавайте людям контекст, потрібний для ухвалення рішення",
     "How do we check model quality?": "Як перевіряти якість моделей?",
     "Identity & knowledge access": "Ідентифікація та доступ до знань",
     "Keep source documents, versions and activity logs in the agreed deployment. Define retention, backup and support access with the teams responsible for operating it": "Зберігайте вихідні документи, версії й журнали дій у погодженому середовищі розгортання. Узгоджуйте строки зберігання, резервне копіювання та доступ служби підтримки з командами, відповідальними за експлуатацію",
-    "Keep the evidence and access rules connected to the answer": "Поєднуйте відповідь із підтвердженнями та правилами доступу",
-    "Knowledge": "Знання",
     "Knowledge access": "Доступ до знань",
     "Limit retrieval to permitted documents and show the source and version behind answers": "Обмежуйте пошук дозволеними документами й показуйте джерело та версію, на яких ґрунтується відповідь",
     "Local and external models have different data flows; processing location, retention and support access are agreed for each deployment": "Локальні й зовнішні моделі мають різні потоки даних; місце обробки, строки зберігання та доступ служби підтримки узгоджуються для кожного розгортання",
@@ -467,8 +443,6 @@
     "Name the owners of data, policies and workflows. Connect logs to your SIEM, monitor quality and resource use, and train your team to maintain the deployment": "Призначайте відповідальних за дані, політики й робочі процеси. Підключайте журнали до вашої SIEM, відстежуйте якість і використання ресурсів та навчайте команду підтримувати розгорнуту систему",
     "One shared brief": "Єдине узгоджене завдання",
     "Operations & ownership": "Експлуатація та відповідальність",
-    "Put the principles into practice": "Застосуйте принципи на практиці",
-    "Read the deployment guide": "Прочитати посібник із розгортання",
     "Records & support access": "Записи та доступ служби підтримки",
     "Security & control": "Безпека й контроль",
     "Security questions": "Запитання про безпеку",
@@ -480,7 +454,6 @@
     "Track user and agent actions, review quality and resource use, and export logs to SIEM": "Відстежуйте дії користувачів та агентів, аналізуйте якість і використання ресурсів та експортуйте журнали до SIEM",
     "we start": "ми почнемо",
     "website privacy information": "про конфіденційність сайту",
-    "Workflows": "Робочі процеси",
     "Your boundaries": "Ваші межі",
     "Your environment": "Ваше середовище"
   },
@@ -488,13 +461,14 @@
     "Turn business requests into tested workflows through specification, development and governance, connecting company knowledge, agents and existing systems": "Перетворюйте бізнес-запити на перевірені робочі процеси через специфікацію, розробку, управління й контроль, поєднуючи знання компанії, агентів і наявні системи"
   },
   "src/components/AppScreenshot.tsx": {
-    "Open {0} screenshot": "Відкрити знімок екрана «{0}»"
+    "Open {0} screenshot": "Відкрити знімок екрана «{0}»",
+    "Open {0} illustration": "Відкрити ілюстрацію «{0}»"
   },
   "src/components/Brain.tsx": {
     "A closer look": "Ближче знайомство",
     "at the workspace": "з робочим середовищем",
-    "From files and voice to the details behind an answer. Explore real views from the Escalir application": "Від файлів і голосу до деталей, на яких ґрунтується відповідь. Перегляньте реальні екрани застосунку Escalir",
-    "Inside Escalir": "Усередині Escalir"
+    "Inside Escalir": "Усередині Escalir",
+    "Explore files, audio and the details behind an answer": "Перегляньте файли, аудіо й деталі відповіді"
   },
   "src/components/company/CompanyElements.tsx": {
     "A useful next step": "Корисний наступний крок",
@@ -525,13 +499,12 @@
     "Tell Vitali which process you want to improve, where the relevant information lives and what a useful outcome would look like": "Розкажіть Віталію, який процес ви хочете покращити, де зберігається потрібна інформація та яким має бути корисний результат"
   },
   "src/components/Footer.tsx": {
-    "Company": "Компанія",
     "Footer navigation": "Навігація в нижній частині сторінки",
-    "Get in touch": "Зв’язатися",
     "Industries": "Галузі",
     "Intelligence, put to work": "Інтелект у дії",
     "Platform": "Платформа",
-    "Privacy information": "Інформація про конфіденційність"
+    "Privacy information": "Інформація про конфіденційність",
+    "Information": "Інформація"
   },
   "src/components/Founders.tsx": {
     "Building the next": "Відкриваємо нову",
@@ -541,7 +514,6 @@
     "Co-founder · CEO": "Співзасновник · Генеральний директор",
     "Co-founder · CTO": "Співзасновник · Технічний директор",
     "Egor Krychev": "Єгор Кричев",
-    "Get to know the team": "Познайомтеся з командою",
     "The people behind the work": "Люди, які стоять за нашою роботою",
     "Vadim Vladymtsev": "Вадим Владымцев",
     "Vitali Bakhmat": "Віталій Бахмат"
@@ -612,13 +584,6 @@
     "Utilities": "Комунальні послуги",
     "your industry": "вашої галузі"
   },
-  "src/components/HomeInsights.tsx": {
-    "Explore the blog": "Перейти до блогу",
-    "Ideas for useful AI": "Ідеї для корисного ШІ",
-    "Practical guides to choosing a workflow, working with knowledge and keeping people in control": "Практичні посібники з вибору робочого процесу, роботи зі знаннями та збереження контролю в руках людей",
-    "Then put it to work": "І застосуйте його в роботі",
-    "Think it through": "Продумайте рішення"
-  },
   "src/components/HomeProductFamily.tsx": {
     "Bring the information and review steps a business process actually needs into one place": "Об’єднуйте в одному місці інформацію й етапи перевірки, яких справді потребує бізнес-процес",
     "Help employees find answers, prepare documents and resolve routine requests": "Допомагайте працівникам знаходити відповіді, готувати документи й опрацьовувати рутинні запити",
@@ -635,8 +600,6 @@
     "Co-founder · CTO": "Співзасновник · Технічний директор",
     "Co-founder · CAIO": "Співзасновник · Директор із ШІ",
     "The platform is built by the Escalir team, with operating, investment and ecosystem experience from our Justart partners": "Платформа створена командою Escalir з досвідом роботи, інвестицій та екосистеми від наших партнерів Justart",
-    "About Escalir": "Про Escalir",
-    "Careers": "Кар’єра",
     "The people behind Escalir": "Люди, які створюють Escalir",
     "Meet the people": "Познайомтеся з командою",
     "behind the work": "яка стоїть за роботою"
@@ -894,7 +857,6 @@
     "Workflow": "Робочий процес"
   },
   "src/components/platform/GatewayWorkspace.tsx": {
-    "Actual views from the Escalir application": "Реальні екрани застосунку Escalir",
     "Application views": "Екрани застосунку",
     "Escalir application views": "Екрани застосунку Escalir",
     "Choose among connected models and inspect their settings in the Escalir workspace": "Обирайте серед підключених моделей і переглядайте їхні налаштування в робочому середовищі Escalir",
@@ -905,7 +867,8 @@
     "Inspect the timing and token information attached to an answer": "Аналізуйте інформацію про час виконання й токени, що супроводжує відповідь",
     "Models & controls": "Моделі й керування",
     "Response details": "Деталі відповіді",
-    "Review the documents available to support knowledge search and agent workflows": "Переглядайте документи, доступні для пошуку знань і робочих процесів агентів"
+    "Review the documents available to support knowledge search and agent workflows": "Переглядайте документи, доступні для пошуку знань і робочих процесів агентів",
+    "Product illustrations and application screenshots": "Ілюстрації продукту та знімки екрана застосунку"
   },
   "src/components/platform/OperatingLayerExplorer.tsx": {
     "and governance": "управління й контроль",
@@ -1175,15 +1138,12 @@
   },
   "src/lib/app-captures.ts": {
     "Audio playback": "Відтворення аудіо",
-    "Escalir agent list detail showing model assignments, dates and action icons": "Фрагмент списку агентів Escalir з призначеними моделями, датами та піктограмами дій",
     "Escalir response footer with copy and feedback controls, token counts and timing information": "Нижня частина відповіді Escalir з кнопками копіювання й відгуку, кількістю токенів та інформацією про час виконання",
     "Escalir transcription workspace audio player with playback, seek and volume controls": "Аудіопрогравач у середовищі транскрибування Escalir з керуванням відтворенням, перемотуванням і гучністю",
     "Choose a document directly in the OCR workspace": "Обирайте документ безпосередньо в робочому середовищі OCR",
     "Document import": "Імпорт документів",
     "Files & structured data": "Файли й структуровані дані",
-    "Four actual file-library rows in Escalir, showing JSON and text files with their sizes": "Чотири реальні рядки бібліотеки файлів Escalir з JSON-файлами, текстовими файлами та їхніми розмірами",
     "Inspect the token counts and timing details attached to an application response": "Переглядайте кількість токенів та інформацію про час виконання, що супроводжує відповідь застосунку",
-    "Model assignments and agent controls, as they appear in the Escalir workspace": "Призначення моделей і засоби керування агентами в робочому середовищі Escalir",
     "Model selection": "Вибір моделі",
     "Models & controls": "Моделі й керування",
     "Replay a recording from the transcription workspace": "Повторно прослуховуйте запис у середовищі транскрибування",
@@ -1191,7 +1151,10 @@
     "Select the model for a conversation in the Escalir chat interface": "Обирайте модель для розмови в чаті Escalir",
     "The actual Choose File control in Escalir's OCR document workspace": "Реальний елемент вибору файлу «Choose File» у робочому середовищі OCR Escalir",
     "The actual model selector in Escalir chat, displaying deepseek-v4-pro": "Реальний перемикач моделей у чаті Escalir з вибраною моделлю deepseek-v4-pro",
-    "Work with existing files in the application, including text documents and structured data": "Працюйте з наявними файлами в застосунку, зокрема текстовими документами та структурованими даними"
+    "Illustration of three model modules connected through an access control gate": "Ілюстрація трьох модулів моделей, з’єднаних через шлюз контролю доступу",
+    "Choose models for each workflow and define who can use them": "Вибирайте моделі для кожного робочого процесу та визначайте, хто може ними користуватися",
+    "Illustration of stacked documents with a grid of data cells": "Ілюстрація стосу документів із сіткою комірок даних",
+    "Use documents and structured data in agent workflows": "Використовуйте документи й структуровані дані в робочих процесах агентів"
   },
   "src/lib/articles.ts": {
     "4 min read": "4 хв читання",
@@ -1910,16 +1873,13 @@
     "@ctaLabel:utilities": "комунальні послуги"
   },
   "src/lib/navigation.ts": {
-    "About Escalir": "Про Escalir",
     "Agents, integrations and workflow orchestration": "Агенти, інтеграції та оркестрація робочих процесів",
     "AI transformation": "ШІ-трансформація",
     "Airlines": "Авіакомпанії",
     "Answers for customers, stores and suppliers": "Відповіді для клієнтів, магазинів і постачальників",
     "Answers grounded in approved knowledge": "Відповіді на основі затверджених знань",
     "Banking": "Банківська справа",
-    "Bring your experience to useful AI": "Застосовуйте свій досвід для створення корисного ШІ",
     "Choose the right approach for each task": "Обирайте доречний підхід до кожного завдання",
-    "Company information and brand resources": "Інформація про компанію та матеріали бренду",
     "Connect service and operational knowledge": "Поєднуйте сервісні й операційні знання",
     "Contact": "Контакти",
     "Customer context across your operation": "Клієнтський контекст у всій роботі компанії",
@@ -1928,7 +1888,6 @@
     "Healthcare": "Охорона здоров’я",
     "Insurance": "Страхування",
     "Keep teams informed when plans change": "Інформуйте команди, коли плани змінюються",
-    "Media & company": "Медіа та компанія",
     "Model choice, data rules and usage visibility": "Вибір моделей, правила роботи з даними й прозорість використання",
     "Move paperwork forward with human review": "Прискорюйте роботу з документами з перевіркою людиною",
     "Process audit, pilot and team handover": "Аудит процесу, пілот і передавання рішення команді",
@@ -1938,9 +1897,7 @@
     "Start a conversation with Vitali": "Почніть розмову з Віталієм",
     "Support the administrative work around care": "Підтримка адміністративної роботи в охороні здоров’я",
     "Telecommunications": "Телекомунікації",
-    "The people and principles behind the work": "Люди й принципи, на яких ґрунтується наша робота",
     "Utilities": "Комунальні послуги",
-    "Work with us": "Працюйте з нами",
     "Your environment, your boundaries": "Ваше середовище, ваші межі"
   },
   "src/lib/site.ts": {
@@ -1951,5 +1908,9 @@
   "src/lib/founder-descriptions.ts": {
     "Leads the architecture and engineering of Escalir’s enterprise AI platform": "Керує архітектурою та розробкою корпоративної платформи ШІ Escalir",
     "Leads AI strategy, agent design and workflow automation": "Визначає стратегію застосування ШІ, керує проєктуванням агентів і автоматизацією робочих процесів"
+  },
+  "src/components/FooterContact.tsx": {
+    "Get in touch": "Зв’язатися",
+    "We invite investors to join our waitlist.": "Запрошуємо інвесторів долучитися до списку очікування."
   }
 }

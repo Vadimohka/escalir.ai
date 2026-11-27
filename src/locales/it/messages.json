@@ -2,7 +2,6 @@
   "src/app/(en)/about-us/page.tsx": {
     "A business workshop around a whiteboard": "Un workshop aziendale intorno a una lavagna",
     "A closer look at Escalir": "Scopri Escalir da vicino",
-    "A useful starting point": "Un utile punto di partenza",
     "About Escalir": "A proposito di Escalir",
     "About us": "Chi siamo",
     "Bring intelligence": "Avvicina l’intelligenza",
@@ -14,14 +13,10 @@
     "Escalir is an innovation management system for regulated enterprises, combining a platform, an implementation method and the skills to keep improving": "Escalir è un sistema di gestione dell’innovazione per le imprese dei settori regolamentati, che unisce una piattaforma, un metodo di implementazione e le competenze per continuare a migliorare",
     "Choose agents, RPA or corporate chat to fit the process. Build and test with your team, using approved knowledge, integrations and models": "Scegli agenti, RPA o chat aziendale in base al processo. Sviluppa e testa con il tuo team, usando conoscenze, integrazioni e modelli approvati",
     "Collect requests from departments and record the owner, workload, data, risks and acceptance criteria. Prioritize work by readiness and expected value": "Raccogli le richieste dei reparti e registra responsabile, carico di lavoro, dati, rischi e criteri di accettazione. Assegna le priorità in base al grado di preparazione e al valore atteso",
-    "Company": "Azienda",
-    "Company information, people and original brand materials": "Informazioni sull’azienda, persone e materiali originali del marchio",
     "Connection, clarity, room to build": "Connessione, chiarezza, spazio per costruire",
     "Development": "Sviluppo",
-    "Explore careers at Escalir": "Scopri le opportunità in Escalir",
     "Explore the platform": "Esplora la piattaforma",
     "From request to operation": "Dalla richiesta alla messa in esercizio",
-    "Ideas": "Idee",
     "Innovation": "Innovazione",
     "Knowledge, models, agents and operating records stay connected throughout that cycle. We help establish the first workflows and transfer requirements, testing and maintenance practices so your team can continue the work.": "Conoscenze, modelli, agenti e registrazioni operative restano collegati lungo tutto il ciclo. Ti aiutiamo a impostare i primi flussi di lavoro e trasferiamo le pratiche di definizione dei requisiti, test e manutenzione, così il tuo team può proseguire il lavoro.",
     "Meet the founders": "Conosci i fondatori",
@@ -29,8 +24,6 @@
     "Our approach": "Il nostro approccio",
     "Our perspective": "La nostra prospettiva",
     "Our work connects business analysis, platform engineering and applied AI. We value people who can understand a process, test a solution and help a customer team learn to maintain it.": "Il nostro lavoro unisce analisi aziendale, ingegneria della piattaforma e IA applicata. Apprezziamo chi sa comprendere un processo, testare una soluzione e aiutare il team di un cliente a imparare a mantenerla.",
-    "Practical guides to knowledge, workflows and deployment": "Guide pratiche a conoscenza, flussi di lavoro e implementazione",
-    "Press & brand": "Stampa e marchio",
     "Put into practice": "Messa in pratica",
     "Review quality and business impact, manage versions and access, and agree release approvals. Feed operational findings into the next specification": "Valuta qualità e impatto aziendale, gestisci versioni e accessi e concorda le approvazioni dei rilasci. Usa i risultati operativi per definire la specifica successiva",
     "Sales and market development, platform architecture, and agent engineering. The founders bring these disciplines into one team": "Vendite e sviluppo del mercato, architettura della piattaforma e ingegneria degli agenti. I fondatori riuniscono queste discipline in un unico team",
@@ -129,9 +122,7 @@
   },
   "src/app/(en)/blog/[slug]/page.tsx": {
     "A practical guide by Escalir": "Una guida pratica di Escalir",
-    "All Escalir guides": "Tutte le guide Escalir",
     "Another useful perspective": "Un’altra prospettiva utile",
-    "Back to all guides": "Torna a tutte le guide",
     "Escalir guides": "Guide Escalir",
     "Discuss your workflow": "Parliamo del tuo flusso di lavoro",
     "Guide contents": "Indice della guida",
@@ -179,7 +170,6 @@
     "Explore the work behind Escalir: enterprise AI, engineering, knowledge and business workflows. Start a conversation with the team.": "Scopri il lavoro dietro Escalir: IA aziendale, ingegneria, conoscenza e flussi di lavoro aziendali. Avvia una conversazione con il team.",
     "Involved in the outcome": "Coinvolti nel risultato",
     "It means asking good questions and taking responsibility for the details.": "Significa porre buone domande e assumersi la responsabilità dei dettagli.",
-    "Meet the people behind Escalir": "Conosci le persone di Escalir",
     "More than one": "Più di un modo",
     "People collaborating in a business workshop": "Persone che collaborano durante un workshop aziendale",
     "Privacy information": "Informazioni sulla privacy",
@@ -204,18 +194,14 @@
     "A few things": "Qualche dettaglio",
     "A short description is enough to start. Keep confidential files out of the first message.": "Per iniziare basta una breve descrizione. Non includere file riservati nel primo messaggio.",
     "A useful starting point": "Un utile punto di partenza",
-    "Before the conversation": "Prima della conversazione",
     "Bring a process, a question or an idea. We will explore the starting point together": "Porta un processo, una domanda o un’idea. Esploreremo insieme il punto di partenza",
     "Co-founder · CEO": "Cofondatore · CEO",
     "Contact": "Contatti",
-    "Find a useful first project": "Individua un primo progetto utile",
     "Good work starts": "Un buon lavoro inizia",
     "Let’s talk": "Parliamone",
     "Message Vitali on Telegram": "Scrivi a Vitali su Telegram",
-    "Not sure": "Non sai",
     "Opens a conversation in Telegram": "Apre una conversazione su Telegram",
     "People moving through a shared business space": "Persone che attraversano uno spazio aziendale condiviso",
-    "Read our guide to choosing a first AI workflow": "Leggi la nostra guida per scegliere un primo flusso di lavoro con l’IA",
     "Read our privacy information": "Leggi le nostre informazioni sulla privacy",
     "Speak with a founder": "Parla con un fondatore",
     "Start a conversation": "Avvia una conversazione",
@@ -230,7 +216,6 @@
     "You choose what to share": "Scegli tu cosa condividere",
     "like AI to help with?": "che l’IA ti aiutasse?",
     "to tell us": "da raccontarci",
-    "where to start?": "da dove iniziare?",
     "with a conversation": "con una conversazione"
   },
   "src/app/(en)/deployment/page.tsx": {
@@ -339,7 +324,6 @@
   "src/app/(en)/press/page.tsx": {
     "A clear introduction": "Una presentazione chiara",
     "About the company": "Informazioni sull’azienda",
-    "Accent blue": "Blu d’accento",
     "Black": "Nero",
     "Black SVG": "SVG nero",
     "Brand colours": "Colori del marchio",
@@ -356,17 +340,13 @@
     "For questions about Escalir, interview requests or brand materials, message Vitali. Include the topic, publication or organisation, and any deadline so the conversation has a useful starting point": "Per domande su Escalir, richieste di interviste o materiali del marchio, scrivi a Vitali. Indica l’argomento, la testata o l’organizzazione e le eventuali scadenze, per dare alla conversazione un utile punto di partenza",
     "Founder profiles": "Profili dei fondatori",
     "Meet the founders and find their public profiles. For interviews and company enquiries, contact Vitali": "Conosci i fondatori e trova i loro profili pubblici. Per interviste e informazioni sull’azienda, contatta Vitali",
-    "More about Escalir": "Scopri di più su Escalir",
     "Need a little": "Ti serve un po’",
-    "Original Lato SemiBold (600) lettering": "Caratteri originali Lato SemiBold (600)",
-    "Our original Escalir wordmark, in black and white. Download the supplied vector artwork for a clear introduction to the company": "Il nostro logotipo Escalir originale, in bianco e nero. Scarica il file vettoriale fornito per presentare l’azienda con chiarezza",
     "Press & brand": "Stampa e marchio",
     "Press enquiries": "Richieste della stampa",
     "SVG · transparent background · vector format": "SVG · sfondo trasparente · formato vettoriale",
     "The Escalir": "Il logotipo",
     "The people": "Le persone",
     "The platform connects three stages: specification of business requests, development of agents and workflows, and governance through quality metrics, versions, access control and audit records.": "La piattaforma collega tre fasi: specifica delle richieste aziendali, sviluppo di agenti e flussi di lavoro e governance attraverso metriche di qualità, versioni, controllo degli accessi e registrazioni di audit.",
-    "Use blue sparingly for key actions and accents. Keep the wordmark black on light backgrounds or white on dark backgrounds, with clear contrast.": "Usa il blu con moderazione per le azioni principali e gli elementi di risalto. Mantieni il logotipo nero su sfondi chiari o bianco su sfondi scuri, con un contrasto netto.",
     "Use the supplied artwork unchanged. Leave clear space on every side at least equal to the height of the letter “C”. Keep the wordmark at least 80 px wide on screen or 20 mm in print.": "Usa il file grafico fornito senza modificarlo. Lascia su ogni lato uno spazio libero almeno pari all’altezza della lettera “C”. Mantieni una larghezza minima del logotipo di 80 px sullo schermo o 20 mm in stampa.",
     "White": "Bianco",
     "White SVG": "SVG bianco",
@@ -374,7 +354,8 @@
     "in a few words": "in poche parole",
     "more context?": "più di contesto?",
     "to Escalir": "di Escalir",
-    "wordmark": "di Escalir"
+    "wordmark": "di Escalir",
+    "Green": "Verde"
   },
   "src/app/(en)/privacy/page.tsx": {
     "A choice to connect": "La scelta di entrare in contatto",
@@ -417,10 +398,8 @@
   "src/app/(en)/security/page.tsx": {
     "A closed deployment can use local models and operate without external API or cloud calls. If an external model is selected, the allowed data and processing route are defined explicitly.": "Un’installazione in ambiente chiuso può usare modelli locali e funzionare senza chiamate ad API esterne o al cloud. Se si sceglie un modello esterno, i dati consentiti e il percorso di elaborazione vengono definiti esplicitamente.",
     "A few practical questions": "Alcune domande pratiche",
-    "A meaningful review point": "Un punto di revisione utile",
     "Access policies, verification and audit logs are configured for the selected workflow. Process owners and technical teams review the evidence, agree acceptance and keep the operating practices up to date.": "Le politiche di accesso, le verifiche e i log di audit vengono configurati per il flusso di lavoro scelto. I responsabili dei processi e i team tecnici esaminano le evidenze, concordano l’accettazione e mantengono aggiornate le pratiche operative.",
     "Agree control questions, datasets and target metrics with process owners. Check source support and citations, then measure answer quality, corrections and processing time before rollout": "Concorda domande di controllo, insiemi di dati e metriche obiettivo con i responsabili dei processi. Verifica il riscontro nelle fonti e le citazioni, poi misura qualità delle risposte, correzioni e tempi di elaborazione prima della messa in esercizio",
-    "Answers you can inspect": "Risposte che puoi verificare",
     "Audit and monitoring": "Audit e monitoraggio",
     "Before": "Prima",
     "Before implementation": "Prima dell’implementazione",
@@ -448,12 +427,9 @@
     "Evaluate candidate models on your documents and control questions, with agreed success criteria. Compare results before selecting the model and confirm performance on approved real data after deployment.": "Valuta i modelli candidati sui tuoi documenti e sulle domande di controllo, con criteri di successo concordati. Confronta i risultati prima di scegliere il modello e conferma le prestazioni su dati reali approvati dopo l’implementazione.",
     "Evaluation & acceptance": "Valutazione e accettazione",
     "Explore deployment decisions": "Esplora le decisioni sull’implementazione",
-    "Give people the context they need to make a decision": "Fornisci alle persone il contesto necessario per decidere",
     "How do we check model quality?": "Come verifichiamo la qualità dei modelli?",
     "Identity & knowledge access": "Identità e accesso alle conoscenze",
     "Keep source documents, versions and activity logs in the agreed deployment. Define retention, backup and support access with the teams responsible for operating it": "Mantieni documenti di origine, versioni e log delle attività nell’installazione concordata. Definisci conservazione, backup e accesso dell’assistenza con i team responsabili della gestione",
-    "Keep the evidence and access rules connected to the answer": "Mantieni evidenze e regole di accesso collegate alla risposta",
-    "Knowledge": "Conoscenza",
     "Knowledge access": "Accesso alle conoscenze",
     "Limit retrieval to permitted documents and show the source and version behind answers": "Limita il recupero ai documenti autorizzati e mostra la fonte e la versione alla base delle risposte",
     "Local and external models have different data flows; processing location, retention and support access are agreed for each deployment": "I modelli locali ed esterni hanno flussi di dati diversi; luogo di elaborazione, conservazione e accesso dell’assistenza vengono concordati per ogni implementazione",
@@ -461,8 +437,6 @@
     "Name the owners of data, policies and workflows. Connect logs to your SIEM, monitor quality and resource use, and train your team to maintain the deployment": "Definisci i responsabili di dati, politiche e flussi di lavoro. Collega i log al tuo SIEM, monitora qualità e uso delle risorse e forma il tuo team per mantenere l’installazione",
     "One shared brief": "Un documento condiviso",
     "Operations & ownership": "Gestione operativa e responsabilità",
-    "Put the principles into practice": "Metti i principi in pratica",
-    "Read the deployment guide": "Leggi la guida all’implementazione",
     "Records & support access": "Registrazioni e accesso dell’assistenza",
     "Security & control": "Sicurezza e controllo",
     "Security questions": "Domande sulla sicurezza",
@@ -471,7 +445,6 @@
     "Then build with confidence": "Poi sviluppa con fiducia",
     "Tools & human review": "Strumenti e revisione umana",
     "Track user and agent actions, review quality and resource use, and export logs to SIEM": "Traccia le azioni di utenti e agenti, valuta qualità e uso delle risorse ed esporta i log nel SIEM",
-    "Workflows": "Flussi di lavoro",
     "Your boundaries": "I tuoi confini",
     "Your environment": "Il tuo ambiente",
     "describes the public website; your deployment follows its own agreed configuration and terms.": "descrivono il sito pubblico; la tua implementazione segue la configurazione e le condizioni concordate per il progetto.",
@@ -484,26 +457,26 @@
     "Turn business requests into tested workflows through specification, development and governance, connecting company knowledge, agents and existing systems": "Trasforma le richieste aziendali in flussi di lavoro testati attraverso specifica, sviluppo e governance, collegando conoscenze aziendali, agenti e sistemi esistenti"
   },
   "src/components/AppScreenshot.tsx": {
-    "Open {0} screenshot": "Apri la schermata {0}"
+    "Open {0} screenshot": "Apri la schermata {0}",
+    "Open {0} illustration": "Apri l’illustrazione di {0}"
   },
   "src/components/Brain.tsx": {
     "A closer look": "Uno sguardo più da vicino",
-    "From files and voice to the details behind an answer. Explore real views from the Escalir application": "Dai file e dalla voce ai dettagli dietro una risposta. Esplora schermate reali dell’applicazione Escalir",
     "Inside Escalir": "Dentro Escalir",
-    "at the workspace": "all’ambiente di lavoro"
+    "at the workspace": "all’ambiente di lavoro",
+    "Explore files, audio and the details behind an answer": "Esplora file, audio e dettagli di una risposta"
   },
   "src/components/Contact.tsx": {
     "Start with one process": "Inizia da un processo",
     "Tell Vitali which process you want to improve, where the relevant information lives and what a useful outcome would look like": "Racconta a Vitali quale processo vuoi migliorare, dove si trovano le informazioni pertinenti e quale risultato sarebbe utile ottenere"
   },
   "src/components/Footer.tsx": {
-    "Company": "Azienda",
     "Footer navigation": "Navigazione nel piè di pagina",
-    "Get in touch": "Contattaci",
     "Industries": "Settori",
     "Intelligence, put to work": "L’intelligenza al lavoro",
     "Platform": "Piattaforma",
-    "Privacy information": "Informativa sulla privacy"
+    "Privacy information": "Informativa sulla privacy",
+    "Information": "Informazioni"
   },
   "src/components/Founders.tsx": {
     "Building the next": "Costruiamo il prossimo",
@@ -511,7 +484,6 @@
     "Co-founder · CAIO": "Cofondatore · CAIO",
     "Co-founder · CEO": "Cofondatore · CEO",
     "Co-founder · CTO": "Cofondatore · CTO",
-    "Get to know the team": "Conosci il team",
     "The people behind the work": "Le persone dietro il lavoro",
     "chapter of Escalir": "capitolo di Escalir"
   },
@@ -580,13 +552,6 @@
     "Utilities": "Servizi di pubblica utilità",
     "your industry": "il tuo settore"
   },
-  "src/components/HomeInsights.tsx": {
-    "Explore the blog": "Esplora il blog",
-    "Ideas for useful AI": "Idee per un’IA utile",
-    "Practical guides to choosing a workflow, working with knowledge and keeping people in control": "Guide pratiche per scegliere un flusso di lavoro, usare le conoscenze e mantenere il controllo nelle mani delle persone",
-    "Then put it to work": "Poi metti in pratica",
-    "Think it through": "Parti da una riflessione"
-  },
   "src/components/HomeProductFamily.tsx": {
     "Bring the information and review steps a business process actually needs into one place": "Riunisci in un unico posto le informazioni e i passaggi di revisione di cui un processo aziendale ha davvero bisogno",
     "Help employees find answers, prepare documents and resolve routine requests": "Aiuta i dipendenti a trovare risposte, preparare documenti e risolvere richieste di routine",
@@ -603,8 +568,6 @@
     "Co-founder · CTO": "Cofondatore · CTO",
     "Co-founder · CAIO": "Cofondatore · CAIO",
     "The platform is built by the Escalir team, with operating, investment and ecosystem experience from our Justart partners": "La piattaforma è costruita dal team Escalir, con l'esperienza operativa, di investimento e di ecosistema dei nostri partner Justart",
-    "About Escalir": "A proposito di Escalir",
-    "Careers": "Lavora con noi",
     "The people behind Escalir": "Le persone dietro Escalir",
     "Meet the people": "Conosci le persone",
     "behind the work": "dietro il lavoro"
@@ -926,7 +889,6 @@
     "Workflow": "Flusso di lavoro"
   },
   "src/components/platform/GatewayWorkspace.tsx": {
-    "Actual views from the Escalir application": "Schermate reali dell’applicazione Escalir",
     "Application views": "Schermate dell’applicazione",
     "Escalir application views": "Schermate dell’applicazione Escalir",
     "Choose among connected models and inspect their settings in the Escalir workspace": "Scegli tra i modelli connessi e verifica le loro impostazioni nell’ambiente di lavoro Escalir",
@@ -937,7 +899,8 @@
     "Inspect the timing and token information attached to an answer": "Esamina le informazioni sui tempi e sui token associate a una risposta",
     "Models & controls": "Modelli e controlli",
     "Response details": "Dettagli della risposta",
-    "Review the documents available to support knowledge search and agent workflows": "Esamina i documenti disponibili per la ricerca nelle conoscenze e i flussi di lavoro degli agenti"
+    "Review the documents available to support knowledge search and agent workflows": "Esamina i documenti disponibili per la ricerca nelle conoscenze e i flussi di lavoro degli agenti",
+    "Product illustrations and application screenshots": "Illustrazioni del prodotto e schermate dell’applicazione"
   },
   "src/components/platform/OperatingLayerExplorer.tsx": {
     "Apply access rules and data policies, review versions and activity logs, and keep quality checks and release decisions connected to the people responsible": "Applica regole di accesso e politiche sui dati, verifica versioni e registri delle attività e collega i controlli di qualità e le decisioni sui rilasci alle persone responsabili",
@@ -1160,15 +1123,12 @@
   },
   "src/lib/app-captures.ts": {
     "Audio playback": "Riproduzione audio",
-    "Escalir agent list detail showing model assignments, dates and action icons": "Dettaglio dell’elenco degli agenti di Escalir con modelli assegnati, date e icone delle azioni",
     "Escalir response footer with copy and feedback controls, token counts and timing information": "Parte inferiore di una risposta di Escalir con comandi per copiare e inviare feedback, conteggio dei token e tempi di elaborazione",
     "Escalir transcription workspace audio player with playback, seek and volume controls": "Lettore audio nell’area di trascrizione di Escalir con comandi di riproduzione, avanzamento e volume",
     "Choose a document directly in the OCR workspace": "Scegli un documento direttamente nell’area OCR",
     "Document import": "Importazione di documenti",
     "Files & structured data": "File e dati strutturati",
-    "Four actual file-library rows in Escalir, showing JSON and text files with their sizes": "Quattro righe reali della raccolta file di Escalir, con file JSON e di testo e le relative dimensioni",
     "Inspect the token counts and timing details attached to an application response": "Esamina il conteggio dei token e i tempi di elaborazione associati a una risposta dell’applicazione",
-    "Model assignments and agent controls, as they appear in the Escalir workspace": "Modelli assegnati e comandi degli agenti, così come appaiono nell’area di lavoro di Escalir",
     "Model selection": "Selezione del modello",
     "Models & controls": "Modelli e controlli",
     "Replay a recording from the transcription workspace": "Riascolta una registrazione dall’area di trascrizione",
@@ -1176,7 +1136,10 @@
     "Select the model for a conversation in the Escalir chat interface": "Seleziona il modello per una conversazione nell’interfaccia di chat di Escalir",
     "The actual Choose File control in Escalir's OCR document workspace": "Il comando reale Choose File nell’area documenti OCR di Escalir",
     "The actual model selector in Escalir chat, displaying deepseek-v4-pro": "Il selettore reale dei modelli nella chat di Escalir, con deepseek-v4-pro visualizzato",
-    "Work with existing files in the application, including text documents and structured data": "Lavora sui file già presenti nell’applicazione, inclusi documenti di testo e dati strutturati"
+    "Illustration of three model modules connected through an access control gate": "Illustrazione di tre moduli di modelli collegati tramite un gateway di controllo degli accessi",
+    "Choose models for each workflow and define who can use them": "Scegli i modelli per ogni flusso di lavoro e stabilisci chi può utilizzarli",
+    "Illustration of stacked documents with a grid of data cells": "Illustrazione di una pila di documenti con una griglia di celle di dati",
+    "Use documents and structured data in agent workflows": "Usa documenti e dati strutturati nei flussi di lavoro degli agenti"
   },
   "src/lib/articles.ts": {
     "4 min read": "4 min di lettura",
@@ -1896,15 +1859,12 @@
   },
   "src/lib/navigation.ts": {
     "AI transformation": "Trasformazione con l’IA",
-    "About Escalir": "Chi è Escalir",
     "Agents, integrations and workflow orchestration": "Agenti, integrazioni e orchestrazione dei flussi di lavoro",
     "Airlines": "Compagnie aeree",
     "Answers for customers, stores and suppliers": "Risposte per clienti, negozi e fornitori",
     "Answers grounded in approved knowledge": "Risposte basate su conoscenze approvate",
     "Banking": "Settore bancario",
-    "Bring your experience to useful AI": "Metti la tua esperienza al servizio di un’IA utile",
     "Choose the right approach for each task": "Scegli l’approccio giusto per ogni attività",
-    "Company information and brand resources": "Informazioni sull’azienda e risorse del marchio",
     "Connect service and operational knowledge": "Collega le conoscenze del servizio e delle attività operative",
     "Contact": "Contatti",
     "Customer context across your operation": "Il contesto del cliente in tutte le attività operative",
@@ -1913,7 +1873,6 @@
     "Healthcare": "Sanità",
     "Insurance": "Assicurazioni",
     "Keep teams informed when plans change": "Tieni i team informati quando i piani cambiano",
-    "Media & company": "Stampa e azienda",
     "Model choice, data rules and usage visibility": "Scelta dei modelli, regole sui dati e visibilità sull’utilizzo",
     "Move paperwork forward with human review": "Fai avanzare le pratiche con la revisione umana",
     "Process audit, pilot and team handover": "Analisi dei processi, progetto pilota e passaggio di consegne al team",
@@ -1923,9 +1882,7 @@
     "Start a conversation with Vitali": "Parla con Vitali",
     "Support the administrative work around care": "Supporta il lavoro amministrativo che accompagna l’assistenza sanitaria",
     "Telecommunications": "Telecomunicazioni",
-    "The people and principles behind the work": "Le persone e i principi alla base del nostro lavoro",
     "Utilities": "Servizi di pubblica utilità",
-    "Work with us": "Lavora con noi",
     "Your environment, your boundaries": "Il tuo ambiente, i tuoi confini"
   },
   "src/lib/site.ts": {
@@ -1935,5 +1892,9 @@
   "src/lib/founder-descriptions.ts": {
     "Leads the architecture and engineering of Escalir’s enterprise AI platform": "Guida l’architettura e lo sviluppo della piattaforma di IA aziendale di Escalir",
     "Leads AI strategy, agent design and workflow automation": "Guida la strategia per l’IA, la progettazione degli agenti e l’automazione dei flussi di lavoro"
+  },
+  "src/components/FooterContact.tsx": {
+    "Get in touch": "Contattaci",
+    "We invite investors to join our waitlist.": "Invitiamo gli investitori a iscriversi alla nostra lista d’attesa."
   }
 }

@@ -16,7 +16,7 @@ const translatedLocales = locales.filter(locale => locale !== defaultLocale);
 const cyrillicLocales = new Set(["uk", "be", "kk"]);
 assert.equal(defaultLocale, "en", "The existing English route contract must remain the default");
 assert.deepEqual([...locales].sort(), ["be", "cs", "de", "en", "es", "fr", "it", "kk", "nl", "pl", "ro", "sr", "uk", "uz"], "All fourteen supported languages must remain in the registry");
-assert.deepEqual(menuOrder, ["en", "kk", "uz", "de", "fr", "es", "it", "nl", "pl", "cs", "ro", "sr"], "Language menu order must place Kazakh and Uzbek after English");
+assert.deepEqual(menuOrder, ["en", "kk", "uz", "be", "de", "fr", "es", "it", "nl", "pl", "cs", "ro", "sr", "uk"], "Language menu must place Belarusian after Uzbek and Ukrainian last");
 const localePrefix = locale => locale === defaultLocale ? "" : `/${locale}`;
 const screenshotLabels = {
   en: /^Open .+ screenshot$/,
@@ -100,6 +100,8 @@ const requiredAssets = [
   ...locales.map(locale => localeSettings[locale].socialImage.slice(1)),
   "brand/escalir-logo.svg",
   "brand/escalir-logo-white.svg",
+  "media/app/model-controls-illustration.webp",
+  "media/app/structured-files-illustration.webp",
   ...locales.map(locale => `${localePrefix(locale)}/ai-os/index.html`.slice(1)),
   ...diagramPaths.map(value => value.slice(1)),
   ...translatedLocales.flatMap(locale => diagramPaths.map(value => localizedDiagramPath(value, locale).slice(1))),
@@ -151,6 +153,10 @@ function englishRouteFor(route) {
   return route.slice(localePrefix(localeFor(route)).length) || "/";
 }
 
+function isUnlisted(route) {
+  return /^\/(?:about-us|careers|press|blog)(?:\/|$)/.test(englishRouteFor(route));
+}
+
 function expectedAlternates(route) {
   const englishRoute = englishRouteFor(route);
   return {
@@ -196,7 +202,9 @@ async function loadCatalogs() {
           && !/\{\d+\}/.test(phrase) && !kept.has(phrase) && phrase !== normalizeText(translation)) englishPhrases.add(phrase);
       }
     }
-    catalogs.set(locale, { assets, keep, englishPhrases });
+    const illustrationLabel = messages["src/components/AppScreenshot.tsx"]["Open {0} illustration"];
+    const waitlist = messages["src/components/FooterContact.tsx"]["We invite investors to join our waitlist."];
+    catalogs.set(locale, { assets, keep, englishPhrases, illustrationLabel, waitlist });
   }
 }
 
@@ -396,7 +404,8 @@ try {
   const sitemap = await readFile(path.join(root, "sitemap.xml"), "utf8");
   const locations = [...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map((match) => decodeEntities(match[1]));
   assert.equal(new Set(locations).size, locations.length, "Sitemap contains duplicate URLs");
-  assert.deepEqual(locations.sort(), publicRoutes.map((route) => `${site}${route}`).sort(), `Sitemap must contain all ${publicRoutes.length} content routes in ${locales.join("/").toUpperCase()}`);
+  const indexedRoutes = publicRoutes.filter(route => !isUnlisted(route));
+  assert.deepEqual(locations.sort(), indexedRoutes.map(route => `${site}${route}`).sort(), `Sitemap must contain ${indexedRoutes.length} indexed pages`);
   for (const [, entry] of sitemap.matchAll(/<url>([^]*?)<\/url>/g)) {
     const location = decodeEntities(entry.match(/<loc>(.*?)<\/loc>/)?.[1] || "");
     const alternates = [...entry.matchAll(/<xhtml:link\b[^>]*>/g)].map((match) => attributes(match[0]));
@@ -426,7 +435,13 @@ try {
     const openGraphUrl = metaContent(tags, "og:url");
     assert.equal(html?.attrs.lang, locale, `Wrong document language: ${route}`);
     assert.equal(tags.filter(({ name }) => name === "h1").length, 1, `Expected one H1: ${route}`);
+    assert.equal(/\bnoindex\b/i.test(metaContent(tags, "robots", "name") || ""), isUnlisted(route), `Wrong indexability: ${route}`);
     verifyFooterBrand(markup, route);
+    const footer = markup.match(/<footer\b[^>]*>([^]*?)<\/footer\s*>/i)?.[1] || "";
+    const waitlists = [...footer.matchAll(/<p\b([^>]*)>([^]*?)<\/p>/gi)]
+      .filter(([, attrs]) => hasClass(attributes(attrs), "footer-investor-waitlist"));
+    assert.equal(waitlists.length, 1, `Expected one investor waitlist invitation: ${route}`);
+    assert.equal(normalizeText(waitlists[0][2]), catalogs.get(locale)?.waitlist ?? "We invite investors to join our waitlist.", `Wrong investor invitation: ${route}`);
     await verifyUniquePhotos(markup, route);
     assert(!tags.some(({ attrs }) => hasClass(attrs, "footer-wordmark")), `Oversized footer wordmark remains: ${route}`);
     const main = tags.find(({ name }) => name === "main");
@@ -456,6 +471,7 @@ try {
     assert(tags.some(({ name, attrs }) => name === "summary" && attrs["aria-label"] === settings.accessibleLabel), `Missing localized language control: ${route}`);
     const languageLinks = tags.filter(({ name, attrs }) => name === "a" && attrs["data-language-switch"]);
     assert.equal(languageLinks.length, menuOrder.length, `Expected one native link for every menu language: ${route}`);
+    assert.deepEqual(languageLinks.map(({ attrs }) => attrs["data-language-switch"]), menuOrder, `Wrong language menu order: ${route}`);
     for (const language of menuOrder) {
       const matching = languageLinks.filter(({ attrs }) => attrs["data-language-switch"] === language);
       assert.equal(matching.length, 1, `Expected one ${language} language link: ${route}`);
@@ -488,7 +504,8 @@ try {
     if (screenshotRoutes.has(englishRoute)) {
       assert(captures.length > 0, `Missing application screenshot figure: ${route}`);
     }
-    for (const [, , contents] of captures) {
+    for (const [, figureAttrs, contents] of captures) {
+      const illustration = attributes(figureAttrs)["data-illustration"] === "true";
       const images = [...contents.matchAll(/<img\b[^>]*>/gi)].map((match) => attributes(match[0]));
       assert.equal(images.length, 1, `Expected one image per screenshot figure: ${route}`);
       const image = images[0];
@@ -504,7 +521,14 @@ try {
         .filter((attrs) => hasClass(attrs, "app-capture-open"));
       assert.equal(openLinks.length, 1, `Screenshot needs one full-size image link: ${route}`);
       assert.equal(openLinks[0].href, image.src, `Screenshot link must open the displayed image: ${route}`);
-      assert(screenshotLabels[locale].test(openLinks[0]["aria-label"] || ""), `Screenshot link needs a localized accessible label: ${route}`);
+      if (illustration) {
+        assert(image.src.endsWith("-illustration.webp"), `Expected an illustration asset: ${route}`);
+        const title = normalizeText(contents.match(/<figcaption>\s*<span>([^]*?)<\/span>/i)?.[1] || "");
+        const label = catalogs.get(locale)?.illustrationLabel ?? "Open {0} illustration";
+        assert.equal(openLinks[0]["aria-label"], label.replace("{0}", title), `Illustration link needs a localized accessible label: ${route}`);
+      } else {
+        assert(screenshotLabels[locale].test(openLinks[0]["aria-label"] || ""), `Screenshot link needs a localized accessible label: ${route}`);
+      }
       assert.equal(openLinks[0].target, "_blank", `Screenshot link should open separately: ${route}`);
       assert(/\bnoopener\b/.test(openLinks[0].rel || ""), `Screenshot link needs noopener: ${route}`);
     }
@@ -523,6 +547,11 @@ try {
       if (name === "a" && attrs.href) {
         const destination = new URL(attrs.href, `${site}${route}`);
         if (destination.origin === site) {
+          if (isUnlisted(destination.pathname) && !attrs.href.startsWith("#")) {
+            const directGuide = englishRoute.startsWith("/blog/") && /^\/blog\/[^/]+\/$/.test(englishRouteFor(destination.pathname));
+            const translatedPage = isUnlisted(route) && Boolean(attrs["data-language-switch"]);
+            assert(directGuide || translatedPage, `Unlisted page linked from ${route}: ${attrs.href}`);
+          }
           if (routeSet.has(destination.pathname) && localeFor(destination.pathname) !== locale) {
             const targetLocale = localeFor(destination.pathname);
             assert.equal(attrs["data-language-switch"], targetLocale, `Internal link leaves the selected language: ${route} → ${attrs.href}`);
@@ -593,8 +622,7 @@ try {
     assert.equal(recovery.length, 1, `Global 404 needs one ${language} homepage link`);
     await verifyLocalReference(recovery[0].href, "/404.html");
   }
-  // Application pixels remain the recorded real captures in every locale.
-  // Translate their surrounding labels; never substitute a drawn interface.
+  // The remaining screenshot pixels match their recorded captures.
   const captures = JSON.parse(await readFile(new URL("../docs/app-capture-provenance.json", import.meta.url), "utf8"));
   for (const capture of captures) {
     const file = path.join(root, capture.asset.replace(/^public\//, ""));

@@ -254,12 +254,8 @@ html:is([lang="de"], [lang="pl"], [lang="uk"], [lang="fr"], [lang="be"], [lang="
 }
 
 .escalir-home .app-platform-captures .app-capture-stage {
-  min-height: 280px;
-  padding: 32px;
-  background: #f1f1ef;
-}
-
-.escalir-home .app-platform-captures .app-capture-dark .app-capture-stage {
+  min-height: 0;
+  padding: 0;
   background: #0c0c0d;
 }
 
@@ -463,11 +459,6 @@ html:is([lang="de"], [lang="pl"], [lang="uk"], [lang="fr"], [lang="be"], [lang="
   .escalir-home .app-platform-captures {
     margin-top: 42px;
     padding-bottom: 58px;
-  }
-
-  .escalir-home .app-platform-captures .app-capture-stage {
-    min-height: 205px;
-    padding: 25px 18px;
   }
 
   .escalir-home .app-platform-captures .app-capture figcaption {

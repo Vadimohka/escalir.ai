@@ -55,7 +55,7 @@ function EnterpriseVisual({ kind }: { kind: string }) {
   if (kind === "deployment") return <div className={styles.deploymentDiagram} aria-hidden="true">
     <div><span>Own server</span><span>Rented infrastructure</span><span>Local or cloud models</span></div>
     <div className={styles.deploymentStem} />
-    <strong><img src="/brand/escalir-logo-white.svg" alt="" width={142} height={37} /></strong>
+    <strong><img src="/brand/escalir-logo-white.svg" alt="" width={142} height={34} /></strong>
   </div>;
   return <div className={styles.requirementsDiagram} aria-hidden="true">
     <div><span>Requirements</span><span>Test questions</span><span>Evidence</span></div>
@@ -74,7 +74,7 @@ export default function PlatformPage() {
         </picture>
         <div className={styles.heroShade} />
         <div className={styles.heroTitle}>
-          <p className={styles.heroLockup}><img src="/brand/escalir-logo-white.svg" alt="Escalir" width={155} height={41} /><span>AI Platform</span></p>
+          <p className={styles.heroLockup}><img src="/brand/escalir-logo-white.svg" alt="Escalir" width={155} height={37} /><span>AI Platform</span></p>
           <h1 id="os-title">One operating environment from specification to governed AI</h1>
         </div>
         <Lattice />

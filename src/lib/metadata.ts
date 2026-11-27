@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import { languageAlternates, locales, localeSettings, localizedPath, type Locale } from "./i18n";
+import { englishPath, languageAlternates, locales, localeSettings, localizedPath, type Locale } from "./i18n";
 import { LOCALE } from "./locale";
+import { UNLISTED_ROUTES } from "./routes";
 import { SITE_NAME, SITE_URL } from "./site";
 
 export function pageMetadata(title: string, description: string, path: string, locale: Locale = LOCALE): Metadata {
@@ -18,6 +19,7 @@ export function pageMetadata(title: string, description: string, path: string, l
   return {
     title: pageTitle,
     description,
+    robots: UNLISTED_ROUTES.includes(englishPath(path)) ? { index: false, follow: true } : undefined,
     alternates: { canonical, languages: languageAlternates(path) },
     openGraph: {
       title: pageTitle,

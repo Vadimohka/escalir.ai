@@ -6,7 +6,7 @@ Website media is served locally from `public/`.
 | --- | --- |
 | `public/brand/` | Escalir wordmarks and symbol |
 | `public/founders/` | Founder photographs |
-| `public/media/app/` | Application captures |
+| `public/media/app/` | Product illustrations and application captures |
 | `public/media/escalir/photos/` | Page photography and responsive variants |
 | `public/media/escalir/diagrams/` | SVG diagrams |
 | `public/media/stock/` | Stock-video scene frames |
@@ -19,7 +19,9 @@ Keep image dimensions, responsive sources and crop positions aligned with their 
 
 The Deployment and AI Transformation hero photographs are original generated editorial images. Each uses a native landscape composition (1672 × 941) and a 960px responsive variant; Deployment also has a separate portrait composition for mobile. Their generation briefs and intended crops are recorded in [hero photography](hero-photography.md). They illustrate work and architecture; they are not presented as photographs of Escalir customers or named staff.
 
-Application capture dimensions and captions are defined in [src/lib/app-captures.ts](../src/lib/app-captures.ts). The [capture inventory](app-capture-provenance.json) records the files and their checksums. Preserve their aspect ratios and keep full-size links available.
+The model controls and structured files cards use generated illustrations. Their artwork depicts access controls and structured data without model names or user data.
+
+Image dimensions and captions are defined in [src/lib/app-captures.ts](../src/lib/app-captures.ts). The [capture inventory](app-capture-provenance.json) records the files and their checksums. Preserve their aspect ratios and keep full-size links available.
 
 ## Homepage video
 

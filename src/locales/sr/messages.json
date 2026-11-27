@@ -2,7 +2,6 @@
   "src/app/(en)/about-us/page.tsx": {
     "A business workshop around a whiteboard": "Poslovna radionica oko bele table",
     "A closer look at Escalir": "Upoznajte Escalir izbliza",
-    "A useful starting point": "Koristan početak",
     "About Escalir": "O kompaniji Escalir",
     "About us": "O nama",
     "Bring intelligence": "Približite inteligenciju",
@@ -16,22 +15,16 @@
     "Choose agents, RPA or corporate chat to fit the process. Build and test with your team, using approved knowledge, integrations and models": "Izaberite agente, RPA ili korporativni čet prema potrebama procesa. Razvijajte i testirajte sa svojim timom, koristeći odobreno znanje, integracije i modele",
     "closer to the work": "svakodnevnom radu",
     "Collect requests from departments and record the owner, workload, data, risks and acceptance criteria. Prioritize work by readiness and expected value": "Prikupljajte zahteve odeljenja i beležite odgovornu osobu, obim posla, podatke, rizike i kriterijume prihvatanja. Odredite prioritete prema spremnosti i očekivanoj vrednosti",
-    "Company": "Kompanija",
-    "Company information, people and original brand materials": "Informacije o kompaniji i ljudima, uz originalne materijale brenda",
     "Connection, clarity, room to build": "Povezanost, jasnoća, prostor za stvaranje",
     "Development": "Razvoj",
-    "Explore careers at Escalir": "Istražite mogućnosti za karijeru u kompaniji Escalir",
     "Explore the platform": "Istražite platformu",
     "From request to operation": "Od zahteva do primene",
-    "Ideas": "Ideje",
     "Knowledge, models, agents and operating records stay connected throughout that cycle. We help establish the first workflows and transfer requirements, testing and maintenance practices so your team can continue the work.": "Znanje, modeli, agenti i evidencija rada ostaju povezani tokom celog tog ciklusa. Pomažemo vam da uspostavite prve radne tokove i prenosimo prakse za definisanje zahteva, testiranje i održavanje kako bi vaš tim mogao da nastavi rad.",
     "Meet the founders": "Upoznajte osnivače",
     "One cycle": "Jedan ciklus",
     "Our approach": "Naš pristup",
     "Our perspective": "Naše viđenje",
     "Our work connects business analysis, platform engineering and applied AI. We value people who can understand a process, test a solution and help a customer team learn to maintain it.": "Naš rad povezuje poslovnu analizu, razvoj platforme i primenjenu veštačku inteligenciju. Cenimo ljude koji umeju da razumeju proces, testiraju rešenje i pomognu timu klijenta da nauči da ga održava.",
-    "Practical guides to knowledge, workflows and deployment": "Praktični vodiči za znanje, radne tokove i postavljanje sistema",
-    "Press & brand": "Mediji i brend",
     "Put into practice": "u praksi",
     "Review quality and business impact, manage versions and access, and agree release approvals. Feed operational findings into the next specification": "Procenjujte kvalitet i uticaj na poslovanje, upravljajte verzijama i pristupom i dogovorite odobravanje izdanja. Uključite nalaze iz rada u sledeću specifikaciju",
     "Sales and market development, platform architecture, and agent engineering. The founders bring these disciplines into one team": "Prodaja i razvoj tržišta, arhitektura platforme i razvoj agenata. Osnivači povezuju ove discipline u jedan tim",
@@ -131,9 +124,7 @@
   },
   "src/app/(en)/blog/[slug]/page.tsx": {
     "A practical guide by Escalir": "Praktični vodič kompanije Escalir",
-    "All Escalir guides": "Svi vodiči kompanije Escalir",
     "Another useful perspective": "Još jedan koristan pogled",
-    "Back to all guides": "Nazad na sve vodiče",
     "Escalir guides": "Escalir vodiči",
     "Discuss your workflow": "Razgovarajte o svom radnom toku",
     "Guide contents": "Sadržaj vodiča",
@@ -181,7 +172,6 @@
     "Explore the work behind Escalir: enterprise AI, engineering, knowledge and business workflows. Start a conversation with the team.": "Istražite rad koji stoji iza kompanije Escalir: AI za preduzeća, inženjerstvo, znanje i poslovne radne tokove. Započnite razgovor sa timom.",
     "Involved in the outcome": "Uključeni u ostvarenje rezultata",
     "It means asking good questions and taking responsibility for the details.": "To znači postavljati dobra pitanja i preuzimati odgovornost za detalje.",
-    "Meet the people behind Escalir": "Upoznajte ljude iza kompanije Escalir",
     "More than one": "Više od jednog",
     "people can use": "koja ljudi mogu da koriste",
     "People collaborating in a business workshop": "Ljudi sarađuju na poslovnoj radionici",
@@ -206,19 +196,15 @@
     "A few things": "Nekoliko stvari",
     "A short description is enough to start. Keep confidential files out of the first message.": "Za početak je dovoljan kratak opis. Nemojte slati poverljive datoteke u prvoj poruci.",
     "A useful starting point": "Koristan početak",
-    "Before the conversation": "Pre razgovora",
     "Bring a process, a question or an idea. We will explore the starting point together": "Dođite sa procesom, pitanjem ili idejom. Zajedno ćemo razmotriti odakle da krenemo",
     "Co-founder · CEO": "Suosnivač · Izvršni direktor",
     "Contact": "Kontakt",
-    "Find a useful first project": "Pronađite koristan prvi projekat",
     "Good work starts": "Dobar rad počinje",
     "Let’s talk": "Razgovarajmo",
     "like AI to help with?": "da vam AI pomogne?",
     "Message Vitali on Telegram": "Pišite Vitaliju na Telegramu",
-    "Not sure": "Niste sigurni",
     "Opens a conversation in Telegram": "Otvara razgovor u Telegramu",
     "People moving through a shared business space": "Ljudi prolaze kroz zajednički poslovni prostor",
-    "Read our guide to choosing a first AI workflow": "Pročitajte naš vodič za izbor prvog AI radnog toka",
     "Read our privacy information": "Pročitajte informacije o privatnosti",
     "Speak with a founder": "Razgovarajte sa osnivačem",
     "Start a conversation": "Započnite razgovor",
@@ -229,7 +215,6 @@
     "to tell us": "koje nam možete reći",
     "What would a useful first result look like?": "Kako bi izgledao koristan prvi rezultat?",
     "What would you": "U čemu biste želeli",
-    "where to start?": "odakle da počnete?",
     "Which task or process would you like to improve?": "Koji zadatak ili proces biste želeli da unapredite?",
     "Which team, documents or systems are involved?": "Koji tim, dokumenti ili sistemi su uključeni?",
     "with a conversation": "razgovorom",
@@ -341,7 +326,6 @@
   "src/app/(en)/press/page.tsx": {
     "A clear introduction": "Jasno predstavljanje",
     "About the company": "O kompaniji",
-    "Accent blue": "Plava za akcente",
     "behind Escalir": "iza kompanije Escalir",
     "Black": "Crna",
     "Black SVG": "Crni SVG",
@@ -361,11 +345,8 @@
     "Founder profiles": "Profili osnivača",
     "in a few words": "u nekoliko reči",
     "Meet the founders and find their public profiles. For interviews and company enquiries, contact Vitali": "Upoznajte osnivače i pogledajte njihove javne profile. Za intervjue i pitanja o kompaniji obratite se Vitaliju",
-    "More about Escalir": "Više o kompaniji Escalir",
     "more context?": "više konteksta?",
     "Need a little": "Potrebno vam je",
-    "Original Lato SemiBold (600) lettering": "Originalni natpis u fontu Lato SemiBold (600)",
-    "Our original Escalir wordmark, in black and white. Download the supplied vector artwork for a clear introduction to the company": "Naš originalni logotip Escalir, u crnoj i beloj boji. Preuzmite priloženu vektorsku grafiku za jasno predstavljanje kompanije",
     "Press & brand": "Mediji i brend",
     "Press enquiries": "Upiti medija",
     "SVG · transparent background · vector format": "SVG · prozirna pozadina · vektorski format",
@@ -373,11 +354,11 @@
     "The people": "Ljudi",
     "The platform connects three stages: specification of business requests, development of agents and workflows, and governance through quality metrics, versions, access control and audit records.": "Platforma povezuje tri faze: specifikaciju poslovnih zahteva; razvoj agenata i radnih tokova; upravljanje i nadzor kroz pokazatelje kvaliteta, verzije, kontrolu pristupa i revizionu evidenciju.",
     "to Escalir": "kompanije Escalir",
-    "Use blue sparingly for key actions and accents. Keep the wordmark black on light backgrounds or white on dark backgrounds, with clear contrast.": "Koristite plavu umereno za ključne radnje i akcente. Logotip treba da bude crn na svetlim pozadinama ili beo na tamnim pozadinama, uz jasan kontrast.",
     "Use the supplied artwork unchanged. Leave clear space on every side at least equal to the height of the letter “C”. Keep the wordmark at least 80 px wide on screen or 20 mm in print.": "Koristite priloženu grafiku bez izmena. Ostavite slobodan prostor sa svake strane najmanje jednak visini slova „C”. Logotip treba da bude širok najmanje 80 px na ekranu ili 20 mm u štampi.",
     "White": "Bela",
     "White SVG": "Beli SVG",
-    "wordmark": "Escalir"
+    "wordmark": "Escalir",
+    "Green": "Zelena"
   },
   "src/app/(en)/privacy/page.tsx": {
     "A choice to connect": "Vaš izbor da uspostavite kontakt",
@@ -420,10 +401,8 @@
   "src/app/(en)/security/page.tsx": {
     "A closed deployment can use local models and operate without external API or cloud calls. If an external model is selected, the allowed data and processing route are defined explicitly.": "Zatvoreno okruženje može da koristi lokalne modele i radi bez poziva spoljnih API-ja ili usluga u oblaku. Ako se izabere spoljni model, dozvoljeni podaci i put obrade se izričito definišu.",
     "A few practical questions": "Nekoliko praktičnih pitanja",
-    "A meaningful review point": "Smislen korak provere",
     "Access policies, verification and audit logs are configured for the selected workflow. Process owners and technical teams review the evidence, agree acceptance and keep the operating practices up to date.": "Pravila pristupa, provera i reviziona evidencija podešavaju se za izabrani radni tok. Odgovorne osobe za procese i tehnički timovi pregledaju dokaze, dogovaraju prihvatanje i održavaju radne prakse ažurnim.",
     "Agree control questions, datasets and target metrics with process owners. Check source support and citations, then measure answer quality, corrections and processing time before rollout": "Dogovorite kontrolna pitanja, skupove podataka i ciljne metrike sa odgovornim osobama za procese. Proverite potkrepljenost izvorima i reference, a zatim izmerite kvalitet odgovora, ispravke i vreme obrade pre uvođenja",
-    "Answers you can inspect": "Odgovori koje možete da proverite",
     "Audit and monitoring": "Revizija i nadzor",
     "Before": "Pre nego što",
     "Before implementation": "Pre uvođenja",
@@ -453,12 +432,9 @@
     "Evaluation & acceptance": "Evaluacija i prihvatanje",
     "Explore deployment decisions": "Istražite odluke o postavljanju sistema",
     "from clear boundaries": "na jasnim granicama",
-    "Give people the context they need to make a decision": "Dajte ljudima kontekst potreban za donošenje odluke",
     "How do we check model quality?": "Kako proveravamo kvalitet modela?",
     "Identity & knowledge access": "Identitet i pristup znanju",
     "Keep source documents, versions and activity logs in the agreed deployment. Define retention, backup and support access with the teams responsible for operating it": "Čuvajte izvorne dokumente, verzije i evidenciju aktivnosti u dogovorenom okruženju. Sa timovima odgovornim za rad sistema definišite rokove čuvanja podataka, rezervne kopije i pristup tima za podršku",
-    "Keep the evidence and access rules connected to the answer": "Povežite dokaze i pravila pristupa sa odgovorom",
-    "Knowledge": "Znanje",
     "Knowledge access": "Pristup znanju",
     "Limit retrieval to permitted documents and show the source and version behind answers": "Ograničite pretragu na dozvoljene dokumente i prikažite izvor i verziju na kojima se odgovori zasnivaju",
     "Local and external models have different data flows; processing location, retention and support access are agreed for each deployment": "Lokalni i spoljni modeli imaju različite tokove podataka; mesto obrade, rokovi čuvanja podataka i pristup tima za podršku dogovaraju se za svako postavljanje sistema",
@@ -466,8 +442,6 @@
     "Name the owners of data, policies and workflows. Connect logs to your SIEM, monitor quality and resource use, and train your team to maintain the deployment": "Odredite odgovorne osobe za podatke, pravila i radne tokove. Povežite evidenciju sa svojim SIEM sistemom, pratite kvalitet i potrošnju resursa i obučite tim za održavanje sistema",
     "One shared brief": "Jedan zajednički opis zahteva",
     "Operations & ownership": "Rad i odgovornost",
-    "Put the principles into practice": "Primenite principe u praksi",
-    "Read the deployment guide": "Pročitajte vodič za postavljanje sistema",
     "Records & support access": "Evidencija i pristup tima za podršku",
     "Security & control": "Bezbednost i kontrola",
     "Security questions": "Pitanja o bezbednosti",
@@ -480,33 +454,32 @@
     "we start": "počnemo",
     "website privacy information": "sa informacijama o privatnosti sajta",
     "Your boundaries": "Vaše granice",
-    "Your environment": "Vaše okruženje",
-    "Workflows": "Radni tokovi"
+    "Your environment": "Vaše okruženje"
   },
   "src/app/(en)/systems/page.tsx": {
     "Turn business requests into tested workflows through specification, development and governance, connecting company knowledge, agents and existing systems": "Pretvorite poslovne zahteve u testirane radne tokove kroz specifikaciju, razvoj te upravljanje i nadzor, povezujući znanje kompanije, agente i postojeće sisteme"
   },
   "src/components/AppScreenshot.tsx": {
-    "Open {0} screenshot": "Otvorite snimak ekrana: {0}"
+    "Open {0} screenshot": "Otvorite snimak ekrana: {0}",
+    "Open {0} illustration": "Otvorite ilustraciju „{0}”"
   },
   "src/components/Brain.tsx": {
     "A closer look": "Pogled izbliza",
     "at the workspace": "na radno okruženje",
-    "From files and voice to the details behind an answer. Explore real views from the Escalir application": "Od datoteka i glasa do detalja koji stoje iza odgovora. Istražite stvarne prikaze aplikacije Escalir",
-    "Inside Escalir": "Unutar Escalir platforme"
+    "Inside Escalir": "Unutar Escalir platforme",
+    "Explore files, audio and the details behind an answer": "Istražite datoteke, zvuk i pojedinosti odgovora"
   },
   "src/components/Contact.tsx": {
     "Start with one process": "Počnite od jednog procesa",
     "Tell Vitali which process you want to improve, where the relevant information lives and what a useful outcome would look like": "Recite Vitaliju koji proces želite da unapredite, gde se nalaze potrebne informacije i kako bi izgledao koristan rezultat"
   },
   "src/components/Footer.tsx": {
-    "Company": "Kompanija",
     "Footer navigation": "Navigacija u podnožju",
-    "Get in touch": "Javite nam se",
     "Industries": "Industrije",
     "Intelligence, put to work": "Inteligencija u praksi",
     "Platform": "Platforma",
-    "Privacy information": "Informacije o privatnosti"
+    "Privacy information": "Informacije o privatnosti",
+    "Information": "Informacije"
   },
   "src/components/Founders.tsx": {
     "Building the next": "Stvaramo novo",
@@ -515,7 +488,6 @@
     "Co-founder · CAIO": "Suosnivač · CAIO",
     "Co-founder · CEO": "Suosnivač · CEO",
     "Co-founder · CTO": "Suosnivač · CTO",
-    "Get to know the team": "Upoznajte tim",
     "The people behind the work": "Ljudi koji stoje iza našeg rada"
   },
   "src/components/Header.tsx": {
@@ -584,13 +556,6 @@
     "Utilities": "Komunalne delatnosti",
     "your industry": "vašoj industriji"
   },
-  "src/components/HomeInsights.tsx": {
-    "Explore the blog": "Istražite blog",
-    "Ideas for useful AI": "Ideje za koristan AI",
-    "Practical guides to choosing a workflow, working with knowledge and keeping people in control": "Praktični vodiči za izbor radnog toka, rad sa znanjem i zadržavanje ljudske kontrole",
-    "Then put it to work": "Zatim sprovedite u delo",
-    "Think it through": "Promislite"
-  },
   "src/components/HomeProductFamily.tsx": {
     "Bring the information and review steps a business process actually needs into one place": "Objedinite informacije i korake provere koji su poslovnom procesu zaista potrebni",
     "Help employees find answers, prepare documents and resolve routine requests": "Pomozite zaposlenima da pronađu odgovore, pripreme dokumente i reše rutinske zahteve",
@@ -607,8 +572,6 @@
     "Co-founder · CTO": "Suosnivač · CTO",
     "Co-founder · CAIO": "Suosnivač · CAIO",
     "The platform is built by the Escalir team, with operating, investment and ecosystem experience from our Justart partners": "Platformu gradi Escalir tim, uz operativno, investiciono i ekosistemsko iskustvo naših Justart partnera",
-    "About Escalir": "O kompaniji Escalir",
-    "Careers": "Karijera",
     "The people behind Escalir": "Ljudi koji stoje iza kompanije Escalir",
     "Meet the people": "Upoznajte ljude",
     "behind the work": "koji stoje iza rada"
@@ -933,7 +896,6 @@
     "Workflow": "Radni tok"
   },
   "src/components/platform/GatewayWorkspace.tsx": {
-    "Actual views from the Escalir application": "Stvarni prikazi aplikacije Escalir",
     "Application views": "Prikazi aplikacije",
     "Escalir application views": "Prikazi aplikacije Escalir",
     "Choose among connected models and inspect their settings in the Escalir workspace": "Birajte među povezanim modelima i pregledajte njihova podešavanja u radnom okruženju Escalir platforme",
@@ -944,7 +906,8 @@
     "Inspect the timing and token information attached to an answer": "Pregledajte podatke o vremenu i tokenima uz odgovor",
     "Models & controls": "Modeli i kontrole",
     "Response details": "Detalji odgovora",
-    "Review the documents available to support knowledge search and agent workflows": "Pregledajte dokumente dostupne za podršku pretrazi znanja i radnim tokovima agenata"
+    "Review the documents available to support knowledge search and agent workflows": "Pregledajte dokumente dostupne za podršku pretrazi znanja i radnim tokovima agenata",
+    "Product illustrations and application screenshots": "Ilustracije proizvoda i snimci ekrana aplikacije"
   },
   "src/components/platform/OperatingLayerExplorer.tsx": {
     "and governance": "upravljanje i nadzor",
@@ -1168,15 +1131,12 @@
   },
   "src/lib/app-captures.ts": {
     "Audio playback": "Reprodukcija zvuka",
-    "Escalir agent list detail showing model assignments, dates and action icons": "Detalj liste agenata u aplikaciji Escalir sa dodeljenim modelima, datumima i ikonama radnji",
     "Escalir response footer with copy and feedback controls, token counts and timing information": "Podnožje odgovora u aplikaciji Escalir sa kontrolama za kopiranje i povratne informacije, brojem tokena i vremenskim podacima",
     "Escalir transcription workspace audio player with playback, seek and volume controls": "Audio-plejer u Escalir radnom prostoru za transkripciju sa kontrolama za reprodukciju, pomeranje kroz snimak i jačinu zvuka",
     "Choose a document directly in the OCR workspace": "Izaberite dokument direktno u OCR radnom prostoru",
     "Document import": "Uvoz dokumenata",
     "Files & structured data": "Datoteke i strukturirani podaci",
-    "Four actual file-library rows in Escalir, showing JSON and text files with their sizes": "Četiri stvarna reda biblioteke datoteka u aplikaciji Escalir sa JSON i tekstualnim datotekama i njihovim veličinama",
     "Inspect the token counts and timing details attached to an application response": "Pogledajte broj tokena i vremenske podatke uz odgovor aplikacije",
-    "Model assignments and agent controls, as they appear in the Escalir workspace": "Dodeljeni modeli i kontrole agenata, onako kako izgledaju u Escalir radnom prostoru",
     "Model selection": "Izbor modela",
     "Models & controls": "Modeli i kontrole",
     "Replay a recording from the transcription workspace": "Ponovo pustite snimak iz radnog prostora za transkripciju",
@@ -1184,7 +1144,10 @@
     "Select the model for a conversation in the Escalir chat interface": "Izaberite model za razgovor u Escalir interfejsu za ćaskanje",
     "The actual Choose File control in Escalir's OCR document workspace": "Stvarna kontrola za izbor datoteke u Escalir OCR radnom prostoru za dokumente",
     "The actual model selector in Escalir chat, displaying deepseek-v4-pro": "Stvarni birač modela u Escalir ćaskanju, sa prikazanim modelom deepseek-v4-pro",
-    "Work with existing files in the application, including text documents and structured data": "Radite sa postojećim datotekama u aplikaciji, uključujući tekstualne dokumente i strukturirane podatke"
+    "Illustration of three model modules connected through an access control gate": "Ilustracija tri modula modela povezana preko prolaza za kontrolu pristupa",
+    "Choose models for each workflow and define who can use them": "Izaberite modele za svaki radni tok i odredite ko može da ih koristi",
+    "Illustration of stacked documents with a grid of data cells": "Ilustracija naslaganih dokumenata sa mrežom ćelija podataka",
+    "Use documents and structured data in agent workflows": "Koristite dokumente i strukturirane podatke u radnim tokovima agenata"
   },
   "src/lib/articles.ts": {
     "4 min read": "4 min čitanja",
@@ -1903,16 +1866,13 @@
     "@audience:utilities": "komunalna preduzeća"
   },
   "src/lib/navigation.ts": {
-    "About Escalir": "O kompaniji Escalir",
     "Agents, integrations and workflow orchestration": "Agenti, integracije i orkestracija radnih tokova",
     "AI transformation": "AI transformacija",
     "Airlines": "Avio-kompanije",
     "Answers for customers, stores and suppliers": "Odgovori za kupce, prodavnice i dobavljače",
     "Answers grounded in approved knowledge": "Odgovori zasnovani na odobrenom znanju",
     "Banking": "Bankarstvo",
-    "Bring your experience to useful AI": "Doprinesite svojim iskustvom korisnim AI rešenjima",
     "Choose the right approach for each task": "Izaberite pravi pristup za svaki zadatak",
-    "Company information and brand resources": "Informacije o kompaniji i materijali brenda",
     "Connect service and operational knowledge": "Povežite znanje o uslugama i poslovanju",
     "Contact": "Kontakt",
     "Customer context across your operation": "Kontekst o korisnicima kroz celo poslovanje",
@@ -1921,7 +1881,6 @@
     "Healthcare": "Zdravstvo",
     "Insurance": "Osiguranje",
     "Keep teams informed when plans change": "Informišite timove kada se planovi promene",
-    "Media & company": "Mediji i kompanija",
     "Model choice, data rules and usage visibility": "Izbor modela, pravila za podatke i uvid u korišćenje",
     "Move paperwork forward with human review": "Unapredite obradu dokumentacije uz ljudsku proveru",
     "Process audit, pilot and team handover": "Analiza procesa, pilot-projekat i predaja timu",
@@ -1931,9 +1890,7 @@
     "Start a conversation with Vitali": "Započnite razgovor sa Vitalijem",
     "Support the administrative work around care": "Podržite administrativne poslove u zdravstvu",
     "Telecommunications": "Telekomunikacije",
-    "The people and principles behind the work": "Ljudi i principi iza našeg rada",
     "Utilities": "Komunalne delatnosti",
-    "Work with us": "Radite sa nama",
     "Your environment, your boundaries": "Vaše okruženje, vaše granice"
   },
   "src/lib/site.ts": {
@@ -1943,5 +1900,9 @@
   "src/lib/founder-descriptions.ts": {
     "Leads the architecture and engineering of Escalir’s enterprise AI platform": "Vodi arhitekturu i razvoj Escalir platforme za poslovnu primenu AI",
     "Leads AI strategy, agent design and workflow automation": "Vodi strategiju primene AI, projektovanje agenata i automatizaciju radnih tokova"
+  },
+  "src/components/FooterContact.tsx": {
+    "Get in touch": "Javite nam se",
+    "We invite investors to join our waitlist.": "Pozivamo investitore da se upišu na našu listu čekanja."
   }
 }

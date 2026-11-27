@@ -1,15 +1,15 @@
-import { companyLinks, industryLinks, platformLinks } from "@/lib/navigation";
-import TelegramLink from "./TelegramLink";
+import { industryLinks, informationLinks, platformLinks } from "@/lib/navigation";
 import FooterBrand from "./FooterBrand";
+import FooterContact from "./FooterContact";
 
 export default function Footer() {
   return <footer className="site-footer"><div className="shell">
     <div className="footer-main footer-main-multipage">
-      <div className="footer-brand-block"><FooterBrand href="/" /><TelegramLink className="btn btn-light footer-contact">Get in touch</TelegramLink></div>
+      <div className="footer-brand-block"><FooterBrand href="/" /><FooterContact className="btn btn-light footer-contact" /></div>
       <nav className="footer-nav" aria-label="Footer navigation">
         <div className="footer-nav-group"><p className="footer-nav-heading">Platform</p>{platformLinks.map(link=><a href={link.href} key={link.href}>{link.title}</a>)}</div>
         <div className="footer-nav-group"><p className="footer-nav-heading">Industries</p>{industryLinks.map(link=><a href={link.href} key={link.href}>{link.title}</a>)}</div>
-        <div className="footer-nav-group"><p className="footer-nav-heading">Company</p>{companyLinks.map(link=><a href={link.href} key={link.href}>{link.title}</a>)}</div>
+        <div className="footer-nav-group"><p className="footer-nav-heading">Information</p>{informationLinks.map(link=><a href={link.href} key={link.href}>{link.title}</a>)}</div>
       </nav>
     </div>
     <div className="footer-bottom"><p>© {new Date().getFullYear()} Escalir</p><a className="footer-contact" href="/privacy/">Privacy information</a><p>Intelligence, put to work</p></div>

@@ -2,6 +2,7 @@ import type { CSSProperties, ReactNode } from "react";
 import { CalendarCheck, ChartNoAxesColumnIncreasing, ChartNoAxesCombined, Clock, Coins, Expand, Gauge, Headset, HeartPulse, Network, Settings2, ShieldHalf, Timer, UsersRound, Workflow } from "lucide-react";
 import Header from "@/components/Header";
 import FooterBrand from "@/components/FooterBrand";
+import FooterContact from "@/components/FooterContact";
 import TelegramLink from "@/components/TelegramLink";
 import type { IndustrySlug } from "@/lib/industries";
 import type { IndustryReference } from "@/lib/industry-reference-types";
@@ -16,7 +17,7 @@ function IndustryFooter() {
     <div className={styles.footerInner}>
       <div className={styles.footerLead}>
         <FooterBrand href="/" />
-        <TelegramLink className={styles.lightButton}>Get in touch</TelegramLink>
+        <FooterContact className={styles.lightButton} />
         <small>© {new Date().getFullYear()} Escalir</small>
       </div>
       <nav className={styles.footerNav} aria-label="Footer navigation">

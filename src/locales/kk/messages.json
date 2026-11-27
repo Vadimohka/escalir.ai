@@ -2,7 +2,6 @@
   "src/app/(en)/about-us/page.tsx": {
     "A business workshop around a whiteboard": "Тақта айналасындағы іскерлік семинар",
     "A closer look at Escalir": "Escalir жақынырақ қарау",
-    "A useful starting point": "Пайдалы бастау нүктесі",
     "About Escalir": "Escalir туралы",
     "About us": "Біз туралы",
     "Bring intelligence": "Интеллект әкеліңіз",
@@ -16,22 +15,16 @@
     "Choose agents, RPA or corporate chat to fit the process. Build and test with your team, using approved knowledge, integrations and models": "Процесске сәйкес келетін агенттерді, RPA немесе корпоративтік чатты таңдаңыз. Бекітілген білімді, интеграцияларды және үлгілерді пайдалана отырып, өз командаңызбен бірге құрастырыңыз және сынаңыз",
     "closer to the work": "жұмысқа жақынырақ",
     "Collect requests from departments and record the owner, workload, data, risks and acceptance criteria. Prioritize work by readiness and expected value": "Бөлімдерден сұрауларды жинап, иесін, жұмыс жүктемесін, деректерді, тәуекелдерді және қабылдау критерийлерін жазып алыңыз. Дайындық пен күтілетін құндылық бойынша жұмысқа басымдық беріңіз",
-    "Company": "Компания",
-    "Company information, people and original brand materials": "Компания туралы ақпарат, адамдар және түпнұсқа бренд материалдары",
     "Connection, clarity, room to build": "Байланыс, айқындық, салуға арналған бөлме",
     "Development": "Даму",
-    "Explore careers at Escalir": "Escalir мансаптарын зерттеңіз",
     "Explore the platform": "Платформаны зерттеңіз",
     "From request to operation": "Сұраныстан операцияға дейін",
-    "Ideas": "Идеялар",
     "Knowledge, models, agents and operating records stay connected throughout that cycle. We help establish the first workflows and transfer requirements, testing and maintenance practices so your team can continue the work.": "Білім, үлгілер, агенттер және операциялық жазбалар осы цикл бойына байланыста болады. Біз бірінші жұмыс процестерін және тасымалдау талаптарын, тестілеу және техникалық қызмет көрсету тәжірибелерін орнатуға көмектесеміз, осылайша сіздің команда жұмысты жалғастыра алады.",
     "Meet the founders": "Құрылтайшылармен танысыңыз",
     "One cycle": "Бір цикл",
     "Our approach": "Біздің көзқарасымыз",
     "Our perspective": "Біздің көзқарасымыз",
     "Our work connects business analysis, platform engineering and applied AI. We value people who can understand a process, test a solution and help a customer team learn to maintain it.": "Біздің жұмысымыз бизнесті талдауды, платформалық инженерияны және қолданбалы AI-ны байланыстырады. Біз процесті түсінетін, шешімді сынай алатын және тұтынушылар тобына оны сақтауды үйренуге көмектесетін адамдарды бағалаймыз.",
-    "Practical guides to knowledge, workflows and deployment": "Білімге, жұмыс процестеріне және орналастыруға арналған практикалық нұсқаулықтар",
-    "Press & brand": "Баспа және бренд",
     "Put into practice": "Іс жүзінде қолдану",
     "Review quality and business impact, manage versions and access, and agree release approvals. Feed operational findings into the next specification": "Сапа мен іскерлік әсерді қарап шығыңыз, нұсқалар мен кіруді басқарыңыз және шығарылымды мақұлдаумен келісесіз. Жұмыс нәтижелерін келесі спецификацияға енгізіңіз",
     "Sales and market development, platform architecture, and agent engineering. The founders bring these disciplines into one team": "Сатылым және нарықты дамыту, платформа архитектурасы және агенттік инженерия. Құрылтайшылар бұл пәндерді бір командаға біріктіреді",
@@ -128,9 +121,7 @@
   },
   "src/app/(en)/blog/[slug]/page.tsx": {
     "A practical guide by Escalir": "Escalir бойынша практикалық нұсқаулық",
-    "All Escalir guides": "Барлық Escalir нұсқаулықтары",
     "Another useful perspective": "Тағы бір пайдалы перспектива",
-    "Back to all guides": "Барлық гидтерге оралу",
     "Escalir guides": "Escalir нұсқаулықтары",
     "Discuss your workflow": "Жұмыс процесін талқылаңыз",
     "Guide contents": "Нұсқаулық мазмұны",
@@ -178,7 +169,6 @@
     "Explore the work behind Escalir: enterprise AI, engineering, knowledge and business workflows. Start a conversation with the team.": "Escalir артындағы жұмысты зерттеңіз: кәсіпорынның AI, инженерия, білім және бизнестің жұмыс процестері. Топпен сөйлесуді бастаңыз.",
     "Involved in the outcome": "Нәтижеге қатысты",
     "It means asking good questions and taking responsibility for the details.": "Бұл жақсы сұрақтар қою және егжей-тегжейлерге жауапкершілік алу дегенді білдіреді.",
-    "Meet the people behind Escalir": "Escalir артындағы адамдармен танысыңыз",
     "More than one": "Біреуден көп",
     "people can use": "адамдар пайдалана алады",
     "People collaborating in a business workshop": "Іскерлік шеберханада жұмыс істейтін адамдар",
@@ -203,19 +193,15 @@
     "A few things": "Бірнеше нәрсе",
     "A short description is enough to start. Keep confidential files out of the first message.": "Бастау үшін қысқаша сипаттама жеткілікті. Құпия файлдарды бірінші хабардан аулақ ұстаңыз.",
     "A useful starting point": "Пайдалы бастау нүктесі",
-    "Before the conversation": "Әңгіме алдында",
     "Bring a process, a question or an idea. We will explore the starting point together": "Процесті, сұрақты немесе идеяны әкеліңіз. Біз бастапқы нүктені бірге зерттейміз",
     "Co-founder · CEO": "Құрылтайшы · CEO",
     "Contact": "Байланыс",
-    "Find a useful first project": "Пайдалы бірінші жобаны табыңыз",
     "Good work starts": "Жақсы жұмыс басталады",
     "Let’s talk": "сөйлесейік",
     "like AI to help with?": "көмектесу үшін AI ұнайды ма?",
     "Message Vitali on Telegram": "Telegram-да Виталиге хабарлама",
-    "Not sure": "Сенімсіз",
     "Opens a conversation in Telegram": "Telegram-да сөйлесуді ашады",
     "People moving through a shared business space": "Ортақ бизнес кеңістігінде қозғалатын адамдар",
-    "Read our guide to choosing a first AI workflow": "Бірінші AI жұмыс процесін таңдау бойынша нұсқаулықты оқыңыз",
     "Read our privacy information": "Құпиялық ақпаратымызды оқыңыз",
     "Speak with a founder": "Құрылтайшымен сөйлесіңіз",
     "Start a conversation": "Әңгіме бастаңыз",
@@ -226,7 +212,6 @@
     "to tell us": "бізге айту",
     "What would a useful first result look like?": "Пайдалы бірінші нәтиже қандай болады?",
     "What would you": "Сіз не едіңіз",
-    "where to start?": "неден бастау керек?",
     "Which task or process would you like to improve?": "Қай тапсырманы немесе процесті жақсартқыңыз келеді?",
     "Which team, documents or systems are involved?": "Қандай команда, құжаттар немесе жүйелер қатысады?",
     "with a conversation": "әңгімемен",
@@ -337,7 +322,6 @@
   "src/app/(en)/press/page.tsx": {
     "A clear introduction": "Түсінікті кіріспе",
     "About the company": "Компания туралы",
-    "Accent blue": "Акцент көк",
     "behind Escalir": "артында Escalir",
     "Black": "Қара",
     "Black SVG": "Қара SVG",
@@ -357,11 +341,8 @@
     "Founder profiles": "Құрылтайшы профильдері",
     "in a few words": "бірнеше сөзбен айтқанда",
     "Meet the founders and find their public profiles. For interviews and company enquiries, contact Vitali": "Құрылтайшылармен танысып, олардың жалпыға ортақ профильдерін табыңыз. Сұхбат алу және компания туралы сұраулар алу үшін Виталиге хабарласыңыз",
-    "More about Escalir": "Escalir туралы толығырақ",
     "more context?": "көбірек контекст?",
     "Need a little": "Кішкене керек",
-    "Original Lato SemiBold (600) lettering": "Түпнұсқа Lato SemiBold (600) әріпі",
-    "Our original Escalir wordmark, in black and white. Download the supplied vector artwork for a clear introduction to the company": "Біздің түпнұсқа Escalir сөз белгісі, ақ және қара. Компаниямен нақты таныстыру үшін берілген veCTOr өнер туындысын жүктеп алыңыз.",
     "Press & brand": "Баспа және бренд",
     "Press enquiries": "Баспасөз сұраулары",
     "SVG · transparent background · vector format": "SVG · мөлдір фон · veCTOr пішімі",
@@ -369,11 +350,11 @@
     "The people": "адамдар",
     "The platform connects three stages: specification of business requests, development of agents and workflows, and governance through quality metrics, versions, access control and audit records.": "Платформа үш кезеңді байланыстырады: іскерлік сұраныстарды спецификациялау, агенттер мен жұмыс үрдістерін әзірлеу және сапа көрсеткіштері, нұсқалар, қол жеткізуді бақылау және аудит жазбалары арқылы басқару.",
     "to Escalir": "Escalir дейін",
-    "Use blue sparingly for key actions and accents. Keep the wordmark black on light backgrounds or white on dark backgrounds, with clear contrast.": "Негізгі әрекеттер мен екпін үшін көк түсті аз пайдаланыңыз. Сөз таңбасын ашық фондарда қара немесе күңгірт фонда ақ, анық контрастпен сақтаңыз.",
     "Use the supplied artwork unchanged. Leave clear space on every side at least equal to the height of the letter “C”. Keep the wordmark at least 80 px wide on screen or 20 mm in print.": "Берілген өнер туындысын өзгеріссіз пайдаланыңыз. Әр жағынан кем дегенде «C» әрпінің биіктігіне тең бос орын қалдырыңыз. Сөз белгісін экранда кемінде 80 пиксель ені немесе басып шығаруда 20 мм сақтаңыз.",
     "White": "Ақ",
     "White SVG": "Ақ SVG",
-    "wordmark": "сөз белгісі"
+    "wordmark": "сөз белгісі",
+    "Green": "Жасыл"
   },
   "src/app/(en)/privacy/page.tsx": {
     "A choice to connect": "Қосылу үшін таңдау",
@@ -416,10 +397,8 @@
   "src/app/(en)/security/page.tsx": {
     "A closed deployment can use local models and operate without external API or cloud calls. If an external model is selected, the allowed data and processing route are defined explicitly.": "Жабық орналастыру жергілікті үлгілерді пайдалана алады және сыртқы API немесе бұлттық қоңырауларсыз жұмыс істей алады. Сыртқы үлгі таңдалса, рұқсат етілген деректер мен өңдеу жолы анық анықталады.",
     "A few practical questions": "Бірнеше практикалық сұрақтар",
-    "A meaningful review point": "Маңызды шолу нүктесі",
     "Access policies, verification and audit logs are configured for the selected workflow. Process owners and technical teams review the evidence, agree acceptance and keep the operating practices up to date.": "Қатынас саясаттары, тексеру және тексеру журналдары таңдалған жұмыс процесі үшін конфигурацияланады. Процесс иелері мен техникалық топтар дәлелдемелерді қарап, қабылдауға келіседі және жұмыс тәжірибесін жаңартып отырады.",
     "Agree control questions, datasets and target metrics with process owners. Check source support and citations, then measure answer quality, corrections and processing time before rollout": "Бақылау сұрақтарын, деректер жиынын және мақсатты көрсеткіштерді процесс иелерімен келісіңіз. Дереккөзді қолдау мен дәйексөздерді тексеріңіз, содан кейін шығару алдында жауап сапасын, түзетулерді және өңдеу уақытын өлшеңіз",
-    "Answers you can inspect": "Тексеруге болатын жауаптар",
     "Audit and monitoring": "Аудит және мониторинг",
     "Before": "Бұрын",
     "Before implementation": "Іске асыру алдында",
@@ -449,12 +428,9 @@
     "Evaluation & acceptance": "Бағалау және қабылдау",
     "Explore deployment decisions": "Орналастыру шешімдерін зерттеңіз",
     "from clear boundaries": "айқын шекаралардан",
-    "Give people the context they need to make a decision": "Адамдарға шешім қабылдауға қажетті контекст беріңіз",
     "How do we check model quality?": "Модель сапасын қалай тексереміз?",
     "Identity & knowledge access": "Сәйкестік және білімге қол жеткізу",
     "Keep source documents, versions and activity logs in the agreed deployment. Define retention, backup and support access with the teams responsible for operating it": "Келісілген орналастыруда бастапқы құжаттарды, нұсқаларды және әрекет журналдарын сақтаңыз. Сақтау, сақтық көшірме жасау және оны басқаруға жауапты топтармен қолдау көрсету рұқсатын анықтаңыз",
-    "Keep the evidence and access rules connected to the answer": "Жауапқа байланысты дәлелдер мен қол жеткізу ережелерін сақтаңыз",
-    "Knowledge": "Білім",
     "Knowledge access": "Білімге қол жеткізу",
     "Limit retrieval to permitted documents and show the source and version behind answers": "Рұқсат етілген құжаттармен іздеуді шектеңіз және жауаптардың артында қайнар көзі мен нұсқасын көрсетіңіз",
     "Local and external models have different data flows; processing location, retention and support access are agreed for each deployment": "Жергілікті және сыртқы үлгілерде әртүрлі деректер ағындары бар; өңдеу орны, сақтау және қолдау қатынасы әрбір орналастыру үшін келісіледі",
@@ -462,8 +438,6 @@
     "Name the owners of data, policies and workflows. Connect logs to your SIEM, monitor quality and resource use, and train your team to maintain the deployment": "Деректердің, саясаттардың және жұмыс үрдістерінің иелерін атаңыз. Журналдарды SIEM жүйесіне қосыңыз, сапаны және ресурстарды пайдалануды бақылаңыз және орналастыруды қолдау үшін топты оқытыңыз",
     "One shared brief": "Бір ортақ қысқаша",
     "Operations & ownership": "Операциялар және меншік",
-    "Put the principles into practice": "Принциптерді іс жүзінде қолданыңыз",
-    "Read the deployment guide": "Орналастыру нұсқаулығын оқыңыз",
     "Records & support access": "Жазбаларға және қолдауға қол жеткізу",
     "Security & control": "Қауіпсіздік және бақылау",
     "Security questions": "Қауіпсіздік сұрақтары",
@@ -482,13 +456,14 @@
     "Turn business requests into tested workflows through specification, development and governance, connecting company knowledge, agents and existing systems": "Компанияның білімін, агенттерін және бар жүйелерді байланыстыра отырып, спецификация, әзірлеу және басқару арқылы бизнес сұрауларын сынақтан өткен жұмыс үрдісіне айналдырыңыз"
   },
   "src/components/AppScreenshot.tsx": {
-    "Open {0} screenshot": "{0} скриншотын ашыңыз"
+    "Open {0} screenshot": "{0} скриншотын ашыңыз",
+    "Open {0} illustration": "«{0}» иллюстрациясын ашыңыз"
   },
   "src/components/Brain.tsx": {
     "A closer look": "Жақынырақ қарау",
     "at the workspace": "жұмыс кеңістігінде",
-    "From files and voice to the details behind an answer. Explore real views from the Escalir application": "Файлдар мен дауыстан жауаптың артындағы мәліметтерге дейін. Escalir қолданбасынан нақты көріністерді зерттеңіз",
-    "Inside Escalir": "Ішінде Escalir"
+    "Inside Escalir": "Ішінде Escalir",
+    "Explore files, audio and the details behind an answer": "Файлдармен, аудиомен және жауап туралы мәліметтермен танысыңыз"
   },
   "src/components/company/CompanyElements.tsx": {
     "A useful next step": "Пайдалы келесі қадам",
@@ -515,13 +490,12 @@
     "Tell Vitali which process you want to improve, where the relevant information lives and what a useful outcome would look like": "Виталиге қай процесті жақсартқыңыз келетінін, тиісті ақпараттың қайда тұратынын және пайдалы нәтиже қандай болатынын айтыңыз"
   },
   "src/components/Footer.tsx": {
-    "Company": "Компания",
     "Footer navigation": "Колонтитулды шарлау",
-    "Get in touch": "Хабарласыңыз",
     "Industries": "салалар",
     "Intelligence, put to work": "Интеллект, жұмысқа кірісу",
     "Platform": "Платформа",
-    "Privacy information": "Құпиялылық туралы ақпарат"
+    "Privacy information": "Құпиялылық туралы ақпарат",
+    "Information": "Ақпарат"
   },
   "src/components/Founders.tsx": {
     "Building the next": "Келесісін салу",
@@ -530,7 +504,6 @@
     "Co-founder · CAIO": "Құрылтайшы · CAIO",
     "Co-founder · CEO": "Құрылтайшы · CEO",
     "Co-founder · CTO": "Құрылтайшы · CTO",
-    "Get to know the team": "Командамен танысыңыз",
     "The people behind the work": "Жұмыстың артында тұрған адамдар"
   },
   "src/components/Header.tsx": {
@@ -598,13 +571,6 @@
     "Utilities": "Утилиталар",
     "your industry": "сіздің салаңыз"
   },
-  "src/components/HomeInsights.tsx": {
-    "Explore the blog": "Блогты зерттеңіз",
-    "Ideas for useful AI": "Пайдалы AI идеялары",
-    "Practical guides to choosing a workflow, working with knowledge and keeping people in control": "Жұмыс процесін таңдауға, біліммен жұмыс істеуге және адамдарды бақылауда ұстауға арналған практикалық нұсқаулықтар",
-    "Then put it to work": "Содан кейін оны жұмысқа қойыңыз",
-    "Think it through": "Ойлан"
-  },
   "src/components/HomeProductFamily.tsx": {
     "Bring the information and review steps a business process actually needs into one place": "Іс жүзінде қажет ақпаратты және қадамдарды бір жерге әкеліңіз",
     "Help employees find answers, prepare documents and resolve routine requests": "Қызметкерлерге жауап табуға, құжаттарды дайындауға және күнделікті сұрауларды шешуге көмектесіңіз",
@@ -621,8 +587,6 @@
     "Co-founder · CTO": "Құрылтайшы · CTO",
     "Co-founder · CAIO": "Құрылтайшы · CAIO",
     "The platform is built by the Escalir team, with operating, investment and ecosystem experience from our Justart partners": "Платформаны Justart серіктестеріміздің операциялық, инвестициялық және экожүйелік тәжірибесі бар Escalir командасы құрастырған",
-    "About Escalir": "Escalir туралы",
-    "Careers": "Мансап",
     "The people behind Escalir": "Escalir артындағы адамдар",
     "Meet the people": "Адамдармен танысыңыз",
     "behind the work": "жұмыстың артында"
@@ -874,7 +838,6 @@
     "Useful outcomes": "Пайдалы нәтижелер"
   },
   "src/components/platform/GatewayWorkspace.tsx": {
-    "Actual views from the Escalir application": "Escalir қолданбасынан нақты көріністер",
     "Application views": "Қолданба көріністері",
     "Escalir application views": "Escalir қолданба көріністері",
     "Choose among connected models and inspect their settings in the Escalir workspace": "Қосылған үлгілердің арасынан таңдап, Escalir жұмыс кеңістігінде олардың параметрлерін тексеріңіз",
@@ -885,7 +848,8 @@
     "Inspect the timing and token information attached to an answer": "Жауапқа қоса берілген уақыт пен таңбалауыш ақпаратын тексеріңіз",
     "Models & controls": "Модельдер және басқару элементтері",
     "Response details": "Жауап мәліметтері",
-    "Review the documents available to support knowledge search and agent workflows": "Білімді іздеу және агент жұмыс процестерін қолдау үшін қолжетімді құжаттарды қарап шығыңыз"
+    "Review the documents available to support knowledge search and agent workflows": "Білімді іздеу және агент жұмыс процестерін қолдау үшін қолжетімді құжаттарды қарап шығыңыз",
+    "Product illustrations and application screenshots": "Өнім иллюстрациялары және қолданба скриншоттары"
   },
   "src/components/platform/OperatingLayerExplorer.tsx": {
     "and governance": "және басқару",
@@ -1152,15 +1116,12 @@
   },
   "src/lib/app-captures.ts": {
     "Audio playback": "Аудио ойнату",
-    "Escalir agent list detail showing model assignments, dates and action icons": "Escalir агент тізімінің егжей-тегжейі үлгі тағайындауларын, күндерін және әрекет белгішелерін көрсетеді",
     "Escalir response footer with copy and feedback controls, token counts and timing information": "Escalir жауап төменгі деректемесі көшіру және кері байланыс басқару элементтері, таңбалауыштар саны және уақыт туралы ақпарат",
     "Escalir transcription workspace audio player with playback, seek and volume controls": "Escalir ойнату, іздеу және дыбыс деңгейін басқару элементтері бар транскрипциялық жұмыс кеңістігінің аудио ойнатқышы",
     "Choose a document directly in the OCR workspace": "Құжатты тікелей OCR жұмыс кеңістігінде таңдаңыз",
     "Document import": "Құжатты импорттау",
     "Files & structured data": "Файлдар және құрылымдық деректер",
-    "Four actual file-library rows in Escalir, showing JSON and text files with their sizes": "Escalir ішіндегі төрт нақты файл-кітапхана жолы, JSON және өлшемдері бар мәтіндік файлдарды көрсетеді",
     "Inspect the token counts and timing details attached to an application response": "Қолданба жауабына тіркелген таңбалауыштарды және уақыт мәліметтерін тексеріңіз",
-    "Model assignments and agent controls, as they appear in the Escalir workspace": "Үлгі тағайындаулары және агент басқару элементтері, олар Escalir жұмыс кеңістігінде пайда болады",
     "Model selection": "Модель таңдау",
     "Models & controls": "Модельдер және басқару элементтері",
     "Replay a recording from the transcription workspace": "Транскрипцияның жұмыс кеңістігінен жазбаны қайта ойнатыңыз",
@@ -1168,7 +1129,10 @@
     "Select the model for a conversation in the Escalir chat interface": "Escalir чат интерфейсінде сөйлесу үлгісін таңдаңыз",
     "The actual Choose File control in Escalir's OCR document workspace": "Escalir OCR құжатының жұмыс кеңістігіндегі нақты файлды таңдау басқару элементі",
     "The actual model selector in Escalir chat, displaying deepseek-v4-pro": "Escalir чатындағы seleCTOr нақты үлгісі, deepseek-v4-pro көрсетеді",
-    "Work with existing files in the application, including text documents and structured data": "Қолданбадағы бар файлдармен, соның ішінде мәтіндік құжаттармен және құрылымдық деректермен жұмыс істеу"
+    "Illustration of three model modules connected through an access control gate": "Қолжетімділікті бақылау шлюзі арқылы қосылған үш модель модулінің иллюстрациясы",
+    "Choose models for each workflow and define who can use them": "Әр жұмыс процесіне модель таңдап, оны кім пайдалана алатынын анықтаңыз",
+    "Illustration of stacked documents with a grid of data cells": "Дерек ұяшықтарының торы бар құжаттар бумасының иллюстрациясы",
+    "Use documents and structured data in agent workflows": "Агенттердің жұмыс процестерінде құжаттар мен құрылымдалған деректерді пайдаланыңыз"
   },
   "src/lib/articles.ts": {
     "4 min read": "4 мин оқу",
@@ -1885,16 +1849,13 @@
     "utility": "утилита"
   },
   "src/lib/navigation.ts": {
-    "About Escalir": "Escalir туралы",
     "Agents, integrations and workflow orchestration": "Агенттер, интеграциялар және жұмыс үрдісін басқару",
     "AI transformation": "AI түрлендіру",
     "Airlines": "Әуе компаниялары",
     "Answers for customers, stores and suppliers": "Клиенттерге, дүкендерге және жеткізушілерге жауаптар",
     "Answers grounded in approved knowledge": "Бекітілген білімге негізделген жауаптар",
     "Banking": "Банк ісі",
-    "Bring your experience to useful AI": "Тәжірибеңізді пайдалы AI-ға жеткізіңіз",
     "Choose the right approach for each task": "Әрбір тапсырма үшін дұрыс әдісті таңдаңыз",
-    "Company information and brand resources": "Компания туралы ақпарат және бренд ресурстары",
     "Connect service and operational knowledge": "Қызмет пен операциялық білімді байланыстырыңыз",
     "Contact": "Байланыс",
     "Customer context across your operation": "Сіздің операцияңыздағы тұтынушы контексі",
@@ -1903,7 +1864,6 @@
     "Healthcare": "Денсаулық сақтау",
     "Insurance": "Сақтандыру",
     "Keep teams informed when plans change": "Жоспарлар өзгерген кезде командаларды хабардар етіп отырыңыз",
-    "Media & company": "БАҚ және компания",
     "Model choice, data rules and usage visibility": "Үлгіні таңдау, деректер ережелері және пайдалану көрінуі",
     "Move paperwork forward with human review": "Құжаттарды адам қарауымен алға жылжытыңыз",
     "Process audit, pilot and team handover": "Процесс аудиті, пилоттық және топты тапсыру",
@@ -1913,9 +1873,7 @@
     "Start a conversation with Vitali": "Виталимен сөйлесуді бастаңыз",
     "Support the administrative work around care": "Күтім бойынша әкімшілік жұмысқа қолдау көрсету",
     "Telecommunications": "Телекоммуникациялар",
-    "The people and principles behind the work": "Жұмыстың артында тұрған адамдар мен принциптер",
     "Utilities": "Утилиталар",
-    "Work with us": "Бізбен бірге жұмыс жасаңыз",
     "Your environment, your boundaries": "Сіздің ортаңыз, сіздің шекараларыңыз"
   },
   "src/lib/site.ts": {
@@ -1925,5 +1883,9 @@
   "src/lib/founder-descriptions.ts": {
     "Leads the architecture and engineering of Escalir’s enterprise AI platform": "Escalir корпоративтік AI платформасының архитектурасы мен әзірленуіне жетекшілік етеді",
     "Leads AI strategy, agent design and workflow automation": "AI стратегиясына, агенттерді жобалауға және жұмыс процестерін автоматтандыруға жетекшілік етеді"
+  },
+  "src/components/FooterContact.tsx": {
+    "Get in touch": "Хабарласыңыз",
+    "We invite investors to join our waitlist.": "Инвесторларды күту тізіміне қосылуға шақырамыз."
   }
 }

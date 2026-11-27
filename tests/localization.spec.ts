@@ -154,7 +154,7 @@ test("Language paths preserve suffixes and assets, and guide counts use each lan
   for (const { input, route } of cases) {
     for (const language of LANGUAGES) expect(localizedPath(input, language)).toBe(languagePath(route, language));
   }
-  for (const asset of ["/media/app/files.webp", "/media/de/strategy.webp", "/media/uk/escalir/diagrams/platform-data.svg", "/media/sr/escalir/diagrams/platform-data.svg", "/media/nl/escalir/diagrams/platform-data.svg", "/media/cs/escalir/diagrams/platform-data.svg", "/og/escalir-uk.webp", "/og/escalir-sr.webp", "/og/escalir-nl.webp", "/og/escalir-cs.webp", "/downloads/guide.pdf", "#main-content", "https://example.com/", "//example.com/image.webp", "mailto:hello@example.com"]) {
+  for (const asset of ["/media/app/structured-files-illustration.webp", "/media/de/strategy.webp", "/media/uk/escalir/diagrams/platform-data.svg", "/media/sr/escalir/diagrams/platform-data.svg", "/media/nl/escalir/diagrams/platform-data.svg", "/media/cs/escalir/diagrams/platform-data.svg", "/og/escalir-uk.webp", "/og/escalir-sr.webp", "/og/escalir-nl.webp", "/og/escalir-cs.webp", "/downloads/guide.pdf", "#main-content", "https://example.com/", "//example.com/image.webp", "mailto:hello@example.com"]) {
     for (const language of LANGUAGES) expect(localizedPath(asset, language)).toBe(asset);
   }
   expect(languageAlternates("/uk/blog/human-review/", SITE)).toEqual({
@@ -248,7 +248,7 @@ async function readStaticDocuments(page: Page, markup: string[]) {
         current: link.getAttribute("aria-current"),
       })),
       ids: Array.from(doc.querySelectorAll("[id]"), element => element.id),
-      screenshotLabels: Array.from(doc.querySelectorAll("a.app-capture-open"), link => link.getAttribute("aria-label")),
+      screenshotLabels: Array.from(doc.querySelectorAll("figure.app-capture:not([data-illustration]) a.app-capture-open"), link => link.getAttribute("aria-label")),
       structuredData: Array.from(doc.querySelectorAll('script[type="application/ld+json"]'), script => JSON.parse(script.textContent || "null")),
     };
   }), markup);
@@ -561,7 +561,8 @@ for (const language of ["pl", "uk", "fr", "be", "it", "es", "sr", "nl", "ro", "c
       await expect(panel).toHaveAttribute("aria-labelledby", (await tabs.nth(1).getAttribute("id"))!);
       await expect(panel).not.toHaveText(firstPanelText);
       for (const capture of await panel.locator("figure.app-capture").all()) {
-        await expect(capture.locator(".app-capture-open")).toHaveAttribute("aria-label", LOCALE_SETTINGS[language].screenshot);
+        const label = await capture.getAttribute("data-illustration") === "true" ? /\S/ : LOCALE_SETTINGS[language].screenshot;
+        await expect(capture.locator(".app-capture-open")).toHaveAttribute("aria-label", label);
         if (language === "uk" || language === "be") await expect(capture.locator("img")).toHaveAttribute("alt", /[\u0400-\u04ff]/);
       }
       await page.keyboard.press("End");

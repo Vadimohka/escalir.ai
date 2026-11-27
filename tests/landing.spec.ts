@@ -42,7 +42,7 @@ async function expectLocalHeroImage(page: Page) {
 
 // Text checks cover labels and captions only. Screenshot pixels need a separate
 // visual review; absence of Cyrillic in the DOM is not an image-language audit.
-async function expectLocalAppScreenshots(page: Page) {
+async function expectLocalAppImages(page: Page) {
   const captures = page.locator("figure.app-capture:visible");
   expect(await captures.count()).toBeGreaterThan(0);
   for (const capture of await captures.all()) {
@@ -79,7 +79,8 @@ async function expectLocalAppScreenshots(page: Page) {
     const openImage = capture.locator(".app-capture-open");
     await expect(openImage).toHaveCount(1);
     await expect(openImage).toHaveAttribute("href", details.src!);
-    await expect(openImage).toHaveAttribute("aria-label", /^Open .+ screenshot$/);
+    const illustration = await capture.getAttribute("data-illustration") === "true";
+    await expect(openImage).toHaveAttribute("aria-label", illustration ? /^Open .+ illustration$/ : /^Open .+ screenshot$/);
     await expect(openImage).toHaveAttribute("target", "_blank");
     await expect(openImage).toHaveAttribute("rel", /\bnoopener\b/);
   }
@@ -184,8 +185,8 @@ test("Contact, privacy and founder links use the approved destinations", async (
     await expect(card.getByText(role, { exact: true })).toBeVisible();
     await expect(card.getByText(description, { exact: true })).toBeVisible();
   }
-  await page.locator("#team").getByRole("link", { name: /About Escalir/ }).click();
-  await expect(page).toHaveURL(`${ORIGIN}/about-us/`);
+  await expect(page.locator("footer .footer-investor-waitlist")).toHaveText("We invite investors to join our waitlist.");
+  await page.goto("/about-us/");
   const founders = page.locator("#founders");
   for (const name of founderNames) {
     await expect(founders.getByRole("heading", { name, exact: true })).toBeVisible();
@@ -258,7 +259,7 @@ test("Mobile navigation and essential content work without JavaScript", async ({
       await expect(page.locator(`#${id}`)).toBeVisible();
     }
     await expect(page.locator(".home-industry-fallback a")).toHaveCount(7);
-    await expectLocalAppScreenshots(page);
+    await expectLocalAppImages(page);
     const useCases = page.locator("#use-cases").getByRole("list", { name: "AI use cases" }).getByRole("link");
     const useCaseRoutes = ["/agents/", "/agents/", "/systems/", "/platform/", "/deployment/"];
     await expect(useCases).toHaveCount(5);
@@ -274,7 +275,7 @@ test("Mobile navigation and essential content work without JavaScript", async ({
     await navigation.getByText("Platform", { exact: true }).click();
     await navigation.getByRole("link", { name: /^Escalir Agents/ }).click();
     await expect(page).toHaveURL(`${ORIGIN}/agents/`);
-    await expectLocalAppScreenshots(page);
+    await expectLocalAppImages(page);
     await expect(page.locator("footer").getByRole("link", { name: "Get in touch", exact: true })).toBeVisible();
 
     await page.goto("/platform/");
@@ -284,7 +285,7 @@ test("Mobile navigation and essential content work without JavaScript", async ({
       await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
     }
     await page.goto("/ai-gateway/");
-    await expectLocalAppScreenshots(page);
+    await expectLocalAppImages(page);
   } finally {
     await context.close();
   }
@@ -369,10 +370,10 @@ test("Deployment phases and installation details support keyboard navigation", a
   await expect(installation).not.toHaveAttribute("open");
 });
 
-test("Product pages show real local screenshots instead of retired interface mocks", async ({ page }) => {
+test("Product pages show local illustrations and application screenshots", async ({ page }) => {
   for (const route of ["/", "/platform/", "/agents/", "/systems/", "/ai-gateway/"]) {
     await page.goto(route);
-    await expectLocalAppScreenshots(page);
+    await expectLocalAppImages(page);
     await expect(page.locator(
       ".prod-constellation, .prod-agent-visual, .prod-systems-visual, .prod-workspace, .gateway-demo, .example-board",
     )).toHaveCount(0);

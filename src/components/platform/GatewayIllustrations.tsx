@@ -14,7 +14,7 @@ export function GatewayMap() {
         <span><Layers3 size={19} strokeWidth={1.1} />Applications</span>
         <span><Bot size={19} strokeWidth={1.1} />Agents</span>
       </div>
-      <div className={styles.mapCenter}><img src="/brand/escalir-logo-white.svg" alt="" width={146} height={39} /><span>AI Gateway</span></div>
+      <div className={styles.mapCenter}><img src="/brand/escalir-logo-white.svg" alt="" width={146} height={35} /><span>AI Gateway</span></div>
       <div className={styles.mapStack}>
         <span><Boxes size={19} strokeWidth={1.1} />Models</span>
         <span><Database size={19} strokeWidth={1.1} />Context</span>

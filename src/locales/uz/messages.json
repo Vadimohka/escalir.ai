@@ -2,7 +2,6 @@
   "src/app/(en)/about-us/page.tsx": {
     "A business workshop around a whiteboard": "Doska atrofida biznes ustaxonasi",
     "A closer look at Escalir": "Escalir ga yaqinroq qarash",
-    "A useful starting point": "Foydali boshlang‘ich nuqtasi",
     "About Escalir": "Escalir haqida",
     "About us": "Biz haqimizda",
     "Bring intelligence": "Aql-idrok keltiring",
@@ -16,22 +15,16 @@
     "Choose agents, RPA or corporate chat to fit the process. Build and test with your team, using approved knowledge, integrations and models": "Jarayonga mos kelish uchun agentlarni, RPA yoki korporativ chatni tanlang. Tasdiqlangan bilim, integratsiya va modellardan foydalangan holda jamoangiz bilan tuzing va sinab ko‘ring",
     "closer to the work": "ishga yaqinroq",
     "Collect requests from departments and record the owner, workload, data, risks and acceptance criteria. Prioritize work by readiness and expected value": "Bo‘limlardan so‘rovlarni to‘plang va egasi, ish yuki, ma‘lumotlar, xavflar va qabul qilish mezonlarini yozib oling. Tayyorlik va kutilgan qiymat bo‘yicha ishni birinchi o‘ringa qo‘ying",
-    "Company": "Kompaniya",
-    "Company information, people and original brand materials": "Kompaniya haqida ma‘lumot, odamlar va original brend materiallari",
     "Connection, clarity, room to build": "Aloqa, aniqlik, qurish uchun xona",
     "Development": "Rivojlanish",
-    "Explore careers at Escalir": "Escalir da martaba bilan tanishing",
     "Explore the platform": "Platformani o‘rganing",
     "From request to operation": "So‘rovdan operatsiyagacha",
-    "Ideas": "G‘oyalar",
     "Knowledge, models, agents and operating records stay connected throughout that cycle. We help establish the first workflows and transfer requirements, testing and maintenance practices so your team can continue the work.": "Bilimlar, modellar, agentlar va operatsion yozuvlar ushbu tsikl davomida bog‘langan holda qoladi. Sizning jamoangiz ishni davom ettirishi uchun biz birinchi ish oqimlari va uzatish talablarini, sinov va texnik xizmat ko‘rsatish amaliyotlarini o‘rnatishga yordam beramiz.",
     "Meet the founders": "Ta‘sischilar bilan tanishing",
     "One cycle": "Bir tsikl",
     "Our approach": "Bizning yondashuvimiz",
     "Our perspective": "Bizning nuqtai nazarimiz",
     "Our work connects business analysis, platform engineering and applied AI. We value people who can understand a process, test a solution and help a customer team learn to maintain it.": "Bizning ishimiz biznes tahlili, platforma muhandisligi va amaliy AIni bog‘laydi. Biz jarayonni tushuna oladigan, yechimni sinab ko‘radigan va mijozlar jamoasiga uni saqlab qolishni o‘rganishga yordam beradigan odamlarni qadrlaymiz.",
-    "Practical guides to knowledge, workflows and deployment": "Bilim, ish jarayonlari va tarqatish bo‘yicha amaliy qo‘llanmalar",
-    "Press & brand": "Press & brend",
     "Put into practice": "Amalga oshirish",
     "Review quality and business impact, manage versions and access, and agree release approvals. Feed operational findings into the next specification": "Sifat va biznesga ta‘sirini ko‘rib chiqing, versiyalar va ruxsatlarni boshqaring va nashrlarni tasdiqlashga rozi bo‘ling. Operatsion natijalarni keyingi spetsifikatsiyaga kiriting",
     "Sales and market development, platform architecture, and agent engineering. The founders bring these disciplines into one team": "Savdo va bozorni rivojlantirish, platforma arxitekturasi va agent muhandisligi. Ta‘sischilar ushbu fanlarni bitta jamoaga birlashtiradi",
@@ -128,9 +121,7 @@
   },
   "src/app/(en)/blog/[slug]/page.tsx": {
     "A practical guide by Escalir": "Escalir tomonidan amaliy qo‘llanma",
-    "All Escalir guides": "Barcha Escalir qo‘llanmalar",
     "Another useful perspective": "Yana bir foydali nuqtai nazar",
-    "Back to all guides": "Barcha qo‘llanmalarga qaytish",
     "Escalir guides": "Escalir qo‘llanmalar",
     "Discuss your workflow": "Ish jarayonini muhokama qiling",
     "Guide contents": "Qo‘llanma tarkibi",
@@ -178,7 +169,6 @@
     "Explore the work behind Escalir: enterprise AI, engineering, knowledge and business workflows. Start a conversation with the team.": "Escalir ortidagi ishlarni o‘rganing: korporativ AI, muhandislik, bilim va biznes jarayonlari. Jamoa bilan suhbatni boshlang.",
     "Involved in the outcome": "Natijaga jalb qilingan",
     "It means asking good questions and taking responsibility for the details.": "Bu yaxshi savollar berish va tafsilotlar uchun mas‘uliyatni o‘z zimmasiga olishni anglatadi.",
-    "Meet the people behind Escalir": "Escalir ortidagi odamlar bilan tanishing",
     "More than one": "Birdan ortiq",
     "people can use": "odamlar foydalanishi mumkin",
     "People collaborating in a business workshop": "Biznes ustaxonasida hamkorlik qilayotgan odamlar",
@@ -203,19 +193,15 @@
     "A few things": "Bir nechta narsa",
     "A short description is enough to start. Keep confidential files out of the first message.": "Boshlash uchun qisqacha tavsif etarli. Maxfiy fayllarni birinchi xabardan uzoqroq tuting.",
     "A useful starting point": "Foydali boshlang‘ich nuqtasi",
-    "Before the conversation": "Suhbatdan oldin",
     "Bring a process, a question or an idea. We will explore the starting point together": "Jarayon, savol yoki fikrni keltiring. Biz boshlang‘ich nuqtani birgalikda o‘rganamiz",
     "Co-founder · CEO": "Hammuassis · CEO",
     "Contact": "Aloqa",
-    "Find a useful first project": "Foydali birinchi loyihani toping",
     "Good work starts": "Yaxshi ish boshlanadi",
     "Let’s talk": "Keling, gaplashaylik",
     "like AI to help with?": "yordam berish uchun AI kabimi?",
     "Message Vitali on Telegram": "Telegramda Vitaliyga xabar yuboring",
-    "Not sure": "Ishonchim komil emas",
     "Opens a conversation in Telegram": "Telegramda suhbat ochadi",
     "People moving through a shared business space": "Odamlar umumiy biznes maydoni bo‘ylab harakatlanadilar",
-    "Read our guide to choosing a first AI workflow": "Birinchi AI ish jarayonini tanlash bo‘yicha qo‘llanmamizni o‘qing",
     "Read our privacy information": "Maxfiylik maʼlumotlarimizni oʻqing",
     "Speak with a founder": "Ta‘sischi bilan gaplashing",
     "Start a conversation": "Suhbatni boshlang",
@@ -226,7 +212,6 @@
     "to tell us": "bizga aytish uchun",
     "What would a useful first result look like?": "Foydali birinchi natija qanday ko‘rinishga ega bo‘ladi?",
     "What would you": "Nima bo‘lardingiz",
-    "where to start?": "qayerdan boshlash kerak?",
     "Which task or process would you like to improve?": "Qaysi vazifa yoki jarayonni yaxshilashni xohlaysiz?",
     "Which team, documents or systems are involved?": "Qaysi jamoa, hujjatlar yoki tizimlar ishtirok etadi?",
     "with a conversation": "suhbat bilan",
@@ -337,7 +322,6 @@
   "src/app/(en)/press/page.tsx": {
     "A clear introduction": "Aniq kirish",
     "About the company": "Kompaniya haqida",
-    "Accent blue": "Ko‘k aksent",
     "behind Escalir": "orqasida Escalir",
     "Black": "Qora",
     "Black SVG": "Qora SVG",
@@ -357,11 +341,8 @@
     "Founder profiles": "Ta‘sischi profillari",
     "in a few words": "bir necha so‘z bilan",
     "Meet the founders and find their public profiles. For interviews and company enquiries, contact Vitali": "Ta‘sischilar bilan tanishing va ularning ochiq profillarini toping. Intervyu va kompaniya so‘rovlari uchun Vitaliy bilan bog‘laning",
-    "More about Escalir": "Escalir haqida batafsil",
     "more context?": "ko‘proq kontekst?",
     "Need a little": "Bir oz kerak",
-    "Original Lato SemiBold (600) lettering": "Asl Lato SemiBold (600) harfi",
-    "Our original Escalir wordmark, in black and white. Download the supplied vector artwork for a clear introduction to the company": "Bizning original Escalir so‘z belgisi, qora va oq rangda. Kompaniya haqida aniq tanishish uchun taqdim etilgan veCTOr san‘at asarini yuklab oling",
     "Press & brand": "Press & brend",
     "Press enquiries": "Matbuot so‘rovlari",
     "SVG · transparent background · vector format": "SVG · shaffof fon · veCTOr formati",
@@ -369,11 +350,11 @@
     "The people": "odamlar",
     "The platform connects three stages: specification of business requests, development of agents and workflows, and governance through quality metrics, versions, access control and audit records.": "Platforma uch bosqichni birlashtiradi: biznes so‘rovlarini spetsifikatsiya qilish, agentlar va ish oqimlarini ishlab chiqish va sifat ko‘rsatkichlari, versiyalar, kirishni nazorat qilish va audit yozuvlari orqali boshqarish.",
     "to Escalir": "Escalirgacha",
-    "Use blue sparingly for key actions and accents. Keep the wordmark black on light backgrounds or white on dark backgrounds, with clear contrast.": "Asosiy harakatlar va urg‘u uchun ko‘k rangdan kam foydalaning. So‘z belgisini ochiq fonda qora yoki qorong‘i fonda oq, aniq kontrast bilan saqlang.",
     "Use the supplied artwork unchanged. Leave clear space on every side at least equal to the height of the letter “C”. Keep the wordmark at least 80 px wide on screen or 20 mm in print.": "Taqdim etilgan san‘at asaridan o‘zgarishsiz foydalaning. Har tomondan kamida \"C\" harfi balandligiga teng bo‘sh joy qoldiring. So‘z belgisini ekranda kamida 80 piksel kengligida yoki chop etishda 20 mm hajmda saqlang.",
     "White": "Oq",
     "White SVG": "Oq SVG",
-    "wordmark": "so‘z belgisi"
+    "wordmark": "so‘z belgisi",
+    "Green": "Yashil"
   },
   "src/app/(en)/privacy/page.tsx": {
     "A choice to connect": "Ulanish uchun tanlov",
@@ -416,10 +397,8 @@
   "src/app/(en)/security/page.tsx": {
     "A closed deployment can use local models and operate without external API or cloud calls. If an external model is selected, the allowed data and processing route are defined explicitly.": "Yopiq joylashtirish mahalliy modellardan foydalanishi va tashqi API yoki bulut qo‘ng‘iroqlarisiz ishlashi mumkin. Agar tashqi model tanlansa, ruxsat etilgan ma‘lumotlar va ishlov berish marshruti aniq belgilanadi.",
     "A few practical questions": "Bir nechta amaliy savollar",
-    "A meaningful review point": "Ma‘noli ko‘rib chiqish nuqtasi",
     "Access policies, verification and audit logs are configured for the selected workflow. Process owners and technical teams review the evidence, agree acceptance and keep the operating practices up to date.": "Kirish siyosatlari, tekshirish va audit jurnallari tanlangan ish jarayoni uchun sozlangan. Jarayon egalari va texnik guruhlar dalillarni ko‘rib chiqadilar, qabul qilishga rozi bo‘lishadi va operatsion amaliyotni yangilab turadilar.",
     "Agree control questions, datasets and target metrics with process owners. Check source support and citations, then measure answer quality, corrections and processing time before rollout": "Jarayon egalari bilan nazorat savollari, maʼlumotlar toʻplami va maqsadli koʻrsatkichlarni kelishib oling. Manbani qoʻllab-quvvatlash va iqtiboslarni tekshiring, soʻngra tarqatishdan oldin javob sifati, tuzatishlar va ishlov berish vaqtini oʻlchang",
-    "Answers you can inspect": "Javoblarni tekshirishingiz mumkin",
     "Audit and monitoring": "Audit va monitoring",
     "Before": "Oldin",
     "Before implementation": "Amalga oshirishdan oldin",
@@ -449,12 +428,9 @@
     "Evaluation & acceptance": "Baholash va qabul qilish",
     "Explore deployment decisions": "Joylashtirish qarorlarini o‘rganing",
     "from clear boundaries": "aniq chegaralardan",
-    "Give people the context they need to make a decision": "Odamlarga qaror qabul qilishlari kerak bo‘lgan kontekstni bering",
     "How do we check model quality?": "Model sifatini qanday tekshiramiz?",
     "Identity & knowledge access": "Identifikatsiya va bilimga kirish",
     "Keep source documents, versions and activity logs in the agreed deployment. Define retention, backup and support access with the teams responsible for operating it": "Manba hujjatlari, versiyalar va faoliyat jurnallarini kelishilgan joylashtirishda saqlang. Uni ishlatish uchun mas‘ul bo‘lgan guruhlar bilan saqlash, zaxiralash va qo‘llab-quvvatlashga kirishni aniqlang",
-    "Keep the evidence and access rules connected to the answer": "Javobga bog‘langan dalillar va kirish qoidalarini saqlang",
-    "Knowledge": "Bilim",
     "Knowledge access": "Bilimga kirish",
     "Limit retrieval to permitted documents and show the source and version behind answers": "Qidiruvni ruxsat etilgan hujjatlar bilan cheklang va javoblar orqasida manba va versiyani ko‘rsating",
     "Local and external models have different data flows; processing location, retention and support access are agreed for each deployment": "Mahalliy va tashqi modellar turli xil ma‘lumotlar oqimlariga ega; qayta ishlash joyi, saqlash va qo‘llab-quvvatlashga kirish har bir joylashtirish uchun kelishilgan",
@@ -462,8 +438,6 @@
     "Name the owners of data, policies and workflows. Connect logs to your SIEM, monitor quality and resource use, and train your team to maintain the deployment": "Ma‘lumotlar, siyosatlar va ish oqimlari egalarini nomlang. Jurnallarni SIEM-ga ulang, sifat va resurslardan foydalanishni kuzatib boring va jamoangizni joylashtirishni davom ettirishga o‘rgating",
     "One shared brief": "Bitta umumiy qisqacha",
     "Operations & ownership": "Operatsiyalar va egalik",
-    "Put the principles into practice": "Prinsiplarni amalda qo‘llang",
-    "Read the deployment guide": "Joylashtirish bo‘yicha qo‘llanmani o‘qing",
     "Records & support access": "Yozuvlar va qo‘llab-quvvatlashga kirish",
     "Security & control": "Xavfsizlik va nazorat",
     "Security questions": "Xavfsizlik masalalari",
@@ -482,13 +456,14 @@
     "Turn business requests into tested workflows through specification, development and governance, connecting company knowledge, agents and existing systems": "Kompaniya bilimlari, agentlar va mavjud tizimlarni bog‘lovchi spetsifikatsiya, ishlab chiqish va boshqaruv orqali biznes so‘rovlarini sinovdan o‘tgan ish oqimlariga aylantiring."
   },
   "src/components/AppScreenshot.tsx": {
-    "Open {0} screenshot": "{0} skrinshotini oching"
+    "Open {0} screenshot": "{0} skrinshotini oching",
+    "Open {0} illustration": "«{0}» illyustratsiyasini oching"
   },
   "src/components/Brain.tsx": {
     "A closer look": "Yaqindan qarash",
     "at the workspace": "ish joyida",
-    "From files and voice to the details behind an answer. Explore real views from the Escalir application": "Fayllar va ovozdan tortib, javob ortidagi tafsilotlargacha. Escalir ilovasidan haqiqiy koʻrinishlarni oʻrganing",
-    "Inside Escalir": "Ichkarida Escalir"
+    "Inside Escalir": "Ichkarida Escalir",
+    "Explore files, audio and the details behind an answer": "Fayllar, audio va javob tafsilotlari bilan tanishing"
   },
   "src/components/company/CompanyElements.tsx": {
     "A useful next step": "Foydali keyingi qadam",
@@ -515,13 +490,12 @@
     "Tell Vitali which process you want to improve, where the relevant information lives and what a useful outcome would look like": "Vitaliyga qaysi jarayonni yaxshilashni xohlayotganingizni, tegishli ma‘lumotlarning qaerdaligini va foydali natija qanday ko‘rinishini ayting"
   },
   "src/components/Footer.tsx": {
-    "Company": "Kompaniya",
     "Footer navigation": "Altbilgi navigatsiyasi",
-    "Get in touch": "Aloqa qiling",
     "Industries": "Sanoat tarmoqlari",
     "Intelligence, put to work": "Aql-idrok, ishga kirish",
     "Platform": "Platforma",
-    "Privacy information": "Maxfiylik ma‘lumotlari"
+    "Privacy information": "Maxfiylik ma‘lumotlari",
+    "Information": "Maʼlumot"
   },
   "src/components/Founders.tsx": {
     "Building the next": "Keyingisini qurish",
@@ -530,7 +504,6 @@
     "Co-founder · CAIO": "Hammuassis · CAIO",
     "Co-founder · CEO": "Hammuassis · CEO",
     "Co-founder · CTO": "Hammuassis · CTO",
-    "Get to know the team": "Jamoa bilan tanishing",
     "The people behind the work": "Ish ortidagi odamlar"
   },
   "src/components/Header.tsx": {
@@ -598,13 +571,6 @@
     "Utilities": "Utilitalar",
     "your industry": "sizning sanoatingiz"
   },
-  "src/components/HomeInsights.tsx": {
-    "Explore the blog": "Blogni o‘rganing",
-    "Ideas for useful AI": "Foydali AI uchun g‘oyalar",
-    "Practical guides to choosing a workflow, working with knowledge and keeping people in control": "Ish jarayonini tanlash, bilim bilan ishlash va odamlarni nazorat qilish bo‘yicha amaliy qo‘llanmalar",
-    "Then put it to work": "Keyin uni ishga tushiring",
-    "Think it through": "O‘ylab ko‘ring"
-  },
   "src/components/HomeProductFamily.tsx": {
     "Bring the information and review steps a business process actually needs into one place": "Biznes jarayoni uchun zarur bo‘lgan ma‘lumot va qadamlarni bir joyga keltiring",
     "Help employees find answers, prepare documents and resolve routine requests": "Xodimlarga javob topish, hujjatlarni tayyorlash va muntazam so‘rovlarni hal qilishda yordam bering",
@@ -621,8 +587,6 @@
     "Co-founder · CTO": "Hammuassis · CTO",
     "Co-founder · CAIO": "Hammuassis · CAIO",
     "The platform is built by the Escalir team, with operating, investment and ecosystem experience from our Justart partners": "Platforma Escalir jamoasi tomonidan, bizning Justart hamkorlarimizdan operatsion, investitsiya va ekotizim tajribasi bilan qurilgan",
-    "About Escalir": "Escalir haqida",
-    "Careers": "Karyera",
     "The people behind Escalir": "Escalir ortidagi odamlar",
     "Meet the people": "Odamlar bilan tanishing",
     "behind the work": "ish orqasida"
@@ -874,7 +838,6 @@
     "Useful outcomes": "Foydali natijalar"
   },
   "src/components/platform/GatewayWorkspace.tsx": {
-    "Actual views from the Escalir application": "Escalir ilovasidan haqiqiy koʻrishlar",
     "Application views": "Ilova ko‘rinishlari",
     "Escalir application views": "Escalir ilova koʻrishlar",
     "Choose among connected models and inspect their settings in the Escalir workspace": "Ulangan modellar orasidan tanlang va ularning sozlamalarini Escalir ish maydonida tekshiring",
@@ -885,7 +848,8 @@
     "Inspect the timing and token information attached to an answer": "Javobga biriktirilgan vaqt va token ma‘lumotlarini tekshiring",
     "Models & controls": "Modellar va boshqaruv elementlari",
     "Response details": "Javob tafsilotlari",
-    "Review the documents available to support knowledge search and agent workflows": "Bilimlarni qidirish va agent ish oqimlarini qo‘llab-quvvatlash uchun mavjud hujjatlarni ko‘rib chiqing"
+    "Review the documents available to support knowledge search and agent workflows": "Bilimlarni qidirish va agent ish oqimlarini qo‘llab-quvvatlash uchun mavjud hujjatlarni ko‘rib chiqing",
+    "Product illustrations and application screenshots": "Mahsulot illyustratsiyalari va ilova skrinshotlari"
   },
   "src/components/platform/OperatingLayerExplorer.tsx": {
     "and governance": "va boshqaruv",
@@ -1152,15 +1116,12 @@
   },
   "src/lib/app-captures.ts": {
     "Audio playback": "Audio tinglash",
-    "Escalir agent list detail showing model assignments, dates and action icons": "Escalir agent roʻyxati tafsilotlari, model topshiriqlari, sanalar va harakat piktogrammalari",
     "Escalir response footer with copy and feedback controls, token counts and timing information": "Escalir javob altbilgisi nusxa ko‘chirish va fikr-mulohazalarni boshqarish, tokenlar soni va vaqt haqida ma‘lumot",
     "Escalir transcription workspace audio player with playback, seek and volume controls": "Escalir tinglash, qidirish va ovoz balandligini boshqarish bilan transkripsiyali ish maydoni audio pleer",
     "Choose a document directly in the OCR workspace": "Hujjatni bevosita OCR ish maydonida tanlang",
     "Document import": "Hujjat importi",
     "Files & structured data": "Fayllar va tuzilgan ma‘lumotlar",
-    "Four actual file-library rows in Escalir, showing JSON and text files with their sizes": "Escalir dagi to‘rtta haqiqiy fayl-kutubxona qatori, JSON va o‘lchamlari bilan matnli fayllarni ko‘rsatadi",
     "Inspect the token counts and timing details attached to an application response": "Ilova javobiga biriktirilgan tokenlar soni va vaqt tafsilotlarini tekshiring",
-    "Model assignments and agent controls, as they appear in the Escalir workspace": "Model topshiriqlari va agent boshqaruvlari, ular Escalir ish maydonida ko‘rinadi",
     "Model selection": "Model tanlash",
     "Models & controls": "Modellar va boshqaruv elementlari",
     "Replay a recording from the transcription workspace": "Yozuvni transkripsiya ish maydonidan takrorlang",
@@ -1168,7 +1129,10 @@
     "Select the model for a conversation in the Escalir chat interface": "Escalir chat interfeysida suhbat modelini tanlang",
     "The actual Choose File control in Escalir's OCR document workspace": "Escalir ning OCR hujjat ish maydonidagi haqiqiy Faylni tanlash boshqaruvi",
     "The actual model selector in Escalir chat, displaying deepseek-v4-pro": "Haqiqiy model seleCTOr Escalir chatida, deepseek-v4-pro ko‘rsatilmoqda",
-    "Work with existing files in the application, including text documents and structured data": "Ilovada mavjud fayllar, shu jumladan matnli hujjatlar va tuzilgan ma‘lumotlar bilan ishlash"
+    "Illustration of three model modules connected through an access control gate": "Kirishni boshqarish shlyuzi orqali ulangan uchta model modulining tasviri",
+    "Choose models for each workflow and define who can use them": "Har bir ish jarayoni uchun modellarni tanlang va ulardan kim foydalanishini belgilang",
+    "Illustration of stacked documents with a grid of data cells": "Maʼlumotlar kataklari toʻri tushirilgan hujjatlar toʻplami tasviri",
+    "Use documents and structured data in agent workflows": "Agentlarning ish jarayonlarida hujjatlar va tuzilmali maʼlumotlardan foydalaning"
   },
   "src/lib/articles.ts": {
     "4 min read": "4 daqiqa o‘qish",
@@ -1885,16 +1849,13 @@
     "utility": "yordamchi dastur"
   },
   "src/lib/navigation.ts": {
-    "About Escalir": "Escalir haqida",
     "Agents, integrations and workflow orchestration": "Agentlar, integratsiya va ish jarayonini tartibga solish",
     "AI transformation": "AI transformatsiyasi",
     "Airlines": "Aviakompaniyalar",
     "Answers for customers, stores and suppliers": "Mijozlar, do‘konlar va etkazib beruvchilar uchun javoblar",
     "Answers grounded in approved knowledge": "Javoblar tasdiqlangan bilimlarga asoslangan",
     "Banking": "Bank ishi",
-    "Bring your experience to useful AI": "Tajribangizni foydali AIga olib boring",
     "Choose the right approach for each task": "Har bir vazifa uchun to‘g‘ri yondashuvni tanlang",
-    "Company information and brand resources": "Kompaniya haqida ma‘lumot va brend resurslari",
     "Connect service and operational knowledge": "Xizmat va operatsion bilimlarni ulang",
     "Contact": "Aloqa",
     "Customer context across your operation": "Operatsiyangiz bo‘ylab mijoz konteksti",
@@ -1903,7 +1864,6 @@
     "Healthcare": "Sog‘liqni saqlash",
     "Insurance": "Sug‘urta",
     "Keep teams informed when plans change": "Rejalar o‘zgarganda jamoalarni xabardor qilib turing",
-    "Media & company": "OAV va kompaniya",
     "Model choice, data rules and usage visibility": "Model tanlash, ma‘lumotlar qoidalari va foydalanish ko‘rinishi",
     "Move paperwork forward with human review": "Hujjatlarni inson tekshiruvi bilan oldinga siljiting",
     "Process audit, pilot and team handover": "Jarayon auditi, uchuvchi va jamoani topshirish",
@@ -1913,9 +1873,7 @@
     "Start a conversation with Vitali": "Vitaliy bilan suhbatni boshlang",
     "Support the administrative work around care": "Xizmat atrofidagi ma‘muriy ishlarni qo‘llab-quvvatlang",
     "Telecommunications": "Telekommunikatsiya",
-    "The people and principles behind the work": "Ish ortidagi odamlar va tamoyillar",
     "Utilities": "Utilitalar",
-    "Work with us": "Biz bilan ishlang",
     "Your environment, your boundaries": "Sizning muhitingiz, chegaralaringiz"
   },
   "src/lib/site.ts": {
@@ -1925,5 +1883,9 @@
   "src/lib/founder-descriptions.ts": {
     "Leads the architecture and engineering of Escalir’s enterprise AI platform": "Escalir korporativ AI platformasining arxitekturasi va ishlab chiqilishiga rahbarlik qiladi",
     "Leads AI strategy, agent design and workflow automation": "AI strategiyasi, agentlarni loyihalash va ish jarayonlarini avtomatlashtirishga rahbarlik qiladi"
+  },
+  "src/components/FooterContact.tsx": {
+    "Get in touch": "Aloqa qiling",
+    "We invite investors to join our waitlist.": "Investorlarni kutish roʻyxatimizga qoʻshilishga taklif qilamiz."
   }
 }

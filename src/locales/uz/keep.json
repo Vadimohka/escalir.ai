@@ -42,9 +42,6 @@
     "Escalir AI Platform",
     "Workflows"
   ],
-  "src/app/(en)/security/page.tsx": [
-    "Workflows"
-  ],
   "src/app/(en)/systems/page.tsx": [
     "Escalir Systems"
   ],

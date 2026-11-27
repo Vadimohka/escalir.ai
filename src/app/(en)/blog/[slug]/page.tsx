@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { ArrowLeft, ArrowUpRight } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 import { notFound } from "next/navigation";
 import PageFrame from "@/components/site/PageFrame";
 import ArticleArtwork from "@/components/company/ArticleArtwork";
@@ -30,13 +30,13 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     <PageFrame showContact={false}>
       <div className="co-page co-guide-page">
         <article>
-          <header className="co-article-header"><div className="shell"><a className="co-article-back" href="/blog/"><ArrowLeft size={16} aria-hidden="true" />All Escalir guides</a><div className="co-article-masthead"><div className="co-guide-meta"><span>{article.category}</span><span>{article.readingTime}</span></div><h1>{article.title}</h1><p>{article.description}</p><span className="co-article-byline">A practical guide by Escalir</span></div></div></header>
+          <header className="co-article-header"><div className="shell"><div className="co-article-masthead"><div className="co-guide-meta"><span>{article.category}</span><span>{article.readingTime}</span></div><h1>{article.title}</h1><p>{article.description}</p><span className="co-article-byline">A practical guide by Escalir</span></div></div></header>
           <div className="shell co-article-cover"><ArticleArtwork slug={article.slug} priority /></div>
           <div className="shell co-reading-layout">
             <nav className="co-document-nav co-article-toc" aria-label="Guide contents"><p className="co-eyebrow">In this guide</p>{article.sections.map((section, i) => <a href={`#${section.id}`} key={section.id}><span className="co-index" aria-hidden="true">{String(i + 1).padStart(2, "0")}</span>{section.title}</a>)}<a className="co-toc-contact" href="/contact/">Discuss your workflow<ArrowUpRight size={16} aria-hidden="true" /></a></nav>
             <div className="co-reading-body">
               {article.sections.map((section, i) => <section id={section.id} key={section.id}><p className="co-eyebrow co-reading-index">{String(i + 1).padStart(2, "0")} / {String(article.sections.length).padStart(2, "0")}</p><h2>{section.title}</h2>{section.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}{section.points && <aside className="co-reading-checklist" aria-label="Questions and points to consider"><p className="co-eyebrow">Take this into the conversation</p><ul>{section.points.map((point) => <li key={point}>{point}</li>)}</ul></aside>}</section>)}
-              <div className="co-article-endnote"><span>Escalir guides</span><p>Use these questions as a starting point, then agree the details for your own workflow and environment</p><a className="co-text-link" href="/blog/">Back to all guides<ArrowUpRight size={16} aria-hidden="true" /></a></div>
+              <div className="co-article-endnote"><span>Escalir guides</span><p>Use these questions as a starting point, then agree the details for your own workflow and environment</p></div>
             </div>
           </div>
         </article>

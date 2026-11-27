@@ -107,7 +107,7 @@
 .inner-page .co-brand-swatches code { display: block; margin-top: 3px; color: var(--co-muted); font-size: 11px; }
 .inner-page .co-brand-swatch { display: block; width: 40px; height: 40px; border: 1px solid transparent; }
 .inner-page .co-brand-swatch-white { background: #FFFFFF; border-color: #d4d4cd; }
-.inner-page .co-brand-swatch-blue { background: #240CFF; }
+.inner-page .co-brand-swatch-green { background: #22D36B; }
 .inner-page .co-brand-swatch-black { background: #000000; }
 .inner-page .co-team-compact .co-person-photo { aspect-ratio: 1.45; }
 

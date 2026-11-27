@@ -4,6 +4,7 @@
     "en",
     "kk",
     "uz",
+    "be",
     "de",
     "fr",
     "es",
@@ -12,7 +13,8 @@
     "pl",
     "cs",
     "ro",
-    "sr"
+    "sr",
+    "uk"
   ],
   "locales": {
     "en": {

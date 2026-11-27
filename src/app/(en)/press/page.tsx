@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { ArrowDown, ArrowUpRight } from "lucide-react";
+import { ArrowDown } from "lucide-react";
 import PageFrame from "@/components/site/PageFrame";
 import { CompanyCTA, CompanyHeading, CompanyMasthead, CompanyTeam } from "@/components/company/CompanyElements";
 import { pageMetadata } from "@/lib/metadata";
@@ -14,22 +14,22 @@ export default function PressPage() {
         <section className="co-section co-press-overview">
           <div className="shell co-editorial-split">
             <CompanyHeading eyebrow="About the company" title={<>Escalir,<br />in a few words</>} />
-            <div className="co-prose"><p className="co-lead">Escalir develops an innovation management system for regulated enterprises.</p><p>The platform connects three stages: specification of business requests, development of agents and workflows, and governance through quality metrics, versions, access control and audit records.</p><p>Escalir combines this platform with process discovery, focused pilots and training. The approach helps organizations build their own capacity to create, evaluate and maintain automations in their chosen infrastructure.</p><a className="co-text-link" href="/about-us/">More about Escalir<ArrowUpRight size={18} aria-hidden="true" /></a></div>
+            <div className="co-prose"><p className="co-lead">Escalir develops an innovation management system for regulated enterprises.</p><p>The platform connects three stages: specification of business requests, development of agents and workflows, and governance through quality metrics, versions, access control and audit records.</p><p>Escalir combines this platform with process discovery, focused pilots and training. The approach helps organizations build their own capacity to create, evaluate and maintain automations in their chosen infrastructure.</p></div>
           </div>
         </section>
         <section className="co-section co-warm" id="brand-materials">
           <div className="shell">
-            <div className="co-section-top"><CompanyHeading eyebrow="Brand materials" title={<>The Escalir<br />wordmark</>} /><p>Our original Escalir wordmark, in black and white. Download the supplied vector artwork for a clear introduction to the company</p></div>
+            <div className="co-section-top"><CompanyHeading eyebrow="Brand materials" title={<>The Escalir<br />wordmark</>} /></div>
             <div className="co-brand-grid">
-              <a className="co-brand-asset" href="/brand/escalir-logo.svg" download="escalir-logo.svg"><div className="co-brand-specimen"><Image src="/brand/escalir-logo.svg" alt="Escalir black wordmark" width={442} height={116} /></div><div className="co-brand-download"><span>Black SVG<small>For light backgrounds</small></span><ArrowDown size={20} aria-hidden="true" /></div></a>
-              <a className="co-brand-asset" href="/brand/escalir-logo-white.svg" download="escalir-logo-white.svg"><div className="co-brand-specimen co-brand-specimen-dark"><Image src="/brand/escalir-logo-white.svg" alt="Escalir white wordmark" width={442} height={116} /></div><div className="co-brand-download"><span>White SVG<small>For dark backgrounds</small></span><ArrowDown size={20} aria-hidden="true" /></div></a>
+              <a className="co-brand-asset" href="/brand/escalir-logo.svg" download="escalir-logo.svg"><div className="co-brand-specimen"><Image src="/brand/escalir-logo.svg" alt="Escalir black wordmark" width={442} height={105} /></div><div className="co-brand-download"><span>Black SVG<small>For light backgrounds</small></span><ArrowDown size={20} aria-hidden="true" /></div></a>
+              <a className="co-brand-asset" href="/brand/escalir-logo-white.svg" download="escalir-logo-white.svg"><div className="co-brand-specimen co-brand-specimen-dark"><Image src="/brand/escalir-logo-white.svg" alt="Escalir white wordmark" width={442} height={105} /></div><div className="co-brand-download"><span>White SVG<small>For dark backgrounds</small></span><ArrowDown size={20} aria-hidden="true" /></div></a>
             </div>
-            <div className="co-brand-guidance"><p>Use the supplied artwork unchanged. Leave clear space on every side at least equal to the height of the letter “C”. Keep the wordmark at least 80 px wide on screen or 20 mm in print.</p><span>Original Lato SemiBold (600) lettering<br />SVG · transparent background · vector format</span></div>
+            <div className="co-brand-guidance"><p>Use the supplied artwork unchanged. Leave clear space on every side at least equal to the height of the letter “C”. Keep the wordmark at least 80 px wide on screen or 20 mm in print.</p><span>SVG · transparent background · vector format</span></div>
             <div className="co-brand-palette" role="group" aria-labelledby="brand-palette-title">
-              <div><h3 className="co-brand-palette-title" id="brand-palette-title">Brand colours</h3><p>Use blue sparingly for key actions and accents. Keep the wordmark black on light backgrounds or white on dark backgrounds, with clear contrast.</p></div>
+              <div><h3 className="co-brand-palette-title" id="brand-palette-title">Brand colours</h3></div>
               <ul className="co-brand-swatches">
                 <li><span className="co-brand-swatch co-brand-swatch-white" aria-hidden="true" /><span>White<code>#FFFFFF</code></span></li>
-                <li><span className="co-brand-swatch co-brand-swatch-blue" aria-hidden="true" /><span>Accent blue<code>#240CFF</code></span></li>
+                <li><span className="co-brand-swatch co-brand-swatch-green" aria-hidden="true" /><span>Green<code>#22D36B</code></span></li>
                 <li><span className="co-brand-swatch co-brand-swatch-black" aria-hidden="true" /><span>Black<code>#000000</code></span></li>
               </ul>
             </div>

@@ -2,7 +2,6 @@ import Image from "next/image";
 import { ArrowDown, ArrowUpRight } from "lucide-react";
 import PageFrame from "@/components/site/PageFrame";
 import TelegramLink from "@/components/TelegramLink";
-import ArticleArtwork from "@/components/company/ArticleArtwork";
 import { CompanyHeading } from "@/components/company/CompanyElements";
 import { pageMetadata } from "@/lib/metadata";
 
@@ -28,7 +27,6 @@ export default function ContactPage() {
             <div className="co-contact-prompts"><p className="co-eyebrow">A useful starting point</p><h2>A few things<br />to tell us</h2><ol>{prompts.map((item, i) => <li key={item.title}><span className="co-index" aria-hidden="true">0{i + 1}</span><div><h3>{item.title}</h3><p>{item.description}</p></div></li>)}</ol><div className="co-contact-privacy"><p>A short description is enough to start. Keep confidential files out of the first message.</p><a className="co-text-link" href="/privacy/">Read our privacy information<ArrowUpRight size={16} aria-hidden="true" /></a></div></div>
           </div>
         </section>
-        <section className="co-section co-warm"><div className="shell"><a className="co-contact-guide" href="/blog/choose-first-ai-workflow/"><ArticleArtwork slug="choose-first-ai-workflow" compact /><div><p className="co-eyebrow">Before the conversation</p><h2>Not sure<br />where to start?</h2><p>Read our guide to choosing a first AI workflow</p><span className="co-text-link">Find a useful first project<ArrowUpRight size={18} aria-hidden="true" /></span></div></a></div></section>
       </div>
     </PageFrame>
   );

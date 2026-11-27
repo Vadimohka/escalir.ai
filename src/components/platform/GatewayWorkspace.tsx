@@ -41,7 +41,7 @@ export default function GatewayWorkspace() {
     <div className={styles.workspaceBar}><span>Inside Escalir</span><span>Application views</span></div>
     <div className={styles.workspaceLayout}>
       <aside className={styles.workspaceSidebar}>
-        <img src="/brand/escalir-logo-white.svg" alt="Escalir" width={112} height={30} />
+        <img src="/brand/escalir-logo-white.svg" alt="Escalir" width={112} height={27} />
         <span className={styles.workspaceLabel}>Explore the workspace</span>
         <div className={styles.workspaceTabs} role="tablist" aria-label="Escalir application views" aria-orientation={orientation}>
           {views.map(({ id, title, icon: Icon }, index) => <button key={id} type="button" role="tab"
@@ -60,7 +60,7 @@ export default function GatewayWorkspace() {
           <h2>{title}</h2><p>{description}</p>
           <AppScreenshot capture={capture} priority={index === 0} className={styles.workspaceCapture} />
         </div>)}
-        <p className={styles.workspaceNote}><span aria-hidden="true" />Actual views from the Escalir application</p>
+        <p className={styles.workspaceNote}><span aria-hidden="true" />Product illustrations and application screenshots</p>
       </div>
     </div>
     <noscript><div className={styles.workspaceFallback}>

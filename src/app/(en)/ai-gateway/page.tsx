@@ -33,7 +33,7 @@ export default function GatewayPage() {
         </picture>
         <div className={styles.heroShade} />
         <div className={styles.heroTitle}>
-          <p className={styles.heroLockup}><img src="/brand/escalir-logo-white.svg" alt="Escalir" width={155} height={41} /><span>AI Gateway</span></p>
+          <p className={styles.heroLockup}><img src="/brand/escalir-logo-white.svg" alt="Escalir" width={155} height={37} /><span>AI Gateway</span></p>
           <h1 id="gateway-title">Choose models<br />Keep data use under control</h1>
           <p>Connect models, set data rules and evaluate quality on your own work</p>
         </div>

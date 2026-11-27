@@ -2,7 +2,6 @@
   "src/app/(en)/about-us/page.tsx": {
     "A business workshop around a whiteboard": "Un atelier de lucru în jurul unei table albe",
     "A closer look at Escalir": "O privire mai atentă asupra Escalir",
-    "A useful starting point": "Un punct de plecare util",
     "About Escalir": "Despre Escalir",
     "About us": "Despre noi",
     "Bring intelligence": "Aduceți inteligența",
@@ -16,22 +15,16 @@
     "Choose agents, RPA or corporate chat to fit the process. Build and test with your team, using approved knowledge, integrations and models": "Alegeți agenți, RPA sau chat corporativ, în funcție de proces. Construiți și testați împreună cu echipa, folosind cunoștințe, integrări și modele aprobate",
     "closer to the work": "mai aproape de activitatea zilnică",
     "Collect requests from departments and record the owner, workload, data, risks and acceptance criteria. Prioritize work by readiness and expected value": "Colectați solicitările departamentelor și înregistrați responsabilul, volumul de muncă, datele, riscurile și criteriile de acceptare. Stabiliți prioritățile în funcție de gradul de pregătire și valoarea estimată",
-    "Company": "Companie",
-    "Company information, people and original brand materials": "Informații despre companie, oameni și materiale originale de brand",
     "Connection, clarity, room to build": "Conectare, claritate, spațiu pentru a construi",
     "Development": "Dezvoltare",
-    "Explore careers at Escalir": "Descoperiți oportunitățile de carieră la Escalir",
     "Explore the platform": "Descoperiți platforma",
     "From request to operation": "De la solicitare la utilizare",
-    "Ideas": "Idei",
     "Knowledge, models, agents and operating records stay connected throughout that cycle. We help establish the first workflows and transfer requirements, testing and maintenance practices so your team can continue the work.": "Cunoștințele, modelele, agenții și înregistrările operaționale rămân conectate pe tot parcursul acestui ciclu. Vă ajutăm să configurați primele fluxuri de lucru și transferăm practicile de definire a cerințelor, testare și întreținere, astfel încât echipa dumneavoastră să poată continua activitatea.",
     "Meet the founders": "Cunoașteți fondatorii",
     "One cycle": "Un singur ciclu",
     "Our approach": "Abordarea noastră",
     "Our perspective": "Perspectiva noastră",
     "Our work connects business analysis, platform engineering and applied AI. We value people who can understand a process, test a solution and help a customer team learn to maintain it.": "Activitatea noastră îmbină analiza de afaceri, ingineria platformelor și IA aplicată. Apreciem oamenii care pot înțelege un proces, testa o soluție și ajuta echipa unui client să învețe să o întrețină.",
-    "Practical guides to knowledge, workflows and deployment": "Ghiduri practice despre cunoștințe, fluxuri de lucru și implementare",
-    "Press & brand": "Presă și brand",
     "Put into practice": "Pusă în practică",
     "Review quality and business impact, manage versions and access, and agree release approvals. Feed operational findings into the next specification": "Evaluați calitatea și impactul asupra afacerii, gestionați versiunile și accesul și stabiliți aprobările pentru lansare. Integrați concluziile din utilizare în următoarea specificație",
     "Sales and market development, platform architecture, and agent engineering. The founders bring these disciplines into one team": "Vânzări și dezvoltarea pieței, arhitectura platformelor și ingineria agenților. Fondatorii reunesc aceste discipline într-o singură echipă",
@@ -131,9 +124,7 @@
   },
   "src/app/(en)/blog/[slug]/page.tsx": {
     "A practical guide by Escalir": "Un ghid practic de la Escalir",
-    "All Escalir guides": "Toate ghidurile Escalir",
     "Another useful perspective": "O altă perspectivă utilă",
-    "Back to all guides": "Înapoi la toate ghidurile",
     "Escalir guides": "Ghidurile Escalir",
     "Discuss your workflow": "Discutați despre fluxul dumneavoastră de lucru",
     "Guide contents": "Cuprinsul ghidului",
@@ -181,7 +172,6 @@
     "Explore the work behind Escalir: enterprise AI, engineering, knowledge and business workflows. Start a conversation with the team.": "Descoperiți activitatea din spatele Escalir: IA pentru organizații, inginerie, cunoștințe și fluxuri de lucru de afaceri. Începeți o discuție cu echipa.",
     "Involved in the outcome": "Implicați în rezultat",
     "It means asking good questions and taking responsibility for the details.": "Înseamnă să puneți întrebări bune și să vă asumați responsabilitatea pentru detalii.",
-    "Meet the people behind Escalir": "Cunoașteți oamenii din spatele Escalir",
     "More than one": "Mai multe",
     "people can use": "pe care oamenii le pot folosi",
     "People collaborating in a business workshop": "Oameni colaborând la un atelier de lucru",
@@ -206,19 +196,15 @@
     "A few things": "Câteva lucruri",
     "A short description is enough to start. Keep confidential files out of the first message.": "O descriere scurtă este suficientă pentru început. Nu includeți fișiere confidențiale în primul mesaj.",
     "A useful starting point": "Un punct de plecare util",
-    "Before the conversation": "Înainte de discuție",
     "Bring a process, a question or an idea. We will explore the starting point together": "Propuneți un proces, o întrebare sau o idee. Vom explora împreună punctul de plecare",
     "Co-founder · CEO": "Cofondator · Director general",
     "Contact": "Contact",
-    "Find a useful first project": "Identificați un prim proiect util",
     "Good work starts": "Lucrurile bine făcute încep",
     "Let’s talk": "Să discutăm",
     "like AI to help with?": "să vă ajute IA?",
     "Message Vitali on Telegram": "Scrieți-i lui Vitali pe Telegram",
-    "Not sure": "Nu știți",
     "Opens a conversation in Telegram": "Deschide o conversație în Telegram",
     "People moving through a shared business space": "Oameni deplasându-se printr-un spațiu de afaceri comun",
-    "Read our guide to choosing a first AI workflow": "Citiți ghidul nostru despre alegerea primului flux de lucru cu IA",
     "Read our privacy information": "Citiți informațiile noastre despre confidențialitate",
     "Speak with a founder": "Discutați cu un fondator",
     "Start a conversation": "Începeți o discuție",
@@ -229,7 +215,6 @@
     "to tell us": "pe care să ni le spuneți",
     "What would a useful first result look like?": "Cum ar arăta un prim rezultat util?",
     "What would you": "Cu ce ați dori",
-    "where to start?": "de unde să începeți?",
     "Which task or process would you like to improve?": "Ce sarcină sau proces ați dori să îmbunătățiți?",
     "Which team, documents or systems are involved?": "Ce echipă, documente sau sisteme sunt implicate?",
     "with a conversation": "cu o discuție",
@@ -341,7 +326,6 @@
   "src/app/(en)/press/page.tsx": {
     "A clear introduction": "O prezentare clară",
     "About the company": "Despre companie",
-    "Accent blue": "Albastru de accent",
     "behind Escalir": "din spatele Escalir",
     "Black": "Negru",
     "Black SVG": "SVG negru",
@@ -361,11 +345,8 @@
     "Founder profiles": "Profilurile fondatorilor",
     "in a few words": "în câteva cuvinte",
     "Meet the founders and find their public profiles. For interviews and company enquiries, contact Vitali": "Cunoașteți fondatorii și găsiți profilurile lor publice. Pentru interviuri și întrebări despre companie, contactați-l pe Vitali",
-    "More about Escalir": "Mai multe despre Escalir",
     "more context?": "mai mult context?",
     "Need a little": "Aveți nevoie de",
-    "Original Lato SemiBold (600) lettering": "Litere originale Lato SemiBold (600)",
-    "Our original Escalir wordmark, in black and white. Download the supplied vector artwork for a clear introduction to the company": "Logotipul nostru original Escalir, în alb și negru. Descărcați grafica vectorială furnizată pentru o prezentare clară a companiei",
     "Press & brand": "Presă și brand",
     "Press enquiries": "Solicitări din partea presei",
     "SVG · transparent background · vector format": "SVG · fundal transparent · format vectorial",
@@ -373,11 +354,11 @@
     "The people": "Oamenii",
     "The platform connects three stages: specification of business requests, development of agents and workflows, and governance through quality metrics, versions, access control and audit records.": "Platforma conectează trei etape: specificarea solicitărilor de afaceri, dezvoltarea agenților și a fluxurilor de lucru și guvernanța prin indicatori de calitate, versiuni, controlul accesului și înregistrări de audit.",
     "to Escalir": "a Escalir",
-    "Use blue sparingly for key actions and accents. Keep the wordmark black on light backgrounds or white on dark backgrounds, with clear contrast.": "Folosiți albastrul cu măsură pentru acțiunile importante și accente. Păstrați logotipul negru pe fundaluri deschise sau alb pe fundaluri închise, cu un contrast clar.",
     "Use the supplied artwork unchanged. Leave clear space on every side at least equal to the height of the letter “C”. Keep the wordmark at least 80 px wide on screen or 20 mm in print.": "Folosiți grafica furnizată fără modificări. Lăsați pe toate laturile un spațiu liber cel puțin egal cu înălțimea literei „C”. Păstrați logotipul la o lățime de cel puțin 80 px pe ecran sau 20 mm în materialele tipărite.",
     "White": "Alb",
     "White SVG": "SVG alb",
-    "wordmark": "Escalir"
+    "wordmark": "Escalir",
+    "Green": "Verde"
   },
   "src/app/(en)/privacy/page.tsx": {
     "A choice to connect": "Alegerea de a intra în legătură",
@@ -420,10 +401,8 @@
   "src/app/(en)/security/page.tsx": {
     "A closed deployment can use local models and operate without external API or cloud calls. If an external model is selected, the allowed data and processing route are defined explicitly.": "O implementare într-un mediu închis poate folosi modele locale și poate funcționa fără apeluri către API-uri externe sau servicii cloud. Dacă este selectat un model extern, datele permise și traseul de procesare sunt definite explicit.",
     "A few practical questions": "Câteva întrebări practice",
-    "A meaningful review point": "Un punct de verificare cu sens",
     "Access policies, verification and audit logs are configured for the selected workflow. Process owners and technical teams review the evidence, agree acceptance and keep the operating practices up to date.": "Politicile de acces, verificarea și jurnalele de audit sunt configurate pentru fluxul de lucru selectat. Responsabilii proceselor și echipele tehnice analizează dovezile, convin acceptarea și mențin practicile de operare la zi.",
     "Agree control questions, datasets and target metrics with process owners. Check source support and citations, then measure answer quality, corrections and processing time before rollout": "Conveniți întrebările de control, seturile de date și indicatorii-țintă cu responsabilii proceselor. Verificați susținerea prin surse și referințele, apoi măsurați calitatea răspunsurilor, corecturile și timpul de procesare înainte de lansare",
-    "Answers you can inspect": "Răspunsuri pe care le puteți verifica",
     "Audit and monitoring": "Audit și monitorizare",
     "Before": "Înainte",
     "Before implementation": "Înainte de implementare",
@@ -453,12 +432,9 @@
     "Evaluation & acceptance": "Evaluare și acceptare",
     "Explore deployment decisions": "Descoperiți deciziile de implementare",
     "from clear boundaries": "de la limite clare",
-    "Give people the context they need to make a decision": "Oferiți oamenilor contextul necesar pentru a lua o decizie",
     "How do we check model quality?": "Cum verificăm calitatea modelelor?",
     "Identity & knowledge access": "Identitate și acces la cunoștințe",
     "Keep source documents, versions and activity logs in the agreed deployment. Define retention, backup and support access with the teams responsible for operating it": "Păstrați documentele-sursă, versiunile și jurnalele de activitate în implementarea convenită. Definiți păstrarea datelor, copiile de siguranță și accesul pentru suport cu echipele responsabile de operare",
-    "Keep the evidence and access rules connected to the answer": "Păstrați dovezile și regulile de acces conectate la răspuns",
-    "Knowledge": "Cunoștințe",
     "Knowledge access": "Acces la cunoștințe",
     "Limit retrieval to permitted documents and show the source and version behind answers": "Limitați recuperarea informațiilor la documentele permise și afișați sursa și versiunea din spatele răspunsurilor",
     "Local and external models have different data flows; processing location, retention and support access are agreed for each deployment": "Modelele locale și externe au fluxuri de date diferite; locația procesării, păstrarea datelor și accesul pentru suport sunt convenite pentru fiecare implementare",
@@ -466,8 +442,6 @@
     "Name the owners of data, policies and workflows. Connect logs to your SIEM, monitor quality and resource use, and train your team to maintain the deployment": "Desemnați responsabilii pentru date, politici și fluxuri de lucru. Conectați jurnalele la SIEM, monitorizați calitatea și utilizarea resurselor și instruiți echipa să întrețină implementarea",
     "One shared brief": "Un document comun de cerințe",
     "Operations & ownership": "Operațiuni și responsabilitate",
-    "Put the principles into practice": "Puneți principiile în practică",
-    "Read the deployment guide": "Citiți ghidul de implementare",
     "Records & support access": "Înregistrări și acces pentru suport",
     "Security & control": "Securitate și control",
     "Security questions": "Întrebări despre securitate",
@@ -480,33 +454,32 @@
     "we start": "de a începe",
     "website privacy information": "informații despre confidențialitatea site-ului",
     "Your boundaries": "Limitele dumneavoastră",
-    "Your environment": "Mediul dumneavoastră",
-    "Workflows": "Fluxuri de lucru"
+    "Your environment": "Mediul dumneavoastră"
   },
   "src/app/(en)/systems/page.tsx": {
     "Turn business requests into tested workflows through specification, development and governance, connecting company knowledge, agents and existing systems": "Transformați solicitările de afaceri în fluxuri de lucru testate prin specificare, dezvoltare și guvernanță, conectând cunoștințele companiei, agenții și sistemele existente"
   },
   "src/components/AppScreenshot.tsx": {
-    "Open {0} screenshot": "Deschideți captura de ecran {0}"
+    "Open {0} screenshot": "Deschideți captura de ecran {0}",
+    "Open {0} illustration": "Deschideți ilustrația „{0}”"
   },
   "src/components/Brain.tsx": {
     "A closer look": "O privire mai atentă",
     "at the workspace": "asupra spațiului de lucru",
-    "From files and voice to the details behind an answer. Explore real views from the Escalir application": "De la fișiere și voce la detaliile din spatele unui răspuns. Descoperiți imagini reale din aplicația Escalir",
-    "Inside Escalir": "În interiorul Escalir"
+    "Inside Escalir": "În interiorul Escalir",
+    "Explore files, audio and the details behind an answer": "Explorați fișierele, înregistrările audio și detaliile unui răspuns"
   },
   "src/components/Contact.tsx": {
     "Start with one process": "Începeți cu un singur proces",
     "Tell Vitali which process you want to improve, where the relevant information lives and what a useful outcome would look like": "Spuneți-i lui Vitali ce proces doriți să îmbunătățiți, unde se află informațiile relevante și cum ar arăta un rezultat util"
   },
   "src/components/Footer.tsx": {
-    "Company": "Companie",
     "Footer navigation": "Navigare în subsol",
-    "Get in touch": "Contactați-ne",
     "Industries": "Industrii",
     "Intelligence, put to work": "Inteligență pusă la lucru",
     "Platform": "Platformă",
-    "Privacy information": "Informații despre confidențialitate"
+    "Privacy information": "Informații despre confidențialitate",
+    "Information": "Informații"
   },
   "src/components/Founders.tsx": {
     "Building the next": "Construim următorul",
@@ -515,7 +488,6 @@
     "Co-founder · CAIO": "Cofondator · CAIO",
     "Co-founder · CEO": "Cofondator · CEO",
     "Co-founder · CTO": "Cofondator · CTO",
-    "Get to know the team": "Cunoașteți echipa",
     "The people behind the work": "Oamenii din spatele proiectului"
   },
   "src/components/Header.tsx": {
@@ -584,13 +556,6 @@
     "Utilities": "Utilități",
     "your industry": "industria dumneavoastră"
   },
-  "src/components/HomeInsights.tsx": {
-    "Explore the blog": "Descoperiți blogul",
-    "Ideas for useful AI": "Idei pentru IA utilă",
-    "Practical guides to choosing a workflow, working with knowledge and keeping people in control": "Ghiduri practice pentru alegerea unui flux de lucru, utilizarea cunoștințelor și păstrarea controlului în mâinile oamenilor",
-    "Then put it to work": "Apoi puneți ideea în practică",
-    "Think it through": "Analizați ideea"
-  },
   "src/components/HomeProductFamily.tsx": {
     "Bring the information and review steps a business process actually needs into one place": "Reuniți informațiile și etapele de verificare de care un proces de afaceri are cu adevărat nevoie",
     "Help employees find answers, prepare documents and resolve routine requests": "Ajutați angajații să găsească răspunsuri, să pregătească documente și să soluționeze cereri de rutină",
@@ -607,8 +572,6 @@
     "Co-founder · CTO": "Cofondator · CTO",
     "Co-founder · CAIO": "Cofondator · CAIO",
     "The platform is built by the Escalir team, with operating, investment and ecosystem experience from our Justart partners": "Platforma este construită de echipa Escalir, cu experiență în operare, investiții și ecosistem de la partenerii noștri Justart",
-    "About Escalir": "Despre Escalir",
-    "Careers": "Cariere",
     "The people behind Escalir": "Oamenii din spatele Escalir",
     "Meet the people": "Cunoașteți echipa",
     "behind the work": "din spatele activității"
@@ -933,7 +896,6 @@
     "Workflow": "Flux de lucru"
   },
   "src/components/platform/GatewayWorkspace.tsx": {
-    "Actual views from the Escalir application": "Imagini reale din aplicația Escalir",
     "Application views": "Imagini din aplicație",
     "Escalir application views": "Imagini din aplicația Escalir",
     "Choose among connected models and inspect their settings in the Escalir workspace": "Alegeți dintre modelele conectate și examinați setările lor în spațiul de lucru Escalir",
@@ -944,7 +906,8 @@
     "Inspect the timing and token information attached to an answer": "Examinați informațiile despre durată și tokenuri asociate unui răspuns",
     "Models & controls": "Modele și comenzi",
     "Response details": "Detaliile răspunsului",
-    "Review the documents available to support knowledge search and agent workflows": "Analizați documentele disponibile pentru căutarea în baza de cunoștințe și fluxurile de lucru ale agenților"
+    "Review the documents available to support knowledge search and agent workflows": "Analizați documentele disponibile pentru căutarea în baza de cunoștințe și fluxurile de lucru ale agenților",
+    "Product illustrations and application screenshots": "Ilustrații ale produsului și capturi de ecran ale aplicației"
   },
   "src/components/platform/OperatingLayerExplorer.tsx": {
     "and governance": "și guvernanță",
@@ -1168,15 +1131,12 @@
   },
   "src/lib/app-captures.ts": {
     "Audio playback": "Redare audio",
-    "Escalir agent list detail showing model assignments, dates and action icons": "Detaliu al listei de agenți Escalir, cu modelele atribuite, datele și pictogramele de acțiune",
     "Escalir response footer with copy and feedback controls, token counts and timing information": "Subsolul unui răspuns Escalir, cu comenzi de copiere și feedback, numărul de tokenuri și informații despre durată",
     "Escalir transcription workspace audio player with playback, seek and volume controls": "Player audio în spațiul de transcriere Escalir, cu comenzi de redare, navigare în înregistrare și volum",
     "Choose a document directly in the OCR workspace": "Alegeți un document direct în spațiul de lucru OCR",
     "Document import": "Import de documente",
     "Files & structured data": "Fișiere și date structurate",
-    "Four actual file-library rows in Escalir, showing JSON and text files with their sizes": "Patru rânduri reale din biblioteca de fișiere Escalir, cu fișiere JSON și text și dimensiunile acestora",
     "Inspect the token counts and timing details attached to an application response": "Consultați numărul de tokenuri și detaliile despre durată asociate unui răspuns al aplicației",
-    "Model assignments and agent controls, as they appear in the Escalir workspace": "Modelele atribuite și comenzile pentru agenți, așa cum apar în spațiul de lucru Escalir",
     "Model selection": "Selectarea modelului",
     "Models & controls": "Modele și comenzi",
     "Replay a recording from the transcription workspace": "Redați din nou o înregistrare din spațiul de transcriere",
@@ -1184,7 +1144,10 @@
     "Select the model for a conversation in the Escalir chat interface": "Selectați modelul pentru o conversație în interfața de conversații Escalir",
     "The actual Choose File control in Escalir's OCR document workspace": "Comanda de alegere a fișierului, așa cum apare în spațiul Escalir pentru documente OCR",
     "The actual model selector in Escalir chat, displaying deepseek-v4-pro": "Selectorul de modele din interfața de conversații Escalir, afișând deepseek-v4-pro",
-    "Work with existing files in the application, including text documents and structured data": "Lucrați cu fișierele existente în aplicație, inclusiv documente text și date structurate"
+    "Illustration of three model modules connected through an access control gate": "Ilustrație cu trei module de modele conectate printr-o poartă de control al accesului",
+    "Choose models for each workflow and define who can use them": "Alegeți modele pentru fiecare flux de lucru și stabiliți cine le poate folosi",
+    "Illustration of stacked documents with a grid of data cells": "Ilustrație cu un teanc de documente și o grilă de celule de date",
+    "Use documents and structured data in agent workflows": "Folosiți documente și date structurate în fluxurile de lucru ale agenților"
   },
   "src/lib/articles.ts": {
     "4 min read": "4 min de lectură",
@@ -1903,16 +1866,13 @@
     "@audience:utilities": "companiile de utilități"
   },
   "src/lib/navigation.ts": {
-    "About Escalir": "Despre Escalir",
     "Agents, integrations and workflow orchestration": "Agenți, integrări și orchestrarea fluxurilor de lucru",
     "AI transformation": "Transformare cu IA",
     "Airlines": "Companii aeriene",
     "Answers for customers, stores and suppliers": "Răspunsuri pentru clienți, magazine și furnizori",
     "Answers grounded in approved knowledge": "Răspunsuri bazate pe cunoștințe aprobate",
     "Banking": "Sector bancar",
-    "Bring your experience to useful AI": "Contribuiți cu experiența dumneavoastră la o IA utilă",
     "Choose the right approach for each task": "Alegeți abordarea potrivită pentru fiecare sarcină",
-    "Company information and brand resources": "Informații despre companie și resurse de marcă",
     "Connect service and operational knowledge": "Conectați cunoștințele despre servicii și operațiuni",
     "Contact": "Contact",
     "Customer context across your operation": "Contextul clienților în întreaga activitate",
@@ -1921,7 +1881,6 @@
     "Healthcare": "Sănătate",
     "Insurance": "Asigurări",
     "Keep teams informed when plans change": "Țineți echipele la curent când planurile se schimbă",
-    "Media & company": "Presă și companie",
     "Model choice, data rules and usage visibility": "Alegerea modelelor, reguli privind datele și vizibilitatea utilizării",
     "Move paperwork forward with human review": "Avansați procesarea documentelor cu verificare umană",
     "Process audit, pilot and team handover": "Audit al proceselor, proiect pilot și predare către echipă",
@@ -1931,9 +1890,7 @@
     "Start a conversation with Vitali": "Începeți o conversație cu Vitali",
     "Support the administrative work around care": "Susțineți activitatea administrativă care sprijină îngrijirea medicală",
     "Telecommunications": "Telecomunicații",
-    "The people and principles behind the work": "Oamenii și principiile din spatele activității",
     "Utilities": "Utilități",
-    "Work with us": "Lucrați alături de noi",
     "Your environment, your boundaries": "Mediul dumneavoastră, limitele dumneavoastră"
   },
   "src/lib/site.ts": {
@@ -1943,5 +1900,9 @@
   "src/lib/founder-descriptions.ts": {
     "Leads the architecture and engineering of Escalir’s enterprise AI platform": "Coordonează arhitectura și dezvoltarea platformei Escalir de IA pentru întreprinderi",
     "Leads AI strategy, agent design and workflow automation": "Coordonează strategia de IA, proiectarea agenților și automatizarea fluxurilor de lucru"
+  },
+  "src/components/FooterContact.tsx": {
+    "Get in touch": "Contactați-ne",
+    "We invite investors to join our waitlist.": "Invităm investitorii să se înscrie pe lista noastră de așteptare."
   }
 }

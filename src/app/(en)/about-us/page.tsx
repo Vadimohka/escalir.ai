@@ -44,13 +44,11 @@ export default function AboutPage() {
         <section className="co-section co-join">
           <div className="shell co-join-grid">
             <CompanyPhoto src="/media/deployment.webp" alt="A business workshop around a whiteboard" />
-            <div className="co-join-copy"><CompanyHeading eyebrow="Building together" title={<>Build useful workflows<br />Share what you know</>} /><p>Our work connects business analysis, platform engineering and applied AI. We value people who can understand a process, test a solution and help a customer team learn to maintain it.</p><a className="co-text-link" href="/careers/">Explore careers at Escalir<ArrowUpRight size={18} aria-hidden="true" /></a></div>
+            <div className="co-join-copy"><CompanyHeading eyebrow="Building together" title={<>Build useful workflows<br />Share what you know</>} /><p>Our work connects business analysis, platform engineering and applied AI. We value people who can understand a process, test a solution and help a customer team learn to maintain it.</p></div>
           </div>
         </section>
         <RelatedPages title="A closer look at Escalir" links={[
-          { href: "/blog/", eyebrow: "Ideas", title: "A useful starting point", description: "Practical guides to knowledge, workflows and deployment" },
           { href: "/security/", eyebrow: "Our approach", title: "Security & control", description: "The decisions that shape a responsible deployment" },
-          { href: "/press/", eyebrow: "Company", title: "Press & brand", description: "Company information, people and original brand materials" },
         ]} />
         <CompanyCTA />
       </div>

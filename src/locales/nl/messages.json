@@ -2,7 +2,6 @@
   "src/app/(en)/about-us/page.tsx": {
     "A business workshop around a whiteboard": "Een zakelijke workshop rond een whiteboard",
     "A closer look at Escalir": "Escalir van dichtbij",
-    "A useful starting point": "Een zinvol vertrekpunt",
     "About Escalir": "Over Escalir",
     "About us": "Over ons",
     "Bring intelligence": "Breng intelligentie",
@@ -16,22 +15,16 @@
     "Choose agents, RPA or corporate chat to fit the process. Build and test with your team, using approved knowledge, integrations and models": "Kies agenten, RPA of bedrijfschat die bij het proces passen. Bouw en test samen met uw team, met goedgekeurde kennis, integraties en modellen",
     "closer to the work": "dichter bij het werk",
     "Collect requests from departments and record the owner, workload, data, risks and acceptance criteria. Prioritize work by readiness and expected value": "Verzamel aanvragen van afdelingen en leg de verantwoordelijke, werklast, gegevens, risico's en acceptatiecriteria vast. Bepaal prioriteiten op basis van de mate van gereedheid en de verwachte waarde",
-    "Company": "Bedrijf",
-    "Company information, people and original brand materials": "Bedrijfsinformatie, mensen en originele merkmaterialen",
     "Connection, clarity, room to build": "Verbinding, duidelijkheid en ruimte om te bouwen",
     "Development": "Ontwikkeling",
-    "Explore careers at Escalir": "Ontdek carrièremogelijkheden bij Escalir",
     "Explore the platform": "Ontdek het platform",
     "From request to operation": "Van aanvraag tot dagelijks gebruik",
-    "Ideas": "Ideeën",
     "Knowledge, models, agents and operating records stay connected throughout that cycle. We help establish the first workflows and transfer requirements, testing and maintenance practices so your team can continue the work.": "Kennis, modellen, agenten en operationele registraties blijven gedurende die cyclus met elkaar verbonden. Wij helpen de eerste werkprocessen op te zetten en dragen werkwijzen voor het vastleggen van eisen, testen en onderhoud over, zodat uw team verder kan.",
     "Meet the founders": "Maak kennis met de oprichters",
     "One cycle": "Eén cyclus",
     "Our approach": "Onze aanpak",
     "Our perspective": "Onze visie",
     "Our work connects business analysis, platform engineering and applied AI. We value people who can understand a process, test a solution and help a customer team learn to maintain it.": "Ons werk verbindt bedrijfsanalyse, platformontwikkeling en toegepaste AI. Wij waarderen mensen die een proces begrijpen, een oplossing kunnen testen en een klantteam kunnen helpen die oplossing zelf te leren onderhouden.",
-    "Practical guides to knowledge, workflows and deployment": "Praktische gidsen over kennis, werkprocessen en uitrol",
-    "Press & brand": "Pers en merk",
     "Put into practice": "In de praktijk gebracht",
     "Review quality and business impact, manage versions and access, and agree release approvals. Feed operational findings into the next specification": "Beoordeel de kwaliteit en bedrijfsimpact, beheer versies en toegang en spreek af wie releases goedkeurt. Gebruik bevindingen uit de praktijk voor de volgende specificatie",
     "Sales and market development, platform architecture, and agent engineering. The founders bring these disciplines into one team": "Verkoop en marktontwikkeling, platformarchitectuur en de ontwikkeling van agenten. De oprichters brengen deze vakgebieden samen in één team",
@@ -131,9 +124,7 @@
   },
   "src/app/(en)/blog/[slug]/page.tsx": {
     "A practical guide by Escalir": "Een praktische gids van Escalir",
-    "All Escalir guides": "Alle gidsen van Escalir",
     "Another useful perspective": "Een andere nuttige invalshoek",
-    "Back to all guides": "Terug naar alle gidsen",
     "Escalir guides": "Gidsen van Escalir",
     "Discuss your workflow": "Bespreek uw werkproces",
     "Guide contents": "Inhoud van de gids",
@@ -181,7 +172,6 @@
     "Explore the work behind Escalir: enterprise AI, engineering, knowledge and business workflows. Start a conversation with the team.": "Ontdek het werk achter Escalir: AI voor bedrijven, technische ontwikkeling, kennis en bedrijfsprocessen. Ga in gesprek met het team.",
     "Involved in the outcome": "Betrokken bij het resultaat",
     "It means asking good questions and taking responsibility for the details.": "Dat betekent goede vragen stellen en verantwoordelijkheid nemen voor de details.",
-    "Meet the people behind Escalir": "Maak kennis met de mensen achter Escalir",
     "More than one": "Meer dan één",
     "people can use": "die mensen kunnen gebruiken",
     "People collaborating in a business workshop": "Mensen die samenwerken tijdens een zakelijke workshop",
@@ -206,19 +196,15 @@
     "A few things": "Een paar dingen",
     "A short description is enough to start. Keep confidential files out of the first message.": "Een korte beschrijving is genoeg om te beginnen. Deel in het eerste bericht geen vertrouwelijke bestanden.",
     "A useful starting point": "Een zinvol vertrekpunt",
-    "Before the conversation": "Voor het gesprek",
     "Bring a process, a question or an idea. We will explore the starting point together": "Breng een proces, een vraag of een idee mee. Samen verkennen we het vertrekpunt",
     "Co-founder · CEO": "Medeoprichter · CEO",
     "Contact": "Contact",
-    "Find a useful first project": "Vind een zinvol eerste project",
     "Good work starts": "Goed werk begint",
     "Let’s talk": "Laten we praten",
     "like AI to help with?": "u helpen?",
     "Message Vitali on Telegram": "Stuur Vitali een bericht op Telegram",
-    "Not sure": "Weet u niet",
     "Opens a conversation in Telegram": "Opent een gesprek in Telegram",
     "People moving through a shared business space": "Mensen die door een gedeelde bedrijfsruimte lopen",
-    "Read our guide to choosing a first AI workflow": "Lees onze gids voor het kiezen van een eerste AI-werkproces",
     "Read our privacy information": "Lees onze privacyinformatie",
     "Speak with a founder": "Spreek met een oprichter",
     "Start a conversation": "Ga in gesprek",
@@ -229,7 +215,6 @@
     "to tell us": "die u ons kunt vertellen",
     "What would a useful first result look like?": "Hoe zou een zinvol eerste resultaat eruitzien?",
     "What would you": "Waarmee kan AI",
-    "where to start?": "waar u moet beginnen?",
     "Which task or process would you like to improve?": "Welke taak of welk proces wilt u verbeteren?",
     "Which team, documents or systems are involved?": "Welk team, welke documenten of systemen zijn erbij betrokken?",
     "with a conversation": "met een gesprek",
@@ -341,7 +326,6 @@
   "src/app/(en)/press/page.tsx": {
     "A clear introduction": "Een heldere kennismaking",
     "About the company": "Over het bedrijf",
-    "Accent blue": "Blauw als accentkleur",
     "behind Escalir": "achter Escalir",
     "Black": "Zwart",
     "Black SVG": "Zwarte SVG",
@@ -361,11 +345,8 @@
     "Founder profiles": "Profielen van de oprichters",
     "in a few words": "in een paar woorden",
     "Meet the founders and find their public profiles. For interviews and company enquiries, contact Vitali": "Maak kennis met de oprichters en bekijk hun openbare profielen. Neem contact op met Vitali voor interviews en vragen over het bedrijf",
-    "More about Escalir": "Meer over Escalir",
     "more context?": "meer context nodig?",
     "Need a little": "Heeft u wat",
-    "Original Lato SemiBold (600) lettering": "Originele belettering in Lato SemiBold (600)",
-    "Our original Escalir wordmark, in black and white. Download the supplied vector artwork for a clear introduction to the company": "Ons originele Escalir-woordmerk, in zwart en wit. Download het aangeleverde vectorbestand voor een heldere presentatie van het bedrijf",
     "Press & brand": "Pers en merk",
     "Press enquiries": "Persvragen",
     "SVG · transparent background · vector format": "SVG · transparante achtergrond · vectorformaat",
@@ -373,11 +354,11 @@
     "The people": "De mensen",
     "The platform connects three stages: specification of business requests, development of agents and workflows, and governance through quality metrics, versions, access control and audit records.": "Het platform verbindt drie fasen: specificatie van bedrijfsaanvragen, ontwikkeling van agenten en werkprocessen en governance via kwaliteitsmetingen, versies, toegangsbeheer en auditregistraties.",
     "to Escalir": "met Escalir",
-    "Use blue sparingly for key actions and accents. Keep the wordmark black on light backgrounds or white on dark backgrounds, with clear contrast.": "Gebruik blauw spaarzaam voor belangrijke acties en accenten. Gebruik het woordmerk in zwart op lichte achtergronden en in wit op donkere achtergronden, met duidelijk contrast.",
     "Use the supplied artwork unchanged. Leave clear space on every side at least equal to the height of the letter “C”. Keep the wordmark at least 80 px wide on screen or 20 mm in print.": "Gebruik het aangeleverde ontwerp ongewijzigd. Houd aan elke zijde minimaal de hoogte van de letter ‘C’ vrij. Gebruik het woordmerk minimaal 80 px breed op een scherm of 20 mm in drukwerk.",
     "White": "Wit",
     "White SVG": "Witte SVG",
-    "wordmark": "van Escalir"
+    "wordmark": "van Escalir",
+    "Green": "Groen"
   },
   "src/app/(en)/privacy/page.tsx": {
     "A choice to connect": "Contact op uw initiatief",
@@ -420,10 +401,8 @@
   "src/app/(en)/security/page.tsx": {
     "A closed deployment can use local models and operate without external API or cloud calls. If an external model is selected, the allowed data and processing route are defined explicitly.": "Een gesloten omgeving kan lokale modellen gebruiken en werken zonder externe API- of cloudaanroepen. Als een extern model wordt gekozen, worden de toegestane gegevens en de verwerkingsroute expliciet vastgelegd.",
     "A few practical questions": "Een paar praktische vragen",
-    "A meaningful review point": "Een zinvol beoordelingsmoment",
     "Access policies, verification and audit logs are configured for the selected workflow. Process owners and technical teams review the evidence, agree acceptance and keep the operating practices up to date.": "Toegangsbeleid, verificatie en auditlogboeken worden voor het gekozen werkproces geconfigureerd. Procesverantwoordelijken en technische teams beoordelen de onderbouwing, spreken de acceptatie af en houden de beheerpraktijken actueel.",
     "Agree control questions, datasets and target metrics with process owners. Check source support and citations, then measure answer quality, corrections and processing time before rollout": "Spreek controlevragen, datasets en doelwaarden af met procesverantwoordelijken. Controleer de onderbouwing door bronnen en de bronverwijzingen en meet vóór de uitrol de antwoordkwaliteit, correcties en verwerkingstijd",
-    "Answers you can inspect": "Antwoorden die u kunt controleren",
     "Audit and monitoring": "Audit en monitoring",
     "Before": "Voordat",
     "Before implementation": "Vóór de implementatie",
@@ -453,12 +432,9 @@
     "Evaluation & acceptance": "Evaluatie en acceptatie",
     "Explore deployment decisions": "Bekijk de keuzes voor de uitrol",
     "from clear boundaries": "door duidelijke grenzen",
-    "Give people the context they need to make a decision": "Geef mensen de context die ze nodig hebben om een beslissing te nemen",
     "How do we check model quality?": "Hoe controleren we de modelkwaliteit?",
     "Identity & knowledge access": "Identiteit en toegang tot kennis",
     "Keep source documents, versions and activity logs in the agreed deployment. Define retention, backup and support access with the teams responsible for operating it": "Bewaar brondocumenten, versies en activiteitenlogboeken in de afgesproken omgeving. Bepaal bewaartermijnen, back-ups en toegang voor ondersteuning samen met de teams die verantwoordelijk zijn voor het beheer",
-    "Keep the evidence and access rules connected to the answer": "Houd de onderbouwing en toegangsregels verbonden met het antwoord",
-    "Knowledge": "Kennis",
     "Knowledge access": "Toegang tot kennis",
     "Limit retrieval to permitted documents and show the source and version behind answers": "Beperk het ophalen van informatie tot toegestane documenten en toon de bron en versie achter antwoorden",
     "Local and external models have different data flows; processing location, retention and support access are agreed for each deployment": "Lokale en externe modellen hebben verschillende gegevensstromen; verwerkingslocatie, bewaartermijnen en toegang voor ondersteuning worden per implementatie afgesproken",
@@ -466,8 +442,6 @@
     "Name the owners of data, policies and workflows. Connect logs to your SIEM, monitor quality and resource use, and train your team to maintain the deployment": "Benoem de verantwoordelijken voor gegevens, beleid en werkprocessen. Koppel logboeken aan uw SIEM, bewaak kwaliteit en middelengebruik en train uw team in het beheer van de omgeving",
     "One shared brief": "Eén gezamenlijk uitgangsdocument",
     "Operations & ownership": "Beheer en verantwoordelijkheid",
-    "Put the principles into practice": "Breng de uitgangspunten in de praktijk",
-    "Read the deployment guide": "Lees de gids voor de uitrol",
     "Records & support access": "Vastlegging en toegang voor ondersteuning",
     "Security & control": "Beveiliging en controle",
     "Security questions": "Vragen over beveiliging",
@@ -480,33 +454,32 @@
     "we start": "we beginnen",
     "website privacy information": "privacyinformatie van de website",
     "Your boundaries": "Uw grenzen",
-    "Your environment": "Uw omgeving",
-    "Workflows": "Werkprocessen"
+    "Your environment": "Uw omgeving"
   },
   "src/app/(en)/systems/page.tsx": {
     "Turn business requests into tested workflows through specification, development and governance, connecting company knowledge, agents and existing systems": "Zet aanvragen vanuit de organisatie om in geteste werkprocessen via specificatie, ontwikkeling en governance, en verbind bedrijfskennis, agenten en bestaande systemen"
   },
   "src/components/AppScreenshot.tsx": {
-    "Open {0} screenshot": "Screenshot van {0} openen"
+    "Open {0} screenshot": "Screenshot van {0} openen",
+    "Open {0} illustration": "Illustratie van {0} openen"
   },
   "src/components/Brain.tsx": {
     "A closer look": "Een nadere blik",
     "at the workspace": "op de werkomgeving",
-    "From files and voice to the details behind an answer. Explore real views from the Escalir application": "Van bestanden en spraak tot de details achter een antwoord. Bekijk echte schermen uit de Escalir-applicatie",
-    "Inside Escalir": "Een kijkje in Escalir"
+    "Inside Escalir": "Een kijkje in Escalir",
+    "Explore files, audio and the details behind an answer": "Bekijk bestanden, audio en de details van een antwoord"
   },
   "src/components/Contact.tsx": {
     "Start with one process": "Begin met één proces",
     "Tell Vitali which process you want to improve, where the relevant information lives and what a useful outcome would look like": "Vertel Vitali welk proces u wilt verbeteren, waar de relevante informatie staat en wat voor u een waardevol resultaat is"
   },
   "src/components/Footer.tsx": {
-    "Company": "Bedrijf",
     "Footer navigation": "Voettekstnavigatie",
-    "Get in touch": "Neem contact op",
     "Industries": "Sectoren",
     "Intelligence, put to work": "Intelligentie in de praktijk",
     "Platform": "Platform",
-    "Privacy information": "Privacyinformatie"
+    "Privacy information": "Privacyinformatie",
+    "Information": "Informatie"
   },
   "src/components/Founders.tsx": {
     "Building the next": "Bouwen aan het volgende",
@@ -515,7 +488,6 @@
     "Co-founder · CAIO": "Medeoprichter · CAIO",
     "Co-founder · CEO": "Medeoprichter · CEO",
     "Co-founder · CTO": "Medeoprichter · CTO",
-    "Get to know the team": "Maak kennis met het team",
     "The people behind the work": "De mensen achter het werk"
   },
   "src/components/Header.tsx": {
@@ -584,13 +556,6 @@
     "Utilities": "Nutsbedrijven",
     "your industry": "uw sector"
   },
-  "src/components/HomeInsights.tsx": {
-    "Explore the blog": "Bekijk de blog",
-    "Ideas for useful AI": "Ideeën voor bruikbare AI",
-    "Practical guides to choosing a workflow, working with knowledge and keeping people in control": "Praktische gidsen over het kiezen van een werkproces, werken met kennis en mensen de controle laten behouden",
-    "Then put it to work": "Breng het daarna in de praktijk",
-    "Think it through": "Denk het goed door"
-  },
   "src/components/HomeProductFamily.tsx": {
     "Bring the information and review steps a business process actually needs into one place": "Breng de informatie en beoordelingsstappen die een bedrijfsproces daadwerkelijk nodig heeft op één plek samen",
     "Help employees find answers, prepare documents and resolve routine requests": "Help medewerkers antwoorden te vinden, documenten voor te bereiden en routinematige verzoeken af te handelen",
@@ -607,8 +572,6 @@
     "Co-founder · CTO": "Medeoprichter · CTO",
     "Co-founder · CAIO": "Medeoprichter · CAIO",
     "The platform is built by the Escalir team, with operating, investment and ecosystem experience from our Justart partners": "Het platform is gebouwd door het Escalir-team, met operationele, investerings- en ecosysteemervaring van onze Justart-partners",
-    "About Escalir": "Over Escalir",
-    "Careers": "Werken bij Escalir",
     "The people behind Escalir": "De mensen achter Escalir",
     "Meet the people": "Maak kennis met het team",
     "behind the work": "achter het werk"
@@ -933,7 +896,6 @@
     "Workflow": "Werkproces"
   },
   "src/components/platform/GatewayWorkspace.tsx": {
-    "Actual views from the Escalir application": "Werkelijke schermen uit de Escalir-toepassing",
     "Application views": "Toepassingsschermen",
     "Escalir application views": "Schermen van de Escalir-toepassing",
     "Choose among connected models and inspect their settings in the Escalir workspace": "Kies uit verbonden modellen en bekijk hun instellingen in de Escalir-werkomgeving",
@@ -944,7 +906,8 @@
     "Inspect the timing and token information attached to an answer": "Bekijk de tijds- en tokengegevens die bij een antwoord horen",
     "Models & controls": "Modellen en instellingen",
     "Response details": "Antwoorddetails",
-    "Review the documents available to support knowledge search and agent workflows": "Bekijk de documenten die beschikbaar zijn voor kenniszoekopdrachten en werkprocessen met agenten"
+    "Review the documents available to support knowledge search and agent workflows": "Bekijk de documenten die beschikbaar zijn voor kenniszoekopdrachten en werkprocessen met agenten",
+    "Product illustrations and application screenshots": "Productillustraties en schermafbeeldingen van de applicatie"
   },
   "src/components/platform/OperatingLayerExplorer.tsx": {
     "and governance": "en governance",
@@ -1168,15 +1131,12 @@
   },
   "src/lib/app-captures.ts": {
     "Audio playback": "Audio afspelen",
-    "Escalir agent list detail showing model assignments, dates and action icons": "Detail van de agentlijst in Escalir met modeltoewijzingen, datums en actiepictogrammen",
     "Escalir response footer with copy and feedback controls, token counts and timing information": "Onderkant van een Escalir-antwoord met knoppen voor kopiëren en feedback, tokenaantallen en tijdsgegevens",
     "Escalir transcription workspace audio player with playback, seek and volume controls": "Audiospeler in de transcriptieomgeving van Escalir met bediening voor afspelen, vooruit- en terugspoelen en volume",
     "Choose a document directly in the OCR workspace": "Kies rechtstreeks een document in de OCR-werkomgeving",
     "Document import": "Documentimport",
     "Files & structured data": "Bestanden en gestructureerde gegevens",
-    "Four actual file-library rows in Escalir, showing JSON and text files with their sizes": "Vier werkelijke rijen uit de bestandsbibliotheek van Escalir, met JSON- en tekstbestanden en hun grootte",
     "Inspect the token counts and timing details attached to an application response": "Bekijk de tokenaantallen en tijdsgegevens die bij een antwoord van de toepassing horen",
-    "Model assignments and agent controls, as they appear in the Escalir workspace": "Modeltoewijzingen en agentbediening zoals ze in de Escalir-werkomgeving verschijnen",
     "Model selection": "Modelselectie",
     "Models & controls": "Modellen en instellingen",
     "Replay a recording from the transcription workspace": "Speel een opname opnieuw af vanuit de transcriptieomgeving",
@@ -1184,7 +1144,10 @@
     "Select the model for a conversation in the Escalir chat interface": "Selecteer het model voor een gesprek in de chatinterface van Escalir",
     "The actual Choose File control in Escalir's OCR document workspace": "De daadwerkelijke knop ‘Choose File’ in de OCR-documentomgeving van Escalir",
     "The actual model selector in Escalir chat, displaying deepseek-v4-pro": "De daadwerkelijke modelkiezer in Escalir-chat, met deepseek-v4-pro",
-    "Work with existing files in the application, including text documents and structured data": "Werk met bestaande bestanden in de toepassing, waaronder tekstdocumenten en gestructureerde gegevens"
+    "Illustration of three model modules connected through an access control gate": "Illustratie van drie modelmodules die via een toegangspoort zijn verbonden",
+    "Choose models for each workflow and define who can use them": "Kies modellen voor elk werkproces en bepaal wie ze mag gebruiken",
+    "Illustration of stacked documents with a grid of data cells": "Illustratie van een stapel documenten met een raster van gegevenscellen",
+    "Use documents and structured data in agent workflows": "Gebruik documenten en gestructureerde gegevens in de werkprocessen van agenten"
   },
   "src/lib/articles.ts": {
     "4 min read": "4 min leestijd",
@@ -1903,16 +1866,13 @@
     "@audience:utilities": "nutsbedrijven"
   },
   "src/lib/navigation.ts": {
-    "About Escalir": "Over Escalir",
     "Agents, integrations and workflow orchestration": "Agenten, integraties en de orkestratie van werkprocessen",
     "AI transformation": "AI-transformatie",
     "Airlines": "Luchtvaartmaatschappijen",
     "Answers for customers, stores and suppliers": "Antwoorden voor klanten, winkels en leveranciers",
     "Answers grounded in approved knowledge": "Antwoorden op basis van goedgekeurde kennis",
     "Banking": "Bankwezen",
-    "Bring your experience to useful AI": "Zet uw ervaring in voor bruikbare AI",
     "Choose the right approach for each task": "Kies de juiste aanpak voor elke taak",
-    "Company information and brand resources": "Bedrijfsinformatie en merkmateriaal",
     "Connect service and operational knowledge": "Verbind dienstverleningskennis en operationele kennis",
     "Contact": "Contact",
     "Customer context across your operation": "Klantcontext in uw hele organisatie",
@@ -1921,7 +1881,6 @@
     "Healthcare": "Zorg",
     "Insurance": "Verzekeringen",
     "Keep teams informed when plans change": "Houd teams op de hoogte wanneer plannen veranderen",
-    "Media & company": "Media en bedrijf",
     "Model choice, data rules and usage visibility": "Modelkeuze, gegevensregels en inzicht in gebruik",
     "Move paperwork forward with human review": "Verwerk documenten met menselijke beoordeling",
     "Process audit, pilot and team handover": "Procesaudit, pilot en overdracht aan het team",
@@ -1931,9 +1890,7 @@
     "Start a conversation with Vitali": "Ga in gesprek met Vitali",
     "Support the administrative work around care": "Ondersteun het administratieve werk rondom de zorg",
     "Telecommunications": "Telecommunicatie",
-    "The people and principles behind the work": "De mensen en principes achter het werk",
     "Utilities": "Nutsbedrijven",
-    "Work with us": "Werk met ons samen",
     "Your environment, your boundaries": "Uw omgeving, uw grenzen"
   },
   "src/lib/site.ts": {
@@ -1943,5 +1900,9 @@
   "src/lib/founder-descriptions.ts": {
     "Leads the architecture and engineering of Escalir’s enterprise AI platform": "Leidt de architectuur en ontwikkeling van het AI-platform van Escalir voor organisaties",
     "Leads AI strategy, agent design and workflow automation": "Leidt de AI-strategie, het ontwerp van agenten en de automatisering van werkprocessen"
+  },
+  "src/components/FooterContact.tsx": {
+    "Get in touch": "Neem contact op",
+    "We invite investors to join our waitlist.": "We nodigen investeerders uit om zich aan te melden voor onze wachtlijst."
   }
 }

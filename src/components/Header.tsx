@@ -199,8 +199,8 @@ export default function Header({ variant = "overlay", showAnnouncement = true }:
     >
       <div className={styles.bar}>
         <a className={styles.brand} href="/" aria-label="Escalir home">
-          <img className={styles.whiteLogo} src="/brand/escalir-logo-mono-white.svg" alt="Escalir" width={2927} height={777} />
-          <img className={styles.blackLogo} src="/brand/escalir-logo.svg" alt="" width={2927} height={777} />
+          <img className={styles.whiteLogo} src="/brand/escalir-logo-white.svg" alt="Escalir" width={1431} height={341} />
+          <img className={styles.blackLogo} src="/brand/escalir-logo.svg" alt="" width={1431} height={341} />
         </a>
         <nav className={styles.desktop} aria-label="Main navigation">
           {headerNavigation.map(group => (

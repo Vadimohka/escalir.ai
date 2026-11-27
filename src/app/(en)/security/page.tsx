@@ -1,7 +1,6 @@
 import Image from "next/image";
-import { ArrowDown, ArrowUpRight } from "lucide-react";
+import { ArrowDown } from "lucide-react";
 import PageFrame from "@/components/site/PageFrame";
-import { RelatedPages } from "@/components/site/Sections";
 import { CompanyAccordion, CompanyCTA, CompanyHeading } from "@/components/company/CompanyElements";
 import { pageMetadata } from "@/lib/metadata";
 
@@ -44,7 +43,7 @@ export default function SecurityPage() {
         </section>
         <section className="co-section co-warm" id="deployment-brief">
           <div className="shell co-security-brief">
-            <div><CompanyHeading eyebrow="Before implementation" title={<>Six decisions<br />One shared brief</>} description="Bring process owners, IT and security together to define identity, data access, model use and acceptance before rollout" /><a className="co-text-link" href="/blog/plan-ai-deployment/">Read the deployment guide<ArrowUpRight size={18} aria-hidden="true" /></a></div>
+            <div><CompanyHeading eyebrow="Before implementation" title={<>Six decisions<br />One shared brief</>} description="Bring process owners, IT and security together to define identity, data access, model use and acceptance before rollout" /></div>
             <CompanyAccordion items={deploymentDecisions} label="Deployment decisions" firstOpen />
           </div>
         </section>
@@ -54,10 +53,6 @@ export default function SecurityPage() {
         <section className="co-section co-security-scope">
           <div className="shell co-editorial-split"><CompanyHeading eyebrow="Built for ongoing operation" title={<>Controls and practices<br />that work together</>} /><div className="co-prose"><p>Access policies, verification and audit logs are configured for the selected workflow. Process owners and technical teams review the evidence, agree acceptance and keep the operating practices up to date.</p><p>Document the data flows, responsibilities and support access with your team. The <a href="/privacy/">website privacy information</a> describes the public website; your deployment follows its own agreed configuration and terms.</p></div></div>
         </section>
-        <RelatedPages title="Put the principles into practice" links={[
-          { href: "/blog/answers-need-sources/", eyebrow: "Knowledge", title: "Answers you can inspect", description: "Keep the evidence and access rules connected to the answer" },
-          { href: "/blog/human-review/", eyebrow: "Workflows", title: "A meaningful review point", description: "Give people the context they need to make a decision" },
-        ]} />
         <CompanyCTA title={<>Define the boundaries<br />Then build with confidence</>} description="Discuss your infrastructure, data boundaries, model choices and acceptance criteria with the Escalir team" />
       </div>
     </PageFrame>

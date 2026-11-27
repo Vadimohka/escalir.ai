@@ -16,10 +16,7 @@ export const industryLinks: NavigationLink[] = [
   { href: "/industries/retail/", title: "Retail", description: "Answers for customers, stores and suppliers" },
   { href: "/industries/airlines/", title: "Airlines", description: "Keep teams informed when plans change" },
 ];
-export const companyLinks: NavigationLink[] = [
-  { href: "/about-us/", title: "About Escalir", description: "The people and principles behind the work" },
-  { href: "/careers/", title: "Work with us", description: "Bring your experience to useful AI" },
-  { href: "/press/", title: "Media & company", description: "Company information and brand resources" },
+export const informationLinks: NavigationLink[] = [
   { href: "/security/", title: "Security & control", description: "Your environment, your boundaries" },
   { href: "/contact/", title: "Contact", description: "Start a conversation with Vitali" },
 ];

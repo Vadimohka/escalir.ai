@@ -25,7 +25,7 @@ export default function CareersPage() {
         <section className="co-section" id="the-work">
           <div className="shell co-editorial-split">
             <CompanyHeading eyebrow="The work" title={<>Close to the problem<br />Involved in the outcome</>} />
-            <div className="co-prose"><p className="co-lead">Enterprise AI is a collaboration between people who understand the process and people who can build the system.</p><p>The interesting work happens where those perspectives meet. It might mean tracing a document through an approval process, making an answer easier to inspect or designing a reliable connection to an existing system.</p><p>It means asking good questions and taking responsibility for the details.</p><a className="co-text-link" href="/about-us/">Meet the people behind Escalir<ArrowUpRight size={18} aria-hidden="true" /></a></div>
+            <div className="co-prose"><p className="co-lead">Enterprise AI is a collaboration between people who understand the process and people who can build the system.</p><p>The interesting work happens where those perspectives meet. It might mean tracing a document through an approval process, making an answer easier to inspect or designing a reliable connection to an existing system.</p><p>It means asking good questions and taking responsibility for the details.</p></div>
           </div>
         </section>
         <section className="co-section co-warm">

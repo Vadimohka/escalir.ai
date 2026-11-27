@@ -22,8 +22,11 @@ async function loadModule(path, dependencies) {
 }
 
 const i18n = await loadModule("../src/lib/i18n.ts", { "@/locales/config.json": configuration, "./site": site });
+const articles = await loadModule("../src/lib/articles.ts", {});
+const navigation = await loadModule("../src/lib/navigation.ts", {});
+const routes = await loadModule("../src/lib/routes.ts", { "./articles": articles, "./navigation": navigation });
 const metadata = await loadModule("../src/lib/metadata.ts", {
-  "./i18n": i18n, "./site": site, "./locale": { LOCALE: configuration.defaultLocale },
+  "./i18n": i18n, "./site": site, "./locale": { LOCALE: configuration.defaultLocale }, "./routes": routes,
 });
 const { locales, localizedPath, localeForPath, languageAlternates, guideCountLabel } = i18n;
 
@@ -176,6 +179,11 @@ test("metadata binds canonical, social preview and alternates to the requested l
     assert.equal(home.title, "Local homepage title");
     assert.equal(home.openGraph.title, home.title);
     assert.equal(home.alternates.canonical, `${site.SITE_URL}${localizedPath("/", locale)}`);
+    assert.equal(result.robots, undefined);
+    for (const path of routes.UNLISTED_ROUTES) {
+      const unlisted = metadata.pageMetadata("Archive", "Local description", path, locale);
+      assert.deepEqual(unlisted.robots, { index: false, follow: true });
+    }
   }
 });
 

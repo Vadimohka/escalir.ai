@@ -61,11 +61,6 @@ export default function HomeTeam() {
             </li>
           ))}
         </ul>
-
-        <div className={styles.actions}>
-          <a href="/about-us/">About Escalir<ArrowUpRight size={18} aria-hidden="true" /></a>
-          <a href="/careers/">Careers<ArrowUpRight size={18} aria-hidden="true" /></a>
-        </div>
       </div>
     </section>
   );

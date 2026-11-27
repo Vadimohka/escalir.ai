@@ -38,6 +38,7 @@ button:focus-visible { outline: 3px solid var(--color-focus); outline-offset: 4p
 .footer-main-multipage .footer-nav { grid-template-columns: 1fr 1.2fr; }
 .footer-main-multipage .footer-brand { font-size: clamp(42px, 5vw, 72px); }
 .footer-main-multipage .footer-brand-block > .footer-contact { margin-top: 20px; color: #e4e4e4; font-size: 12px; }
+.footer-investor-waitlist { max-width: 34ch; margin: 12px 0 0; color: #c2c2c0; font-size: 13px; line-height: 1.55; }
 .footer-main-multipage .footer-nav a { min-height: 38px; }
 
 /* Flexible editorial page heroes and common sections. */

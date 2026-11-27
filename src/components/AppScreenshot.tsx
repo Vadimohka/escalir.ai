@@ -7,12 +7,14 @@ type AppScreenshotProps = {
   priority?: boolean;
 };
 
-/** A real, pre-cropped recording frame. Never hide extra source content with CSS. */
+/** A product illustration or pre-cropped recording frame with a full-size link. */
 export default function AppScreenshot({ capture, className = "", priority = false }: AppScreenshotProps) {
   const image = appCaptures[capture];
-  return <figure className={`app-capture app-capture-${image.tone} ${className}`}>
+  const illustration = image.illustration;
+  const label = illustration ? `Open ${image.title} illustration` : `Open ${image.title} screenshot`;
+  return <figure className={`app-capture app-capture-${image.tone} ${className}`} data-illustration={illustration || undefined}>
     <div className="app-capture-stage">
-      <a className="app-capture-open" href={image.src} target="_blank" rel="noopener noreferrer" aria-label={`Open ${image.title} screenshot`} style={{ maxWidth: image.width }}>
+      <a className="app-capture-open" href={image.src} target="_blank" rel="noopener noreferrer" aria-label={label} style={{ maxWidth: image.width }}>
         <img src={image.src} alt={image.alt} width={image.width} height={image.height} loading={priority ? "eager" : "lazy"} decoding="async" />
         <span className="app-capture-expand" aria-hidden="true"><ArrowUpRight size={16} /></span>
       </a>

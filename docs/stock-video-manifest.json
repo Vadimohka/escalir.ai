@@ -460,9 +460,9 @@
     "scene-warehouse.webp"
   ],
   "social_preview": {
-    "file": "public/og/escalir.png",
+    "file": "public/og/escalir.webp",
     "derived_from": "hero-poster.webp",
     "recipe": "npm run assets:og",
-    "sha256": "e0768f8c1bf243b30336262dce641a714051ebff3511d1885dd337dfae6c8c3b"
+    "sha256": "218adbd3db6331edcb61ebe84aca56714289a7323dc2ff0e1ec0b92fa234bdf3"
   }
 }

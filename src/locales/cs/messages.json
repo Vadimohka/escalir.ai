@@ -2,7 +2,6 @@
   "src/app/(en)/about-us/page.tsx": {
     "A business workshop around a whiteboard": "Pracovní workshop u bílé tabule",
     "A closer look at Escalir": "Poznejte Escalir blíže",
-    "A useful starting point": "Užitečný výchozí bod",
     "About Escalir": "O Escalir",
     "About us": "O nás",
     "Bring intelligence": "Přibližte inteligenci",
@@ -16,22 +15,16 @@
     "Choose agents, RPA or corporate chat to fit the process. Build and test with your team, using approved knowledge, integrations and models": "Zvolte agenty, RPA nebo firemní chat podle potřeb procesu. Vyvíjejte a testujte se svým týmem s využitím schválených znalostí, integrací a modelů",
     "closer to the work": "každodenní práci",
     "Collect requests from departments and record the owner, workload, data, risks and acceptance criteria. Prioritize work by readiness and expected value": "Shromažďujte požadavky jednotlivých oddělení a zaznamenávejte odpovědnou osobu, pracnost, data, rizika a akceptační kritéria. Určujte priority podle připravenosti a očekávaného přínosu",
-    "Company": "Společnost",
-    "Company information, people and original brand materials": "Informace o společnosti, lidech a původní materiály značky",
     "Connection, clarity, room to build": "Propojení, přehlednost, prostor pro tvorbu",
     "Development": "Vývoj",
-    "Explore careers at Escalir": "Prohlédněte si kariérní možnosti v Escalir",
     "Explore the platform": "Prozkoumejte platformu",
     "From request to operation": "Od požadavku po provoz",
-    "Ideas": "Nápady",
     "Knowledge, models, agents and operating records stay connected throughout that cycle. We help establish the first workflows and transfer requirements, testing and maintenance practices so your team can continue the work.": "Znalosti, modely, agenti a provozní záznamy zůstávají propojené po celý cyklus. Pomáháme zavést první pracovní postupy a předáváme praxi v oblasti požadavků, testování a údržby, aby váš tým mohl v práci pokračovat.",
     "Meet the founders": "Seznamte se se zakladateli",
     "One cycle": "Jeden cyklus",
     "Our approach": "Náš přístup",
     "Our perspective": "Náš pohled",
     "Our work connects business analysis, platform engineering and applied AI. We value people who can understand a process, test a solution and help a customer team learn to maintain it.": "Naše práce propojuje podnikovou analýzu, vývoj platformy a aplikovanou AI. Vážíme si lidí, kteří dokážou porozumět procesu, ověřit řešení a pomoci týmu zákazníka naučit se jej udržovat.",
-    "Practical guides to knowledge, workflows and deployment": "Praktičtí průvodci znalostmi, pracovními postupy a nasazením",
-    "Press & brand": "Pro média a značka",
     "Put into practice": "V praxi",
     "Review quality and business impact, manage versions and access, and agree release approvals. Feed operational findings into the next specification": "Vyhodnocujte kvalitu a dopad na podnikání, spravujte verze a přístup a dohodněte schvalování vydání. Poznatky z provozu promítejte do další specifikace",
     "Sales and market development, platform architecture, and agent engineering. The founders bring these disciplines into one team": "Obchod a rozvoj trhu, architektura platformy a vývoj agentů. Zakladatelé spojují tyto disciplíny v jednom týmu",
@@ -131,9 +124,7 @@
   },
   "src/app/(en)/blog/[slug]/page.tsx": {
     "A practical guide by Escalir": "Praktický průvodce od Escalir",
-    "All Escalir guides": "Přehled všech průvodců Escalir",
     "Another useful perspective": "Další užitečný pohled",
-    "Back to all guides": "Zpět na všechny průvodce",
     "Escalir guides": "Průvodci Escalir",
     "Discuss your workflow": "Proberte svůj pracovní postup",
     "Guide contents": "Obsah průvodce",
@@ -181,7 +172,6 @@
     "Explore the work behind Escalir: enterprise AI, engineering, knowledge and business workflows. Start a conversation with the team.": "Poznejte práci, která stojí za Escalir: podnikovou AI, technický vývoj, znalosti a podnikové pracovní postupy. Navažte rozhovor s týmem.",
     "Involved in the outcome": "Podíl na výsledku",
     "It means asking good questions and taking responsibility for the details.": "Znamená to klást dobré otázky a převzít odpovědnost za detaily.",
-    "Meet the people behind Escalir": "Poznejte lidi za Escalir",
     "More than one": "Více než jeden",
     "people can use": "které lidé využijí",
     "People collaborating in a business workshop": "Lidé spolupracující na pracovním workshopu",
@@ -206,19 +196,15 @@
     "A few things": "Několik věcí,",
     "A short description is enough to start. Keep confidential files out of the first message.": "Pro začátek stačí krátký popis. V první zprávě neposílejte důvěrné soubory.",
     "A useful starting point": "Užitečný výchozí bod",
-    "Before the conversation": "Před rozhovorem",
     "Bring a process, a question or an idea. We will explore the starting point together": "Přijďte s procesem, otázkou nebo nápadem. Společně najdeme výchozí bod",
     "Co-founder · CEO": "Spoluzakladatel · CEO",
     "Contact": "Kontakt",
-    "Find a useful first project": "Najděte užitečný první projekt",
     "Good work starts": "Dobrá práce začíná",
     "Let’s talk": "Pojďme si promluvit",
     "like AI to help with?": "pomoc od AI?",
     "Message Vitali on Telegram": "Napište Vitalimu na Telegramu",
-    "Not sure": "Nevíte,",
     "Opens a conversation in Telegram": "Otevře konverzaci v Telegramu",
     "People moving through a shared business space": "Lidé procházející společným prostorem kancelářské budovy",
-    "Read our guide to choosing a first AI workflow": "Přečtěte si našeho průvodce výběrem prvního pracovního postupu s AI",
     "Read our privacy information": "Přečtěte si informace o ochraně soukromí",
     "Speak with a founder": "Promluvte si se zakladatelem",
     "Start a conversation": "Začněte rozhovor",
@@ -229,7 +215,6 @@
     "to tell us": "které nám můžete říct",
     "What would a useful first result look like?": "Jak by vypadal užitečný první výsledek?",
     "What would you": "S čím byste chtěli",
-    "where to start?": "kde začít?",
     "Which task or process would you like to improve?": "Který úkol nebo proces byste chtěli zlepšit?",
     "Which team, documents or systems are involved?": "Kterého týmu, dokumentů nebo systémů se to týká?",
     "with a conversation": "rozhovorem",
@@ -341,7 +326,6 @@
   "src/app/(en)/press/page.tsx": {
     "A clear introduction": "Srozumitelné představení",
     "About the company": "O společnosti",
-    "Accent blue": "Akcentní modrá",
     "behind Escalir": "za Escalir",
     "Black": "Černá",
     "Black SVG": "Černé SVG",
@@ -361,11 +345,8 @@
     "Founder profiles": "Profily zakladatelů",
     "in a few words": "několika slovy",
     "Meet the founders and find their public profiles. For interviews and company enquiries, contact Vitali": "Seznamte se se zakladateli a prohlédněte si jejich veřejné profily. Kvůli rozhovorům a dotazům o společnosti se obraťte na Vitaliho",
-    "More about Escalir": "Více o Escalir",
     "more context?": "více informací?",
     "Need a little": "Potřebujete",
-    "Original Lato SemiBold (600) lettering": "Původní písmo Lato SemiBold (600)",
-    "Our original Escalir wordmark, in black and white. Download the supplied vector artwork for a clear introduction to the company": "Náš původní logotyp Escalir v černé a bílé. Stáhněte si dodané vektorové podklady pro srozumitelné představení společnosti",
     "Press & brand": "Pro média a značka",
     "Press enquiries": "Dotazy médií",
     "SVG · transparent background · vector format": "SVG · průhledné pozadí · vektorový formát",
@@ -373,11 +354,11 @@
     "The people": "Lidé",
     "The platform connects three stages: specification of business requests, development of agents and workflows, and governance through quality metrics, versions, access control and audit records.": "Platforma propojuje tři fáze: specifikaci podnikových požadavků, vývoj agentů a pracovních postupů a řízení s dohledem prostřednictvím metrik kvality, verzí, řízení přístupu a auditních záznamů.",
     "to Escalir": "Escalir",
-    "Use blue sparingly for key actions and accents. Keep the wordmark black on light backgrounds or white on dark backgrounds, with clear contrast.": "Modrou používejte střídmě pro klíčové akce a zvýraznění. Na světlém pozadí zachovejte černý logotyp, na tmavém bílý a zajistěte zřetelný kontrast.",
     "Use the supplied artwork unchanged. Leave clear space on every side at least equal to the height of the letter “C”. Keep the wordmark at least 80 px wide on screen or 20 mm in print.": "Používejte dodané podklady beze změn. Na každé straně ponechte volný prostor alespoň ve výšce písmene „C“. Logotyp musí mít na obrazovce šířku alespoň 80 px, v tisku 20 mm.",
     "White": "Bílá",
     "White SVG": "Bílé SVG",
-    "wordmark": "Escalir"
+    "wordmark": "Escalir",
+    "Green": "Zelená"
   },
   "src/app/(en)/privacy/page.tsx": {
     "A choice to connect": "Kontakt podle vaší volby",
@@ -420,10 +401,8 @@
   "src/app/(en)/security/page.tsx": {
     "A closed deployment can use local models and operate without external API or cloud calls. If an external model is selected, the allowed data and processing route are defined explicitly.": "Uzavřené nasazení může využívat lokální modely a fungovat bez volání externích API nebo cloudových služeb. Pokud je zvolen externí model, povolená data a cesta jejich zpracování jsou výslovně vymezeny.",
     "A few practical questions": "Několik praktických otázek",
-    "A meaningful review point": "Smysluplný kontrolní bod",
     "Access policies, verification and audit logs are configured for the selected workflow. Process owners and technical teams review the evidence, agree acceptance and keep the operating practices up to date.": "Pravidla přístupu, ověřování a auditní protokoly se konfigurují pro zvolený pracovní postup. Osoby odpovědné za procesy a technické týmy posuzují podklady, dohodnou akceptaci a udržují provozní postupy aktuální.",
     "Agree control questions, datasets and target metrics with process owners. Check source support and citations, then measure answer quality, corrections and processing time before rollout": "Dohodněte s osobami odpovědnými za procesy kontrolní otázky, datové sady a cílové metriky. Ověřte oporu ve zdrojích a odkazy na ně a před spuštěním měřte kvalitu odpovědí, opravy a dobu zpracování",
-    "Answers you can inspect": "Odpovědi, které můžete ověřit",
     "Audit and monitoring": "Audit a monitoring",
     "Before": "Než",
     "Before implementation": "Před implementací",
@@ -453,12 +432,9 @@
     "Evaluation & acceptance": "Vyhodnocení a akceptace",
     "Explore deployment decisions": "Prozkoumejte rozhodnutí o nasazení",
     "from clear boundaries": "z jasných hranic",
-    "Give people the context they need to make a decision": "Dejte lidem kontext potřebný k rozhodnutí",
     "How do we check model quality?": "Jak ověříme kvalitu modelu?",
     "Identity & knowledge access": "Identita a přístup ke znalostem",
     "Keep source documents, versions and activity logs in the agreed deployment. Define retention, backup and support access with the teams responsible for operating it": "Uchovávejte zdrojové dokumenty, verze a protokoly aktivit v dohodnutém nasazení. S týmy odpovědnými za jeho provoz určete dobu uchovávání, zálohování a přístup podpory",
-    "Keep the evidence and access rules connected to the answer": "Udržujte podklady a pravidla přístupu propojené s odpovědí",
-    "Knowledge": "Znalosti",
     "Knowledge access": "Přístup ke znalostem",
     "Limit retrieval to permitted documents and show the source and version behind answers": "Omezte vyhledávání na povolené dokumenty a zobrazujte zdroj a verzi, z nichž odpovědi vycházejí",
     "Local and external models have different data flows; processing location, retention and support access are agreed for each deployment": "Lokální a externí modely mají odlišné datové toky; místo zpracování, doba uchovávání a přístup podpory se dohodnou pro každé nasazení",
@@ -466,8 +442,6 @@
     "Name the owners of data, policies and workflows. Connect logs to your SIEM, monitor quality and resource use, and train your team to maintain the deployment": "Určete osoby odpovědné za data, pravidla a pracovní postupy. Propojte protokoly se svým SIEM, sledujte kvalitu a využití zdrojů a vyškolte tým pro údržbu nasazení",
     "One shared brief": "Jedno společné zadání",
     "Operations & ownership": "Provoz a odpovědnost",
-    "Put the principles into practice": "Uveďte principy do praxe",
-    "Read the deployment guide": "Přečtěte si průvodce nasazením",
     "Records & support access": "Záznamy a přístup podpory",
     "Security & control": "Bezpečnost a kontrola",
     "Security questions": "Otázky o bezpečnosti",
@@ -480,33 +454,32 @@
     "we start": "začneme",
     "website privacy information": "Informace o ochraně soukromí na webu",
     "Your boundaries": "Vaše hranice",
-    "Your environment": "Vaše prostředí",
-    "Workflows": "Pracovní postupy"
+    "Your environment": "Vaše prostředí"
   },
   "src/app/(en)/systems/page.tsx": {
     "Turn business requests into tested workflows through specification, development and governance, connecting company knowledge, agents and existing systems": "Převádějte podnikové požadavky na otestované pracovní postupy prostřednictvím specifikace, vývoje a řízení s dohledem a propojujte firemní znalosti, agenty a stávající systémy"
   },
   "src/components/AppScreenshot.tsx": {
-    "Open {0} screenshot": "Otevřít snímek obrazovky: {0}"
+    "Open {0} screenshot": "Otevřít snímek obrazovky: {0}",
+    "Open {0} illustration": "Otevřít ilustraci „{0}“"
   },
   "src/components/Brain.tsx": {
     "A closer look": "Podívejte se blíže",
     "at the workspace": "na pracovní prostředí",
-    "From files and voice to the details behind an answer. Explore real views from the Escalir application": "Od souborů a hlasu až po podklady k odpovědím. Prohlédněte si skutečné ukázky z aplikace Escalir",
-    "Inside Escalir": "Uvnitř Escalir"
+    "Inside Escalir": "Uvnitř Escalir",
+    "Explore files, audio and the details behind an answer": "Prozkoumejte soubory, zvuk a podrobnosti odpovědi"
   },
   "src/components/Contact.tsx": {
     "Start with one process": "Začněte jedním procesem",
     "Tell Vitali which process you want to improve, where the relevant information lives and what a useful outcome would look like": "Napište Vitalimu, který proces chcete zlepšit, kde se nacházejí potřebné informace a jak by měl vypadat užitečný výsledek"
   },
   "src/components/Footer.tsx": {
-    "Company": "Společnost",
     "Footer navigation": "Navigace v zápatí",
-    "Get in touch": "Kontaktujte nás",
     "Industries": "Odvětví",
     "Intelligence, put to work": "Inteligence v praxi",
     "Platform": "Platforma",
-    "Privacy information": "Informace o ochraně soukromí"
+    "Privacy information": "Informace o ochraně soukromí",
+    "Information": "Informace"
   },
   "src/components/Founders.tsx": {
     "Building the next": "Tvoříme další",
@@ -515,7 +488,6 @@
     "Co-founder · CAIO": "Spoluzakladatel · CAIO",
     "Co-founder · CEO": "Spoluzakladatel · CEO",
     "Co-founder · CTO": "Spoluzakladatel · CTO",
-    "Get to know the team": "Poznejte náš tým",
     "The people behind the work": "Lidé, kteří za tím stojí"
   },
   "src/components/Header.tsx": {
@@ -584,13 +556,6 @@
     "Utilities": "Energetika a veřejné služby",
     "your industry": "vaše odvětví"
   },
-  "src/components/HomeInsights.tsx": {
-    "Explore the blog": "Prozkoumejte blog",
-    "Ideas for useful AI": "Nápady pro užitečnou AI",
-    "Practical guides to choosing a workflow, working with knowledge and keeping people in control": "Praktičtí průvodci výběrem pracovního postupu, prací se znalostmi a zachováním kontroly v rukou lidí",
-    "Then put it to work": "Pak to uveďte do praxe",
-    "Think it through": "Promyslete si to"
-  },
   "src/components/HomeProductFamily.tsx": {
     "Bring the information and review steps a business process actually needs into one place": "Spojte na jednom místě informace a kontrolní kroky, které podnikový proces skutečně potřebuje",
     "Help employees find answers, prepare documents and resolve routine requests": "Pomozte zaměstnancům hledat odpovědi, připravovat dokumenty a vyřizovat běžné požadavky",
@@ -607,8 +572,6 @@
     "Co-founder · CTO": "Spoluzakladatel · CTO",
     "Co-founder · CAIO": "Spoluzakladatel · CAIO",
     "The platform is built by the Escalir team, with operating, investment and ecosystem experience from our Justart partners": "Platformu vytvořil tým Escalir s provozními, investičními a ekosystémovými zkušenostmi od našich partnerů Justart",
-    "About Escalir": "O Escalir",
-    "Careers": "Kariéra",
     "The people behind Escalir": "Lidé za Escalir",
     "Meet the people": "Poznejte lidi",
     "behind the work": "za touto prací"
@@ -933,7 +896,6 @@
     "Workflow": "Pracovní postup"
   },
   "src/components/platform/GatewayWorkspace.tsx": {
-    "Actual views from the Escalir application": "Skutečné ukázky z aplikace Escalir",
     "Application views": "Ukázky aplikace",
     "Escalir application views": "Ukázky aplikace Escalir",
     "Choose among connected models and inspect their settings in the Escalir workspace": "Vybírejte z připojených modelů a prohlížejte si jejich nastavení v pracovním prostředí Escalir",
@@ -944,7 +906,8 @@
     "Inspect the timing and token information attached to an answer": "Prohlédněte si časové údaje a informace o tokenech připojené k odpovědi",
     "Models & controls": "Modely a nastavení",
     "Response details": "Podrobnosti odpovědi",
-    "Review the documents available to support knowledge search and agent workflows": "Prohlédněte si dokumenty dostupné pro vyhledávání znalostí a pracovní postupy agentů"
+    "Review the documents available to support knowledge search and agent workflows": "Prohlédněte si dokumenty dostupné pro vyhledávání znalostí a pracovní postupy agentů",
+    "Product illustrations and application screenshots": "Ilustrace produktu a snímky obrazovky aplikace"
   },
   "src/components/platform/OperatingLayerExplorer.tsx": {
     "and governance": "řízení a dohled",
@@ -1168,15 +1131,12 @@
   },
   "src/lib/app-captures.ts": {
     "Audio playback": "Přehrávání zvuku",
-    "Escalir agent list detail showing model assignments, dates and action icons": "Detail seznamu agentů v Escalir s přiřazenými modely, daty a ikonami akcí",
     "Escalir response footer with copy and feedback controls, token counts and timing information": "Zápatí odpovědi v Escalir s ovládáním kopírování a zpětné vazby, počty tokenů a časovými údaji",
     "Escalir transcription workspace audio player with playback, seek and volume controls": "Zvukový přehrávač v prostředí Escalir pro přepis s ovládáním přehrávání, posunu a hlasitosti",
     "Choose a document directly in the OCR workspace": "Vyberte dokument přímo v prostředí OCR",
     "Document import": "Import dokumentů",
     "Files & structured data": "Soubory a strukturovaná data",
-    "Four actual file-library rows in Escalir, showing JSON and text files with their sizes": "Čtyři skutečné řádky knihovny souborů v Escalir se soubory JSON a textovými soubory včetně jejich velikostí",
     "Inspect the token counts and timing details attached to an application response": "Prohlédněte si počty tokenů a časové údaje připojené k odpovědi aplikace",
-    "Model assignments and agent controls, as they appear in the Escalir workspace": "Přiřazení modelů a ovládání agentů v pracovním prostředí Escalir",
     "Model selection": "Výběr modelu",
     "Models & controls": "Modely a nastavení",
     "Replay a recording from the transcription workspace": "Přehrajte si záznam z prostředí pro přepis",
@@ -1184,7 +1144,10 @@
     "Select the model for a conversation in the Escalir chat interface": "Vyberte model pro konverzaci v chatovém rozhraní Escalir",
     "The actual Choose File control in Escalir's OCR document workspace": "Skutečný ovládací prvek „Choose File“ v prostředí Escalir pro OCR dokumentů",
     "The actual model selector in Escalir chat, displaying deepseek-v4-pro": "Skutečný přepínač modelů v chatu Escalir se zobrazeným modelem deepseek-v4-pro",
-    "Work with existing files in the application, including text documents and structured data": "Pracujte se stávajícími soubory v aplikaci včetně textových dokumentů a strukturovaných dat"
+    "Illustration of three model modules connected through an access control gate": "Ilustrace tří modulů AI modelů propojených přes bránu řízení přístupu",
+    "Choose models for each workflow and define who can use them": "Vyberte modely pro každý pracovní postup a určete, kdo je může používat",
+    "Illustration of stacked documents with a grid of data cells": "Ilustrace stohu dokumentů s mřížkou datových buněk",
+    "Use documents and structured data in agent workflows": "Používejte dokumenty a strukturovaná data v pracovních postupech agentů"
   },
   "src/lib/articles.ts": {
     "4 min read": "Čtení na 4 minuty",
@@ -1903,16 +1866,13 @@
     "@audience:utilities": "energetické společnosti a poskytovatelé veřejných služeb"
   },
   "src/lib/navigation.ts": {
-    "About Escalir": "O Escalir",
     "Agents, integrations and workflow orchestration": "Agenti, integrace a orchestrace pracovních postupů",
     "AI transformation": "Transformace s AI",
     "Airlines": "Letecká doprava",
     "Answers for customers, stores and suppliers": "Odpovědi pro zákazníky, prodejny a dodavatele",
     "Answers grounded in approved knowledge": "Odpovědi založené na schválených znalostech",
     "Banking": "Bankovnictví",
-    "Bring your experience to useful AI": "Využijte své zkušenosti při tvorbě užitečné AI",
     "Choose the right approach for each task": "Zvolte správný přístup pro každý úkol",
-    "Company information and brand resources": "Informace o společnosti a materiály značky",
     "Connect service and operational knowledge": "Propojte znalosti zákaznické podpory a provozu",
     "Contact": "Kontakt",
     "Customer context across your operation": "Informace o zákazníkovi napříč vaším provozem",
@@ -1921,7 +1881,6 @@
     "Healthcare": "Zdravotnictví",
     "Insurance": "Pojišťovnictví",
     "Keep teams informed when plans change": "Informujte týmy o změnách plánů",
-    "Media & company": "Média a společnost",
     "Model choice, data rules and usage visibility": "Výběr modelů, pravidla pro data a přehled o využití",
     "Move paperwork forward with human review": "Zrychlete práci s dokumenty s kontrolou člověkem",
     "Process audit, pilot and team handover": "Audit procesu, pilotní projekt a předání týmu",
@@ -1931,9 +1890,7 @@
     "Start a conversation with Vitali": "Začněte rozhovor s Vitalim",
     "Support the administrative work around care": "Podpořte administrativní práci spojenou s péčí",
     "Telecommunications": "Telekomunikace",
-    "The people and principles behind the work": "Lidé a principy, na kterých naše práce stojí",
     "Utilities": "Energetika a veřejné služby",
-    "Work with us": "Pracujte s námi",
     "Your environment, your boundaries": "Vaše prostředí, vaše hranice"
   },
   "src/lib/site.ts": {
@@ -1943,5 +1900,9 @@
   "src/lib/founder-descriptions.ts": {
     "Leads the architecture and engineering of Escalir’s enterprise AI platform": "Vede návrh architektury a vývoj podnikové platformy Escalir pro AI",
     "Leads AI strategy, agent design and workflow automation": "Vede strategii v oblasti AI, návrh agentů a automatizaci pracovních postupů"
+  },
+  "src/components/FooterContact.tsx": {
+    "Get in touch": "Kontaktujte nás",
+    "We invite investors to join our waitlist.": "Zveme investory, aby se zapsali na náš čekací seznam."
   }
 }
