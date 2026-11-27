@@ -6,7 +6,10 @@ export default function Platform() {
     <div className="platform-grain" aria-hidden="true" />
     <div className="shell platform-layout">
       <div className="section-heading platform-heading"><p className="eyebrow">Escalir AI Platform</p><h2 id="platform-title">Three stages<br />One connected platform</h2><p>Qualify business requests, build agents and workflows, then track quality, impact, versions and access. Findings from everyday use inform the next specification</p><a className="btn btn-light" href="/platform/">Explore the AI Platform<ArrowUpRight size={17} aria-hidden="true" /></a></div>
-      <div className="app-capture-grid app-platform-captures"><AppScreenshot capture="models" priority /><AppScreenshot capture="files" priority /></div>
+      <div className="app-capture-grid app-platform-captures">
+        <AppScreenshot capture="models" href="/ai-gateway/" priority />
+        <AppScreenshot capture="files" href="/systems/#document-workflows" priority />
+      </div>
     </div>
   </section>;
 }

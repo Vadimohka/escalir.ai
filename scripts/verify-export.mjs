@@ -73,6 +73,10 @@ const unchangedImageAlts = new Set([
   "Vitali Bakhmat", "Vadim Vladymtsev", "Egor Krychev", "JUSTART VC",
 ]);
 const screenshotRoutes = new Set(["/", "/platform/", "/agents/", "/systems/", "/ai-gateway/"]);
+const homepageIllustrationDestinations = new Map([
+  ["/media/app/model-controls-illustration.webp", "/ai-gateway/"],
+  ["/media/app/structured-files-illustration.webp", "/systems/#document-workflows"],
+]);
 // Include every original diagram, including those not used by the current
 // first tab. A missing generated asset must fail before a visitor selects it.
 const diagramPaths = [
@@ -519,11 +523,18 @@ try {
       assert.equal(/[\u0400-\u04ff]/.test(caption), cyrillicLocales.has(locale), `Screenshot caption has the wrong language: ${route}`);
       const openLinks = [...contents.matchAll(/<a\b[^>]*>/gi)].map((match) => attributes(match[0]))
         .filter((attrs) => hasClass(attrs, "app-capture-open"));
-      assert.equal(openLinks.length, 1, `Screenshot needs one full-size image link: ${route}`);
+      assert.equal(openLinks.length, 1, `Product image needs one link: ${route}`);
+      const destination = englishRoute === "/" && homepageIllustrationDestinations.get(image.src);
+      const title = normalizeText(contents.match(/<figcaption>\s*<span>([^]*?)<\/span>/i)?.[1] || "");
+      if (destination) {
+        assert.equal(openLinks[0].href, `${localePrefix(locale)}${destination}`, `Wrong homepage illustration destination: ${route}`);
+        assert.equal(openLinks[0].target, undefined, `Product link should use the current tab: ${route}`);
+        assert.equal(openLinks[0]["aria-label"], title, `Product link needs a localized accessible label: ${route}`);
+        continue;
+      }
       assert.equal(openLinks[0].href, image.src, `Screenshot link must open the displayed image: ${route}`);
       if (illustration) {
         assert(image.src.endsWith("-illustration.webp"), `Expected an illustration asset: ${route}`);
-        const title = normalizeText(contents.match(/<figcaption>\s*<span>([^]*?)<\/span>/i)?.[1] || "");
         const label = catalogs.get(locale)?.illustrationLabel ?? "Open {0} illustration";
         assert.equal(openLinks[0]["aria-label"], label.replace("{0}", title), `Illustration link needs a localized accessible label: ${route}`);
       } else {

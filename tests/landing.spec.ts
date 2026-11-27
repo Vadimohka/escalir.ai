@@ -6,6 +6,10 @@ import localeRegistry from "../src/locales/config.json";
 
 const ORIGIN = "http://127.0.0.1:4173";
 const TELEGRAM = "https://t.me/vitalibakhmat";
+const homeIllustrations = [
+  { title: "Models & controls", src: "/media/app/model-controls-illustration.webp", href: "/ai-gateway/" },
+  { title: "Files & structured data", src: "/media/app/structured-files-illustration.webp", href: "/systems/#document-workflows" },
+];
 
 async function expectLocalHeroImage(page: Page) {
   const heroImage = await page.locator("#home img").evaluate((node) => {
@@ -78,6 +82,13 @@ async function expectLocalAppImages(page: Page) {
     expect(await capture.innerText()).not.toMatch(/[\u0400-\u04ff]/);
     const openImage = capture.locator(".app-capture-open");
     await expect(openImage).toHaveCount(1);
+    const productLink = new URL(page.url()).pathname === "/" && homeIllustrations.find(card => card.src === details.src);
+    if (productLink) {
+      await expect(openImage).toHaveAttribute("href", productLink.href);
+      await expect(openImage).toHaveAttribute("aria-label", productLink.title);
+      await expect(openImage).not.toHaveAttribute("target", "_blank");
+      continue;
+    }
     await expect(openImage).toHaveAttribute("href", details.src!);
     const illustration = await capture.getAttribute("data-illustration") === "true";
     await expect(openImage).toHaveAttribute("aria-label", illustration ? /^Open .+ illustration$/ : /^Open .+ screenshot$/);
@@ -378,6 +389,12 @@ test("Product pages show local illustrations and application screenshots", async
       ".prod-constellation, .prod-agent-visual, .prod-systems-visual, .prod-workspace, .gateway-demo, .example-board",
     )).toHaveCount(0);
   }
+  for (const { title, href } of homeIllustrations) {
+    await page.goto("/");
+    await page.getByRole("link", { name: title, exact: true }).click();
+    await expect(page).toHaveURL(`${ORIGIN}${href}`);
+  }
+  await expect(page.locator("#document-workflows")).toBeInViewport();
 });
 
 test("Industry diagrams are visible without hover and stay large enough to read", async ({ page }) => {

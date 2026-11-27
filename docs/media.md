@@ -21,7 +21,7 @@ The Deployment and AI Transformation hero photographs are original generated edi
 
 The model controls and structured files cards use generated illustrations. Their artwork depicts access controls and structured data without model names or user data.
 
-Image dimensions and captions are defined in [src/lib/app-captures.ts](../src/lib/app-captures.ts). The [capture inventory](app-capture-provenance.json) records the files and their checksums. Preserve their aspect ratios and keep full-size links available.
+Image dimensions and captions are defined in [src/lib/app-captures.ts](../src/lib/app-captures.ts). The [capture inventory](app-capture-provenance.json) records the screenshots and their checksums. Homepage illustrations link to related product content. Screenshots link to their full-size images.
 
 ## Homepage video
 

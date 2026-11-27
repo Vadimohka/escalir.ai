@@ -67,7 +67,7 @@ export default function SystemsExperience() {
         <summary><h3>{item.title}</h3><Plus className={styles.accordionPlus} size={21} /><Minus className={styles.accordionMinus} size={21} /></summary>
         <div className={styles.systemPanel}><div className={styles.systemDescription}><h4>{item.intro}</h4><p>{item.description}</p><span>{item.detail}</span><a href={TELEGRAM_URL} target="_blank" rel="noopener noreferrer">Discuss this workflow <ArrowUpRight size={16} /></a></div><SystemWorkflow index={index} /></div>
       </details>)}</div>
-      <div className={styles.systemProof}>
+      <div className={styles.systemProof} id="document-workflows">
         <div className={styles.proofHeading}><span>Inside Escalir</span><h3>Build on the documents<br />your team already uses</h3><p>The Escalir file library and document import controls provide a starting point for knowledge workflows, with sources and access agreed for each implementation</p></div>
         <div className={styles.captureStack}><AppScreenshot capture="files" className={styles.capture} /><AppScreenshot capture="document" className={`${styles.capture} ${styles.smallCapture}`} /></div>
       </div>
