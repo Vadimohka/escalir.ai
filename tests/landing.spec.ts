@@ -1,6 +1,7 @@
 import { expect, test, type Locator, type Page } from "@playwright/test";
 import { founderDescriptions } from "../src/lib/founder-descriptions";
 import { SITE_ROUTES } from "../src/lib/routes";
+import { JUSTART_URL } from "../src/lib/site";
 import localeRegistry from "../src/locales/config.json";
 
 const ORIGIN = "http://127.0.0.1:4173";
@@ -158,26 +159,26 @@ test("Contact, privacy and founder links use the approved destinations", async (
   for (const link of links) {
     const destination = new URL(link.href, ORIGIN);
     if (destination.origin === ORIGIN) continue;
-    expect([TELEGRAM, "https://vadimohka.com/", "https://www.linkedin.com/in/ekrychev/"]).toContain(link.href);
+    expect([TELEGRAM, "https://vadimohka.com/", "https://www.linkedin.com/in/ekrychev/", JUSTART_URL]).toContain(link.href);
     expect(link.target).toBe("_blank");
     expect(link.rel).toContain("noopener");
     expect(link.rel).toContain("noreferrer");
   }
   const founderNames = ["Vitali Bakhmat", "Vadim Vladymtsev", "Egor Krychev"];
-  const justartNames = ["Bakht Niyazov", "Iskandar Erkinov", "Maxim Tolmachev"];
   const updatedFounders = [
     { name: "Vadim Vladymtsev", role: "Co-founder · CTO", description: founderDescriptions.vadim },
     { name: "Egor Krychev", role: "Co-founder · CAIO", description: founderDescriptions.egor },
   ];
-  const teamPreview = page.locator("#team").getByRole("list");
-  await expect(teamPreview.locator("img")).toHaveCount(6);
-  for (const name of [...founderNames, ...justartNames]) {
+  const teamSection = page.locator("#team");
+  const teamPreview = teamSection.getByRole("list");
+  await expect(teamPreview.getByRole("listitem")).toHaveCount(3);
+  await expect(teamPreview.locator("img")).toHaveCount(3);
+  for (const name of founderNames) {
     await expect(teamPreview.getByRole("heading", { name, exact: true })).toBeVisible();
   }
-  for (const name of justartNames) {
-    const card = teamPreview.getByRole("listitem").filter({ has: page.getByRole("heading", { name, exact: true }) });
-    await expect(card.locator("p")).toHaveText(["JUSTART VC"]);
-  }
+  const justart = teamSection.getByRole("link", { name: "JUSTART VC", exact: true });
+  await expect(justart).toHaveAttribute("href", JUSTART_URL);
+  await expect(justart.getByRole("img", { name: "JUSTART VC" })).toHaveAttribute("src", "/brand/justart-logo.svg");
   for (const { name, role, description } of updatedFounders) {
     const card = teamPreview.getByRole("listitem").filter({ has: page.getByRole("heading", { name, exact: true }) });
     await expect(card.getByText(role, { exact: true })).toBeVisible();

@@ -70,7 +70,7 @@ const publicRoutes = locales.flatMap(locale => englishRoutes.map(route => `${loc
 const routeSet = new Set(publicRoutes);
 const unchangedImageAlts = new Set([
   "Escalir", "Escalir AI Platform", "Escalir Agents", "Escalir Systems", "Escalir AI Gateway",
-  "Vitali Bakhmat", "Vadim Vladymtsev", "Egor Krychev",
+  "Vitali Bakhmat", "Vadim Vladymtsev", "Egor Krychev", "JUSTART VC",
 ]);
 const screenshotRoutes = new Set(["/", "/platform/", "/agents/", "/systems/", "/ai-gateway/"]);
 // Include every original diagram, including those not used by the current
@@ -108,6 +108,7 @@ const externalDestinations = new Set([
   telegram,
   "https://vadimohka.com/",
   "https://www.linkedin.com/in/ekrychev/",
+  "https://justart.vc/",
 ]);
 const forbiddenConnections = [
   "century-ai.by",

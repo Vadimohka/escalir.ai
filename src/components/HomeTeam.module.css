@@ -25,12 +25,38 @@
   letter-spacing: -.025em;
 }
 
-.intro > p {
+.partner {
   max-width: 430px;
-  padding-bottom: 5px;
   color: #555555;
   font-size: 16px;
   line-height: 1.65;
+}
+
+.partnerLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 48px;
+  margin-top: 16px;
+  padding: 8px 12px;
+  background: #111111;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.partnerLink:hover {
+  background: #333333;
+}
+
+.partnerLink:focus-visible {
+  outline: 2px solid #111111;
+  outline-offset: 3px;
+}
+
+.partnerLink img {
+  display: block;
+  width: 120px;
+  height: auto;
 }
 
 .teamGrid {
@@ -152,13 +178,8 @@
     gap: 28px;
   }
 
-  .intro > p {
+  .partner {
     max-width: 570px;
-    padding-bottom: 0;
-  }
-
-  .teamGrid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
@@ -177,7 +198,7 @@
     font-size: 40px;
   }
 
-  .intro > p {
+  .partner {
     font-size: 14px;
   }
 
@@ -207,6 +228,14 @@
 }
 
 @media (forced-colors: active) {
+  .partnerLink {
+    forced-color-adjust: none;
+  }
+
+  .partnerLink:focus-visible {
+    outline-color: Highlight;
+  }
+
   .member {
     border-top-color: CanvasText;
   }
